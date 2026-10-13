@@ -1,0 +1,36 @@
+product_id,product_name,category,tier,annual_base_price,status
+PROD-00003,NovaCore AI Inference Cloud,AI & Machine Learning,Tier-1,240000,Active
+PROD-00001,NovaCore Hybrid Cloud Engine,Cloud Infrastructure,Tier-1,180000,Active
+PROD-00002,NovaCore Observability Fabric,Monitoring & Telemetry,Tier-2,95000,Active
+PROD-00004,NovaCore Shield Zero-Trust Gateway,Security & Identity,Tier-1,140000,Active
+PROD-00005,NovaCore Enterprise Knowledge Graph,Data & Search,Tier-2,125000,Active
+PROD-00006,NovaCore Compliance Solution Suite 6,Compliance Automation,Tier-3,49788,Active
+PROD-00007,NovaCore Security Solution Suite 7,Security & Identity,Tier-3,98450,Active
+PROD-00008,NovaCore Compliance Solution Suite 8,Compliance Automation,Tier-1,242423,Active
+PROD-00009,NovaCore Developer Solution Suite 9,Developer Tools,Tier-3,133197,Active
+PROD-00010,NovaCore Cloud Solution Suite 10,Cloud Infrastructure,Tier-1,231428,Active
+PROD-00011,NovaCore Developer Solution Suite 11,Developer Tools,Tier-1,72510,Active
+PROD-00012,NovaCore Cloud Solution Suite 12,Cloud Infrastructure,Tier-3,222464,Active
+PROD-00013,NovaCore Data Solution Suite 13,Data & Search,Tier-2,122892,Active
+PROD-00014,NovaCore Compliance Solution Suite 14,Compliance Automation,Tier-3,256809,Active
+PROD-00015,NovaCore AI Solution Suite 15,AI & Machine Learning,Tier-1,107286,Active
+PROD-00016,NovaCore AI Solution Suite 16,AI & Machine Learning,Tier-2,301180,Active
+PROD-00017,NovaCore Security Solution Suite 17,Security & Identity,Tier-3,135432,Active
+PROD-00018,NovaCore Compliance Solution Suite 18,Compliance Automation,Tier-3,241802,Active
+PROD-00019,NovaCore Compliance Solution Suite 19,Compliance Automation,Tier-3,91982,Active
+PROD-00020,NovaCore Developer Solution Suite 20,Developer Tools,Tier-3,245330,Active
+PROD-00021,NovaCore Security Solution Suite 21,Security & Identity,Tier-3,278370,Active
+PROD-00022,NovaCore Security Solution Suite 22,Security & Identity,Tier-1,107914,Active
+PROD-00023,NovaCore Cloud Solution Suite 23,Cloud Infrastructure,Tier-1,108990,Active
+PROD-00024,NovaCore Developer Solution Suite 24,Developer Tools,Tier-3,312255,Active
+PROD-00025,NovaCore AI Solution Suite 25,AI & Machine Learning,Tier-1,296395,Active
+PROD-00026,NovaCore Security Solution Suite 26,Security & Identity,Tier-3,94573,Active
+PROD-00027,NovaCore Data Solution Suite 27,Data & Search,Tier-1,246305,Active
+PROD-00028,NovaCore Developer Solution Suite 28,Developer Tools,Tier-3,272360,Active
+PROD-00029,NovaCore Security Solution Suite 29,Security & Identity,Tier-3,110659,Active
+PROD-00030,NovaCore Cloud Solution Suite 30,Cloud Infrastructure,Tier-2,78291,Active
+PROD-00031,NovaCore Compliance Solution Suite 31,Compliance Automation,Tier-3,141935,Active
+PROD-00032,NovaCore Developer Solution Suite 32,Developer Tools,Tier-3,55352,Active
+PROD-00033,NovaCore Developer Solution Suite 33,Developer Tools,Tier-3,301147,Active
+PROD-00034,NovaCore Cloud Solution Suite 34,Cloud Infrastructure,Tier-3,110058,Active
+PROD-00035,NovaCore AI Solution Suite 35,AI & Machine Learning,Tier-3,106512,Active

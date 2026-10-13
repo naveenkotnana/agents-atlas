@@ -1,0 +1,551 @@
+incident_id,title,severity,customer_id,product_id,vendor_id,region,root_cause,downtime_minutes,financial_impact_usd,incident_date,resolved_date,status
+INC-78431,Severe Latency Spike & Partial Drop in APAC NovaCore AI Inference Cluster,P1 - Critical,CUST-00124,PROD-00003,VND-00042,APAC,Buffer overflow and fiber transponder packet drops in VND-00042 optical routing fabric,58,637500,2026-07-14,2026-07-14,Postmortem Completed
+INC-00002,Service Interruption in India Cluster-2,P4 - Low,CUST-00368,PROD-00001,VND-00041,India,Network interface flap,26,24064,2026-02-06,2025-05-06,Resolved
+INC-00003,Service Interruption in North America Cluster-3,P3 - Moderate,CUST-00560,PROD-00012,VND-00193,North America,Network interface flap,44,31913,2026-10-23,2025-12-13,Resolved
+INC-00004,Service Interruption in APAC Cluster-4,P3 - Moderate,CUST-00855,PROD-00016,VND-00065,APAC,Pod memory exhaustion,35,28289,2025-01-08,2026-02-14,Resolved
+INC-00005,Service Interruption in India Cluster-5,P3 - Moderate,CUST-00793,PROD-00018,VND-00148,India,Transient DNS timeout,15,35567,2024-05-20,2026-09-07,Resolved
+INC-00006,Service Interruption in APAC Cluster-6,P4 - Low,CUST-00770,PROD-00009,VND-00034,APAC,Transient DNS timeout,10,22268,2024-06-15,2025-03-15,Resolved
+INC-00007,Service Interruption in Europe Cluster-7,P2 - Major,CUST-00675,PROD-00010,VND-00052,Europe,Pod memory exhaustion,24,7267,2024-04-28,2024-07-03,Resolved
+INC-00008,Service Interruption in APAC Cluster-8,P4 - Low,CUST-00251,PROD-00010,VND-00176,APAC,Transient DNS timeout,35,12441,2025-02-16,2026-11-13,Resolved
+INC-00009,Service Interruption in India Cluster-9,P4 - Low,CUST-00218,PROD-00031,VND-00172,India,Network interface flap,20,8279,2025-03-11,2024-07-25,Resolved
+INC-00010,Service Interruption in India Cluster-10,P3 - Moderate,CUST-00920,PROD-00019,VND-00210,India,Network interface flap,39,6696,2025-08-22,2026-10-01,Resolved
+INC-00011,Service Interruption in Europe Cluster-11,P2 - Major,CUST-00907,PROD-00012,VND-00197,Europe,Pod memory exhaustion,28,24272,2026-01-20,2026-07-03,Resolved
+INC-00012,Service Interruption in Europe Cluster-12,P4 - Low,CUST-00236,PROD-00009,VND-00128,Europe,Transient DNS timeout,18,21787,2025-02-11,2025-11-06,Resolved
+INC-00013,Service Interruption in India Cluster-13,P3 - Moderate,CUST-00155,PROD-00019,VND-00080,India,Network interface flap,7,19106,2025-03-06,2025-11-17,Resolved
+INC-00014,Service Interruption in North America Cluster-14,P2 - Major,CUST-00477,PROD-00006,VND-00089,North America,Network interface flap,5,12543,2025-03-19,2026-07-22,Resolved
+INC-00015,Service Interruption in India Cluster-15,P3 - Moderate,CUST-00012,PROD-00032,VND-00168,India,Network interface flap,8,21854,2025-05-24,2026-02-20,Resolved
+INC-00016,Service Interruption in India Cluster-16,P3 - Moderate,CUST-00515,PROD-00024,VND-00200,India,Pod memory exhaustion,39,25911,2024-03-14,2026-07-28,Resolved
+INC-00017,Service Interruption in APAC Cluster-17,P4 - Low,CUST-00082,PROD-00010,VND-00002,APAC,Pod memory exhaustion,17,35744,2026-12-28,2025-07-02,Resolved
+INC-00018,Service Interruption in India Cluster-18,P3 - Moderate,CUST-00289,PROD-00003,VND-00032,India,Network interface flap,28,5281,2026-11-12,2025-07-11,Resolved
+INC-00019,Service Interruption in APAC Cluster-19,P4 - Low,CUST-00304,PROD-00002,VND-00139,APAC,Database lock contention,23,25388,2025-01-15,2025-05-21,Resolved
+INC-00020,Service Interruption in North America Cluster-20,P2 - Major,CUST-00611,PROD-00008,VND-00092,North America,Network interface flap,20,13484,2024-09-04,2024-12-05,Resolved
+INC-00021,Service Interruption in APAC Cluster-21,P4 - Low,CUST-00506,PROD-00028,VND-00071,APAC,Network interface flap,44,17997,2026-09-19,2025-01-03,Resolved
+INC-00022,Service Interruption in North America Cluster-22,P3 - Moderate,CUST-00382,PROD-00003,VND-00038,North America,Network interface flap,37,7161,2025-11-24,2025-07-13,Resolved
+INC-00023,Service Interruption in North America Cluster-23,P2 - Major,CUST-00189,PROD-00017,VND-00185,North America,Network interface flap,12,14559,2026-05-10,2026-09-18,Resolved
+INC-00024,Service Interruption in India Cluster-24,P2 - Major,CUST-00711,PROD-00004,VND-00096,India,Database lock contention,32,20008,2026-12-25,2024-05-17,Resolved
+INC-00025,Service Interruption in APAC Cluster-25,P4 - Low,CUST-00047,PROD-00026,VND-00047,APAC,Pod memory exhaustion,5,28685,2024-01-26,2025-11-05,Resolved
+INC-00026,Service Interruption in APAC Cluster-26,P3 - Moderate,CUST-00274,PROD-00030,VND-00154,APAC,Transient DNS timeout,19,16734,2024-12-11,2024-02-20,Resolved
+INC-00027,Service Interruption in India Cluster-27,P3 - Moderate,CUST-00746,PROD-00030,VND-00151,India,Pod memory exhaustion,39,27496,2025-09-01,2025-06-11,Resolved
+INC-00028,Service Interruption in India Cluster-28,P3 - Moderate,CUST-00843,PROD-00029,VND-00039,India,Network interface flap,18,36880,2026-03-22,2025-05-13,Resolved
+INC-00029,Service Interruption in India Cluster-29,P2 - Major,CUST-00677,PROD-00006,VND-00162,India,Pod memory exhaustion,10,15602,2026-09-12,2025-05-25,Resolved
+INC-00030,Service Interruption in Europe Cluster-30,P3 - Moderate,CUST-00463,PROD-00030,VND-00008,Europe,Database lock contention,44,25044,2026-07-14,2024-05-18,Resolved
+INC-00031,Service Interruption in Europe Cluster-31,P4 - Low,CUST-00503,PROD-00016,VND-00097,Europe,Network interface flap,43,10093,2024-07-07,2024-02-19,Resolved
+INC-00032,Service Interruption in India Cluster-32,P3 - Moderate,CUST-00183,PROD-00011,VND-00197,India,Network interface flap,27,16270,2025-10-09,2025-06-21,Resolved
+INC-00033,Service Interruption in India Cluster-33,P2 - Major,CUST-00681,PROD-00021,VND-00129,India,Database lock contention,30,34429,2025-05-27,2025-03-28,Resolved
+INC-00034,Service Interruption in APAC Cluster-34,P2 - Major,CUST-00410,PROD-00019,VND-00001,APAC,Network interface flap,16,8443,2025-10-21,2025-07-14,Resolved
+INC-00035,Service Interruption in Europe Cluster-35,P2 - Major,CUST-00652,PROD-00002,VND-00159,Europe,Database lock contention,44,42627,2026-02-20,2026-12-14,Resolved
+INC-00036,Service Interruption in India Cluster-36,P2 - Major,CUST-00333,PROD-00016,VND-00043,India,Transient DNS timeout,28,3488,2026-10-26,2026-07-18,Resolved
+INC-00037,Service Interruption in India Cluster-37,P4 - Low,CUST-00885,PROD-00013,VND-00042,India,Pod memory exhaustion,20,13482,2025-12-07,2025-03-10,Resolved
+INC-00038,Service Interruption in India Cluster-38,P2 - Major,CUST-00916,PROD-00002,VND-00053,India,Network interface flap,20,41534,2025-04-26,2024-08-17,Resolved
+INC-00039,Service Interruption in Europe Cluster-39,P4 - Low,CUST-00114,PROD-00022,VND-00041,Europe,Network interface flap,9,2451,2026-01-22,2026-07-28,Resolved
+INC-00040,Service Interruption in India Cluster-40,P4 - Low,CUST-00482,PROD-00025,VND-00019,India,Pod memory exhaustion,39,9928,2026-10-21,2026-12-01,Resolved
+INC-00041,Service Interruption in India Cluster-41,P3 - Moderate,CUST-00493,PROD-00004,VND-00075,India,Transient DNS timeout,28,28177,2026-09-21,2026-08-14,Resolved
+INC-00042,Service Interruption in North America Cluster-42,P2 - Major,CUST-00107,PROD-00010,VND-00068,North America,Database lock contention,28,29059,2026-06-05,2024-08-07,Resolved
+INC-00043,Service Interruption in North America Cluster-43,P3 - Moderate,CUST-00100,PROD-00022,VND-00165,North America,Network interface flap,36,18038,2025-06-10,2026-08-11,Resolved
+INC-00044,Service Interruption in APAC Cluster-44,P3 - Moderate,CUST-00717,PROD-00017,VND-00146,APAC,Transient DNS timeout,13,11700,2026-05-01,2024-06-19,Resolved
+INC-00045,Service Interruption in Europe Cluster-45,P3 - Moderate,CUST-00731,PROD-00019,VND-00079,Europe,Pod memory exhaustion,35,30826,2026-05-05,2026-12-05,Resolved
+INC-00046,Service Interruption in APAC Cluster-46,P2 - Major,CUST-00623,PROD-00019,VND-00099,APAC,Database lock contention,6,15871,2026-05-05,2026-01-09,Resolved
+INC-00047,Service Interruption in India Cluster-47,P3 - Moderate,CUST-00739,PROD-00033,VND-00191,India,Network interface flap,44,13167,2025-11-05,2026-09-11,Resolved
+INC-00048,Service Interruption in Europe Cluster-48,P4 - Low,CUST-00384,PROD-00025,VND-00125,Europe,Network interface flap,16,33719,2025-01-22,2024-06-08,Resolved
+INC-00049,Service Interruption in APAC Cluster-49,P3 - Moderate,CUST-00212,PROD-00015,VND-00039,APAC,Transient DNS timeout,17,25363,2025-08-19,2026-01-27,Resolved
+INC-00050,Service Interruption in Europe Cluster-50,P4 - Low,CUST-00867,PROD-00034,VND-00059,Europe,Pod memory exhaustion,7,28115,2026-02-11,2026-02-09,Resolved
+INC-00051,Service Interruption in North America Cluster-51,P4 - Low,CUST-00985,PROD-00035,VND-00190,North America,Transient DNS timeout,33,39139,2026-04-08,2025-12-06,Resolved
+INC-00052,Service Interruption in India Cluster-52,P4 - Low,CUST-00959,PROD-00016,VND-00059,India,Database lock contention,7,41920,2025-09-09,2024-12-07,Resolved
+INC-00053,Service Interruption in APAC Cluster-53,P4 - Low,CUST-00851,PROD-00005,VND-00034,APAC,Transient DNS timeout,18,16915,2024-10-25,2026-08-15,Resolved
+INC-00054,Service Interruption in North America Cluster-54,P2 - Major,CUST-00550,PROD-00004,VND-00082,North America,Database lock contention,35,9628,2025-02-16,2024-02-18,Resolved
+INC-00055,Service Interruption in North America Cluster-55,P4 - Low,CUST-00221,PROD-00032,VND-00077,North America,Network interface flap,12,31008,2026-04-19,2026-10-25,Resolved
+INC-00056,Service Interruption in India Cluster-56,P3 - Moderate,CUST-00001,PROD-00017,VND-00194,India,Pod memory exhaustion,36,43361,2024-06-17,2025-09-10,Resolved
+INC-00057,Service Interruption in Europe Cluster-57,P4 - Low,CUST-00307,PROD-00017,VND-00137,Europe,Pod memory exhaustion,22,38783,2026-05-21,2025-02-25,Resolved
+INC-00058,Service Interruption in India Cluster-58,P2 - Major,CUST-00500,PROD-00001,VND-00082,India,Network interface flap,15,13717,2024-07-22,2025-02-28,Resolved
+INC-00059,Service Interruption in Europe Cluster-59,P3 - Moderate,CUST-00351,PROD-00035,VND-00047,Europe,Transient DNS timeout,19,15973,2025-09-10,2025-09-16,Resolved
+INC-00060,Service Interruption in Europe Cluster-60,P2 - Major,CUST-00702,PROD-00020,VND-00157,Europe,Database lock contention,25,12249,2024-07-26,2024-03-20,Resolved
+INC-00061,Service Interruption in India Cluster-61,P4 - Low,CUST-00161,PROD-00021,VND-00133,India,Network interface flap,22,16989,2025-08-28,2025-06-05,Resolved
+INC-00062,Service Interruption in APAC Cluster-62,P3 - Moderate,CUST-00342,PROD-00023,VND-00191,APAC,Network interface flap,24,29872,2026-07-25,2025-01-25,Resolved
+INC-00063,Service Interruption in Europe Cluster-63,P3 - Moderate,CUST-00057,PROD-00027,VND-00091,Europe,Network interface flap,22,3276,2026-04-07,2026-12-09,Resolved
+INC-00064,Service Interruption in APAC Cluster-64,P3 - Moderate,CUST-00853,PROD-00024,VND-00007,APAC,Network interface flap,29,23344,2026-09-24,2024-04-20,Resolved
+INC-00065,Service Interruption in North America Cluster-65,P4 - Low,CUST-00451,PROD-00018,VND-00028,North America,Database lock contention,15,23330,2026-08-24,2026-08-02,Resolved
+INC-00066,Service Interruption in APAC Cluster-66,P4 - Low,CUST-00400,PROD-00032,VND-00064,APAC,Network interface flap,8,8647,2024-11-11,2025-09-12,Resolved
+INC-00067,Service Interruption in India Cluster-67,P3 - Moderate,CUST-00946,PROD-00019,VND-00029,India,Database lock contention,9,23269,2026-07-27,2024-03-19,Resolved
+INC-00068,Service Interruption in North America Cluster-68,P3 - Moderate,CUST-00588,PROD-00013,VND-00144,North America,Network interface flap,20,23485,2026-09-25,2026-05-18,Resolved
+INC-00069,Service Interruption in North America Cluster-69,P4 - Low,CUST-00837,PROD-00019,VND-00177,North America,Database lock contention,9,22575,2025-08-24,2024-03-11,Resolved
+INC-00070,Service Interruption in APAC Cluster-70,P3 - Moderate,CUST-00234,PROD-00030,VND-00093,APAC,Database lock contention,21,18735,2026-12-01,2024-02-21,Resolved
+INC-00071,Service Interruption in India Cluster-71,P3 - Moderate,CUST-00438,PROD-00026,VND-00207,India,Transient DNS timeout,38,5950,2026-06-01,2026-07-02,Resolved
+INC-00072,Service Interruption in India Cluster-72,P4 - Low,CUST-00895,PROD-00021,VND-00203,India,Pod memory exhaustion,41,23872,2026-02-24,2024-10-03,Resolved
+INC-00073,Service Interruption in Europe Cluster-73,P4 - Low,CUST-00800,PROD-00008,VND-00137,Europe,Transient DNS timeout,41,32700,2026-11-07,2024-11-14,Resolved
+INC-00074,Service Interruption in Europe Cluster-74,P3 - Moderate,CUST-00477,PROD-00029,VND-00190,Europe,Pod memory exhaustion,9,13906,2026-10-11,2025-09-25,Resolved
+INC-00075,Service Interruption in India Cluster-75,P4 - Low,CUST-00758,PROD-00028,VND-00006,India,Pod memory exhaustion,5,42874,2025-01-01,2024-06-14,Resolved
+INC-00076,Service Interruption in APAC Cluster-76,P2 - Major,CUST-00266,PROD-00015,VND-00150,APAC,Network interface flap,17,39646,2025-12-28,2026-03-07,Resolved
+INC-00077,Service Interruption in North America Cluster-77,P2 - Major,CUST-00212,PROD-00020,VND-00047,North America,Transient DNS timeout,39,41447,2024-03-18,2025-02-11,Resolved
+INC-00078,Service Interruption in Europe Cluster-78,P3 - Moderate,CUST-00951,PROD-00015,VND-00169,Europe,Database lock contention,24,12701,2025-05-08,2024-06-01,Resolved
+INC-00079,Service Interruption in India Cluster-79,P2 - Major,CUST-00899,PROD-00029,VND-00032,India,Transient DNS timeout,33,15669,2025-01-15,2025-07-07,Resolved
+INC-00080,Service Interruption in North America Cluster-80,P2 - Major,CUST-00790,PROD-00025,VND-00152,North America,Transient DNS timeout,16,35207,2026-12-17,2024-03-25,Resolved
+INC-00081,Service Interruption in APAC Cluster-81,P2 - Major,CUST-00124,PROD-00032,VND-00190,APAC,Pod memory exhaustion,31,14516,2024-02-26,2026-06-16,Resolved
+INC-00082,Service Interruption in North America Cluster-82,P3 - Moderate,CUST-00521,PROD-00008,VND-00117,North America,Transient DNS timeout,29,29526,2025-02-12,2025-05-27,Resolved
+INC-00083,Service Interruption in North America Cluster-83,P2 - Major,CUST-00445,PROD-00020,VND-00059,North America,Network interface flap,35,3038,2025-12-21,2025-01-05,Resolved
+INC-00084,Service Interruption in Europe Cluster-84,P2 - Major,CUST-00182,PROD-00001,VND-00033,Europe,Database lock contention,35,4555,2024-10-26,2024-12-22,Resolved
+INC-00085,Service Interruption in India Cluster-85,P3 - Moderate,CUST-00381,PROD-00027,VND-00041,India,Database lock contention,16,35986,2024-12-26,2026-03-12,Resolved
+INC-00086,Service Interruption in India Cluster-86,P2 - Major,CUST-00806,PROD-00011,VND-00008,India,Database lock contention,24,28453,2026-06-27,2025-10-11,Resolved
+INC-00087,Service Interruption in North America Cluster-87,P2 - Major,CUST-00803,PROD-00002,VND-00085,North America,Network interface flap,7,11459,2025-01-18,2025-10-24,Resolved
+INC-00088,Service Interruption in North America Cluster-88,P4 - Low,CUST-00174,PROD-00011,VND-00026,North America,Pod memory exhaustion,19,8037,2025-02-04,2025-08-14,Resolved
+INC-00089,Service Interruption in North America Cluster-89,P4 - Low,CUST-00451,PROD-00009,VND-00155,North America,Pod memory exhaustion,35,32768,2025-03-11,2026-09-12,Resolved
+INC-00090,Service Interruption in India Cluster-90,P4 - Low,CUST-00685,PROD-00007,VND-00123,India,Database lock contention,13,16372,2026-03-26,2024-04-22,Resolved
+INC-00091,Service Interruption in India Cluster-91,P2 - Major,CUST-00762,PROD-00007,VND-00184,India,Pod memory exhaustion,44,8896,2024-04-09,2024-12-22,Resolved
+INC-00092,Service Interruption in APAC Cluster-92,P3 - Moderate,CUST-00337,PROD-00030,VND-00172,APAC,Database lock contention,25,29657,2025-11-05,2026-12-28,Resolved
+INC-00093,Service Interruption in North America Cluster-93,P2 - Major,CUST-00766,PROD-00025,VND-00162,North America,Database lock contention,16,2938,2024-11-02,2024-03-13,Resolved
+INC-00094,Service Interruption in APAC Cluster-94,P3 - Moderate,CUST-00012,PROD-00031,VND-00124,APAC,Database lock contention,45,39827,2025-08-07,2025-10-09,Resolved
+INC-00095,Service Interruption in APAC Cluster-95,P4 - Low,CUST-00451,PROD-00008,VND-00191,APAC,Pod memory exhaustion,26,14210,2025-06-26,2025-09-15,Resolved
+INC-00096,Service Interruption in APAC Cluster-96,P4 - Low,CUST-00099,PROD-00022,VND-00196,APAC,Transient DNS timeout,28,29952,2026-01-18,2024-02-08,Resolved
+INC-00097,Service Interruption in APAC Cluster-97,P3 - Moderate,CUST-00850,PROD-00008,VND-00031,APAC,Database lock contention,27,22121,2025-07-18,2024-09-06,Resolved
+INC-00098,Service Interruption in Europe Cluster-98,P3 - Moderate,CUST-00840,PROD-00033,VND-00050,Europe,Database lock contention,6,15020,2026-12-12,2026-10-25,Resolved
+INC-00099,Service Interruption in North America Cluster-99,P2 - Major,CUST-00577,PROD-00034,VND-00135,North America,Pod memory exhaustion,39,17101,2026-09-06,2025-03-04,Resolved
+INC-00100,Service Interruption in Europe Cluster-100,P4 - Low,CUST-00170,PROD-00015,VND-00193,Europe,Network interface flap,17,20246,2024-07-10,2025-09-14,Resolved
+INC-00101,Service Interruption in APAC Cluster-101,P3 - Moderate,CUST-00480,PROD-00021,VND-00035,APAC,Transient DNS timeout,9,18471,2026-09-22,2025-04-24,Resolved
+INC-00102,Service Interruption in India Cluster-102,P4 - Low,CUST-00609,PROD-00005,VND-00016,India,Database lock contention,14,33518,2024-04-13,2024-11-14,Resolved
+INC-00103,Service Interruption in APAC Cluster-103,P3 - Moderate,CUST-00606,PROD-00013,VND-00064,APAC,Transient DNS timeout,19,20102,2024-07-04,2026-12-19,Resolved
+INC-00104,Service Interruption in Europe Cluster-104,P4 - Low,CUST-00156,PROD-00014,VND-00114,Europe,Pod memory exhaustion,25,2705,2026-02-17,2025-09-04,Resolved
+INC-00105,Service Interruption in India Cluster-105,P4 - Low,CUST-00613,PROD-00031,VND-00060,India,Pod memory exhaustion,12,37471,2026-10-15,2024-02-25,Resolved
+INC-00106,Service Interruption in India Cluster-106,P4 - Low,CUST-00350,PROD-00018,VND-00011,India,Pod memory exhaustion,12,43084,2025-07-19,2024-12-23,Resolved
+INC-00107,Service Interruption in North America Cluster-107,P3 - Moderate,CUST-00777,PROD-00019,VND-00058,North America,Transient DNS timeout,43,41259,2025-04-28,2026-08-27,Resolved
+INC-00108,Service Interruption in North America Cluster-108,P4 - Low,CUST-00987,PROD-00028,VND-00108,North America,Transient DNS timeout,22,20079,2025-11-17,2025-07-22,Resolved
+INC-00109,Service Interruption in North America Cluster-109,P3 - Moderate,CUST-00366,PROD-00006,VND-00004,North America,Network interface flap,20,40389,2025-04-19,2025-11-09,Resolved
+INC-00110,Service Interruption in India Cluster-110,P2 - Major,CUST-00800,PROD-00032,VND-00144,India,Network interface flap,7,41430,2024-10-27,2026-02-19,Resolved
+INC-00111,Service Interruption in India Cluster-111,P2 - Major,CUST-00121,PROD-00016,VND-00093,India,Network interface flap,7,24760,2026-08-28,2025-10-28,Resolved
+INC-00112,Service Interruption in India Cluster-112,P4 - Low,CUST-00039,PROD-00026,VND-00209,India,Transient DNS timeout,18,39154,2024-01-21,2025-02-10,Resolved
+INC-00113,Service Interruption in India Cluster-113,P3 - Moderate,CUST-00822,PROD-00002,VND-00187,India,Pod memory exhaustion,27,24547,2025-04-09,2025-01-11,Resolved
+INC-00114,Service Interruption in Europe Cluster-114,P3 - Moderate,CUST-00716,PROD-00017,VND-00197,Europe,Database lock contention,40,37866,2026-06-24,2025-06-25,Resolved
+INC-00115,Service Interruption in APAC Cluster-115,P2 - Major,CUST-00865,PROD-00032,VND-00023,APAC,Pod memory exhaustion,44,37273,2026-04-11,2025-02-24,Resolved
+INC-00116,Service Interruption in India Cluster-116,P2 - Major,CUST-00655,PROD-00026,VND-00081,India,Database lock contention,29,15248,2025-12-16,2025-06-26,Resolved
+INC-00117,Service Interruption in Europe Cluster-117,P3 - Moderate,CUST-00918,PROD-00024,VND-00194,Europe,Database lock contention,25,3043,2024-04-19,2025-09-23,Resolved
+INC-00118,Service Interruption in Europe Cluster-118,P4 - Low,CUST-00574,PROD-00019,VND-00194,Europe,Network interface flap,44,6976,2024-02-03,2026-10-22,Resolved
+INC-00119,Service Interruption in APAC Cluster-119,P3 - Moderate,CUST-00873,PROD-00017,VND-00038,APAC,Pod memory exhaustion,30,10718,2025-02-28,2026-05-20,Resolved
+INC-00120,Service Interruption in Europe Cluster-120,P4 - Low,CUST-00995,PROD-00006,VND-00083,Europe,Network interface flap,7,18115,2026-03-22,2025-01-16,Resolved
+INC-00121,Service Interruption in Europe Cluster-121,P2 - Major,CUST-00854,PROD-00015,VND-00063,Europe,Network interface flap,18,11527,2024-05-08,2024-10-16,Resolved
+INC-00122,Service Interruption in Europe Cluster-122,P3 - Moderate,CUST-00425,PROD-00013,VND-00106,Europe,Network interface flap,45,39713,2025-12-09,2026-06-26,Resolved
+INC-00123,Service Interruption in Europe Cluster-123,P3 - Moderate,CUST-00442,PROD-00024,VND-00094,Europe,Pod memory exhaustion,39,25401,2024-12-05,2025-12-08,Resolved
+INC-00124,Service Interruption in India Cluster-124,P4 - Low,CUST-00593,PROD-00009,VND-00025,India,Pod memory exhaustion,11,41589,2024-12-12,2026-12-21,Resolved
+INC-00125,Service Interruption in APAC Cluster-125,P4 - Low,CUST-00841,PROD-00015,VND-00120,APAC,Transient DNS timeout,34,42554,2025-08-19,2025-02-06,Resolved
+INC-00126,Service Interruption in North America Cluster-126,P2 - Major,CUST-00574,PROD-00029,VND-00144,North America,Pod memory exhaustion,35,11691,2024-11-12,2024-12-09,Resolved
+INC-00127,Service Interruption in India Cluster-127,P4 - Low,CUST-00259,PROD-00002,VND-00183,India,Network interface flap,13,27968,2024-11-15,2025-09-23,Resolved
+INC-00128,Service Interruption in India Cluster-128,P4 - Low,CUST-00312,PROD-00022,VND-00060,India,Database lock contention,39,40461,2025-01-20,2024-12-25,Resolved
+INC-00129,Service Interruption in North America Cluster-129,P3 - Moderate,CUST-00602,PROD-00008,VND-00199,North America,Transient DNS timeout,38,29112,2026-03-24,2024-04-20,Resolved
+INC-00130,Service Interruption in India Cluster-130,P2 - Major,CUST-00856,PROD-00012,VND-00008,India,Transient DNS timeout,26,7839,2024-07-19,2026-11-13,Resolved
+INC-00131,Service Interruption in APAC Cluster-131,P3 - Moderate,CUST-00391,PROD-00031,VND-00036,APAC,Database lock contention,11,22394,2025-03-23,2025-05-16,Resolved
+INC-00132,Service Interruption in Europe Cluster-132,P2 - Major,CUST-00189,PROD-00017,VND-00103,Europe,Database lock contention,27,44416,2026-02-11,2025-02-17,Resolved
+INC-00133,Service Interruption in North America Cluster-133,P3 - Moderate,CUST-00021,PROD-00004,VND-00143,North America,Pod memory exhaustion,11,13043,2024-09-01,2024-06-13,Resolved
+INC-00134,Service Interruption in Europe Cluster-134,P3 - Moderate,CUST-00029,PROD-00024,VND-00018,Europe,Database lock contention,45,42689,2025-03-18,2024-06-04,Resolved
+INC-00135,Service Interruption in APAC Cluster-135,P4 - Low,CUST-00935,PROD-00010,VND-00154,APAC,Database lock contention,33,13632,2026-03-27,2025-01-20,Resolved
+INC-00136,Service Interruption in North America Cluster-136,P2 - Major,CUST-00958,PROD-00035,VND-00204,North America,Pod memory exhaustion,23,9063,2025-11-06,2026-09-06,Resolved
+INC-00137,Service Interruption in Europe Cluster-137,P2 - Major,CUST-00510,PROD-00013,VND-00155,Europe,Pod memory exhaustion,34,37912,2025-08-04,2026-09-03,Resolved
+INC-00138,Service Interruption in Europe Cluster-138,P3 - Moderate,CUST-00253,PROD-00024,VND-00037,Europe,Network interface flap,17,28495,2024-06-02,2025-11-23,Resolved
+INC-00139,Service Interruption in APAC Cluster-139,P4 - Low,CUST-00102,PROD-00034,VND-00024,APAC,Network interface flap,39,44152,2024-05-11,2024-08-25,Resolved
+INC-00140,Service Interruption in India Cluster-140,P2 - Major,CUST-00300,PROD-00028,VND-00104,India,Network interface flap,10,34143,2024-08-04,2025-09-16,Resolved
+INC-00141,Service Interruption in APAC Cluster-141,P4 - Low,CUST-00399,PROD-00020,VND-00128,APAC,Transient DNS timeout,38,4728,2024-02-10,2026-12-19,Resolved
+INC-00142,Service Interruption in North America Cluster-142,P4 - Low,CUST-00178,PROD-00021,VND-00190,North America,Transient DNS timeout,8,21853,2025-04-12,2026-01-27,Resolved
+INC-00143,Service Interruption in Europe Cluster-143,P4 - Low,CUST-00895,PROD-00028,VND-00190,Europe,Pod memory exhaustion,7,16057,2024-08-06,2024-12-11,Resolved
+INC-00144,Service Interruption in Europe Cluster-144,P2 - Major,CUST-00732,PROD-00014,VND-00127,Europe,Transient DNS timeout,7,27001,2024-12-04,2025-01-08,Resolved
+INC-00145,Service Interruption in India Cluster-145,P4 - Low,CUST-00834,PROD-00022,VND-00046,India,Database lock contention,28,28342,2024-03-05,2026-04-20,Resolved
+INC-00146,Service Interruption in APAC Cluster-146,P4 - Low,CUST-00265,PROD-00028,VND-00175,APAC,Database lock contention,22,28817,2026-01-14,2025-07-09,Resolved
+INC-00147,Service Interruption in North America Cluster-147,P2 - Major,CUST-00837,PROD-00032,VND-00065,North America,Network interface flap,7,31434,2024-11-23,2024-02-21,Resolved
+INC-00148,Service Interruption in India Cluster-148,P2 - Major,CUST-00119,PROD-00011,VND-00203,India,Transient DNS timeout,16,37188,2025-03-24,2025-11-23,Resolved
+INC-00149,Service Interruption in APAC Cluster-149,P4 - Low,CUST-00408,PROD-00019,VND-00138,APAC,Pod memory exhaustion,41,19137,2024-02-13,2024-02-18,Resolved
+INC-00150,Service Interruption in North America Cluster-150,P3 - Moderate,CUST-00206,PROD-00009,VND-00133,North America,Network interface flap,35,9165,2024-04-02,2025-03-03,Resolved
+INC-00151,Service Interruption in India Cluster-151,P4 - Low,CUST-00826,PROD-00005,VND-00062,India,Pod memory exhaustion,33,11355,2025-10-25,2024-11-17,Resolved
+INC-00152,Service Interruption in APAC Cluster-152,P2 - Major,CUST-00787,PROD-00014,VND-00186,APAC,Transient DNS timeout,41,2931,2024-06-28,2025-03-12,Resolved
+INC-00153,Service Interruption in India Cluster-153,P3 - Moderate,CUST-00206,PROD-00004,VND-00101,India,Database lock contention,23,35134,2024-04-06,2026-04-11,Resolved
+INC-00154,Service Interruption in India Cluster-154,P4 - Low,CUST-00739,PROD-00029,VND-00007,India,Transient DNS timeout,20,41430,2026-05-18,2024-03-18,Resolved
+INC-00155,Service Interruption in North America Cluster-155,P3 - Moderate,CUST-00059,PROD-00008,VND-00176,North America,Network interface flap,38,37014,2024-10-24,2024-12-11,Resolved
+INC-00156,Service Interruption in Europe Cluster-156,P3 - Moderate,CUST-00040,PROD-00010,VND-00027,Europe,Transient DNS timeout,29,2224,2026-01-27,2025-10-04,Resolved
+INC-00157,Service Interruption in North America Cluster-157,P2 - Major,CUST-00781,PROD-00003,VND-00145,North America,Transient DNS timeout,35,39453,2026-07-10,2026-10-13,Resolved
+INC-00158,Service Interruption in India Cluster-158,P3 - Moderate,CUST-00933,PROD-00016,VND-00175,India,Pod memory exhaustion,27,43726,2025-08-05,2025-09-12,Resolved
+INC-00159,Service Interruption in Europe Cluster-159,P2 - Major,CUST-00148,PROD-00019,VND-00164,Europe,Network interface flap,21,12506,2025-12-01,2025-05-05,Resolved
+INC-00160,Service Interruption in Europe Cluster-160,P2 - Major,CUST-00471,PROD-00027,VND-00182,Europe,Network interface flap,13,43058,2025-04-13,2025-07-15,Resolved
+INC-00161,Service Interruption in India Cluster-161,P4 - Low,CUST-00464,PROD-00029,VND-00100,India,Pod memory exhaustion,26,23365,2026-07-05,2026-09-07,Resolved
+INC-00162,Service Interruption in Europe Cluster-162,P2 - Major,CUST-00223,PROD-00013,VND-00146,Europe,Pod memory exhaustion,34,37927,2025-06-21,2025-04-13,Resolved
+INC-00163,Service Interruption in India Cluster-163,P2 - Major,CUST-00482,PROD-00007,VND-00139,India,Pod memory exhaustion,44,29008,2024-04-07,2025-09-06,Resolved
+INC-00164,Service Interruption in Europe Cluster-164,P4 - Low,CUST-00394,PROD-00034,VND-00111,Europe,Network interface flap,6,15530,2025-10-22,2024-05-24,Resolved
+INC-00165,Service Interruption in India Cluster-165,P4 - Low,CUST-00577,PROD-00010,VND-00165,India,Database lock contention,14,28954,2025-08-08,2026-03-25,Resolved
+INC-00166,Service Interruption in North America Cluster-166,P3 - Moderate,CUST-00324,PROD-00034,VND-00189,North America,Transient DNS timeout,9,7619,2024-01-28,2024-06-28,Resolved
+INC-00167,Service Interruption in Europe Cluster-167,P2 - Major,CUST-00321,PROD-00023,VND-00052,Europe,Database lock contention,24,6326,2025-10-11,2026-08-16,Resolved
+INC-00168,Service Interruption in APAC Cluster-168,P3 - Moderate,CUST-00721,PROD-00012,VND-00075,APAC,Transient DNS timeout,40,12473,2024-03-14,2024-09-20,Resolved
+INC-00169,Service Interruption in APAC Cluster-169,P3 - Moderate,CUST-00163,PROD-00031,VND-00180,APAC,Database lock contention,12,11610,2025-02-25,2024-03-13,Resolved
+INC-00170,Service Interruption in North America Cluster-170,P3 - Moderate,CUST-00389,PROD-00031,VND-00044,North America,Pod memory exhaustion,33,40331,2026-03-15,2024-08-22,Resolved
+INC-00171,Service Interruption in APAC Cluster-171,P4 - Low,CUST-00353,PROD-00022,VND-00022,APAC,Transient DNS timeout,16,10843,2026-05-22,2025-03-04,Resolved
+INC-00172,Service Interruption in North America Cluster-172,P4 - Low,CUST-00202,PROD-00021,VND-00075,North America,Pod memory exhaustion,43,34423,2024-10-19,2025-03-12,Resolved
+INC-00173,Service Interruption in North America Cluster-173,P3 - Moderate,CUST-00197,PROD-00033,VND-00072,North America,Network interface flap,25,12936,2024-11-08,2026-05-09,Resolved
+INC-00174,Service Interruption in APAC Cluster-174,P3 - Moderate,CUST-00444,PROD-00022,VND-00011,APAC,Network interface flap,10,23818,2026-01-05,2026-01-24,Resolved
+INC-00175,Service Interruption in Europe Cluster-175,P4 - Low,CUST-00020,PROD-00020,VND-00098,Europe,Network interface flap,29,27453,2024-12-22,2025-12-13,Resolved
+INC-00176,Service Interruption in India Cluster-176,P3 - Moderate,CUST-00376,PROD-00033,VND-00201,India,Network interface flap,26,10673,2025-12-09,2026-04-16,Resolved
+INC-00177,Service Interruption in North America Cluster-177,P3 - Moderate,CUST-00274,PROD-00006,VND-00116,North America,Pod memory exhaustion,37,9439,2024-03-26,2024-04-03,Resolved
+INC-00178,Service Interruption in Europe Cluster-178,P2 - Major,CUST-00383,PROD-00005,VND-00040,Europe,Transient DNS timeout,9,2632,2026-01-24,2025-10-03,Resolved
+INC-00179,Service Interruption in APAC Cluster-179,P2 - Major,CUST-00597,PROD-00030,VND-00162,APAC,Transient DNS timeout,44,9993,2024-12-05,2024-12-03,Resolved
+INC-00180,Service Interruption in India Cluster-180,P2 - Major,CUST-00094,PROD-00006,VND-00001,India,Database lock contention,18,5276,2026-02-13,2025-11-17,Resolved
+INC-00181,Service Interruption in India Cluster-181,P2 - Major,CUST-00488,PROD-00013,VND-00182,India,Database lock contention,35,20878,2026-11-19,2024-08-06,Resolved
+INC-00182,Service Interruption in Europe Cluster-182,P4 - Low,CUST-00007,PROD-00006,VND-00046,Europe,Pod memory exhaustion,14,37520,2026-04-23,2024-12-25,Resolved
+INC-00183,Service Interruption in Europe Cluster-183,P2 - Major,CUST-00193,PROD-00012,VND-00083,Europe,Database lock contention,30,43634,2026-05-20,2025-09-21,Resolved
+INC-00184,Service Interruption in APAC Cluster-184,P3 - Moderate,CUST-00224,PROD-00028,VND-00065,APAC,Database lock contention,38,2457,2026-11-09,2025-03-03,Resolved
+INC-00185,Service Interruption in North America Cluster-185,P2 - Major,CUST-00065,PROD-00032,VND-00089,North America,Network interface flap,10,31224,2024-12-22,2024-06-19,Resolved
+INC-00186,Service Interruption in APAC Cluster-186,P3 - Moderate,CUST-00715,PROD-00005,VND-00146,APAC,Pod memory exhaustion,33,25469,2026-08-12,2025-05-25,Resolved
+INC-00187,Service Interruption in Europe Cluster-187,P3 - Moderate,CUST-00321,PROD-00035,VND-00191,Europe,Database lock contention,42,13177,2024-12-12,2025-08-15,Resolved
+INC-00188,Service Interruption in India Cluster-188,P3 - Moderate,CUST-00946,PROD-00026,VND-00119,India,Network interface flap,14,11311,2026-07-14,2024-03-26,Resolved
+INC-00189,Service Interruption in APAC Cluster-189,P3 - Moderate,CUST-00391,PROD-00010,VND-00103,APAC,Transient DNS timeout,32,13323,2024-10-06,2024-02-01,Resolved
+INC-00190,Service Interruption in APAC Cluster-190,P3 - Moderate,CUST-00484,PROD-00010,VND-00070,APAC,Database lock contention,6,34592,2025-03-10,2026-05-08,Resolved
+INC-00191,Service Interruption in India Cluster-191,P2 - Major,CUST-00499,PROD-00032,VND-00111,India,Database lock contention,36,5916,2025-02-03,2025-12-16,Resolved
+INC-00192,Service Interruption in India Cluster-192,P4 - Low,CUST-00297,PROD-00010,VND-00061,India,Database lock contention,31,34145,2024-05-21,2024-06-21,Resolved
+INC-00193,Service Interruption in North America Cluster-193,P3 - Moderate,CUST-00701,PROD-00028,VND-00157,North America,Database lock contention,38,20474,2025-12-12,2026-03-12,Resolved
+INC-00194,Service Interruption in North America Cluster-194,P4 - Low,CUST-00994,PROD-00031,VND-00017,North America,Network interface flap,28,29328,2024-04-11,2026-04-28,Resolved
+INC-00195,Service Interruption in APAC Cluster-195,P3 - Moderate,CUST-00650,PROD-00031,VND-00202,APAC,Pod memory exhaustion,41,23696,2026-04-05,2025-11-19,Resolved
+INC-00196,Service Interruption in Europe Cluster-196,P2 - Major,CUST-00726,PROD-00016,VND-00209,Europe,Network interface flap,41,32785,2024-06-17,2024-07-25,Resolved
+INC-00197,Service Interruption in India Cluster-197,P2 - Major,CUST-00639,PROD-00021,VND-00021,India,Network interface flap,43,19433,2024-08-13,2024-05-23,Resolved
+INC-00198,Service Interruption in Europe Cluster-198,P2 - Major,CUST-00373,PROD-00004,VND-00122,Europe,Database lock contention,45,2200,2025-06-27,2026-08-18,Resolved
+INC-00199,Service Interruption in India Cluster-199,P2 - Major,CUST-00803,PROD-00018,VND-00082,India,Pod memory exhaustion,43,37147,2024-11-07,2026-10-04,Resolved
+INC-00200,Service Interruption in Europe Cluster-200,P3 - Moderate,CUST-00752,PROD-00004,VND-00189,Europe,Pod memory exhaustion,20,26642,2025-12-27,2024-05-09,Resolved
+INC-00201,Service Interruption in North America Cluster-201,P2 - Major,CUST-00148,PROD-00019,VND-00007,North America,Network interface flap,10,26158,2025-03-15,2026-07-18,Resolved
+INC-00202,Service Interruption in APAC Cluster-202,P2 - Major,CUST-00609,PROD-00029,VND-00195,APAC,Transient DNS timeout,22,31880,2025-04-23,2026-08-10,Resolved
+INC-00203,Service Interruption in North America Cluster-203,P2 - Major,CUST-00601,PROD-00009,VND-00083,North America,Transient DNS timeout,8,23399,2026-08-12,2024-06-27,Resolved
+INC-00204,Service Interruption in India Cluster-204,P4 - Low,CUST-00385,PROD-00002,VND-00161,India,Pod memory exhaustion,30,13665,2025-10-27,2024-11-10,Resolved
+INC-00205,Service Interruption in North America Cluster-205,P3 - Moderate,CUST-00580,PROD-00003,VND-00131,North America,Database lock contention,36,6186,2024-03-05,2024-09-06,Resolved
+INC-00206,Service Interruption in APAC Cluster-206,P4 - Low,CUST-00241,PROD-00006,VND-00194,APAC,Pod memory exhaustion,26,7318,2025-06-25,2024-08-13,Resolved
+INC-00207,Service Interruption in India Cluster-207,P4 - Low,CUST-00064,PROD-00034,VND-00107,India,Database lock contention,40,7863,2024-08-06,2024-05-08,Resolved
+INC-00208,Service Interruption in Europe Cluster-208,P2 - Major,CUST-00058,PROD-00002,VND-00014,Europe,Network interface flap,7,4764,2024-04-05,2024-09-11,Resolved
+INC-00209,Service Interruption in APAC Cluster-209,P3 - Moderate,CUST-00397,PROD-00026,VND-00005,APAC,Network interface flap,6,29193,2026-02-02,2024-10-02,Resolved
+INC-00210,Service Interruption in APAC Cluster-210,P2 - Major,CUST-00236,PROD-00032,VND-00002,APAC,Transient DNS timeout,42,26124,2026-03-13,2024-03-18,Resolved
+INC-00211,Service Interruption in APAC Cluster-211,P2 - Major,CUST-00938,PROD-00019,VND-00069,APAC,Network interface flap,15,15211,2026-05-11,2024-06-09,Resolved
+INC-00212,Service Interruption in North America Cluster-212,P3 - Moderate,CUST-00123,PROD-00019,VND-00116,North America,Network interface flap,43,44690,2026-09-25,2025-04-06,Resolved
+INC-00213,Service Interruption in North America Cluster-213,P2 - Major,CUST-00043,PROD-00025,VND-00206,North America,Database lock contention,17,39369,2026-12-10,2026-11-07,Resolved
+INC-00214,Service Interruption in India Cluster-214,P4 - Low,CUST-00838,PROD-00020,VND-00093,India,Transient DNS timeout,45,17060,2026-05-07,2026-01-10,Resolved
+INC-00215,Service Interruption in Europe Cluster-215,P2 - Major,CUST-00222,PROD-00012,VND-00086,Europe,Network interface flap,29,23453,2025-07-20,2024-08-16,Resolved
+INC-00216,Service Interruption in Europe Cluster-216,P4 - Low,CUST-00612,PROD-00019,VND-00204,Europe,Transient DNS timeout,44,9029,2024-01-20,2024-01-09,Resolved
+INC-00217,Service Interruption in Europe Cluster-217,P2 - Major,CUST-00311,PROD-00029,VND-00098,Europe,Transient DNS timeout,8,26120,2024-11-07,2025-12-12,Resolved
+INC-00218,Service Interruption in North America Cluster-218,P2 - Major,CUST-00287,PROD-00027,VND-00168,North America,Pod memory exhaustion,7,9869,2025-03-09,2025-04-04,Resolved
+INC-00219,Service Interruption in Europe Cluster-219,P4 - Low,CUST-00763,PROD-00002,VND-00122,Europe,Transient DNS timeout,12,7642,2026-04-15,2026-12-18,Resolved
+INC-00220,Service Interruption in India Cluster-220,P3 - Moderate,CUST-00277,PROD-00002,VND-00180,India,Transient DNS timeout,14,16121,2024-07-22,2025-01-02,Resolved
+INC-00221,Service Interruption in Europe Cluster-221,P3 - Moderate,CUST-00443,PROD-00030,VND-00106,Europe,Transient DNS timeout,41,4885,2026-02-25,2025-12-10,Resolved
+INC-00222,Service Interruption in APAC Cluster-222,P4 - Low,CUST-00491,PROD-00013,VND-00206,APAC,Transient DNS timeout,22,14325,2024-12-15,2024-11-02,Resolved
+INC-00223,Service Interruption in India Cluster-223,P4 - Low,CUST-00856,PROD-00028,VND-00144,India,Database lock contention,8,20777,2025-02-20,2025-08-27,Resolved
+INC-00224,Service Interruption in APAC Cluster-224,P3 - Moderate,CUST-00558,PROD-00011,VND-00096,APAC,Database lock contention,25,43898,2025-07-06,2026-07-12,Resolved
+INC-00225,Service Interruption in India Cluster-225,P3 - Moderate,CUST-00356,PROD-00019,VND-00038,India,Network interface flap,28,30292,2024-10-09,2024-06-12,Resolved
+INC-00226,Service Interruption in Europe Cluster-226,P4 - Low,CUST-00478,PROD-00029,VND-00193,Europe,Transient DNS timeout,26,35184,2026-03-20,2025-09-21,Resolved
+INC-00227,Service Interruption in Europe Cluster-227,P4 - Low,CUST-00164,PROD-00009,VND-00209,Europe,Network interface flap,10,29458,2024-09-18,2024-09-04,Resolved
+INC-00228,Service Interruption in Europe Cluster-228,P4 - Low,CUST-00005,PROD-00017,VND-00141,Europe,Database lock contention,26,34058,2024-06-24,2025-09-13,Resolved
+INC-00229,Service Interruption in APAC Cluster-229,P4 - Low,CUST-00673,PROD-00026,VND-00057,APAC,Network interface flap,11,16798,2026-11-15,2024-12-25,Resolved
+INC-00230,Service Interruption in North America Cluster-230,P2 - Major,CUST-00734,PROD-00001,VND-00204,North America,Network interface flap,14,6732,2026-05-08,2025-05-27,Resolved
+INC-00231,Service Interruption in Europe Cluster-231,P2 - Major,CUST-00555,PROD-00007,VND-00209,Europe,Transient DNS timeout,6,4038,2025-02-07,2024-11-03,Resolved
+INC-00232,Service Interruption in India Cluster-232,P2 - Major,CUST-00260,PROD-00029,VND-00031,India,Pod memory exhaustion,30,2692,2026-10-10,2025-07-12,Resolved
+INC-00233,Service Interruption in India Cluster-233,P2 - Major,CUST-00312,PROD-00028,VND-00159,India,Transient DNS timeout,36,4065,2025-06-12,2024-05-23,Resolved
+INC-00234,Service Interruption in North America Cluster-234,P3 - Moderate,CUST-00882,PROD-00025,VND-00193,North America,Network interface flap,42,42647,2025-11-16,2024-07-02,Resolved
+INC-00235,Service Interruption in APAC Cluster-235,P3 - Moderate,CUST-00778,PROD-00006,VND-00122,APAC,Transient DNS timeout,10,18081,2026-12-21,2024-08-13,Resolved
+INC-00236,Service Interruption in India Cluster-236,P4 - Low,CUST-00346,PROD-00016,VND-00155,India,Transient DNS timeout,25,22303,2026-12-28,2025-04-20,Resolved
+INC-00237,Service Interruption in Europe Cluster-237,P3 - Moderate,CUST-00098,PROD-00001,VND-00176,Europe,Transient DNS timeout,37,31126,2024-09-06,2025-05-23,Resolved
+INC-00238,Service Interruption in North America Cluster-238,P4 - Low,CUST-00398,PROD-00035,VND-00168,North America,Pod memory exhaustion,42,9711,2026-09-16,2024-08-10,Resolved
+INC-00239,Service Interruption in APAC Cluster-239,P2 - Major,CUST-00041,PROD-00019,VND-00154,APAC,Network interface flap,12,12144,2024-04-16,2025-04-01,Resolved
+INC-00240,Service Interruption in India Cluster-240,P3 - Moderate,CUST-00795,PROD-00012,VND-00198,India,Transient DNS timeout,24,13971,2024-06-28,2026-10-28,Resolved
+INC-00241,Service Interruption in North America Cluster-241,P3 - Moderate,CUST-00235,PROD-00029,VND-00207,North America,Transient DNS timeout,15,11122,2024-12-20,2026-01-15,Resolved
+INC-00242,Service Interruption in APAC Cluster-242,P3 - Moderate,CUST-00376,PROD-00028,VND-00006,APAC,Transient DNS timeout,31,33041,2024-05-14,2026-12-14,Resolved
+INC-00243,Service Interruption in APAC Cluster-243,P2 - Major,CUST-00067,PROD-00006,VND-00068,APAC,Network interface flap,30,35234,2024-03-04,2024-03-03,Resolved
+INC-00244,Service Interruption in APAC Cluster-244,P4 - Low,CUST-00192,PROD-00013,VND-00115,APAC,Pod memory exhaustion,35,6379,2026-03-19,2025-02-18,Resolved
+INC-00245,Service Interruption in APAC Cluster-245,P2 - Major,CUST-00238,PROD-00013,VND-00038,APAC,Database lock contention,30,2733,2025-01-17,2024-02-17,Resolved
+INC-00246,Service Interruption in APAC Cluster-246,P4 - Low,CUST-00273,PROD-00034,VND-00003,APAC,Database lock contention,25,17969,2025-04-07,2026-08-16,Resolved
+INC-00247,Service Interruption in India Cluster-247,P3 - Moderate,CUST-00220,PROD-00007,VND-00045,India,Transient DNS timeout,14,10320,2026-03-28,2024-08-17,Resolved
+INC-00248,Service Interruption in India Cluster-248,P2 - Major,CUST-00580,PROD-00011,VND-00064,India,Pod memory exhaustion,19,19201,2025-01-25,2025-01-28,Resolved
+INC-00249,Service Interruption in Europe Cluster-249,P3 - Moderate,CUST-00800,PROD-00026,VND-00008,Europe,Pod memory exhaustion,30,31479,2026-04-24,2024-08-20,Resolved
+INC-00250,Service Interruption in Europe Cluster-250,P4 - Low,CUST-00911,PROD-00027,VND-00166,Europe,Database lock contention,43,36161,2025-08-25,2024-07-20,Resolved
+INC-00251,Service Interruption in North America Cluster-251,P2 - Major,CUST-00428,PROD-00005,VND-00144,North America,Database lock contention,7,26216,2025-07-09,2025-11-26,Resolved
+INC-00252,Service Interruption in APAC Cluster-252,P3 - Moderate,CUST-00311,PROD-00035,VND-00155,APAC,Pod memory exhaustion,35,35517,2025-07-25,2026-10-23,Resolved
+INC-00253,Service Interruption in APAC Cluster-253,P4 - Low,CUST-00946,PROD-00009,VND-00121,APAC,Transient DNS timeout,36,24440,2026-09-20,2026-02-09,Resolved
+INC-00254,Service Interruption in Europe Cluster-254,P4 - Low,CUST-00275,PROD-00018,VND-00074,Europe,Pod memory exhaustion,25,17690,2026-04-12,2025-04-27,Resolved
+INC-00255,Service Interruption in APAC Cluster-255,P3 - Moderate,CUST-00531,PROD-00027,VND-00072,APAC,Network interface flap,17,42177,2024-12-10,2024-11-22,Resolved
+INC-00256,Service Interruption in APAC Cluster-256,P3 - Moderate,CUST-00730,PROD-00035,VND-00142,APAC,Database lock contention,34,40125,2026-03-04,2026-12-10,Resolved
+INC-00257,Service Interruption in APAC Cluster-257,P4 - Low,CUST-00253,PROD-00014,VND-00154,APAC,Database lock contention,36,26575,2024-07-16,2026-05-19,Resolved
+INC-00258,Service Interruption in APAC Cluster-258,P3 - Moderate,CUST-00551,PROD-00022,VND-00038,APAC,Transient DNS timeout,21,10154,2025-09-13,2024-02-07,Resolved
+INC-00259,Service Interruption in APAC Cluster-259,P3 - Moderate,CUST-00951,PROD-00032,VND-00117,APAC,Network interface flap,17,19412,2024-07-21,2025-10-04,Resolved
+INC-00260,Service Interruption in North America Cluster-260,P3 - Moderate,CUST-00448,PROD-00025,VND-00081,North America,Database lock contention,16,10055,2025-01-02,2024-05-04,Resolved
+INC-00261,Service Interruption in North America Cluster-261,P4 - Low,CUST-00549,PROD-00018,VND-00033,North America,Network interface flap,18,4617,2026-10-02,2024-02-11,Resolved
+INC-00262,Service Interruption in India Cluster-262,P4 - Low,CUST-00737,PROD-00018,VND-00073,India,Database lock contention,19,16446,2026-10-19,2025-09-12,Resolved
+INC-00263,Service Interruption in APAC Cluster-263,P2 - Major,CUST-00156,PROD-00002,VND-00142,APAC,Database lock contention,15,27118,2024-09-20,2024-03-03,Resolved
+INC-00264,Service Interruption in India Cluster-264,P4 - Low,CUST-00759,PROD-00018,VND-00208,India,Transient DNS timeout,11,18134,2025-04-08,2025-10-06,Resolved
+INC-00265,Service Interruption in North America Cluster-265,P2 - Major,CUST-00940,PROD-00015,VND-00072,North America,Transient DNS timeout,20,22217,2025-10-28,2026-07-15,Resolved
+INC-00266,Service Interruption in India Cluster-266,P2 - Major,CUST-00238,PROD-00007,VND-00021,India,Network interface flap,33,11855,2026-07-28,2026-07-01,Resolved
+INC-00267,Service Interruption in India Cluster-267,P4 - Low,CUST-00784,PROD-00018,VND-00053,India,Network interface flap,38,24432,2025-01-16,2026-10-13,Resolved
+INC-00268,Service Interruption in Europe Cluster-268,P3 - Moderate,CUST-00622,PROD-00014,VND-00096,Europe,Transient DNS timeout,43,26750,2024-07-07,2024-06-12,Resolved
+INC-00269,Service Interruption in APAC Cluster-269,P3 - Moderate,CUST-00281,PROD-00016,VND-00184,APAC,Database lock contention,29,41350,2025-01-22,2026-04-21,Resolved
+INC-00270,Service Interruption in North America Cluster-270,P4 - Low,CUST-00067,PROD-00029,VND-00183,North America,Network interface flap,41,24621,2025-07-01,2025-07-24,Resolved
+INC-00271,Service Interruption in India Cluster-271,P3 - Moderate,CUST-00932,PROD-00028,VND-00023,India,Pod memory exhaustion,27,16978,2025-06-09,2025-03-06,Resolved
+INC-00272,Service Interruption in Europe Cluster-272,P2 - Major,CUST-00875,PROD-00034,VND-00154,Europe,Transient DNS timeout,29,25892,2024-04-03,2026-03-03,Resolved
+INC-00273,Service Interruption in North America Cluster-273,P4 - Low,CUST-00713,PROD-00004,VND-00065,North America,Pod memory exhaustion,33,11766,2025-03-28,2025-05-28,Resolved
+INC-00274,Service Interruption in Europe Cluster-274,P2 - Major,CUST-00235,PROD-00027,VND-00080,Europe,Transient DNS timeout,19,8047,2026-01-19,2026-12-06,Resolved
+INC-00275,Service Interruption in Europe Cluster-275,P3 - Moderate,CUST-00562,PROD-00031,VND-00109,Europe,Database lock contention,6,14804,2026-12-03,2024-02-09,Resolved
+INC-00276,Service Interruption in India Cluster-276,P2 - Major,CUST-00547,PROD-00008,VND-00200,India,Pod memory exhaustion,16,12008,2026-03-08,2024-06-28,Resolved
+INC-00277,Service Interruption in North America Cluster-277,P2 - Major,CUST-00785,PROD-00018,VND-00132,North America,Transient DNS timeout,30,10844,2024-01-16,2024-03-08,Resolved
+INC-00278,Service Interruption in APAC Cluster-278,P4 - Low,CUST-00855,PROD-00024,VND-00147,APAC,Network interface flap,20,31815,2024-12-04,2026-04-06,Resolved
+INC-00279,Service Interruption in India Cluster-279,P4 - Low,CUST-00621,PROD-00003,VND-00018,India,Database lock contention,5,20822,2025-09-26,2025-11-25,Resolved
+INC-00280,Service Interruption in India Cluster-280,P3 - Moderate,CUST-00564,PROD-00035,VND-00186,India,Network interface flap,38,25195,2026-10-23,2026-07-25,Resolved
+INC-00281,Service Interruption in India Cluster-281,P3 - Moderate,CUST-00537,PROD-00027,VND-00043,India,Database lock contention,7,15558,2024-10-12,2025-02-20,Resolved
+INC-00282,Service Interruption in APAC Cluster-282,P3 - Moderate,CUST-00392,PROD-00025,VND-00077,APAC,Transient DNS timeout,25,33930,2024-01-07,2025-11-25,Resolved
+INC-00283,Service Interruption in APAC Cluster-283,P2 - Major,CUST-00461,PROD-00009,VND-00167,APAC,Network interface flap,20,11326,2024-04-15,2025-08-13,Resolved
+INC-00284,Service Interruption in Europe Cluster-284,P3 - Moderate,CUST-00730,PROD-00030,VND-00096,Europe,Network interface flap,13,29249,2024-04-05,2026-02-10,Resolved
+INC-00285,Service Interruption in India Cluster-285,P3 - Moderate,CUST-00055,PROD-00023,VND-00120,India,Network interface flap,9,41206,2025-06-27,2026-09-16,Resolved
+INC-00286,Service Interruption in APAC Cluster-286,P2 - Major,CUST-00957,PROD-00031,VND-00018,APAC,Pod memory exhaustion,17,22338,2026-03-01,2024-03-24,Resolved
+INC-00287,Service Interruption in North America Cluster-287,P4 - Low,CUST-00576,PROD-00018,VND-00016,North America,Database lock contention,45,36150,2025-01-15,2025-06-26,Resolved
+INC-00288,Service Interruption in APAC Cluster-288,P4 - Low,CUST-00472,PROD-00023,VND-00160,APAC,Pod memory exhaustion,28,5336,2026-10-04,2025-08-14,Resolved
+INC-00289,Service Interruption in Europe Cluster-289,P4 - Low,CUST-00038,PROD-00033,VND-00018,Europe,Network interface flap,26,30826,2026-12-21,2025-03-05,Resolved
+INC-00290,Service Interruption in India Cluster-290,P2 - Major,CUST-00096,PROD-00025,VND-00071,India,Database lock contention,7,4884,2025-01-05,2024-07-19,Resolved
+INC-00291,Service Interruption in APAC Cluster-291,P2 - Major,CUST-00428,PROD-00010,VND-00110,APAC,Database lock contention,5,6340,2024-01-09,2026-08-26,Resolved
+INC-00292,Service Interruption in India Cluster-292,P2 - Major,CUST-00225,PROD-00030,VND-00043,India,Transient DNS timeout,10,32120,2025-10-24,2025-08-09,Resolved
+INC-00293,Service Interruption in APAC Cluster-293,P4 - Low,CUST-00572,PROD-00022,VND-00162,APAC,Database lock contention,42,36081,2026-05-26,2026-04-08,Resolved
+INC-00294,Service Interruption in APAC Cluster-294,P2 - Major,CUST-00445,PROD-00031,VND-00070,APAC,Pod memory exhaustion,36,28523,2024-10-10,2025-02-27,Resolved
+INC-00295,Service Interruption in Europe Cluster-295,P2 - Major,CUST-00569,PROD-00015,VND-00201,Europe,Database lock contention,34,12043,2024-12-18,2026-06-14,Resolved
+INC-00296,Service Interruption in APAC Cluster-296,P4 - Low,CUST-00410,PROD-00027,VND-00146,APAC,Pod memory exhaustion,10,17892,2024-10-16,2026-02-25,Resolved
+INC-00297,Service Interruption in India Cluster-297,P3 - Moderate,CUST-00949,PROD-00004,VND-00112,India,Network interface flap,14,29146,2025-01-11,2025-02-10,Resolved
+INC-00298,Service Interruption in Europe Cluster-298,P2 - Major,CUST-00499,PROD-00032,VND-00102,Europe,Network interface flap,32,17408,2025-04-20,2024-06-06,Resolved
+INC-00299,Service Interruption in North America Cluster-299,P4 - Low,CUST-00335,PROD-00025,VND-00022,North America,Transient DNS timeout,10,2556,2024-09-14,2025-02-26,Resolved
+INC-00300,Service Interruption in North America Cluster-300,P4 - Low,CUST-00664,PROD-00010,VND-00014,North America,Network interface flap,16,4142,2024-05-27,2025-11-22,Resolved
+INC-00301,Service Interruption in Europe Cluster-301,P4 - Low,CUST-00366,PROD-00006,VND-00011,Europe,Pod memory exhaustion,26,8551,2024-10-03,2024-10-01,Resolved
+INC-00302,Service Interruption in India Cluster-302,P2 - Major,CUST-00809,PROD-00011,VND-00101,India,Transient DNS timeout,22,40887,2025-10-27,2026-02-27,Resolved
+INC-00303,Service Interruption in India Cluster-303,P4 - Low,CUST-00292,PROD-00009,VND-00017,India,Pod memory exhaustion,15,44170,2026-09-04,2025-10-08,Resolved
+INC-00304,Service Interruption in APAC Cluster-304,P4 - Low,CUST-00291,PROD-00003,VND-00101,APAC,Database lock contention,35,31655,2025-09-10,2025-11-23,Resolved
+INC-00305,Service Interruption in APAC Cluster-305,P3 - Moderate,CUST-00429,PROD-00016,VND-00204,APAC,Pod memory exhaustion,18,17773,2025-03-23,2024-01-03,Resolved
+INC-00306,Service Interruption in North America Cluster-306,P2 - Major,CUST-00602,PROD-00008,VND-00038,North America,Network interface flap,13,11786,2026-02-10,2025-12-11,Resolved
+INC-00307,Service Interruption in India Cluster-307,P4 - Low,CUST-00245,PROD-00031,VND-00112,India,Transient DNS timeout,40,40513,2025-12-07,2025-11-02,Resolved
+INC-00308,Service Interruption in APAC Cluster-308,P3 - Moderate,CUST-00161,PROD-00026,VND-00050,APAC,Transient DNS timeout,8,4056,2025-07-06,2025-08-22,Resolved
+INC-00309,Service Interruption in Europe Cluster-309,P3 - Moderate,CUST-00803,PROD-00021,VND-00116,Europe,Pod memory exhaustion,32,22629,2026-12-06,2024-03-09,Resolved
+INC-00310,Service Interruption in Europe Cluster-310,P3 - Moderate,CUST-00096,PROD-00032,VND-00086,Europe,Transient DNS timeout,13,17730,2026-10-16,2025-04-24,Resolved
+INC-00311,Service Interruption in North America Cluster-311,P2 - Major,CUST-00428,PROD-00003,VND-00198,North America,Pod memory exhaustion,26,42296,2025-06-01,2024-08-25,Resolved
+INC-00312,Service Interruption in APAC Cluster-312,P4 - Low,CUST-00207,PROD-00014,VND-00038,APAC,Pod memory exhaustion,38,27604,2026-10-20,2026-04-14,Resolved
+INC-00313,Service Interruption in APAC Cluster-313,P4 - Low,CUST-00820,PROD-00003,VND-00117,APAC,Network interface flap,7,20644,2025-01-14,2026-11-26,Resolved
+INC-00314,Service Interruption in Europe Cluster-314,P2 - Major,CUST-00486,PROD-00027,VND-00119,Europe,Pod memory exhaustion,42,16607,2025-05-10,2026-01-27,Resolved
+INC-00315,Service Interruption in APAC Cluster-315,P2 - Major,CUST-00685,PROD-00017,VND-00102,APAC,Transient DNS timeout,38,17022,2024-04-27,2025-04-13,Resolved
+INC-00316,Service Interruption in APAC Cluster-316,P2 - Major,CUST-00441,PROD-00004,VND-00020,APAC,Network interface flap,6,34882,2026-11-26,2025-10-22,Resolved
+INC-00317,Service Interruption in APAC Cluster-317,P2 - Major,CUST-00509,PROD-00014,VND-00137,APAC,Transient DNS timeout,20,27495,2026-12-11,2024-09-21,Resolved
+INC-00318,Service Interruption in APAC Cluster-318,P2 - Major,CUST-00015,PROD-00028,VND-00021,APAC,Database lock contention,35,3355,2024-03-24,2026-05-06,Resolved
+INC-00319,Service Interruption in Europe Cluster-319,P4 - Low,CUST-00300,PROD-00017,VND-00107,Europe,Network interface flap,18,12741,2025-02-25,2025-05-18,Resolved
+INC-00320,Service Interruption in Europe Cluster-320,P4 - Low,CUST-00562,PROD-00005,VND-00020,Europe,Transient DNS timeout,5,17699,2024-05-06,2024-08-11,Resolved
+INC-00321,Service Interruption in North America Cluster-321,P2 - Major,CUST-00513,PROD-00035,VND-00120,North America,Network interface flap,44,20238,2024-06-26,2024-06-06,Resolved
+INC-00322,Service Interruption in APAC Cluster-322,P3 - Moderate,CUST-00826,PROD-00013,VND-00140,APAC,Transient DNS timeout,44,7663,2024-03-05,2025-03-17,Resolved
+INC-00323,Service Interruption in APAC Cluster-323,P4 - Low,CUST-00548,PROD-00013,VND-00123,APAC,Transient DNS timeout,26,27511,2025-02-26,2026-07-07,Resolved
+INC-00324,Service Interruption in North America Cluster-324,P2 - Major,CUST-00195,PROD-00031,VND-00199,North America,Database lock contention,36,38533,2025-07-11,2026-06-07,Resolved
+INC-00325,Service Interruption in North America Cluster-325,P2 - Major,CUST-00038,PROD-00029,VND-00049,North America,Pod memory exhaustion,6,26414,2026-06-14,2026-01-11,Resolved
+INC-00326,Service Interruption in North America Cluster-326,P3 - Moderate,CUST-00088,PROD-00009,VND-00025,North America,Database lock contention,35,34397,2026-09-24,2025-02-20,Resolved
+INC-00327,Service Interruption in APAC Cluster-327,P2 - Major,CUST-00806,PROD-00021,VND-00063,APAC,Network interface flap,23,4551,2024-01-10,2026-03-23,Resolved
+INC-00328,Service Interruption in APAC Cluster-328,P3 - Moderate,CUST-00836,PROD-00025,VND-00040,APAC,Pod memory exhaustion,31,6875,2026-06-03,2025-05-24,Resolved
+INC-00329,Service Interruption in APAC Cluster-329,P3 - Moderate,CUST-00417,PROD-00002,VND-00007,APAC,Pod memory exhaustion,16,8099,2024-09-20,2026-02-12,Resolved
+INC-00330,Service Interruption in APAC Cluster-330,P2 - Major,CUST-00098,PROD-00017,VND-00197,APAC,Pod memory exhaustion,12,13968,2026-04-19,2024-04-02,Resolved
+INC-00331,Service Interruption in APAC Cluster-331,P3 - Moderate,CUST-00319,PROD-00035,VND-00021,APAC,Pod memory exhaustion,11,28453,2024-05-14,2024-11-11,Resolved
+INC-00332,Service Interruption in North America Cluster-332,P3 - Moderate,CUST-00759,PROD-00004,VND-00036,North America,Transient DNS timeout,42,2262,2024-08-02,2025-06-13,Resolved
+INC-00333,Service Interruption in Europe Cluster-333,P4 - Low,CUST-00110,PROD-00017,VND-00041,Europe,Transient DNS timeout,26,13034,2024-11-19,2026-02-21,Resolved
+INC-00334,Service Interruption in Europe Cluster-334,P2 - Major,CUST-00482,PROD-00014,VND-00187,Europe,Database lock contention,37,17636,2025-01-22,2026-05-19,Resolved
+INC-00335,Service Interruption in Europe Cluster-335,P4 - Low,CUST-00795,PROD-00013,VND-00127,Europe,Transient DNS timeout,32,15828,2026-11-13,2024-09-10,Resolved
+INC-00336,Service Interruption in India Cluster-336,P3 - Moderate,CUST-00140,PROD-00026,VND-00152,India,Pod memory exhaustion,22,18320,2026-02-23,2025-05-21,Resolved
+INC-00337,Service Interruption in India Cluster-337,P4 - Low,CUST-00510,PROD-00001,VND-00030,India,Database lock contention,21,10401,2026-03-27,2026-10-04,Resolved
+INC-00338,Service Interruption in North America Cluster-338,P4 - Low,CUST-00255,PROD-00009,VND-00183,North America,Database lock contention,20,5051,2026-02-22,2025-03-07,Resolved
+INC-00339,Service Interruption in North America Cluster-339,P3 - Moderate,CUST-00983,PROD-00008,VND-00148,North America,Database lock contention,12,2901,2025-02-11,2024-08-05,Resolved
+INC-00340,Service Interruption in APAC Cluster-340,P2 - Major,CUST-00742,PROD-00008,VND-00095,APAC,Network interface flap,29,36004,2026-05-15,2026-04-28,Resolved
+INC-00341,Service Interruption in APAC Cluster-341,P4 - Low,CUST-00150,PROD-00014,VND-00100,APAC,Database lock contention,20,34106,2025-05-14,2024-05-01,Resolved
+INC-00342,Service Interruption in North America Cluster-342,P3 - Moderate,CUST-00475,PROD-00011,VND-00016,North America,Network interface flap,38,20944,2024-07-04,2025-03-10,Resolved
+INC-00343,Service Interruption in North America Cluster-343,P3 - Moderate,CUST-00182,PROD-00028,VND-00197,North America,Network interface flap,38,6279,2026-08-12,2025-11-08,Resolved
+INC-00344,Service Interruption in India Cluster-344,P3 - Moderate,CUST-00206,PROD-00018,VND-00123,India,Pod memory exhaustion,15,33480,2024-08-05,2024-04-21,Resolved
+INC-00345,Service Interruption in Europe Cluster-345,P3 - Moderate,CUST-00394,PROD-00015,VND-00142,Europe,Transient DNS timeout,22,26302,2026-05-23,2024-05-28,Resolved
+INC-00346,Service Interruption in India Cluster-346,P4 - Low,CUST-00529,PROD-00020,VND-00192,India,Transient DNS timeout,9,39169,2024-04-10,2025-04-25,Resolved
+INC-00347,Service Interruption in India Cluster-347,P4 - Low,CUST-00954,PROD-00034,VND-00047,India,Transient DNS timeout,14,3282,2025-12-25,2026-07-19,Resolved
+INC-00348,Service Interruption in Europe Cluster-348,P3 - Moderate,CUST-00002,PROD-00031,VND-00050,Europe,Transient DNS timeout,24,29842,2025-12-26,2025-10-07,Resolved
+INC-00349,Service Interruption in India Cluster-349,P4 - Low,CUST-00412,PROD-00023,VND-00025,India,Network interface flap,44,14862,2024-06-02,2025-06-16,Resolved
+INC-00350,Service Interruption in Europe Cluster-350,P2 - Major,CUST-00546,PROD-00022,VND-00127,Europe,Network interface flap,40,3076,2026-02-04,2026-03-08,Resolved
+INC-00351,Service Interruption in India Cluster-351,P3 - Moderate,CUST-00888,PROD-00003,VND-00053,India,Network interface flap,39,6758,2024-11-18,2025-12-05,Resolved
+INC-00352,Service Interruption in APAC Cluster-352,P2 - Major,CUST-00756,PROD-00014,VND-00056,APAC,Transient DNS timeout,7,18807,2024-10-14,2024-05-21,Resolved
+INC-00353,Service Interruption in North America Cluster-353,P4 - Low,CUST-00912,PROD-00029,VND-00054,North America,Pod memory exhaustion,20,42093,2024-02-26,2025-10-18,Resolved
+INC-00354,Service Interruption in India Cluster-354,P4 - Low,CUST-00645,PROD-00016,VND-00012,India,Pod memory exhaustion,39,12946,2026-12-24,2024-08-27,Resolved
+INC-00355,Service Interruption in North America Cluster-355,P2 - Major,CUST-00815,PROD-00027,VND-00085,North America,Transient DNS timeout,37,40199,2024-10-09,2024-07-23,Resolved
+INC-00356,Service Interruption in India Cluster-356,P3 - Moderate,CUST-00958,PROD-00023,VND-00193,India,Database lock contention,6,8390,2026-10-01,2026-05-07,Resolved
+INC-00357,Service Interruption in North America Cluster-357,P2 - Major,CUST-00843,PROD-00011,VND-00060,North America,Database lock contention,17,15701,2024-03-10,2025-01-22,Resolved
+INC-00358,Service Interruption in North America Cluster-358,P3 - Moderate,CUST-00232,PROD-00009,VND-00009,North America,Database lock contention,28,43099,2025-11-14,2024-12-03,Resolved
+INC-00359,Service Interruption in Europe Cluster-359,P2 - Major,CUST-00486,PROD-00025,VND-00002,Europe,Pod memory exhaustion,7,36932,2024-11-27,2025-02-03,Resolved
+INC-00360,Service Interruption in India Cluster-360,P2 - Major,CUST-00217,PROD-00005,VND-00040,India,Transient DNS timeout,32,17024,2026-03-09,2026-09-23,Resolved
+INC-00361,Service Interruption in APAC Cluster-361,P4 - Low,CUST-00906,PROD-00034,VND-00152,APAC,Network interface flap,15,40946,2026-11-19,2024-08-14,Resolved
+INC-00362,Service Interruption in APAC Cluster-362,P2 - Major,CUST-00626,PROD-00029,VND-00072,APAC,Pod memory exhaustion,43,16034,2026-01-07,2025-05-13,Resolved
+INC-00363,Service Interruption in North America Cluster-363,P4 - Low,CUST-00477,PROD-00006,VND-00149,North America,Database lock contention,8,17056,2026-12-18,2024-09-16,Resolved
+INC-00364,Service Interruption in Europe Cluster-364,P3 - Moderate,CUST-00932,PROD-00009,VND-00014,Europe,Database lock contention,13,17760,2024-09-28,2026-09-03,Resolved
+INC-00365,Service Interruption in North America Cluster-365,P2 - Major,CUST-00552,PROD-00006,VND-00087,North America,Pod memory exhaustion,21,23762,2026-03-27,2024-01-14,Resolved
+INC-00366,Service Interruption in Europe Cluster-366,P3 - Moderate,CUST-00871,PROD-00014,VND-00036,Europe,Transient DNS timeout,38,11687,2026-08-03,2025-12-21,Resolved
+INC-00367,Service Interruption in Europe Cluster-367,P4 - Low,CUST-00083,PROD-00021,VND-00118,Europe,Pod memory exhaustion,26,3963,2024-01-25,2024-11-23,Resolved
+INC-00368,Service Interruption in APAC Cluster-368,P2 - Major,CUST-00884,PROD-00002,VND-00022,APAC,Database lock contention,45,40393,2024-02-23,2024-08-26,Resolved
+INC-00369,Service Interruption in APAC Cluster-369,P2 - Major,CUST-00450,PROD-00035,VND-00166,APAC,Transient DNS timeout,45,41640,2024-12-05,2025-06-13,Resolved
+INC-00370,Service Interruption in APAC Cluster-370,P4 - Low,CUST-00118,PROD-00033,VND-00166,APAC,Pod memory exhaustion,21,12438,2024-09-27,2024-10-22,Resolved
+INC-00371,Service Interruption in India Cluster-371,P4 - Low,CUST-00553,PROD-00031,VND-00074,India,Transient DNS timeout,14,13516,2025-09-20,2024-06-13,Resolved
+INC-00372,Service Interruption in India Cluster-372,P3 - Moderate,CUST-00042,PROD-00033,VND-00112,India,Transient DNS timeout,7,41269,2024-01-22,2025-04-13,Resolved
+INC-00373,Service Interruption in APAC Cluster-373,P3 - Moderate,CUST-00652,PROD-00022,VND-00023,APAC,Pod memory exhaustion,38,11827,2025-07-19,2024-04-14,Resolved
+INC-00374,Service Interruption in Europe Cluster-374,P2 - Major,CUST-00817,PROD-00018,VND-00131,Europe,Pod memory exhaustion,28,5211,2025-05-27,2024-10-13,Resolved
+INC-00375,Service Interruption in India Cluster-375,P4 - Low,CUST-00043,PROD-00003,VND-00161,India,Transient DNS timeout,31,15626,2024-07-20,2026-09-15,Resolved
+INC-00376,Service Interruption in Europe Cluster-376,P4 - Low,CUST-00364,PROD-00002,VND-00198,Europe,Database lock contention,9,5978,2025-01-04,2025-05-27,Resolved
+INC-00377,Service Interruption in North America Cluster-377,P4 - Low,CUST-00128,PROD-00034,VND-00190,North America,Pod memory exhaustion,45,18951,2026-03-18,2025-08-08,Resolved
+INC-00378,Service Interruption in Europe Cluster-378,P4 - Low,CUST-00199,PROD-00025,VND-00184,Europe,Transient DNS timeout,30,19550,2024-03-22,2024-03-23,Resolved
+INC-00379,Service Interruption in Europe Cluster-379,P3 - Moderate,CUST-00634,PROD-00019,VND-00186,Europe,Pod memory exhaustion,31,21502,2024-01-08,2025-12-05,Resolved
+INC-00380,Service Interruption in Europe Cluster-380,P3 - Moderate,CUST-00740,PROD-00034,VND-00111,Europe,Transient DNS timeout,24,18505,2024-08-28,2024-07-10,Resolved
+INC-00381,Service Interruption in APAC Cluster-381,P4 - Low,CUST-00400,PROD-00011,VND-00091,APAC,Pod memory exhaustion,7,14228,2025-04-24,2026-06-11,Resolved
+INC-00382,Service Interruption in Europe Cluster-382,P4 - Low,CUST-00700,PROD-00012,VND-00076,Europe,Transient DNS timeout,10,32790,2025-05-14,2025-05-17,Resolved
+INC-00383,Service Interruption in North America Cluster-383,P4 - Low,CUST-00984,PROD-00034,VND-00130,North America,Database lock contention,11,26141,2024-09-23,2026-09-06,Resolved
+INC-00384,Service Interruption in North America Cluster-384,P3 - Moderate,CUST-00340,PROD-00009,VND-00120,North America,Pod memory exhaustion,7,20985,2026-11-02,2025-04-07,Resolved
+INC-00385,Service Interruption in APAC Cluster-385,P2 - Major,CUST-00214,PROD-00023,VND-00050,APAC,Pod memory exhaustion,12,27868,2026-04-26,2024-02-03,Resolved
+INC-00386,Service Interruption in India Cluster-386,P2 - Major,CUST-00729,PROD-00030,VND-00135,India,Transient DNS timeout,39,5167,2026-04-08,2026-02-21,Resolved
+INC-00387,Service Interruption in Europe Cluster-387,P4 - Low,CUST-00203,PROD-00032,VND-00056,Europe,Network interface flap,25,16792,2024-07-28,2024-12-03,Resolved
+INC-00388,Service Interruption in APAC Cluster-388,P2 - Major,CUST-00941,PROD-00033,VND-00128,APAC,Network interface flap,11,32258,2026-07-25,2026-12-28,Resolved
+INC-00389,Service Interruption in Europe Cluster-389,P4 - Low,CUST-00914,PROD-00001,VND-00003,Europe,Database lock contention,6,3926,2026-02-11,2025-02-18,Resolved
+INC-00390,Service Interruption in Europe Cluster-390,P2 - Major,CUST-00858,PROD-00034,VND-00004,Europe,Network interface flap,26,32950,2026-12-16,2025-12-10,Resolved
+INC-00391,Service Interruption in Europe Cluster-391,P4 - Low,CUST-00123,PROD-00027,VND-00001,Europe,Network interface flap,28,41960,2025-03-02,2024-05-20,Resolved
+INC-00392,Service Interruption in APAC Cluster-392,P2 - Major,CUST-00828,PROD-00008,VND-00135,APAC,Transient DNS timeout,39,21152,2024-04-13,2026-08-11,Resolved
+INC-00393,Service Interruption in India Cluster-393,P2 - Major,CUST-00601,PROD-00009,VND-00194,India,Database lock contention,15,12333,2024-10-20,2026-03-03,Resolved
+INC-00394,Service Interruption in APAC Cluster-394,P2 - Major,CUST-00463,PROD-00018,VND-00086,APAC,Network interface flap,9,8044,2025-01-23,2026-12-10,Resolved
+INC-00395,Service Interruption in North America Cluster-395,P2 - Major,CUST-00533,PROD-00035,VND-00105,North America,Pod memory exhaustion,45,3392,2025-04-16,2025-07-14,Resolved
+INC-00396,Service Interruption in North America Cluster-396,P4 - Low,CUST-00048,PROD-00034,VND-00178,North America,Transient DNS timeout,13,29952,2024-01-07,2024-09-07,Resolved
+INC-00397,Service Interruption in North America Cluster-397,P3 - Moderate,CUST-00400,PROD-00026,VND-00156,North America,Transient DNS timeout,29,12092,2026-08-03,2025-12-07,Resolved
+INC-00398,Service Interruption in Europe Cluster-398,P2 - Major,CUST-00976,PROD-00012,VND-00197,Europe,Pod memory exhaustion,26,25317,2024-07-17,2026-03-14,Resolved
+INC-00399,Service Interruption in India Cluster-399,P4 - Low,CUST-00112,PROD-00032,VND-00161,India,Network interface flap,40,44215,2024-10-07,2026-05-10,Resolved
+INC-00400,Service Interruption in Europe Cluster-400,P4 - Low,CUST-00987,PROD-00003,VND-00030,Europe,Pod memory exhaustion,40,2324,2026-08-25,2024-06-10,Resolved
+INC-00401,Service Interruption in India Cluster-401,P2 - Major,CUST-00489,PROD-00034,VND-00035,India,Transient DNS timeout,18,17318,2026-06-20,2026-02-02,Resolved
+INC-00402,Service Interruption in North America Cluster-402,P2 - Major,CUST-00684,PROD-00024,VND-00116,North America,Transient DNS timeout,37,26133,2026-10-23,2024-05-10,Resolved
+INC-00403,Service Interruption in India Cluster-403,P4 - Low,CUST-00187,PROD-00002,VND-00183,India,Pod memory exhaustion,42,12852,2025-10-23,2026-10-21,Resolved
+INC-00404,Service Interruption in APAC Cluster-404,P3 - Moderate,CUST-00786,PROD-00025,VND-00200,APAC,Network interface flap,10,36223,2025-03-18,2025-10-13,Resolved
+INC-00405,Service Interruption in APAC Cluster-405,P4 - Low,CUST-00975,PROD-00016,VND-00038,APAC,Transient DNS timeout,23,3394,2026-05-19,2026-04-06,Resolved
+INC-00406,Service Interruption in Europe Cluster-406,P2 - Major,CUST-00111,PROD-00012,VND-00200,Europe,Pod memory exhaustion,14,30172,2025-10-18,2024-07-20,Resolved
+INC-00407,Service Interruption in India Cluster-407,P4 - Low,CUST-00024,PROD-00031,VND-00040,India,Transient DNS timeout,34,29374,2024-11-15,2024-12-07,Resolved
+INC-00408,Service Interruption in Europe Cluster-408,P3 - Moderate,CUST-00576,PROD-00015,VND-00134,Europe,Pod memory exhaustion,43,25711,2026-04-17,2024-11-18,Resolved
+INC-00409,Service Interruption in APAC Cluster-409,P2 - Major,CUST-00857,PROD-00019,VND-00001,APAC,Network interface flap,12,11336,2026-10-20,2025-06-01,Resolved
+INC-00410,Service Interruption in APAC Cluster-410,P4 - Low,CUST-00824,PROD-00010,VND-00104,APAC,Database lock contention,32,19435,2024-09-13,2026-07-12,Resolved
+INC-00411,Service Interruption in North America Cluster-411,P3 - Moderate,CUST-00646,PROD-00005,VND-00056,North America,Network interface flap,32,8439,2026-11-05,2024-09-11,Resolved
+INC-00412,Service Interruption in Europe Cluster-412,P4 - Low,CUST-00345,PROD-00008,VND-00065,Europe,Pod memory exhaustion,30,37485,2024-04-19,2025-09-09,Resolved
+INC-00413,Service Interruption in Europe Cluster-413,P4 - Low,CUST-00921,PROD-00003,VND-00008,Europe,Network interface flap,19,2064,2024-11-28,2026-07-20,Resolved
+INC-00414,Service Interruption in North America Cluster-414,P3 - Moderate,CUST-00930,PROD-00025,VND-00017,North America,Transient DNS timeout,29,35023,2024-02-03,2026-04-27,Resolved
+INC-00415,Service Interruption in North America Cluster-415,P4 - Low,CUST-00343,PROD-00002,VND-00013,North America,Network interface flap,38,5669,2026-11-09,2024-05-21,Resolved
+INC-00416,Service Interruption in India Cluster-416,P4 - Low,CUST-00075,PROD-00021,VND-00014,India,Network interface flap,16,43257,2026-04-28,2026-08-21,Resolved
+INC-00417,Service Interruption in APAC Cluster-417,P3 - Moderate,CUST-00643,PROD-00010,VND-00013,APAC,Database lock contention,45,20336,2025-01-16,2025-08-20,Resolved
+INC-00418,Service Interruption in India Cluster-418,P3 - Moderate,CUST-00401,PROD-00011,VND-00015,India,Database lock contention,30,28977,2026-03-20,2024-06-01,Resolved
+INC-00419,Service Interruption in India Cluster-419,P4 - Low,CUST-00818,PROD-00006,VND-00191,India,Network interface flap,29,5125,2024-10-23,2026-02-25,Resolved
+INC-00420,Service Interruption in APAC Cluster-420,P3 - Moderate,CUST-00024,PROD-00026,VND-00135,APAC,Transient DNS timeout,17,15004,2024-08-08,2024-03-11,Resolved
+INC-00421,Service Interruption in APAC Cluster-421,P3 - Moderate,CUST-00733,PROD-00011,VND-00052,APAC,Network interface flap,11,32617,2026-02-15,2024-04-28,Resolved
+INC-00422,Service Interruption in Europe Cluster-422,P2 - Major,CUST-00695,PROD-00007,VND-00021,Europe,Transient DNS timeout,29,9380,2024-07-08,2026-11-11,Resolved
+INC-00423,Service Interruption in APAC Cluster-423,P2 - Major,CUST-00479,PROD-00032,VND-00140,APAC,Network interface flap,12,14477,2024-08-03,2026-09-10,Resolved
+INC-00424,Service Interruption in Europe Cluster-424,P3 - Moderate,CUST-00271,PROD-00004,VND-00186,Europe,Pod memory exhaustion,8,11230,2025-05-17,2024-02-14,Resolved
+INC-00425,Service Interruption in India Cluster-425,P3 - Moderate,CUST-00292,PROD-00004,VND-00061,India,Database lock contention,21,8659,2025-08-18,2024-03-15,Resolved
+INC-00426,Service Interruption in Europe Cluster-426,P4 - Low,CUST-00810,PROD-00032,VND-00171,Europe,Database lock contention,9,2918,2024-11-03,2025-10-18,Resolved
+INC-00427,Service Interruption in India Cluster-427,P2 - Major,CUST-00105,PROD-00013,VND-00067,India,Database lock contention,41,37790,2025-12-27,2025-12-22,Resolved
+INC-00428,Service Interruption in India Cluster-428,P4 - Low,CUST-00449,PROD-00015,VND-00195,India,Database lock contention,39,17927,2024-09-06,2026-11-11,Resolved
+INC-00429,Service Interruption in India Cluster-429,P3 - Moderate,CUST-00030,PROD-00022,VND-00059,India,Transient DNS timeout,36,40575,2026-12-21,2025-07-22,Resolved
+INC-00430,Service Interruption in North America Cluster-430,P2 - Major,CUST-00465,PROD-00031,VND-00180,North America,Network interface flap,36,17463,2025-09-25,2024-01-12,Resolved
+INC-00431,Service Interruption in North America Cluster-431,P2 - Major,CUST-00386,PROD-00035,VND-00037,North America,Database lock contention,16,16674,2026-06-11,2026-03-03,Resolved
+INC-00432,Service Interruption in APAC Cluster-432,P3 - Moderate,CUST-00696,PROD-00024,VND-00004,APAC,Network interface flap,11,19361,2025-10-05,2026-02-17,Resolved
+INC-00433,Service Interruption in Europe Cluster-433,P4 - Low,CUST-00789,PROD-00012,VND-00019,Europe,Pod memory exhaustion,41,28078,2025-10-02,2026-10-18,Resolved
+INC-00434,Service Interruption in APAC Cluster-434,P4 - Low,CUST-00275,PROD-00016,VND-00111,APAC,Transient DNS timeout,15,10314,2024-06-26,2024-10-23,Resolved
+INC-00435,Service Interruption in APAC Cluster-435,P4 - Low,CUST-00236,PROD-00035,VND-00111,APAC,Pod memory exhaustion,13,21538,2026-06-28,2026-10-17,Resolved
+INC-00436,Service Interruption in North America Cluster-436,P4 - Low,CUST-00645,PROD-00005,VND-00166,North America,Pod memory exhaustion,27,31613,2026-09-17,2025-01-23,Resolved
+INC-00437,Service Interruption in Europe Cluster-437,P4 - Low,CUST-00452,PROD-00006,VND-00092,Europe,Database lock contention,39,28322,2025-07-16,2024-09-25,Resolved
+INC-00438,Service Interruption in India Cluster-438,P4 - Low,CUST-00192,PROD-00002,VND-00158,India,Pod memory exhaustion,29,7111,2026-02-24,2026-11-15,Resolved
+INC-00439,Service Interruption in India Cluster-439,P3 - Moderate,CUST-00626,PROD-00035,VND-00127,India,Database lock contention,44,39656,2025-09-16,2026-03-27,Resolved
+INC-00440,Service Interruption in Europe Cluster-440,P2 - Major,CUST-00328,PROD-00034,VND-00148,Europe,Network interface flap,7,44159,2026-06-22,2026-01-13,Resolved
+INC-00441,Service Interruption in North America Cluster-441,P4 - Low,CUST-00191,PROD-00016,VND-00095,North America,Pod memory exhaustion,6,25616,2025-07-24,2026-06-22,Resolved
+INC-00442,Service Interruption in North America Cluster-442,P3 - Moderate,CUST-00583,PROD-00003,VND-00008,North America,Database lock contention,22,37505,2024-12-11,2025-05-09,Resolved
+INC-00443,Service Interruption in India Cluster-443,P2 - Major,CUST-00957,PROD-00034,VND-00101,India,Network interface flap,17,11198,2025-10-10,2024-11-08,Resolved
+INC-00444,Service Interruption in APAC Cluster-444,P4 - Low,CUST-00975,PROD-00009,VND-00175,APAC,Network interface flap,19,14751,2026-10-04,2025-07-06,Resolved
+INC-00445,Service Interruption in APAC Cluster-445,P3 - Moderate,CUST-00082,PROD-00021,VND-00048,APAC,Network interface flap,16,24501,2025-03-19,2024-07-19,Resolved
+INC-00446,Service Interruption in APAC Cluster-446,P2 - Major,CUST-00890,PROD-00015,VND-00088,APAC,Transient DNS timeout,19,35061,2024-09-23,2025-06-12,Resolved
+INC-00447,Service Interruption in APAC Cluster-447,P2 - Major,CUST-00975,PROD-00032,VND-00133,APAC,Network interface flap,40,23258,2024-10-11,2025-11-10,Resolved
+INC-00448,Service Interruption in APAC Cluster-448,P3 - Moderate,CUST-00230,PROD-00001,VND-00050,APAC,Transient DNS timeout,37,39811,2024-02-16,2026-08-06,Resolved
+INC-00449,Service Interruption in APAC Cluster-449,P2 - Major,CUST-00204,PROD-00034,VND-00181,APAC,Database lock contention,22,4470,2024-06-07,2025-05-03,Resolved
+INC-00450,Service Interruption in APAC Cluster-450,P3 - Moderate,CUST-00301,PROD-00030,VND-00028,APAC,Pod memory exhaustion,17,9026,2024-12-06,2025-10-07,Resolved
+INC-00451,Service Interruption in Europe Cluster-451,P3 - Moderate,CUST-00488,PROD-00034,VND-00025,Europe,Network interface flap,33,22795,2024-01-20,2025-03-23,Resolved
+INC-00452,Service Interruption in North America Cluster-452,P4 - Low,CUST-00822,PROD-00007,VND-00073,North America,Transient DNS timeout,27,13621,2025-07-20,2026-02-23,Resolved
+INC-00453,Service Interruption in North America Cluster-453,P4 - Low,CUST-00537,PROD-00031,VND-00144,North America,Database lock contention,35,2440,2025-06-05,2024-09-17,Resolved
+INC-00454,Service Interruption in Europe Cluster-454,P4 - Low,CUST-00878,PROD-00023,VND-00103,Europe,Database lock contention,26,38530,2025-07-02,2025-10-17,Resolved
+INC-00455,Service Interruption in India Cluster-455,P3 - Moderate,CUST-00812,PROD-00029,VND-00138,India,Pod memory exhaustion,24,12983,2024-08-23,2025-09-11,Resolved
+INC-00456,Service Interruption in APAC Cluster-456,P4 - Low,CUST-00915,PROD-00018,VND-00139,APAC,Network interface flap,28,22796,2026-10-10,2024-09-05,Resolved
+INC-00457,Service Interruption in India Cluster-457,P3 - Moderate,CUST-00981,PROD-00008,VND-00022,India,Pod memory exhaustion,6,10921,2024-01-02,2024-05-12,Resolved
+INC-00458,Service Interruption in Europe Cluster-458,P4 - Low,CUST-00236,PROD-00015,VND-00019,Europe,Database lock contention,12,23363,2025-02-07,2024-06-11,Resolved
+INC-00459,Service Interruption in India Cluster-459,P3 - Moderate,CUST-00035,PROD-00034,VND-00053,India,Database lock contention,11,20606,2025-05-28,2026-09-20,Resolved
+INC-00460,Service Interruption in India Cluster-460,P3 - Moderate,CUST-00396,PROD-00032,VND-00037,India,Database lock contention,32,31425,2026-08-24,2025-11-14,Resolved
+INC-00461,Service Interruption in APAC Cluster-461,P2 - Major,CUST-00765,PROD-00001,VND-00034,APAC,Database lock contention,28,20868,2024-02-17,2024-03-23,Resolved
+INC-00462,Service Interruption in Europe Cluster-462,P4 - Low,CUST-00828,PROD-00007,VND-00189,Europe,Database lock contention,9,10276,2024-10-05,2026-01-21,Resolved
+INC-00463,Service Interruption in India Cluster-463,P3 - Moderate,CUST-00640,PROD-00006,VND-00016,India,Transient DNS timeout,10,36051,2024-07-09,2025-03-07,Resolved
+INC-00464,Service Interruption in North America Cluster-464,P4 - Low,CUST-00567,PROD-00030,VND-00089,North America,Database lock contention,35,28478,2026-12-03,2026-08-06,Resolved
+INC-00465,Service Interruption in India Cluster-465,P2 - Major,CUST-00922,PROD-00023,VND-00123,India,Pod memory exhaustion,21,25801,2026-11-09,2025-03-13,Resolved
+INC-00466,Service Interruption in Europe Cluster-466,P2 - Major,CUST-00884,PROD-00003,VND-00084,Europe,Transient DNS timeout,37,31725,2025-11-18,2024-12-04,Resolved
+INC-00467,Service Interruption in India Cluster-467,P3 - Moderate,CUST-00055,PROD-00012,VND-00184,India,Transient DNS timeout,35,13504,2024-08-22,2024-04-15,Resolved
+INC-00468,Service Interruption in Europe Cluster-468,P4 - Low,CUST-00746,PROD-00014,VND-00145,Europe,Transient DNS timeout,25,13913,2024-03-19,2026-10-07,Resolved
+INC-00469,Service Interruption in India Cluster-469,P4 - Low,CUST-00422,PROD-00011,VND-00026,India,Pod memory exhaustion,42,6938,2026-05-08,2026-09-05,Resolved
+INC-00470,Service Interruption in APAC Cluster-470,P2 - Major,CUST-00919,PROD-00011,VND-00084,APAC,Database lock contention,41,37400,2024-06-18,2025-05-14,Resolved
+INC-00471,Service Interruption in India Cluster-471,P2 - Major,CUST-00501,PROD-00030,VND-00189,India,Database lock contention,15,27761,2025-04-01,2026-06-09,Resolved
+INC-00472,Service Interruption in North America Cluster-472,P3 - Moderate,CUST-00592,PROD-00032,VND-00157,North America,Database lock contention,33,41558,2026-08-01,2024-10-06,Resolved
+INC-00473,Service Interruption in APAC Cluster-473,P3 - Moderate,CUST-00072,PROD-00011,VND-00015,APAC,Database lock contention,43,32704,2026-08-24,2024-04-16,Resolved
+INC-00474,Service Interruption in Europe Cluster-474,P4 - Low,CUST-00917,PROD-00021,VND-00036,Europe,Database lock contention,14,3840,2026-02-05,2025-07-24,Resolved
+INC-00475,Service Interruption in Europe Cluster-475,P4 - Low,CUST-00884,PROD-00004,VND-00141,Europe,Database lock contention,7,4914,2025-09-16,2026-11-15,Resolved
+INC-00476,Service Interruption in India Cluster-476,P4 - Low,CUST-00516,PROD-00033,VND-00146,India,Pod memory exhaustion,18,26392,2026-09-12,2024-04-21,Resolved
+INC-00477,Service Interruption in North America Cluster-477,P4 - Low,CUST-00404,PROD-00004,VND-00205,North America,Database lock contention,6,20227,2025-04-13,2026-02-27,Resolved
+INC-00478,Service Interruption in India Cluster-478,P4 - Low,CUST-00876,PROD-00021,VND-00029,India,Transient DNS timeout,27,12682,2024-12-19,2024-01-25,Resolved
+INC-00479,Service Interruption in APAC Cluster-479,P2 - Major,CUST-00659,PROD-00011,VND-00200,APAC,Transient DNS timeout,10,21843,2024-08-09,2026-12-17,Resolved
+INC-00480,Service Interruption in India Cluster-480,P2 - Major,CUST-00059,PROD-00013,VND-00002,India,Network interface flap,10,15789,2026-10-16,2024-10-04,Resolved
+INC-00481,Service Interruption in Europe Cluster-481,P2 - Major,CUST-00408,PROD-00004,VND-00163,Europe,Database lock contention,12,15582,2024-02-28,2026-12-15,Resolved
+INC-00482,Service Interruption in North America Cluster-482,P3 - Moderate,CUST-00478,PROD-00009,VND-00014,North America,Transient DNS timeout,12,9386,2025-07-04,2024-03-02,Resolved
+INC-00483,Service Interruption in Europe Cluster-483,P2 - Major,CUST-00633,PROD-00003,VND-00115,Europe,Pod memory exhaustion,38,30680,2024-04-20,2026-12-07,Resolved
+INC-00484,Service Interruption in India Cluster-484,P2 - Major,CUST-00301,PROD-00013,VND-00111,India,Pod memory exhaustion,18,37137,2024-11-06,2025-11-22,Resolved
+INC-00485,Service Interruption in Europe Cluster-485,P3 - Moderate,CUST-00796,PROD-00034,VND-00027,Europe,Pod memory exhaustion,16,8583,2024-05-01,2026-11-13,Resolved
+INC-00486,Service Interruption in North America Cluster-486,P4 - Low,CUST-00538,PROD-00009,VND-00087,North America,Pod memory exhaustion,13,11838,2026-05-13,2024-01-27,Resolved
+INC-00487,Service Interruption in India Cluster-487,P4 - Low,CUST-00199,PROD-00024,VND-00090,India,Transient DNS timeout,5,16065,2026-11-19,2026-06-05,Resolved
+INC-00488,Service Interruption in North America Cluster-488,P4 - Low,CUST-00598,PROD-00032,VND-00005,North America,Database lock contention,34,9775,2024-05-07,2025-06-18,Resolved
+INC-00489,Service Interruption in APAC Cluster-489,P3 - Moderate,CUST-00553,PROD-00024,VND-00100,APAC,Database lock contention,18,3772,2025-02-24,2024-01-05,Resolved
+INC-00490,Service Interruption in North America Cluster-490,P3 - Moderate,CUST-00953,PROD-00004,VND-00109,North America,Pod memory exhaustion,44,12613,2025-04-18,2025-05-02,Resolved
+INC-00491,Service Interruption in North America Cluster-491,P2 - Major,CUST-00614,PROD-00004,VND-00114,North America,Network interface flap,32,40719,2024-07-08,2024-03-28,Resolved
+INC-00492,Service Interruption in APAC Cluster-492,P3 - Moderate,CUST-00544,PROD-00007,VND-00088,APAC,Pod memory exhaustion,15,43401,2026-01-08,2026-12-28,Resolved
+INC-00493,Service Interruption in North America Cluster-493,P3 - Moderate,CUST-00034,PROD-00016,VND-00016,North America,Transient DNS timeout,44,25801,2025-08-19,2026-08-12,Resolved
+INC-00494,Service Interruption in North America Cluster-494,P3 - Moderate,CUST-00915,PROD-00020,VND-00160,North America,Pod memory exhaustion,33,40674,2026-06-12,2025-07-27,Resolved
+INC-00495,Service Interruption in India Cluster-495,P2 - Major,CUST-00969,PROD-00016,VND-00065,India,Transient DNS timeout,13,18456,2025-07-01,2024-01-18,Resolved
+INC-00496,Service Interruption in North America Cluster-496,P2 - Major,CUST-00788,PROD-00008,VND-00205,North America,Transient DNS timeout,18,3746,2026-07-18,2024-02-15,Resolved
+INC-00497,Service Interruption in Europe Cluster-497,P3 - Moderate,CUST-00283,PROD-00006,VND-00126,Europe,Network interface flap,38,4793,2026-01-17,2024-12-22,Resolved
+INC-00498,Service Interruption in North America Cluster-498,P3 - Moderate,CUST-00459,PROD-00007,VND-00038,North America,Transient DNS timeout,26,5984,2025-02-07,2026-01-14,Resolved
+INC-00499,Service Interruption in India Cluster-499,P3 - Moderate,CUST-00105,PROD-00016,VND-00014,India,Database lock contention,26,7223,2024-05-12,2026-05-16,Resolved
+INC-00500,Service Interruption in North America Cluster-500,P3 - Moderate,CUST-00205,PROD-00026,VND-00045,North America,Database lock contention,6,3142,2026-07-06,2025-09-28,Resolved
+INC-00501,Service Interruption in India Cluster-501,P4 - Low,CUST-00693,PROD-00023,VND-00115,India,Network interface flap,43,18630,2025-01-07,2024-09-01,Resolved
+INC-00502,Service Interruption in India Cluster-502,P3 - Moderate,CUST-00204,PROD-00013,VND-00156,India,Database lock contention,33,18660,2025-07-14,2024-02-12,Resolved
+INC-00503,Service Interruption in Europe Cluster-503,P4 - Low,CUST-00066,PROD-00034,VND-00062,Europe,Network interface flap,6,4102,2024-05-13,2025-07-04,Resolved
+INC-00504,Service Interruption in North America Cluster-504,P3 - Moderate,CUST-00989,PROD-00022,VND-00161,North America,Transient DNS timeout,12,5314,2025-10-16,2026-08-04,Resolved
+INC-00505,Service Interruption in APAC Cluster-505,P3 - Moderate,CUST-00039,PROD-00002,VND-00192,APAC,Database lock contention,39,38178,2024-12-19,2026-12-21,Resolved
+INC-00506,Service Interruption in Europe Cluster-506,P4 - Low,CUST-00277,PROD-00001,VND-00081,Europe,Transient DNS timeout,25,13280,2024-05-20,2026-09-02,Resolved
+INC-00507,Service Interruption in India Cluster-507,P4 - Low,CUST-00305,PROD-00032,VND-00102,India,Database lock contention,9,15019,2025-10-15,2026-02-27,Resolved
+INC-00508,Service Interruption in India Cluster-508,P3 - Moderate,CUST-00392,PROD-00019,VND-00027,India,Network interface flap,11,11728,2024-08-10,2024-08-16,Resolved
+INC-00509,Service Interruption in Europe Cluster-509,P4 - Low,CUST-00273,PROD-00016,VND-00060,Europe,Pod memory exhaustion,32,13994,2024-12-23,2026-11-19,Resolved
+INC-00510,Service Interruption in India Cluster-510,P4 - Low,CUST-00297,PROD-00008,VND-00157,India,Transient DNS timeout,9,19308,2024-07-28,2026-03-01,Resolved
+INC-00511,Service Interruption in India Cluster-511,P2 - Major,CUST-00479,PROD-00004,VND-00132,India,Database lock contention,11,7834,2025-01-27,2024-11-22,Resolved
+INC-00512,Service Interruption in North America Cluster-512,P4 - Low,CUST-00029,PROD-00017,VND-00025,North America,Database lock contention,28,42318,2026-09-20,2026-10-15,Resolved
+INC-00513,Service Interruption in India Cluster-513,P2 - Major,CUST-00919,PROD-00008,VND-00022,India,Transient DNS timeout,39,35007,2026-10-10,2026-09-01,Resolved
+INC-00514,Service Interruption in APAC Cluster-514,P2 - Major,CUST-00994,PROD-00035,VND-00103,APAC,Pod memory exhaustion,39,11059,2024-02-15,2025-09-17,Resolved
+INC-00515,Service Interruption in India Cluster-515,P4 - Low,CUST-00950,PROD-00015,VND-00147,India,Pod memory exhaustion,33,2755,2026-03-02,2024-05-18,Resolved
+INC-00516,Service Interruption in India Cluster-516,P2 - Major,CUST-00429,PROD-00031,VND-00082,India,Transient DNS timeout,16,14380,2025-10-03,2025-10-13,Resolved
+INC-00517,Service Interruption in India Cluster-517,P2 - Major,CUST-00783,PROD-00006,VND-00041,India,Pod memory exhaustion,15,41315,2026-07-18,2026-03-15,Resolved
+INC-00518,Service Interruption in India Cluster-518,P4 - Low,CUST-00771,PROD-00026,VND-00149,India,Transient DNS timeout,22,4826,2026-06-08,2026-02-09,Resolved
+INC-00519,Service Interruption in APAC Cluster-519,P2 - Major,CUST-00810,PROD-00028,VND-00029,APAC,Network interface flap,7,34398,2026-11-08,2024-08-10,Resolved
+INC-00520,Service Interruption in India Cluster-520,P4 - Low,CUST-00916,PROD-00015,VND-00086,India,Pod memory exhaustion,11,32162,2026-11-22,2026-07-06,Resolved
+INC-00521,Service Interruption in India Cluster-521,P3 - Moderate,CUST-00656,PROD-00003,VND-00155,India,Pod memory exhaustion,44,26662,2025-09-08,2026-05-20,Resolved
+INC-00522,Service Interruption in APAC Cluster-522,P3 - Moderate,CUST-00027,PROD-00018,VND-00116,APAC,Database lock contention,9,31094,2024-03-18,2025-02-13,Resolved
+INC-00523,Service Interruption in Europe Cluster-523,P2 - Major,CUST-00164,PROD-00023,VND-00149,Europe,Network interface flap,22,37561,2026-03-01,2026-10-26,Resolved
+INC-00524,Service Interruption in Europe Cluster-524,P2 - Major,CUST-00273,PROD-00035,VND-00103,Europe,Transient DNS timeout,32,11008,2025-07-16,2024-09-15,Resolved
+INC-00525,Service Interruption in North America Cluster-525,P4 - Low,CUST-00590,PROD-00005,VND-00109,North America,Transient DNS timeout,10,21654,2024-04-27,2024-10-25,Resolved
+INC-00526,Service Interruption in Europe Cluster-526,P4 - Low,CUST-00255,PROD-00023,VND-00170,Europe,Database lock contention,31,9075,2024-04-16,2026-07-01,Resolved
+INC-00527,Service Interruption in APAC Cluster-527,P3 - Moderate,CUST-00192,PROD-00016,VND-00012,APAC,Pod memory exhaustion,40,35491,2024-07-11,2026-01-06,Resolved
+INC-00528,Service Interruption in APAC Cluster-528,P3 - Moderate,CUST-00929,PROD-00018,VND-00193,APAC,Network interface flap,14,19182,2024-10-04,2025-06-21,Resolved
+INC-00529,Service Interruption in APAC Cluster-529,P2 - Major,CUST-00894,PROD-00013,VND-00179,APAC,Pod memory exhaustion,6,39173,2025-07-28,2024-08-25,Resolved
+INC-00530,Service Interruption in Europe Cluster-530,P4 - Low,CUST-00496,PROD-00005,VND-00198,Europe,Pod memory exhaustion,43,37274,2026-09-21,2024-09-18,Resolved
+INC-00531,Service Interruption in Europe Cluster-531,P4 - Low,CUST-00003,PROD-00026,VND-00119,Europe,Transient DNS timeout,22,7217,2025-05-14,2026-02-26,Resolved
+INC-00532,Service Interruption in Europe Cluster-532,P2 - Major,CUST-00860,PROD-00021,VND-00160,Europe,Network interface flap,45,26676,2025-09-14,2026-11-18,Resolved
+INC-00533,Service Interruption in India Cluster-533,P4 - Low,CUST-00825,PROD-00016,VND-00179,India,Network interface flap,24,35208,2025-10-10,2026-02-11,Resolved
+INC-00534,Service Interruption in North America Cluster-534,P3 - Moderate,CUST-00603,PROD-00017,VND-00081,North America,Transient DNS timeout,12,42219,2024-12-20,2026-03-02,Resolved
+INC-00535,Service Interruption in Europe Cluster-535,P4 - Low,CUST-00800,PROD-00031,VND-00093,Europe,Network interface flap,7,25020,2024-02-16,2024-07-22,Resolved
+INC-00536,Service Interruption in India Cluster-536,P4 - Low,CUST-00064,PROD-00015,VND-00153,India,Database lock contention,31,22603,2024-07-23,2026-03-04,Resolved
+INC-00537,Service Interruption in APAC Cluster-537,P4 - Low,CUST-00594,PROD-00017,VND-00084,APAC,Transient DNS timeout,29,33818,2024-01-01,2026-11-21,Resolved
+INC-00538,Service Interruption in APAC Cluster-538,P4 - Low,CUST-00309,PROD-00009,VND-00077,APAC,Database lock contention,8,21222,2025-07-22,2025-12-28,Resolved
+INC-00539,Service Interruption in India Cluster-539,P4 - Low,CUST-00629,PROD-00028,VND-00111,India,Network interface flap,8,23422,2025-05-06,2024-05-11,Resolved
+INC-00540,Service Interruption in India Cluster-540,P3 - Moderate,CUST-00886,PROD-00024,VND-00126,India,Pod memory exhaustion,39,3912,2026-08-26,2025-06-08,Resolved
+INC-00541,Service Interruption in North America Cluster-541,P2 - Major,CUST-00801,PROD-00033,VND-00207,North America,Network interface flap,13,17893,2025-05-26,2025-07-26,Resolved
+INC-00542,Service Interruption in India Cluster-542,P2 - Major,CUST-00875,PROD-00012,VND-00198,India,Pod memory exhaustion,23,5551,2024-07-21,2025-10-20,Resolved
+INC-00543,Service Interruption in India Cluster-543,P3 - Moderate,CUST-00235,PROD-00004,VND-00003,India,Database lock contention,16,9760,2024-03-10,2024-08-14,Resolved
+INC-00544,Service Interruption in India Cluster-544,P3 - Moderate,CUST-00711,PROD-00031,VND-00080,India,Database lock contention,25,42191,2024-07-01,2024-02-06,Resolved
+INC-00545,Service Interruption in APAC Cluster-545,P3 - Moderate,CUST-00727,PROD-00007,VND-00024,APAC,Pod memory exhaustion,39,35886,2026-07-02,2024-09-01,Resolved
+INC-00546,Service Interruption in India Cluster-546,P2 - Major,CUST-00486,PROD-00034,VND-00102,India,Network interface flap,40,10378,2024-02-06,2026-10-12,Resolved
+INC-00547,Service Interruption in APAC Cluster-547,P3 - Moderate,CUST-00954,PROD-00001,VND-00206,APAC,Network interface flap,13,28774,2025-03-21,2025-02-05,Resolved
+INC-00548,Service Interruption in Europe Cluster-548,P4 - Low,CUST-00114,PROD-00011,VND-00014,Europe,Pod memory exhaustion,19,33373,2025-04-14,2025-12-19,Resolved
+INC-00549,Service Interruption in India Cluster-549,P4 - Low,CUST-00396,PROD-00035,VND-00013,India,Pod memory exhaustion,45,13062,2025-05-17,2024-05-05,Resolved
+INC-00550,Service Interruption in APAC Cluster-550,P2 - Major,CUST-00688,PROD-00015,VND-00129,APAC,Pod memory exhaustion,28,19586,2024-01-22,2025-05-10,Resolved

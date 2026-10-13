@@ -1,0 +1,211 @@
+vendor_id,vendor_name,category,country,risk_rating,annual_spend,active_contracts
+VND-00042,Apex Silicon Optical Fabrics,Hardware & Optical Infrastructure,Singapore,Elevated - APAC Delivery Delays,8200000,3
+VND-00001,Global Vendor Alliance 1 Ltd,Cloud Hosting,Germany,Low,2021488,4
+VND-00002,Global Vendor Alliance 2 Ltd,Consulting,Germany,Moderate,2526240,2
+VND-00003,Global Vendor Alliance 3 Ltd,Legal Advisory,Singapore,Low,4245690,2
+VND-00004,Global Vendor Alliance 4 Ltd,Cloud Hosting,Germany,Low,2484029,3
+VND-00005,Global Vendor Alliance 5 Ltd,Cloud Hosting,India,Moderate,1112799,3
+VND-00006,Global Vendor Alliance 6 Ltd,Cloud Hosting,USA,Low,1613740,4
+VND-00007,Global Vendor Alliance 7 Ltd,Security Telemetry,Japan,Low,3687209,2
+VND-00008,Global Vendor Alliance 8 Ltd,Legal Advisory,UK,Moderate,2527577,3
+VND-00009,Global Vendor Alliance 9 Ltd,Cloud Hosting,Japan,Medium,3216340,3
+VND-00010,Global Vendor Alliance 10 Ltd,Legal Advisory,Australia,Low,138276,2
+VND-00011,Global Vendor Alliance 11 Ltd,Legal Advisory,Germany,Moderate,1359670,4
+VND-00012,Global Vendor Alliance 12 Ltd,Consulting,UK,Medium,684667,1
+VND-00013,Global Vendor Alliance 13 Ltd,Security Telemetry,Singapore,Moderate,1333561,1
+VND-00014,Global Vendor Alliance 14 Ltd,Network Hardware,Germany,Low,3349760,3
+VND-00015,Global Vendor Alliance 15 Ltd,Network Hardware,Singapore,Medium,4157340,4
+VND-00016,Global Vendor Alliance 16 Ltd,Security Telemetry,Australia,Moderate,1279484,2
+VND-00017,Global Vendor Alliance 17 Ltd,Consulting,Singapore,Medium,4639339,4
+VND-00018,Global Vendor Alliance 18 Ltd,Security Telemetry,India,Low,3346487,1
+VND-00019,Global Vendor Alliance 19 Ltd,Security Telemetry,UK,Medium,4540342,2
+VND-00020,Global Vendor Alliance 20 Ltd,Legal Advisory,USA,Low,3154238,1
+VND-00021,Global Vendor Alliance 21 Ltd,SaaS Software,Australia,Low,3160018,4
+VND-00022,Global Vendor Alliance 22 Ltd,SaaS Software,USA,Low,3050539,3
+VND-00023,Global Vendor Alliance 23 Ltd,SaaS Software,Japan,Medium,1329135,4
+VND-00024,Global Vendor Alliance 24 Ltd,SaaS Software,Germany,Low,588635,2
+VND-00025,Global Vendor Alliance 25 Ltd,Cloud Hosting,UK,Low,3286370,1
+VND-00026,Global Vendor Alliance 26 Ltd,Legal Advisory,Singapore,Moderate,573683,1
+VND-00027,Global Vendor Alliance 27 Ltd,Legal Advisory,India,Low,4119911,2
+VND-00028,Global Vendor Alliance 28 Ltd,Cloud Hosting,Germany,Moderate,1305121,1
+VND-00029,Global Vendor Alliance 29 Ltd,SaaS Software,USA,Low,3613812,2
+VND-00030,Global Vendor Alliance 30 Ltd,SaaS Software,Singapore,Low,4544571,3
+VND-00031,Global Vendor Alliance 31 Ltd,Consulting,Singapore,Moderate,3844320,1
+VND-00032,Global Vendor Alliance 32 Ltd,Network Hardware,USA,Low,623323,1
+VND-00033,Global Vendor Alliance 33 Ltd,Security Telemetry,Australia,Low,4341948,2
+VND-00034,Global Vendor Alliance 34 Ltd,Cloud Hosting,Singapore,Medium,3930915,3
+VND-00035,Global Vendor Alliance 35 Ltd,Security Telemetry,India,Moderate,2026855,4
+VND-00036,Global Vendor Alliance 36 Ltd,SaaS Software,Japan,Low,4494667,4
+VND-00037,Global Vendor Alliance 37 Ltd,SaaS Software,UK,Low,3478818,1
+VND-00038,Global Vendor Alliance 38 Ltd,SaaS Software,Singapore,Low,767678,4
+VND-00039,Global Vendor Alliance 39 Ltd,Consulting,Japan,Medium,3311614,2
+VND-00040,Global Vendor Alliance 40 Ltd,Cloud Hosting,Australia,Moderate,3678631,2
+VND-00041,Global Vendor Alliance 41 Ltd,Network Hardware,USA,Low,772705,3
+VND-00043,Global Vendor Alliance 43 Ltd,Security Telemetry,Australia,Moderate,355290,2
+VND-00044,Global Vendor Alliance 44 Ltd,Network Hardware,Germany,Low,667936,2
+VND-00045,Global Vendor Alliance 45 Ltd,Security Telemetry,USA,Moderate,1694909,2
+VND-00046,Global Vendor Alliance 46 Ltd,Legal Advisory,USA,Low,2377944,1
+VND-00047,Global Vendor Alliance 47 Ltd,Security Telemetry,India,Low,4178467,1
+VND-00048,Global Vendor Alliance 48 Ltd,Cloud Hosting,Japan,Low,2708765,1
+VND-00049,Global Vendor Alliance 49 Ltd,Network Hardware,Australia,Moderate,3459810,2
+VND-00050,Global Vendor Alliance 50 Ltd,Network Hardware,Australia,Medium,3104979,2
+VND-00051,Global Vendor Alliance 51 Ltd,Legal Advisory,UK,Low,2899298,4
+VND-00052,Global Vendor Alliance 52 Ltd,Legal Advisory,India,Low,4332566,2
+VND-00053,Global Vendor Alliance 53 Ltd,Cloud Hosting,India,Medium,4120972,1
+VND-00054,Global Vendor Alliance 54 Ltd,Network Hardware,Germany,Low,4004816,1
+VND-00055,Global Vendor Alliance 55 Ltd,Legal Advisory,USA,Low,1928979,2
+VND-00056,Global Vendor Alliance 56 Ltd,Legal Advisory,Germany,Moderate,3873736,2
+VND-00057,Global Vendor Alliance 57 Ltd,Network Hardware,Japan,Moderate,3734663,1
+VND-00058,Global Vendor Alliance 58 Ltd,Legal Advisory,Australia,Medium,2125805,2
+VND-00059,Global Vendor Alliance 59 Ltd,Security Telemetry,India,Low,1398435,4
+VND-00060,Global Vendor Alliance 60 Ltd,Cloud Hosting,Australia,Low,1316404,3
+VND-00061,Global Vendor Alliance 61 Ltd,Security Telemetry,Australia,Low,4305179,1
+VND-00062,Global Vendor Alliance 62 Ltd,Consulting,Japan,Low,2599741,2
+VND-00063,Global Vendor Alliance 63 Ltd,Cloud Hosting,Japan,Moderate,3084269,1
+VND-00064,Global Vendor Alliance 64 Ltd,Cloud Hosting,Germany,Medium,2283791,4
+VND-00065,Global Vendor Alliance 65 Ltd,Network Hardware,Australia,Medium,1298156,1
+VND-00066,Global Vendor Alliance 66 Ltd,Security Telemetry,Singapore,Low,3169025,3
+VND-00067,Global Vendor Alliance 67 Ltd,Consulting,Singapore,Low,3817930,3
+VND-00068,Global Vendor Alliance 68 Ltd,Security Telemetry,Australia,Moderate,3254681,1
+VND-00069,Global Vendor Alliance 69 Ltd,Legal Advisory,Singapore,Medium,2324756,1
+VND-00070,Global Vendor Alliance 70 Ltd,Security Telemetry,UK,Low,2173672,1
+VND-00071,Global Vendor Alliance 71 Ltd,SaaS Software,Australia,Low,2558237,4
+VND-00072,Global Vendor Alliance 72 Ltd,SaaS Software,India,Medium,732189,2
+VND-00073,Global Vendor Alliance 73 Ltd,Consulting,Australia,Medium,904361,3
+VND-00074,Global Vendor Alliance 74 Ltd,Consulting,Singapore,Medium,1035356,1
+VND-00075,Global Vendor Alliance 75 Ltd,SaaS Software,UK,Low,3449814,4
+VND-00076,Global Vendor Alliance 76 Ltd,SaaS Software,Singapore,Moderate,660826,3
+VND-00077,Global Vendor Alliance 77 Ltd,Network Hardware,India,Medium,1903713,4
+VND-00078,Global Vendor Alliance 78 Ltd,Cloud Hosting,Japan,Medium,441135,2
+VND-00079,Global Vendor Alliance 79 Ltd,Consulting,Germany,Low,2805920,1
+VND-00080,Global Vendor Alliance 80 Ltd,Security Telemetry,Australia,Medium,643451,3
+VND-00081,Global Vendor Alliance 81 Ltd,Consulting,Singapore,Low,573635,2
+VND-00082,Global Vendor Alliance 82 Ltd,Cloud Hosting,Australia,Medium,2383650,3
+VND-00083,Global Vendor Alliance 83 Ltd,Legal Advisory,Germany,Low,1308983,1
+VND-00084,Global Vendor Alliance 84 Ltd,Network Hardware,Singapore,Low,2622630,4
+VND-00085,Global Vendor Alliance 85 Ltd,Consulting,India,Low,2296401,2
+VND-00086,Global Vendor Alliance 86 Ltd,Cloud Hosting,USA,Medium,2989064,3
+VND-00087,Global Vendor Alliance 87 Ltd,SaaS Software,Germany,Moderate,3635674,4
+VND-00088,Global Vendor Alliance 88 Ltd,Consulting,India,Low,3784009,3
+VND-00089,Global Vendor Alliance 89 Ltd,Legal Advisory,India,Medium,203311,2
+VND-00090,Global Vendor Alliance 90 Ltd,Cloud Hosting,UK,Low,2835665,3
+VND-00091,Global Vendor Alliance 91 Ltd,Cloud Hosting,Germany,Medium,1357207,4
+VND-00092,Global Vendor Alliance 92 Ltd,Network Hardware,USA,Medium,2324548,1
+VND-00093,Global Vendor Alliance 93 Ltd,Consulting,Australia,Low,3889241,1
+VND-00094,Global Vendor Alliance 94 Ltd,Cloud Hosting,Germany,Low,3644692,2
+VND-00095,Global Vendor Alliance 95 Ltd,Security Telemetry,Singapore,Low,3039953,2
+VND-00096,Global Vendor Alliance 96 Ltd,SaaS Software,UK,Low,3225935,3
+VND-00097,Global Vendor Alliance 97 Ltd,Cloud Hosting,Japan,Moderate,4331795,1
+VND-00098,Global Vendor Alliance 98 Ltd,Legal Advisory,Singapore,Medium,3593334,4
+VND-00099,Global Vendor Alliance 99 Ltd,Network Hardware,Japan,Medium,4508666,3
+VND-00100,Global Vendor Alliance 100 Ltd,Cloud Hosting,Germany,Medium,3713542,3
+VND-00101,Global Vendor Alliance 101 Ltd,SaaS Software,India,Low,4673025,4
+VND-00102,Global Vendor Alliance 102 Ltd,Consulting,Japan,Medium,2496059,1
+VND-00103,Global Vendor Alliance 103 Ltd,Cloud Hosting,Australia,Low,871937,1
+VND-00104,Global Vendor Alliance 104 Ltd,Security Telemetry,Singapore,Low,4284146,1
+VND-00105,Global Vendor Alliance 105 Ltd,Legal Advisory,Singapore,Low,2551894,4
+VND-00106,Global Vendor Alliance 106 Ltd,SaaS Software,Germany,Medium,4747054,4
+VND-00107,Global Vendor Alliance 107 Ltd,Cloud Hosting,Germany,Medium,1163883,3
+VND-00108,Global Vendor Alliance 108 Ltd,Consulting,Singapore,Medium,183796,3
+VND-00109,Global Vendor Alliance 109 Ltd,SaaS Software,India,Moderate,2364868,3
+VND-00110,Global Vendor Alliance 110 Ltd,Network Hardware,Australia,Medium,2146305,1
+VND-00111,Global Vendor Alliance 111 Ltd,Consulting,USA,Low,340174,2
+VND-00112,Global Vendor Alliance 112 Ltd,Network Hardware,Australia,Moderate,2930938,2
+VND-00113,Global Vendor Alliance 113 Ltd,Security Telemetry,Singapore,Low,4781881,4
+VND-00114,Global Vendor Alliance 114 Ltd,SaaS Software,India,Medium,552692,4
+VND-00115,Global Vendor Alliance 115 Ltd,SaaS Software,UK,Medium,1577246,4
+VND-00116,Global Vendor Alliance 116 Ltd,Network Hardware,India,Low,3789190,2
+VND-00117,Global Vendor Alliance 117 Ltd,Cloud Hosting,UK,Low,4350014,1
+VND-00118,Global Vendor Alliance 118 Ltd,Legal Advisory,India,Medium,2302968,2
+VND-00119,Global Vendor Alliance 119 Ltd,Network Hardware,Germany,Low,902366,1
+VND-00120,Global Vendor Alliance 120 Ltd,Consulting,USA,Low,353357,1
+VND-00121,Global Vendor Alliance 121 Ltd,Security Telemetry,Singapore,Low,1215116,4
+VND-00122,Global Vendor Alliance 122 Ltd,Legal Advisory,UK,Moderate,1684938,2
+VND-00123,Global Vendor Alliance 123 Ltd,Legal Advisory,Germany,Moderate,1745954,2
+VND-00124,Global Vendor Alliance 124 Ltd,Legal Advisory,Australia,Medium,2305062,1
+VND-00125,Global Vendor Alliance 125 Ltd,Network Hardware,USA,Low,314119,1
+VND-00126,Global Vendor Alliance 126 Ltd,Cloud Hosting,Singapore,Low,1018224,2
+VND-00127,Global Vendor Alliance 127 Ltd,Network Hardware,Japan,Low,898271,1
+VND-00128,Global Vendor Alliance 128 Ltd,Consulting,Australia,Moderate,1864599,4
+VND-00129,Global Vendor Alliance 129 Ltd,Cloud Hosting,Singapore,Low,3590745,1
+VND-00130,Global Vendor Alliance 130 Ltd,Consulting,UK,Low,1884090,4
+VND-00131,Global Vendor Alliance 131 Ltd,Consulting,Japan,Medium,1471435,2
+VND-00132,Global Vendor Alliance 132 Ltd,Network Hardware,USA,Low,383825,1
+VND-00133,Global Vendor Alliance 133 Ltd,Network Hardware,Japan,Medium,4704229,1
+VND-00134,Global Vendor Alliance 134 Ltd,SaaS Software,India,Moderate,1140001,2
+VND-00135,Global Vendor Alliance 135 Ltd,Security Telemetry,USA,Low,4465256,2
+VND-00136,Global Vendor Alliance 136 Ltd,SaaS Software,Australia,Moderate,1082915,2
+VND-00137,Global Vendor Alliance 137 Ltd,Cloud Hosting,Japan,Low,1963489,1
+VND-00138,Global Vendor Alliance 138 Ltd,Legal Advisory,UK,Low,2364712,3
+VND-00139,Global Vendor Alliance 139 Ltd,Consulting,Germany,Low,3043877,3
+VND-00140,Global Vendor Alliance 140 Ltd,Consulting,UK,Medium,3777953,4
+VND-00141,Global Vendor Alliance 141 Ltd,SaaS Software,Japan,Low,1779907,3
+VND-00142,Global Vendor Alliance 142 Ltd,Consulting,USA,Moderate,1509599,2
+VND-00143,Global Vendor Alliance 143 Ltd,Legal Advisory,Singapore,Medium,3862642,4
+VND-00144,Global Vendor Alliance 144 Ltd,Security Telemetry,UK,Moderate,2793857,1
+VND-00145,Global Vendor Alliance 145 Ltd,Security Telemetry,Singapore,Medium,1795379,3
+VND-00146,Global Vendor Alliance 146 Ltd,Network Hardware,UK,Low,3889868,2
+VND-00147,Global Vendor Alliance 147 Ltd,Cloud Hosting,India,Moderate,3557720,3
+VND-00148,Global Vendor Alliance 148 Ltd,Security Telemetry,Australia,Moderate,3461238,1
+VND-00149,Global Vendor Alliance 149 Ltd,Cloud Hosting,Germany,Moderate,3721957,2
+VND-00150,Global Vendor Alliance 150 Ltd,Network Hardware,Germany,Low,1925095,3
+VND-00151,Global Vendor Alliance 151 Ltd,Network Hardware,Germany,Moderate,1145957,1
+VND-00152,Global Vendor Alliance 152 Ltd,Network Hardware,UK,Low,2878756,2
+VND-00153,Global Vendor Alliance 153 Ltd,Consulting,India,Moderate,2071599,1
+VND-00154,Global Vendor Alliance 154 Ltd,Consulting,Japan,Low,4542997,2
+VND-00155,Global Vendor Alliance 155 Ltd,Cloud Hosting,India,Moderate,747670,4
+VND-00156,Global Vendor Alliance 156 Ltd,Legal Advisory,Australia,Medium,2785759,3
+VND-00157,Global Vendor Alliance 157 Ltd,SaaS Software,Germany,Low,4263420,4
+VND-00158,Global Vendor Alliance 158 Ltd,Cloud Hosting,Japan,Medium,1120417,1
+VND-00159,Global Vendor Alliance 159 Ltd,Consulting,Germany,Moderate,3331641,2
+VND-00160,Global Vendor Alliance 160 Ltd,Security Telemetry,USA,Moderate,269621,1
+VND-00161,Global Vendor Alliance 161 Ltd,Consulting,Japan,Low,3499021,1
+VND-00162,Global Vendor Alliance 162 Ltd,Security Telemetry,India,Low,2950231,1
+VND-00163,Global Vendor Alliance 163 Ltd,Cloud Hosting,Singapore,Low,3601933,3
+VND-00164,Global Vendor Alliance 164 Ltd,Network Hardware,Japan,Moderate,3478331,1
+VND-00165,Global Vendor Alliance 165 Ltd,Security Telemetry,Australia,Moderate,4262450,1
+VND-00166,Global Vendor Alliance 166 Ltd,Consulting,Japan,Medium,4258407,1
+VND-00167,Global Vendor Alliance 167 Ltd,Network Hardware,India,Low,365687,2
+VND-00168,Global Vendor Alliance 168 Ltd,Cloud Hosting,Australia,Low,1283788,1
+VND-00169,Global Vendor Alliance 169 Ltd,Network Hardware,Australia,Medium,2018688,2
+VND-00170,Global Vendor Alliance 170 Ltd,Cloud Hosting,Germany,Moderate,4629366,1
+VND-00171,Global Vendor Alliance 171 Ltd,Legal Advisory,Australia,Low,2298418,1
+VND-00172,Global Vendor Alliance 172 Ltd,Cloud Hosting,USA,Moderate,749499,3
+VND-00173,Global Vendor Alliance 173 Ltd,Network Hardware,UK,Medium,2384186,2
+VND-00174,Global Vendor Alliance 174 Ltd,SaaS Software,India,Medium,1125806,2
+VND-00175,Global Vendor Alliance 175 Ltd,Network Hardware,Australia,Low,3586960,4
+VND-00176,Global Vendor Alliance 176 Ltd,Legal Advisory,USA,Low,4129140,4
+VND-00177,Global Vendor Alliance 177 Ltd,Network Hardware,Japan,Medium,2014403,1
+VND-00178,Global Vendor Alliance 178 Ltd,Network Hardware,Australia,Moderate,814528,3
+VND-00179,Global Vendor Alliance 179 Ltd,Security Telemetry,Australia,Low,1847140,1
+VND-00180,Global Vendor Alliance 180 Ltd,Cloud Hosting,Singapore,Low,1902373,1
+VND-00181,Global Vendor Alliance 181 Ltd,Legal Advisory,Germany,Medium,3350119,2
+VND-00182,Global Vendor Alliance 182 Ltd,Consulting,USA,Moderate,1870379,3
+VND-00183,Global Vendor Alliance 183 Ltd,Network Hardware,UK,Medium,1411836,1
+VND-00184,Global Vendor Alliance 184 Ltd,SaaS Software,Germany,Moderate,3354443,4
+VND-00185,Global Vendor Alliance 185 Ltd,Security Telemetry,India,Low,3477162,2
+VND-00186,Global Vendor Alliance 186 Ltd,Cloud Hosting,Japan,Medium,1497378,3
+VND-00187,Global Vendor Alliance 187 Ltd,Security Telemetry,UK,Low,1355555,4
+VND-00188,Global Vendor Alliance 188 Ltd,Cloud Hosting,UK,Low,2137984,1
+VND-00189,Global Vendor Alliance 189 Ltd,Consulting,Germany,Moderate,359798,4
+VND-00190,Global Vendor Alliance 190 Ltd,Legal Advisory,India,Medium,3072427,3
+VND-00191,Global Vendor Alliance 191 Ltd,Cloud Hosting,India,Low,3093147,4
+VND-00192,Global Vendor Alliance 192 Ltd,SaaS Software,Germany,Medium,4332678,4
+VND-00193,Global Vendor Alliance 193 Ltd,Security Telemetry,Japan,Low,3822233,3
+VND-00194,Global Vendor Alliance 194 Ltd,Network Hardware,USA,Low,3328831,4
+VND-00195,Global Vendor Alliance 195 Ltd,SaaS Software,Japan,Low,3498026,2
+VND-00196,Global Vendor Alliance 196 Ltd,Security Telemetry,Japan,Medium,4470486,4
+VND-00197,Global Vendor Alliance 197 Ltd,Cloud Hosting,UK,Low,2208295,1
+VND-00198,Global Vendor Alliance 198 Ltd,SaaS Software,USA,Low,419372,3
+VND-00199,Global Vendor Alliance 199 Ltd,SaaS Software,USA,Low,2430721,2
+VND-00200,Global Vendor Alliance 200 Ltd,Security Telemetry,UK,Medium,3407563,4
+VND-00201,Global Vendor Alliance 201 Ltd,Cloud Hosting,Germany,Moderate,4273800,2
+VND-00202,Global Vendor Alliance 202 Ltd,SaaS Software,Australia,Low,3036157,3
+VND-00203,Global Vendor Alliance 203 Ltd,Legal Advisory,India,Moderate,146062,1
+VND-00204,Global Vendor Alliance 204 Ltd,SaaS Software,India,Medium,2681244,2
+VND-00205,Global Vendor Alliance 205 Ltd,SaaS Software,Japan,Low,1517923,2
+VND-00206,Global Vendor Alliance 206 Ltd,Network Hardware,Singapore,Low,226827,4
+VND-00207,Global Vendor Alliance 207 Ltd,Consulting,Japan,Low,1609104,3
+VND-00208,Global Vendor Alliance 208 Ltd,Cloud Hosting,Germany,Low,3073994,4
+VND-00209,Global Vendor Alliance 209 Ltd,Security Telemetry,USA,Medium,2196267,4
+VND-00210,Global Vendor Alliance 210 Ltd,Cloud Hosting,USA,Low,2558220,2

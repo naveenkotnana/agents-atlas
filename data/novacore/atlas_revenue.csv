@@ -1,0 +1,77 @@
+year,quarter,region,segment,revenue_usd,growth_yoy_pct,churn_rate_pct
+2026,Q3,North America,Enterprise,38400000,-8.5,5.8
+2026,Q3,North America,Mid-Market,24200000,2.1,4.9
+2026,Q3,Europe,Enterprise,18200000,-6.2,5.4
+2026,Q3,Europe,Mid-Market,14400000,3.8,4.2
+2026,Q3,APAC,Enterprise,15800000,-26.1,7.4
+2026,Q3,APAC,Mid-Market,14400000,-14.2,6.1
+2026,Q2,North America,Enterprise,44800000,14.2,3.8
+2026,Q2,North America,Mid-Market,25100000,11.5,3.5
+2026,Q2,Europe,Enterprise,21200000,9.4,4.0
+2026,Q2,Europe,Mid-Market,13200000,8.1,3.7
+2026,Q2,APAC,Enterprise,21800000,12.8,4.5
+2026,Q2,APAC,Mid-Market,16400000,10.2,4.2
+2024,Q1,North America,Enterprise,21644060,5.4,3.9
+2024,Q1,North America,Mid-Market,13924539,6.8,3.3
+2024,Q1,Europe,Enterprise,34172612,16.2,3.6
+2024,Q1,Europe,Mid-Market,17970390,11.7,3.8
+2024,Q1,APAC,Enterprise,27172442,12.8,4.1
+2024,Q1,APAC,Mid-Market,24943847,17.6,4.1
+2024,Q1,India,Enterprise,22618706,8.8,3.3
+2024,Q1,India,Mid-Market,34127037,14.0,3.8
+2024,Q2,North America,Enterprise,21683621,8.3,3.6
+2024,Q2,North America,Mid-Market,20504631,13.1,3.4
+2024,Q2,Europe,Enterprise,27394771,14.7,3.6
+2024,Q2,Europe,Mid-Market,22280340,11.6,3.3
+2024,Q2,APAC,Enterprise,20135230,6.6,3.5
+2024,Q2,APAC,Mid-Market,20386290,15.9,3.6
+2024,Q2,India,Enterprise,25371462,13.9,3.4
+2024,Q2,India,Mid-Market,33777337,6.0,4.2
+2024,Q3,North America,Enterprise,12175934,14.4,4.1
+2024,Q3,North America,Mid-Market,11647164,8.7,3.6
+2024,Q3,Europe,Enterprise,11378651,11.8,3.6
+2024,Q3,Europe,Mid-Market,22363722,12.1,4.0
+2024,Q3,APAC,Enterprise,34387538,17.8,3.7
+2024,Q3,APAC,Mid-Market,33885722,10.1,3.8
+2024,Q3,India,Enterprise,11606481,14.6,4.5
+2024,Q3,India,Mid-Market,31174921,7.3,4.6
+2024,Q4,North America,Enterprise,11314389,15.6,3.5
+2024,Q4,North America,Mid-Market,25498926,8.5,4.4
+2024,Q4,Europe,Enterprise,14460242,10.3,3.4
+2024,Q4,Europe,Mid-Market,25191836,15.0,3.7
+2024,Q4,APAC,Enterprise,20024405,11.6,3.6
+2024,Q4,APAC,Mid-Market,13601892,9.3,3.6
+2024,Q4,India,Enterprise,11531846,11.2,4.1
+2024,Q4,India,Mid-Market,32882467,13.8,3.7
+2025,Q1,North America,Enterprise,17501864,7.9,3.4
+2025,Q1,North America,Mid-Market,21126931,13.0,3.3
+2025,Q1,Europe,Enterprise,24135015,15.6,3.9
+2025,Q1,Europe,Mid-Market,31465670,17.4,3.3
+2025,Q1,APAC,Enterprise,22148176,14.5,3.7
+2025,Q1,APAC,Mid-Market,31346500,11.7,4.0
+2025,Q1,India,Enterprise,11570351,9.1,3.5
+2025,Q1,India,Mid-Market,18743632,16.9,3.2
+2025,Q2,North America,Enterprise,24056941,7.1,3.7
+2025,Q2,North America,Mid-Market,18311280,14.6,4.2
+2025,Q2,Europe,Enterprise,17864739,16.6,4.0
+2025,Q2,Europe,Mid-Market,32397585,16.1,3.7
+2025,Q2,APAC,Enterprise,19071052,15.8,4.4
+2025,Q2,APAC,Mid-Market,14099028,8.0,3.9
+2025,Q2,India,Enterprise,17291113,8.5,3.9
+2025,Q2,India,Mid-Market,34741477,7.0,3.8
+2025,Q3,North America,Enterprise,22473647,14.3,3.3
+2025,Q3,North America,Mid-Market,31532867,13.7,4.6
+2025,Q3,Europe,Enterprise,13271341,11.6,3.6
+2025,Q3,Europe,Mid-Market,31012842,14.9,4.5
+2025,Q3,APAC,Enterprise,22802343,11.6,3.9
+2025,Q3,APAC,Mid-Market,13208981,10.9,3.6
+2025,Q3,India,Enterprise,20914912,10.2,4.3
+2025,Q3,India,Mid-Market,33768311,6.7,3.3
+2025,Q4,North America,Enterprise,22783858,12.0,4.4
+2025,Q4,North America,Mid-Market,19322058,16.4,4.4
+2025,Q4,Europe,Enterprise,11341173,8.1,4.4
+2025,Q4,Europe,Mid-Market,22124345,7.7,3.3
+2025,Q4,APAC,Enterprise,17668379,9.9,3.2
+2025,Q4,APAC,Mid-Market,25849335,16.5,3.6
+2025,Q4,India,Enterprise,35711762,17.3,4.2
+2025,Q4,India,Mid-Market,22120287,15.4,4.3

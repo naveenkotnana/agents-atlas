@@ -1,0 +1,15 @@
+table_name,column_name,data_type,is_primary_key,description
+atlas_customers,customer_id,VARCHAR(16),YES,Unique stable identifier for NovaCore enterprise customer (e.g. CUST-00124).
+atlas_customers,customer_name,VARCHAR(255),NO,Legal entity name of the customer corporation.
+atlas_customers,region,VARCHAR(64),NO,"Global operating theater: North America, Europe, APAC, India."
+atlas_employees,employee_id,VARCHAR(16),YES,Corporate employee ID (e.g. EMP-00001 Marcus Vance CEO).
+atlas_products,product_id,VARCHAR(16),YES,Product catalog code (e.g. PROD-00003 NovaCore AI Inference Cloud).
+atlas_projects,project_id,VARCHAR(16),YES,Strategic initiative code (e.g. PRJ-00014 Cloud Auto-Remediation).
+atlas_contracts,contract_id,VARCHAR(24),YES,Enterprise customer master service agreement code (e.g. CNT-2026-0089).
+atlas_vendors,vendor_id,VARCHAR(16),YES,Global supply chain vendor ID (e.g. VND-00042 Apex Silicon).
+atlas_incidents,incident_id,VARCHAR(16),YES,Infrastructure / software incident code (e.g. INC-78431).
+atlas_support_tickets,ticket_id,VARCHAR(16),YES,Customer service escalation ticket code (e.g. TKT-00001).
+atlas_revenue,revenue_usd,"NUMERIC(14,2)",NO,Quarterly recognized revenue in USD per region and segment.
+atlas_documents,document_id,VARCHAR(32),YES,Unique enterprise document reference number.
+atlas_chunks,chunk_id,VARCHAR(40),YES,Unique vector chunk reference code with parent doc_id link.
+atlas_evaluation,eval_id,VARCHAR(24),YES,Benchmark evaluation test case identifier.

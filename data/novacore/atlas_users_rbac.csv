@@ -1,0 +1,101 @@
+user_id,employee_id,username,role,access_level,department
+USR-ADMIN-01,EMP-00001,marcus.vance,admin,admin,Executive
+USR-EXEC-01,EMP-00002,elena.rostova,executive,management,Finance
+USR-SEC-01,EMP-00006,david.sterling,security_admin,restricted,Security
+USR-FIN-01,EMP-00012,finance.lead,finance_user,manager,Finance
+USR-HR-01,EMP-00025,hr.partner,hr_user,manager,Human Resources
+USR-ENG-01,EMP-00045,engineer.lead,manager,manager,Engineering
+USR-EMP-01,EMP-00100,general.employee,employee,employee,Product
+USR-0008,EMP-00008,user.8,employee,employee,Security
+USR-0009,EMP-00009,user.9,manager,manager,Marketing
+USR-0010,EMP-00010,user.10,employee,employee,Customer Success
+USR-0011,EMP-00011,user.11,employee,employee,Finance
+USR-0012,EMP-00012,user.12,employee,employee,Marketing
+USR-0013,EMP-00013,user.13,employee,employee,Legal
+USR-0014,EMP-00014,user.14,finance_user,employee,Executive
+USR-0015,EMP-00015,user.15,manager,manager,Sales
+USR-0016,EMP-00016,user.16,employee,employee,Legal
+USR-0017,EMP-00017,user.17,employee,employee,Product
+USR-0018,EMP-00018,user.18,employee,employee,Finance
+USR-0019,EMP-00019,user.19,finance_user,employee,Executive
+USR-0020,EMP-00020,user.20,manager,manager,Product
+USR-0021,EMP-00021,user.21,finance_user,employee,IT
+USR-0022,EMP-00022,user.22,manager,manager,Engineering
+USR-0023,EMP-00023,user.23,employee,employee,Human Resources
+USR-0024,EMP-00024,user.24,manager,manager,Operations
+USR-0025,EMP-00025,user.25,employee,employee,Engineering
+USR-0026,EMP-00026,user.26,employee,employee,Finance
+USR-0027,EMP-00027,user.27,employee,employee,Legal
+USR-0028,EMP-00028,user.28,employee,employee,Operations
+USR-0029,EMP-00029,user.29,finance_user,employee,Executive
+USR-0030,EMP-00030,user.30,manager,manager,Finance
+USR-0031,EMP-00031,user.31,employee,employee,Finance
+USR-0032,EMP-00032,user.32,employee,employee,Human Resources
+USR-0033,EMP-00033,user.33,manager,manager,Customer Success
+USR-0034,EMP-00034,user.34,manager,manager,Risk & Compliance
+USR-0035,EMP-00035,user.35,manager,manager,Operations
+USR-0036,EMP-00036,user.36,employee,employee,Risk & Compliance
+USR-0037,EMP-00037,user.37,employee,employee,Marketing
+USR-0038,EMP-00038,user.38,finance_user,employee,Customer Success
+USR-0039,EMP-00039,user.39,employee,employee,Product
+USR-0040,EMP-00040,user.40,employee,employee,Legal
+USR-0041,EMP-00041,user.41,manager,manager,Sales
+USR-0042,EMP-00042,user.42,finance_user,employee,Product
+USR-0043,EMP-00043,user.43,finance_user,employee,Security
+USR-0044,EMP-00044,user.44,manager,manager,Human Resources
+USR-0045,EMP-00045,user.45,employee,employee,Human Resources
+USR-0046,EMP-00046,user.46,employee,employee,Legal
+USR-0047,EMP-00047,user.47,finance_user,employee,Marketing
+USR-0048,EMP-00048,user.48,manager,manager,Finance
+USR-0049,EMP-00049,user.49,employee,employee,Operations
+USR-0050,EMP-00050,user.50,employee,employee,Procurement
+USR-0051,EMP-00051,user.51,manager,manager,Marketing
+USR-0052,EMP-00052,user.52,manager,manager,Customer Success
+USR-0053,EMP-00053,user.53,finance_user,employee,Operations
+USR-0054,EMP-00054,user.54,employee,employee,Marketing
+USR-0055,EMP-00055,user.55,employee,employee,Product
+USR-0056,EMP-00056,user.56,finance_user,employee,Marketing
+USR-0057,EMP-00057,user.57,finance_user,employee,Engineering
+USR-0058,EMP-00058,user.58,finance_user,employee,Sales
+USR-0059,EMP-00059,user.59,finance_user,employee,Finance
+USR-0060,EMP-00060,user.60,finance_user,employee,Sales
+USR-0061,EMP-00061,user.61,employee,employee,Human Resources
+USR-0062,EMP-00062,user.62,employee,employee,Sales
+USR-0063,EMP-00063,user.63,employee,employee,IT
+USR-0064,EMP-00064,user.64,employee,employee,Operations
+USR-0065,EMP-00065,user.65,employee,employee,Finance
+USR-0066,EMP-00066,user.66,manager,manager,Operations
+USR-0067,EMP-00067,user.67,employee,employee,Sales
+USR-0068,EMP-00068,user.68,employee,employee,Sales
+USR-0069,EMP-00069,user.69,employee,employee,Finance
+USR-0070,EMP-00070,user.70,manager,manager,Security
+USR-0071,EMP-00071,user.71,finance_user,employee,Executive
+USR-0072,EMP-00072,user.72,employee,employee,Sales
+USR-0073,EMP-00073,user.73,employee,employee,Operations
+USR-0074,EMP-00074,user.74,finance_user,employee,Security
+USR-0075,EMP-00075,user.75,finance_user,employee,Engineering
+USR-0076,EMP-00076,user.76,manager,manager,Customer Success
+USR-0077,EMP-00077,user.77,employee,employee,Marketing
+USR-0078,EMP-00078,user.78,manager,manager,Security
+USR-0079,EMP-00079,user.79,manager,manager,Security
+USR-0080,EMP-00080,user.80,employee,employee,Executive
+USR-0081,EMP-00081,user.81,employee,employee,Procurement
+USR-0082,EMP-00082,user.82,manager,manager,Marketing
+USR-0083,EMP-00083,user.83,manager,manager,Executive
+USR-0084,EMP-00084,user.84,manager,manager,Executive
+USR-0085,EMP-00085,user.85,employee,employee,Engineering
+USR-0086,EMP-00086,user.86,finance_user,employee,Engineering
+USR-0087,EMP-00087,user.87,manager,manager,Risk & Compliance
+USR-0088,EMP-00088,user.88,employee,employee,Sales
+USR-0089,EMP-00089,user.89,employee,employee,Sales
+USR-0090,EMP-00090,user.90,employee,employee,Legal
+USR-0091,EMP-00091,user.91,manager,manager,Finance
+USR-0092,EMP-00092,user.92,finance_user,employee,Security
+USR-0093,EMP-00093,user.93,employee,employee,Marketing
+USR-0094,EMP-00094,user.94,employee,employee,Risk & Compliance
+USR-0095,EMP-00095,user.95,manager,manager,IT
+USR-0096,EMP-00096,user.96,employee,employee,Security
+USR-0097,EMP-00097,user.97,employee,employee,Operations
+USR-0098,EMP-00098,user.98,employee,employee,Human Resources
+USR-0099,EMP-00099,user.99,employee,employee,Executive
+USR-0100,EMP-00100,user.100,manager,manager,Product

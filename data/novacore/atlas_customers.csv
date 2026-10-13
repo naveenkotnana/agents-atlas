@@ -1,0 +1,1001 @@
+customer_id,customer_name,region,industry,segment,account_manager,customer_status,annual_value,churn_risk
+CUST-00001,NovaEnterprise Client 1 Corp,APAC,Manufacturing,Enterprise,EMP-00162,Active,3185288,Low
+CUST-00002,NovaEnterprise Client 2 Corp,North America,Healthcare,Mid-Market,EMP-00208,Active,2913283,Low
+CUST-00003,NovaEnterprise Client 3 Corp,Europe,Financial Services,Enterprise,EMP-00229,Active,992034,Low
+CUST-00004,NovaEnterprise Client 4 Corp,India,Telecommunications,Enterprise,EMP-00156,Active,3078203,Low
+CUST-00005,NovaEnterprise Client 5 Corp,Europe,Aerospace,Strategic Accounts,EMP-00208,Active,3257668,Low
+CUST-00006,NovaEnterprise Client 6 Corp,APAC,E-Commerce,Strategic Accounts,EMP-00126,Active,978091,Low
+CUST-00007,NovaEnterprise Client 7 Corp,APAC,Financial Services,Government,EMP-00167,Active,1580668,Low
+CUST-00008,NovaEnterprise Client 8 Corp,North America,Energy,Enterprise,EMP-00196,Active,2324103,High
+CUST-00009,NovaEnterprise Client 9 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00117,Active,2496590,Medium
+CUST-00010,NovaEnterprise Client 10 Corp,Europe,Financial Services,Mid-Market,EMP-00125,Active,409671,Medium
+CUST-00011,NovaEnterprise Client 11 Corp,APAC,Aerospace,Strategic Accounts,EMP-00141,At-Risk,2741253,High
+CUST-00012,NovaEnterprise Client 12 Corp,North America,E-Commerce,Mid-Market,EMP-00143,Active,3018647,Medium
+CUST-00013,NovaEnterprise Client 13 Corp,India,Telecommunications,Mid-Market,EMP-00169,Active,2013859,Low
+CUST-00014,NovaEnterprise Client 14 Corp,North America,Manufacturing,Mid-Market,EMP-00158,Active,3297540,Medium
+CUST-00015,NovaEnterprise Client 15 Corp,APAC,Energy,Enterprise,EMP-00116,Active,1757607,Medium
+CUST-00016,NovaEnterprise Client 16 Corp,India,Healthcare,Strategic Accounts,EMP-00201,Active,2824109,Low
+CUST-00017,NovaEnterprise Client 17 Corp,Europe,Manufacturing,Government,EMP-00163,Active,1185987,Low
+CUST-00018,NovaEnterprise Client 18 Corp,India,Manufacturing,Strategic Accounts,EMP-00192,Active,2522514,High
+CUST-00019,NovaEnterprise Client 19 Corp,North America,Healthcare,Government,EMP-00128,Active,3244980,Low
+CUST-00020,NovaEnterprise Client 20 Corp,North America,Healthcare,Mid-Market,EMP-00198,At-Risk,2576520,High
+CUST-00021,NovaEnterprise Client 21 Corp,North America,Telecommunications,Government,EMP-00129,Active,2395397,Medium
+CUST-00022,NovaEnterprise Client 22 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00211,Active,542883,Medium
+CUST-00023,NovaEnterprise Client 23 Corp,APAC,Healthcare,Government,EMP-00228,Active,3103673,Low
+CUST-00024,NovaEnterprise Client 24 Corp,APAC,Energy,Mid-Market,EMP-00229,Active,2697699,Low
+CUST-00025,NovaEnterprise Client 25 Corp,Europe,Telecommunications,Mid-Market,EMP-00238,Active,1643308,Low
+CUST-00026,NovaEnterprise Client 26 Corp,North America,Energy,Enterprise,EMP-00128,Active,2124360,Medium
+CUST-00027,NovaEnterprise Client 27 Corp,Europe,E-Commerce,Strategic Accounts,EMP-00245,Active,317955,Low
+CUST-00028,NovaEnterprise Client 28 Corp,North America,Financial Services,Enterprise,EMP-00236,Active,3497649,High
+CUST-00029,NovaEnterprise Client 29 Corp,India,Healthcare,Government,EMP-00154,Active,1186728,Low
+CUST-00030,NovaEnterprise Client 30 Corp,APAC,Telecommunications,Mid-Market,EMP-00212,Active,1748494,Medium
+CUST-00031,NovaEnterprise Client 31 Corp,Europe,Telecommunications,Government,EMP-00116,Active,1114791,Low
+CUST-00032,NovaEnterprise Client 32 Corp,Europe,E-Commerce,Enterprise,EMP-00101,Active,2543096,Low
+CUST-00033,NovaEnterprise Client 33 Corp,North America,Financial Services,Enterprise,EMP-00184,Active,357697,Low
+CUST-00034,NovaEnterprise Client 34 Corp,India,Financial Services,Mid-Market,EMP-00154,Active,2880896,Medium
+CUST-00035,NovaEnterprise Client 35 Corp,India,Telecommunications,Mid-Market,EMP-00204,Active,1094204,High
+CUST-00036,NovaEnterprise Client 36 Corp,India,Financial Services,Enterprise,EMP-00205,At-Risk,1561031,High
+CUST-00037,NovaEnterprise Client 37 Corp,India,Energy,Enterprise,EMP-00186,Active,329227,Low
+CUST-00038,NovaEnterprise Client 38 Corp,Europe,Energy,Enterprise,EMP-00237,Active,878587,Low
+CUST-00039,NovaEnterprise Client 39 Corp,APAC,Aerospace,Mid-Market,EMP-00218,Active,844604,High
+CUST-00040,NovaEnterprise Client 40 Corp,North America,Energy,Enterprise,EMP-00112,Under Review,3464090,High
+CUST-00041,NovaEnterprise Client 41 Corp,Europe,Telecommunications,Enterprise,EMP-00142,Active,3235682,Low
+CUST-00042,NovaEnterprise Client 42 Corp,India,Aerospace,Government,EMP-00115,Active,971521,High
+CUST-00043,NovaEnterprise Client 43 Corp,India,Aerospace,Enterprise,EMP-00173,At-Risk,1187342,High
+CUST-00044,NovaEnterprise Client 44 Corp,APAC,Manufacturing,Government,EMP-00155,Active,871489,Low
+CUST-00045,NovaEnterprise Client 45 Corp,North America,Financial Services,Enterprise,EMP-00249,Active,314768,Medium
+CUST-00046,NovaEnterprise Client 46 Corp,North America,Aerospace,Mid-Market,EMP-00147,Active,2204987,Low
+CUST-00047,NovaEnterprise Client 47 Corp,North America,Financial Services,Enterprise,EMP-00245,Active,1768557,Low
+CUST-00048,NovaEnterprise Client 48 Corp,APAC,Healthcare,Enterprise,EMP-00166,Active,1833356,Low
+CUST-00049,NovaEnterprise Client 49 Corp,India,Healthcare,Strategic Accounts,EMP-00133,Active,1189068,Low
+CUST-00050,NovaEnterprise Client 50 Corp,North America,Manufacturing,Strategic Accounts,EMP-00102,At-Risk,1401143,High
+CUST-00051,NovaEnterprise Client 51 Corp,Europe,Telecommunications,Enterprise,EMP-00229,Active,2330002,Low
+CUST-00052,NovaEnterprise Client 52 Corp,Europe,E-Commerce,Mid-Market,EMP-00194,Active,363531,Medium
+CUST-00053,NovaEnterprise Client 53 Corp,APAC,E-Commerce,Mid-Market,EMP-00235,Active,2353421,High
+CUST-00054,NovaEnterprise Client 54 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00129,Active,638257,Low
+CUST-00055,NovaEnterprise Client 55 Corp,Europe,Financial Services,Mid-Market,EMP-00187,Active,1256771,Medium
+CUST-00056,NovaEnterprise Client 56 Corp,North America,Healthcare,Strategic Accounts,EMP-00123,Under Review,1128278,High
+CUST-00057,NovaEnterprise Client 57 Corp,APAC,Aerospace,Strategic Accounts,EMP-00133,Active,89871,Low
+CUST-00058,NovaEnterprise Client 58 Corp,India,Manufacturing,Strategic Accounts,EMP-00241,Active,3183947,Low
+CUST-00059,NovaEnterprise Client 59 Corp,North America,Manufacturing,Government,EMP-00138,Active,544233,Low
+CUST-00060,NovaEnterprise Client 60 Corp,Europe,Telecommunications,Enterprise,EMP-00210,Active,2518222,Medium
+CUST-00061,NovaEnterprise Client 61 Corp,North America,Healthcare,Enterprise,EMP-00191,Active,1604459,Medium
+CUST-00062,NovaEnterprise Client 62 Corp,India,Healthcare,Mid-Market,EMP-00139,Active,1558435,Low
+CUST-00063,NovaEnterprise Client 63 Corp,North America,Healthcare,Mid-Market,EMP-00145,Active,1804288,Low
+CUST-00064,NovaEnterprise Client 64 Corp,Europe,Manufacturing,Strategic Accounts,EMP-00168,Active,3439818,High
+CUST-00065,NovaEnterprise Client 65 Corp,India,Energy,Enterprise,EMP-00156,Active,237422,High
+CUST-00066,NovaEnterprise Client 66 Corp,Europe,Energy,Government,EMP-00157,Active,1355063,Medium
+CUST-00067,NovaEnterprise Client 67 Corp,APAC,Financial Services,Mid-Market,EMP-00117,At-Risk,1451830,High
+CUST-00068,NovaEnterprise Client 68 Corp,North America,E-Commerce,Government,EMP-00166,Active,190765,Medium
+CUST-00069,NovaEnterprise Client 69 Corp,India,Healthcare,Strategic Accounts,EMP-00188,Active,529673,Low
+CUST-00070,NovaEnterprise Client 70 Corp,North America,Manufacturing,Strategic Accounts,EMP-00198,Under Review,2617624,High
+CUST-00071,NovaEnterprise Client 71 Corp,India,Healthcare,Strategic Accounts,EMP-00100,Active,3047860,Low
+CUST-00072,NovaEnterprise Client 72 Corp,North America,Telecommunications,Mid-Market,EMP-00184,Active,1883992,Medium
+CUST-00073,NovaEnterprise Client 73 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00229,Active,3093868,Low
+CUST-00074,NovaEnterprise Client 74 Corp,APAC,E-Commerce,Government,EMP-00241,Active,1762789,Medium
+CUST-00075,NovaEnterprise Client 75 Corp,India,Healthcare,Mid-Market,EMP-00144,Under Review,2863916,High
+CUST-00076,NovaEnterprise Client 76 Corp,North America,Telecommunications,Strategic Accounts,EMP-00177,At-Risk,2373215,High
+CUST-00077,NovaEnterprise Client 77 Corp,India,Healthcare,Government,EMP-00213,Active,2025301,Medium
+CUST-00078,NovaEnterprise Client 78 Corp,Europe,Manufacturing,Mid-Market,EMP-00121,At-Risk,3404167,High
+CUST-00079,NovaEnterprise Client 79 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00179,Active,3225501,Low
+CUST-00080,NovaEnterprise Client 80 Corp,North America,Healthcare,Mid-Market,EMP-00162,Active,177447,Low
+CUST-00081,NovaEnterprise Client 81 Corp,Europe,Aerospace,Enterprise,EMP-00198,At-Risk,1813291,High
+CUST-00082,NovaEnterprise Client 82 Corp,North America,Aerospace,Mid-Market,EMP-00127,Active,2826706,Low
+CUST-00083,NovaEnterprise Client 83 Corp,India,Energy,Government,EMP-00112,Active,812722,Low
+CUST-00084,NovaEnterprise Client 84 Corp,Europe,Telecommunications,Mid-Market,EMP-00218,Active,1989539,Low
+CUST-00085,NovaEnterprise Client 85 Corp,India,Manufacturing,Strategic Accounts,EMP-00240,At-Risk,2644650,High
+CUST-00086,NovaEnterprise Client 86 Corp,Europe,Healthcare,Government,EMP-00170,Under Review,1162128,High
+CUST-00087,NovaEnterprise Client 87 Corp,North America,Aerospace,Mid-Market,EMP-00173,Active,1919959,Medium
+CUST-00088,NovaEnterprise Client 88 Corp,North America,Healthcare,Strategic Accounts,EMP-00135,Active,1415959,Medium
+CUST-00089,NovaEnterprise Client 89 Corp,Europe,Healthcare,Mid-Market,EMP-00154,Active,2985636,High
+CUST-00090,NovaEnterprise Client 90 Corp,India,Aerospace,Government,EMP-00206,Active,2350876,Medium
+CUST-00091,NovaEnterprise Client 91 Corp,North America,Financial Services,Mid-Market,EMP-00247,At-Risk,1708584,High
+CUST-00092,NovaEnterprise Client 92 Corp,India,Aerospace,Enterprise,EMP-00207,Active,1327472,Medium
+CUST-00093,NovaEnterprise Client 93 Corp,APAC,Telecommunications,Mid-Market,EMP-00211,At-Risk,995321,High
+CUST-00094,NovaEnterprise Client 94 Corp,India,Financial Services,Government,EMP-00142,Active,2880459,Medium
+CUST-00095,NovaEnterprise Client 95 Corp,North America,Energy,Government,EMP-00200,Active,2684934,Low
+CUST-00096,NovaEnterprise Client 96 Corp,India,Telecommunications,Enterprise,EMP-00134,Active,2770887,Low
+CUST-00097,NovaEnterprise Client 97 Corp,APAC,Energy,Government,EMP-00197,Active,285909,Low
+CUST-00098,NovaEnterprise Client 98 Corp,APAC,E-Commerce,Mid-Market,EMP-00197,At-Risk,1445890,High
+CUST-00099,NovaEnterprise Client 99 Corp,India,Energy,Government,EMP-00104,Active,418539,Medium
+CUST-00100,NovaEnterprise Client 100 Corp,North America,Manufacturing,Enterprise,EMP-00110,Active,1015455,Medium
+CUST-00101,NovaEnterprise Client 101 Corp,North America,Energy,Enterprise,EMP-00139,Active,911179,Low
+CUST-00102,NovaEnterprise Client 102 Corp,North America,Healthcare,Mid-Market,EMP-00244,Active,2882913,High
+CUST-00103,NovaEnterprise Client 103 Corp,North America,Aerospace,Strategic Accounts,EMP-00141,Active,778758,Medium
+CUST-00104,NovaEnterprise Client 104 Corp,India,E-Commerce,Enterprise,EMP-00201,Active,1383443,Low
+CUST-00105,NovaEnterprise Client 105 Corp,Europe,Manufacturing,Mid-Market,EMP-00126,Active,2558438,Low
+CUST-00106,NovaEnterprise Client 106 Corp,North America,Manufacturing,Strategic Accounts,EMP-00188,Active,3414618,Low
+CUST-00107,NovaEnterprise Client 107 Corp,APAC,Telecommunications,Government,EMP-00103,Active,364225,Medium
+CUST-00108,NovaEnterprise Client 108 Corp,India,Energy,Government,EMP-00192,Under Review,517662,High
+CUST-00109,NovaEnterprise Client 109 Corp,Europe,Energy,Government,EMP-00233,Active,1901565,Low
+CUST-00110,NovaEnterprise Client 110 Corp,India,Manufacturing,Strategic Accounts,EMP-00168,At-Risk,2024821,High
+CUST-00111,NovaEnterprise Client 111 Corp,India,Energy,Mid-Market,EMP-00162,Active,1244909,Low
+CUST-00112,NovaEnterprise Client 112 Corp,North America,Energy,Government,EMP-00226,At-Risk,1485949,High
+CUST-00113,NovaEnterprise Client 113 Corp,APAC,Healthcare,Government,EMP-00187,Active,1563243,Low
+CUST-00114,NovaEnterprise Client 114 Corp,Europe,E-Commerce,Strategic Accounts,EMP-00121,Active,2241891,Low
+CUST-00115,NovaEnterprise Client 115 Corp,Europe,Healthcare,Government,EMP-00221,Under Review,2403577,High
+CUST-00116,NovaEnterprise Client 116 Corp,North America,Manufacturing,Government,EMP-00123,At-Risk,3400801,High
+CUST-00117,NovaEnterprise Client 117 Corp,APAC,Healthcare,Government,EMP-00221,Active,1359321,Low
+CUST-00118,NovaEnterprise Client 118 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00190,Under Review,3203679,High
+CUST-00119,NovaEnterprise Client 119 Corp,Europe,Aerospace,Strategic Accounts,EMP-00130,Active,1129463,Medium
+CUST-00120,NovaEnterprise Client 120 Corp,Europe,Manufacturing,Mid-Market,EMP-00149,Active,576448,Medium
+CUST-00121,NovaEnterprise Client 121 Corp,APAC,Healthcare,Government,EMP-00125,Active,3114129,Medium
+CUST-00122,NovaEnterprise Client 122 Corp,APAC,Energy,Mid-Market,EMP-00145,Active,1029133,Medium
+CUST-00123,NovaEnterprise Client 123 Corp,North America,E-Commerce,Enterprise,EMP-00113,Active,1225545,Low
+CUST-00124,Vertex Global Systems,APAC,Financial Services,Strategic Accounts,EMP-00132,Active,4250000,High
+CUST-00125,NovaEnterprise Client 125 Corp,APAC,Manufacturing,Government,EMP-00220,Active,126444,Low
+CUST-00126,NovaEnterprise Client 126 Corp,North America,Aerospace,Government,EMP-00164,Active,848277,Medium
+CUST-00127,NovaEnterprise Client 127 Corp,India,Energy,Government,EMP-00225,Active,349070,Low
+CUST-00128,NovaEnterprise Client 128 Corp,APAC,Financial Services,Enterprise,EMP-00121,Active,700780,Low
+CUST-00129,NovaEnterprise Client 129 Corp,Europe,Healthcare,Enterprise,EMP-00233,At-Risk,2618080,High
+CUST-00130,NovaEnterprise Client 130 Corp,India,Aerospace,Government,EMP-00178,Active,2543453,Medium
+CUST-00131,NovaEnterprise Client 131 Corp,Europe,Telecommunications,Enterprise,EMP-00154,Active,3274151,Low
+CUST-00132,NovaEnterprise Client 132 Corp,Europe,E-Commerce,Enterprise,EMP-00241,Active,1081067,Low
+CUST-00133,NovaEnterprise Client 133 Corp,India,Financial Services,Mid-Market,EMP-00220,Active,1788446,Low
+CUST-00134,NovaEnterprise Client 134 Corp,APAC,E-Commerce,Enterprise,EMP-00216,Active,1283399,Low
+CUST-00135,NovaEnterprise Client 135 Corp,Europe,Financial Services,Mid-Market,EMP-00208,Active,3379390,Medium
+CUST-00136,NovaEnterprise Client 136 Corp,Europe,Financial Services,Mid-Market,EMP-00118,Active,1189143,Low
+CUST-00137,NovaEnterprise Client 137 Corp,APAC,Financial Services,Mid-Market,EMP-00212,Active,2570795,Medium
+CUST-00138,NovaEnterprise Client 138 Corp,India,Financial Services,Government,EMP-00169,Active,3009895,Medium
+CUST-00139,NovaEnterprise Client 139 Corp,North America,Telecommunications,Government,EMP-00210,Under Review,412397,High
+CUST-00140,NovaEnterprise Client 140 Corp,Europe,E-Commerce,Strategic Accounts,EMP-00247,Active,458052,Low
+CUST-00141,NovaEnterprise Client 141 Corp,North America,Telecommunications,Enterprise,EMP-00144,Active,2491955,Medium
+CUST-00142,NovaEnterprise Client 142 Corp,India,Aerospace,Government,EMP-00225,Active,836220,Medium
+CUST-00143,NovaEnterprise Client 143 Corp,APAC,Financial Services,Government,EMP-00182,Active,1787736,Medium
+CUST-00144,NovaEnterprise Client 144 Corp,India,Manufacturing,Enterprise,EMP-00226,Active,1458296,Low
+CUST-00145,NovaEnterprise Client 145 Corp,North America,E-Commerce,Government,EMP-00180,Active,1982678,Low
+CUST-00146,NovaEnterprise Client 146 Corp,India,E-Commerce,Strategic Accounts,EMP-00231,Active,3315300,Low
+CUST-00147,NovaEnterprise Client 147 Corp,North America,Energy,Enterprise,EMP-00148,Under Review,1808285,High
+CUST-00148,NovaEnterprise Client 148 Corp,North America,E-Commerce,Government,EMP-00152,At-Risk,3262631,High
+CUST-00149,NovaEnterprise Client 149 Corp,India,Telecommunications,Mid-Market,EMP-00131,Active,1912592,Medium
+CUST-00150,NovaEnterprise Client 150 Corp,North America,Financial Services,Mid-Market,EMP-00241,Active,1378380,Low
+CUST-00151,NovaEnterprise Client 151 Corp,India,Aerospace,Enterprise,EMP-00130,Active,550890,Low
+CUST-00152,NovaEnterprise Client 152 Corp,APAC,Manufacturing,Mid-Market,EMP-00230,Under Review,3080652,High
+CUST-00153,NovaEnterprise Client 153 Corp,Europe,E-Commerce,Government,EMP-00216,Under Review,2055633,High
+CUST-00154,NovaEnterprise Client 154 Corp,Europe,Healthcare,Government,EMP-00117,Active,2588971,Low
+CUST-00155,NovaEnterprise Client 155 Corp,APAC,E-Commerce,Government,EMP-00100,Active,3378926,Medium
+CUST-00156,NovaEnterprise Client 156 Corp,India,E-Commerce,Strategic Accounts,EMP-00237,At-Risk,698254,High
+CUST-00157,NovaEnterprise Client 157 Corp,APAC,E-Commerce,Strategic Accounts,EMP-00148,Under Review,1984853,High
+CUST-00158,NovaEnterprise Client 158 Corp,India,Healthcare,Government,EMP-00111,Active,3327869,Low
+CUST-00159,NovaEnterprise Client 159 Corp,Europe,E-Commerce,Government,EMP-00226,Active,1694331,High
+CUST-00160,NovaEnterprise Client 160 Corp,North America,Healthcare,Strategic Accounts,EMP-00234,Active,1921778,Low
+CUST-00161,NovaEnterprise Client 161 Corp,Europe,Aerospace,Enterprise,EMP-00119,Active,1794574,Low
+CUST-00162,NovaEnterprise Client 162 Corp,India,Aerospace,Strategic Accounts,EMP-00120,Active,2689139,Medium
+CUST-00163,NovaEnterprise Client 163 Corp,India,Energy,Strategic Accounts,EMP-00238,Active,1403173,High
+CUST-00164,NovaEnterprise Client 164 Corp,APAC,Telecommunications,Enterprise,EMP-00158,Active,2722281,Low
+CUST-00165,NovaEnterprise Client 165 Corp,North America,Manufacturing,Enterprise,EMP-00213,Active,487900,High
+CUST-00166,NovaEnterprise Client 166 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00114,Active,267900,Low
+CUST-00167,NovaEnterprise Client 167 Corp,Europe,E-Commerce,Strategic Accounts,EMP-00162,Active,1881431,Medium
+CUST-00168,NovaEnterprise Client 168 Corp,Europe,Telecommunications,Government,EMP-00120,Active,787963,Low
+CUST-00169,NovaEnterprise Client 169 Corp,Europe,Telecommunications,Government,EMP-00159,Active,2162367,Low
+CUST-00170,NovaEnterprise Client 170 Corp,North America,Aerospace,Strategic Accounts,EMP-00219,At-Risk,1145917,High
+CUST-00171,NovaEnterprise Client 171 Corp,APAC,Manufacturing,Mid-Market,EMP-00250,Active,1927748,Low
+CUST-00172,NovaEnterprise Client 172 Corp,APAC,E-Commerce,Government,EMP-00150,Active,1991108,Medium
+CUST-00173,NovaEnterprise Client 173 Corp,India,Aerospace,Government,EMP-00246,Active,1069912,Low
+CUST-00174,NovaEnterprise Client 174 Corp,India,E-Commerce,Strategic Accounts,EMP-00170,Active,167021,Medium
+CUST-00175,NovaEnterprise Client 175 Corp,Europe,Financial Services,Enterprise,EMP-00190,Active,1275385,High
+CUST-00176,NovaEnterprise Client 176 Corp,Europe,Manufacturing,Mid-Market,EMP-00124,Active,2917750,Medium
+CUST-00177,NovaEnterprise Client 177 Corp,India,Manufacturing,Enterprise,EMP-00108,Active,3382672,Medium
+CUST-00178,NovaEnterprise Client 178 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00183,Active,453046,Low
+CUST-00179,NovaEnterprise Client 179 Corp,Europe,Manufacturing,Government,EMP-00238,Active,917194,Low
+CUST-00180,NovaEnterprise Client 180 Corp,India,E-Commerce,Strategic Accounts,EMP-00175,Active,1152810,Low
+CUST-00181,NovaEnterprise Client 181 Corp,North America,Manufacturing,Strategic Accounts,EMP-00136,Active,2039324,Low
+CUST-00182,NovaEnterprise Client 182 Corp,APAC,Energy,Mid-Market,EMP-00123,At-Risk,3449685,High
+CUST-00183,NovaEnterprise Client 183 Corp,APAC,Financial Services,Strategic Accounts,EMP-00167,Active,1982510,Low
+CUST-00184,NovaEnterprise Client 184 Corp,Europe,Telecommunications,Government,EMP-00220,Active,529436,Medium
+CUST-00185,NovaEnterprise Client 185 Corp,North America,Financial Services,Strategic Accounts,EMP-00218,Active,2791450,Low
+CUST-00186,NovaEnterprise Client 186 Corp,Europe,Manufacturing,Strategic Accounts,EMP-00111,Active,564374,High
+CUST-00187,NovaEnterprise Client 187 Corp,Europe,E-Commerce,Government,EMP-00237,Active,482652,Low
+CUST-00188,NovaEnterprise Client 188 Corp,India,Healthcare,Government,EMP-00250,Under Review,1631135,High
+CUST-00189,NovaEnterprise Client 189 Corp,North America,Manufacturing,Mid-Market,EMP-00225,Under Review,2821941,High
+CUST-00190,NovaEnterprise Client 190 Corp,APAC,Aerospace,Strategic Accounts,EMP-00155,Active,2970246,Low
+CUST-00191,NovaEnterprise Client 191 Corp,North America,Aerospace,Government,EMP-00194,Active,1596215,Low
+CUST-00192,NovaEnterprise Client 192 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00148,Active,1744918,Low
+CUST-00193,NovaEnterprise Client 193 Corp,Europe,Financial Services,Government,EMP-00105,Active,2854853,Low
+CUST-00194,NovaEnterprise Client 194 Corp,Europe,Financial Services,Strategic Accounts,EMP-00117,Active,603163,Low
+CUST-00195,NovaEnterprise Client 195 Corp,Europe,Energy,Mid-Market,EMP-00184,Active,3485191,Low
+CUST-00196,NovaEnterprise Client 196 Corp,Europe,Energy,Mid-Market,EMP-00133,Active,1237974,Low
+CUST-00197,NovaEnterprise Client 197 Corp,North America,Telecommunications,Strategic Accounts,EMP-00133,Active,536064,Low
+CUST-00198,NovaEnterprise Client 198 Corp,APAC,Financial Services,Strategic Accounts,EMP-00104,Active,2544828,Low
+CUST-00199,NovaEnterprise Client 199 Corp,India,Healthcare,Strategic Accounts,EMP-00234,Active,606663,Low
+CUST-00200,NovaEnterprise Client 200 Corp,APAC,Financial Services,Enterprise,EMP-00231,Under Review,1955202,High
+CUST-00201,NovaEnterprise Client 201 Corp,North America,Financial Services,Government,EMP-00233,Active,2654945,Low
+CUST-00202,NovaEnterprise Client 202 Corp,India,E-Commerce,Government,EMP-00202,Active,330120,Low
+CUST-00203,NovaEnterprise Client 203 Corp,India,Aerospace,Enterprise,EMP-00118,Active,3063027,High
+CUST-00204,NovaEnterprise Client 204 Corp,APAC,E-Commerce,Mid-Market,EMP-00249,Active,604285,Low
+CUST-00205,NovaEnterprise Client 205 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00216,Under Review,2580643,High
+CUST-00206,NovaEnterprise Client 206 Corp,North America,Telecommunications,Government,EMP-00241,Active,3401486,Low
+CUST-00207,NovaEnterprise Client 207 Corp,Europe,Manufacturing,Mid-Market,EMP-00205,At-Risk,1968958,High
+CUST-00208,NovaEnterprise Client 208 Corp,North America,Energy,Government,EMP-00180,At-Risk,1819787,High
+CUST-00209,NovaEnterprise Client 209 Corp,India,E-Commerce,Strategic Accounts,EMP-00117,Active,715214,Medium
+CUST-00210,NovaEnterprise Client 210 Corp,North America,Financial Services,Enterprise,EMP-00195,Active,1886421,Low
+CUST-00211,NovaEnterprise Client 211 Corp,APAC,Energy,Mid-Market,EMP-00131,Active,2534812,Low
+CUST-00212,NovaEnterprise Client 212 Corp,North America,Aerospace,Strategic Accounts,EMP-00173,Under Review,3099347,High
+CUST-00213,NovaEnterprise Client 213 Corp,Europe,E-Commerce,Strategic Accounts,EMP-00139,Active,2498965,Low
+CUST-00214,NovaEnterprise Client 214 Corp,APAC,Manufacturing,Government,EMP-00242,Active,528900,Low
+CUST-00215,NovaEnterprise Client 215 Corp,Europe,E-Commerce,Enterprise,EMP-00209,Active,2482949,Medium
+CUST-00216,NovaEnterprise Client 216 Corp,Europe,Energy,Enterprise,EMP-00169,Active,196438,Medium
+CUST-00217,NovaEnterprise Client 217 Corp,North America,Manufacturing,Strategic Accounts,EMP-00146,Active,1547298,Medium
+CUST-00218,NovaEnterprise Client 218 Corp,Europe,Energy,Mid-Market,EMP-00107,Active,366862,High
+CUST-00219,NovaEnterprise Client 219 Corp,India,Manufacturing,Mid-Market,EMP-00187,Active,1835905,High
+CUST-00220,NovaEnterprise Client 220 Corp,North America,E-Commerce,Strategic Accounts,EMP-00113,Active,3333284,Medium
+CUST-00221,NovaEnterprise Client 221 Corp,North America,Healthcare,Mid-Market,EMP-00169,Active,2901829,Low
+CUST-00222,NovaEnterprise Client 222 Corp,India,Aerospace,Government,EMP-00206,At-Risk,2621261,High
+CUST-00223,NovaEnterprise Client 223 Corp,North America,Healthcare,Enterprise,EMP-00172,Active,1878188,Medium
+CUST-00224,NovaEnterprise Client 224 Corp,Europe,Manufacturing,Government,EMP-00201,Active,265494,Medium
+CUST-00225,NovaEnterprise Client 225 Corp,APAC,Telecommunications,Enterprise,EMP-00154,Active,932412,Low
+CUST-00226,NovaEnterprise Client 226 Corp,APAC,Energy,Mid-Market,EMP-00130,Active,1289029,Medium
+CUST-00227,NovaEnterprise Client 227 Corp,Europe,Financial Services,Government,EMP-00197,Under Review,811917,High
+CUST-00228,NovaEnterprise Client 228 Corp,India,Manufacturing,Mid-Market,EMP-00110,Active,377306,Medium
+CUST-00229,NovaEnterprise Client 229 Corp,APAC,Aerospace,Enterprise,EMP-00247,At-Risk,401579,High
+CUST-00230,NovaEnterprise Client 230 Corp,North America,Telecommunications,Government,EMP-00203,Active,1289314,High
+CUST-00231,NovaEnterprise Client 231 Corp,APAC,E-Commerce,Mid-Market,EMP-00122,At-Risk,2967434,High
+CUST-00232,NovaEnterprise Client 232 Corp,India,Energy,Enterprise,EMP-00234,Active,1902359,Low
+CUST-00233,NovaEnterprise Client 233 Corp,APAC,Financial Services,Government,EMP-00156,Active,3203132,Medium
+CUST-00234,NovaEnterprise Client 234 Corp,North America,E-Commerce,Mid-Market,EMP-00235,Active,2216122,Low
+CUST-00235,NovaEnterprise Client 235 Corp,Europe,Telecommunications,Mid-Market,EMP-00160,Active,1547619,Medium
+CUST-00236,NovaEnterprise Client 236 Corp,Europe,Financial Services,Mid-Market,EMP-00139,Active,902417,Medium
+CUST-00237,NovaEnterprise Client 237 Corp,India,Energy,Enterprise,EMP-00218,Active,3316559,Low
+CUST-00238,NovaEnterprise Client 238 Corp,APAC,Energy,Government,EMP-00138,Active,2705740,Medium
+CUST-00239,NovaEnterprise Client 239 Corp,APAC,Aerospace,Enterprise,EMP-00170,Under Review,1929755,High
+CUST-00240,NovaEnterprise Client 240 Corp,India,Financial Services,Strategic Accounts,EMP-00215,Active,1376944,Low
+CUST-00241,NovaEnterprise Client 241 Corp,North America,Financial Services,Enterprise,EMP-00123,Active,1279088,Medium
+CUST-00242,NovaEnterprise Client 242 Corp,North America,Telecommunications,Government,EMP-00215,Under Review,2509077,High
+CUST-00243,NovaEnterprise Client 243 Corp,India,Manufacturing,Mid-Market,EMP-00228,Active,2612578,Medium
+CUST-00244,NovaEnterprise Client 244 Corp,APAC,Healthcare,Enterprise,EMP-00121,Under Review,509118,High
+CUST-00245,NovaEnterprise Client 245 Corp,India,Manufacturing,Mid-Market,EMP-00212,Active,1114112,Low
+CUST-00246,NovaEnterprise Client 246 Corp,APAC,Telecommunications,Mid-Market,EMP-00199,Active,1638854,Medium
+CUST-00247,NovaEnterprise Client 247 Corp,APAC,Aerospace,Strategic Accounts,EMP-00116,Active,3385257,Low
+CUST-00248,NovaEnterprise Client 248 Corp,APAC,E-Commerce,Enterprise,EMP-00138,At-Risk,1266798,High
+CUST-00249,NovaEnterprise Client 249 Corp,India,Financial Services,Mid-Market,EMP-00133,Active,1376206,Medium
+CUST-00250,NovaEnterprise Client 250 Corp,India,Telecommunications,Enterprise,EMP-00184,Active,2419289,Medium
+CUST-00251,NovaEnterprise Client 251 Corp,India,Energy,Mid-Market,EMP-00230,Active,2784624,Low
+CUST-00252,NovaEnterprise Client 252 Corp,Europe,E-Commerce,Enterprise,EMP-00154,Active,1370478,Medium
+CUST-00253,NovaEnterprise Client 253 Corp,Europe,E-Commerce,Government,EMP-00139,Active,1025190,Low
+CUST-00254,NovaEnterprise Client 254 Corp,North America,Financial Services,Strategic Accounts,EMP-00186,Active,2204404,Low
+CUST-00255,NovaEnterprise Client 255 Corp,Europe,Energy,Mid-Market,EMP-00146,Under Review,721982,High
+CUST-00256,NovaEnterprise Client 256 Corp,India,Energy,Mid-Market,EMP-00193,Under Review,258259,High
+CUST-00257,NovaEnterprise Client 257 Corp,APAC,Manufacturing,Mid-Market,EMP-00214,Active,2636022,High
+CUST-00258,NovaEnterprise Client 258 Corp,India,Telecommunications,Mid-Market,EMP-00149,Active,3466614,Medium
+CUST-00259,NovaEnterprise Client 259 Corp,APAC,E-Commerce,Government,EMP-00197,Under Review,3302259,High
+CUST-00260,NovaEnterprise Client 260 Corp,Europe,Telecommunications,Government,EMP-00164,Active,912592,Low
+CUST-00261,NovaEnterprise Client 261 Corp,North America,Financial Services,Government,EMP-00232,Active,2400912,Medium
+CUST-00262,NovaEnterprise Client 262 Corp,Europe,Energy,Enterprise,EMP-00169,Active,426797,Medium
+CUST-00263,NovaEnterprise Client 263 Corp,Europe,Aerospace,Mid-Market,EMP-00215,At-Risk,459674,High
+CUST-00264,NovaEnterprise Client 264 Corp,APAC,Financial Services,Government,EMP-00160,Active,1737848,Low
+CUST-00265,NovaEnterprise Client 265 Corp,North America,Aerospace,Enterprise,EMP-00181,Active,1016783,Medium
+CUST-00266,NovaEnterprise Client 266 Corp,North America,Financial Services,Strategic Accounts,EMP-00173,Active,652134,Low
+CUST-00267,NovaEnterprise Client 267 Corp,India,Energy,Government,EMP-00214,Active,3257810,Low
+CUST-00268,NovaEnterprise Client 268 Corp,APAC,Telecommunications,Enterprise,EMP-00155,Active,154708,Low
+CUST-00269,NovaEnterprise Client 269 Corp,APAC,Energy,Mid-Market,EMP-00160,At-Risk,541351,High
+CUST-00270,NovaEnterprise Client 270 Corp,India,Financial Services,Enterprise,EMP-00116,Active,1835875,Low
+CUST-00271,NovaEnterprise Client 271 Corp,Europe,Financial Services,Government,EMP-00136,Active,2725611,Low
+CUST-00272,NovaEnterprise Client 272 Corp,APAC,E-Commerce,Government,EMP-00161,Active,2653698,Low
+CUST-00273,NovaEnterprise Client 273 Corp,North America,Telecommunications,Government,EMP-00234,Active,2861575,Low
+CUST-00274,NovaEnterprise Client 274 Corp,India,E-Commerce,Enterprise,EMP-00111,Active,1712681,Low
+CUST-00275,NovaEnterprise Client 275 Corp,North America,Manufacturing,Government,EMP-00191,Active,1138886,Medium
+CUST-00276,NovaEnterprise Client 276 Corp,North America,Energy,Enterprise,EMP-00248,Active,1086355,Medium
+CUST-00277,NovaEnterprise Client 277 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00239,Active,260957,Low
+CUST-00278,NovaEnterprise Client 278 Corp,India,E-Commerce,Mid-Market,EMP-00146,Active,2991673,High
+CUST-00279,NovaEnterprise Client 279 Corp,Europe,Financial Services,Government,EMP-00111,Active,1305787,Low
+CUST-00280,NovaEnterprise Client 280 Corp,APAC,Energy,Mid-Market,EMP-00231,Active,1398704,Low
+CUST-00281,NovaEnterprise Client 281 Corp,Europe,Aerospace,Government,EMP-00173,Active,228598,Medium
+CUST-00282,NovaEnterprise Client 282 Corp,North America,E-Commerce,Enterprise,EMP-00194,Active,1220953,Medium
+CUST-00283,NovaEnterprise Client 283 Corp,APAC,Aerospace,Government,EMP-00147,At-Risk,1696705,High
+CUST-00284,NovaEnterprise Client 284 Corp,APAC,Manufacturing,Government,EMP-00121,Active,3419080,Medium
+CUST-00285,NovaEnterprise Client 285 Corp,Europe,Manufacturing,Government,EMP-00239,Active,1881097,Low
+CUST-00286,NovaEnterprise Client 286 Corp,APAC,E-Commerce,Strategic Accounts,EMP-00175,Active,410833,Low
+CUST-00287,NovaEnterprise Client 287 Corp,India,E-Commerce,Government,EMP-00189,At-Risk,773958,High
+CUST-00288,NovaEnterprise Client 288 Corp,North America,Financial Services,Strategic Accounts,EMP-00119,Under Review,1226568,High
+CUST-00289,NovaEnterprise Client 289 Corp,Europe,Manufacturing,Government,EMP-00107,Active,2227038,Medium
+CUST-00290,NovaEnterprise Client 290 Corp,North America,Healthcare,Government,EMP-00160,Active,604447,Low
+CUST-00291,NovaEnterprise Client 291 Corp,North America,Energy,Strategic Accounts,EMP-00139,Active,1680807,Medium
+CUST-00292,NovaEnterprise Client 292 Corp,India,Manufacturing,Government,EMP-00119,Active,1635337,Medium
+CUST-00293,NovaEnterprise Client 293 Corp,APAC,Telecommunications,Mid-Market,EMP-00171,Active,1744475,Medium
+CUST-00294,NovaEnterprise Client 294 Corp,Europe,Healthcare,Enterprise,EMP-00227,Active,3160644,Low
+CUST-00295,NovaEnterprise Client 295 Corp,APAC,Telecommunications,Government,EMP-00214,Active,1172970,Low
+CUST-00296,NovaEnterprise Client 296 Corp,North America,Healthcare,Strategic Accounts,EMP-00134,Active,914608,High
+CUST-00297,NovaEnterprise Client 297 Corp,APAC,Aerospace,Mid-Market,EMP-00188,Under Review,443221,High
+CUST-00298,NovaEnterprise Client 298 Corp,Europe,Financial Services,Strategic Accounts,EMP-00192,Active,735624,Medium
+CUST-00299,NovaEnterprise Client 299 Corp,Europe,Telecommunications,Mid-Market,EMP-00160,Active,917972,Low
+CUST-00300,NovaEnterprise Client 300 Corp,APAC,Energy,Government,EMP-00219,Active,1588709,Low
+CUST-00301,NovaEnterprise Client 301 Corp,APAC,Energy,Mid-Market,EMP-00201,Active,350767,Low
+CUST-00302,NovaEnterprise Client 302 Corp,India,Manufacturing,Government,EMP-00247,Active,3301109,High
+CUST-00303,NovaEnterprise Client 303 Corp,India,Healthcare,Strategic Accounts,EMP-00232,Active,1962329,Low
+CUST-00304,NovaEnterprise Client 304 Corp,Europe,E-Commerce,Mid-Market,EMP-00210,Active,3295309,Low
+CUST-00305,NovaEnterprise Client 305 Corp,Europe,Telecommunications,Enterprise,EMP-00177,Active,2248077,Low
+CUST-00306,NovaEnterprise Client 306 Corp,Europe,Healthcare,Mid-Market,EMP-00188,Active,3050154,Medium
+CUST-00307,NovaEnterprise Client 307 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00241,Active,1126114,Low
+CUST-00308,NovaEnterprise Client 308 Corp,North America,E-Commerce,Mid-Market,EMP-00228,Active,2652098,Medium
+CUST-00309,NovaEnterprise Client 309 Corp,APAC,Manufacturing,Mid-Market,EMP-00244,Active,793067,Low
+CUST-00310,NovaEnterprise Client 310 Corp,APAC,Financial Services,Enterprise,EMP-00153,Active,265680,Low
+CUST-00311,NovaEnterprise Client 311 Corp,APAC,Energy,Government,EMP-00177,Active,2163923,Low
+CUST-00312,NovaEnterprise Client 312 Corp,India,Aerospace,Mid-Market,EMP-00118,Under Review,1322528,High
+CUST-00313,NovaEnterprise Client 313 Corp,India,Financial Services,Mid-Market,EMP-00218,Active,1818243,High
+CUST-00314,NovaEnterprise Client 314 Corp,APAC,E-Commerce,Mid-Market,EMP-00188,Active,3088032,Medium
+CUST-00315,NovaEnterprise Client 315 Corp,North America,Aerospace,Mid-Market,EMP-00181,Active,2234983,Medium
+CUST-00316,NovaEnterprise Client 316 Corp,India,Healthcare,Government,EMP-00163,Active,1196857,Low
+CUST-00317,NovaEnterprise Client 317 Corp,India,Healthcare,Enterprise,EMP-00207,Active,1292237,Low
+CUST-00318,NovaEnterprise Client 318 Corp,APAC,Healthcare,Mid-Market,EMP-00148,Active,2497995,Medium
+CUST-00319,NovaEnterprise Client 319 Corp,India,Energy,Mid-Market,EMP-00227,At-Risk,2233912,High
+CUST-00320,NovaEnterprise Client 320 Corp,India,Aerospace,Enterprise,EMP-00161,Active,1724377,Low
+CUST-00321,NovaEnterprise Client 321 Corp,APAC,Healthcare,Strategic Accounts,EMP-00226,Active,286981,Low
+CUST-00322,NovaEnterprise Client 322 Corp,North America,Telecommunications,Government,EMP-00127,Active,2326044,Medium
+CUST-00323,NovaEnterprise Client 323 Corp,APAC,Aerospace,Mid-Market,EMP-00203,Active,3126389,Medium
+CUST-00324,NovaEnterprise Client 324 Corp,Europe,E-Commerce,Enterprise,EMP-00192,Under Review,289570,High
+CUST-00325,NovaEnterprise Client 325 Corp,India,E-Commerce,Enterprise,EMP-00240,At-Risk,2190000,High
+CUST-00326,NovaEnterprise Client 326 Corp,India,Energy,Enterprise,EMP-00195,Active,480511,Low
+CUST-00327,NovaEnterprise Client 327 Corp,Europe,Energy,Strategic Accounts,EMP-00150,Active,3241553,Medium
+CUST-00328,NovaEnterprise Client 328 Corp,North America,Telecommunications,Government,EMP-00135,Active,265016,Low
+CUST-00329,NovaEnterprise Client 329 Corp,India,Manufacturing,Strategic Accounts,EMP-00138,Under Review,2253239,High
+CUST-00330,NovaEnterprise Client 330 Corp,APAC,Telecommunications,Mid-Market,EMP-00141,Active,2646394,Medium
+CUST-00331,NovaEnterprise Client 331 Corp,India,Aerospace,Strategic Accounts,EMP-00244,Active,2202833,Medium
+CUST-00332,NovaEnterprise Client 332 Corp,APAC,E-Commerce,Government,EMP-00128,Active,1620004,Low
+CUST-00333,NovaEnterprise Client 333 Corp,India,Aerospace,Strategic Accounts,EMP-00167,Active,2578620,Low
+CUST-00334,NovaEnterprise Client 334 Corp,India,Manufacturing,Mid-Market,EMP-00143,Active,2522474,Low
+CUST-00335,NovaEnterprise Client 335 Corp,Europe,Telecommunications,Government,EMP-00108,Active,2930175,Low
+CUST-00336,NovaEnterprise Client 336 Corp,India,Telecommunications,Enterprise,EMP-00180,Active,154429,Low
+CUST-00337,NovaEnterprise Client 337 Corp,Europe,Aerospace,Mid-Market,EMP-00205,Under Review,2971168,High
+CUST-00338,NovaEnterprise Client 338 Corp,Europe,Energy,Government,EMP-00232,Active,3035235,Low
+CUST-00339,NovaEnterprise Client 339 Corp,India,Healthcare,Strategic Accounts,EMP-00180,Active,2279010,High
+CUST-00340,NovaEnterprise Client 340 Corp,APAC,Aerospace,Strategic Accounts,EMP-00223,Active,2909798,Medium
+CUST-00341,NovaEnterprise Client 341 Corp,APAC,Healthcare,Mid-Market,EMP-00157,Active,2415785,Medium
+CUST-00342,NovaEnterprise Client 342 Corp,India,E-Commerce,Strategic Accounts,EMP-00181,Active,2970076,Low
+CUST-00343,NovaEnterprise Client 343 Corp,North America,Aerospace,Strategic Accounts,EMP-00246,Active,1282076,Medium
+CUST-00344,NovaEnterprise Client 344 Corp,Europe,Manufacturing,Government,EMP-00174,Active,1522599,High
+CUST-00345,NovaEnterprise Client 345 Corp,APAC,E-Commerce,Enterprise,EMP-00222,Active,1930459,Medium
+CUST-00346,NovaEnterprise Client 346 Corp,APAC,Healthcare,Mid-Market,EMP-00135,Active,2432274,Medium
+CUST-00347,NovaEnterprise Client 347 Corp,Europe,Financial Services,Mid-Market,EMP-00159,Active,287925,Low
+CUST-00348,NovaEnterprise Client 348 Corp,India,Financial Services,Enterprise,EMP-00125,Under Review,1460351,High
+CUST-00349,NovaEnterprise Client 349 Corp,Europe,Energy,Mid-Market,EMP-00204,Active,2383345,Low
+CUST-00350,NovaEnterprise Client 350 Corp,Europe,Manufacturing,Government,EMP-00173,At-Risk,2803557,High
+CUST-00351,NovaEnterprise Client 351 Corp,Europe,E-Commerce,Enterprise,EMP-00236,Active,2810939,Low
+CUST-00352,NovaEnterprise Client 352 Corp,Europe,Manufacturing,Enterprise,EMP-00109,Active,1827736,Low
+CUST-00353,NovaEnterprise Client 353 Corp,APAC,Energy,Government,EMP-00109,Active,856447,High
+CUST-00354,NovaEnterprise Client 354 Corp,India,E-Commerce,Enterprise,EMP-00239,Active,1268538,Medium
+CUST-00355,NovaEnterprise Client 355 Corp,India,Telecommunications,Government,EMP-00169,Active,2189821,Low
+CUST-00356,NovaEnterprise Client 356 Corp,India,Healthcare,Enterprise,EMP-00165,Active,756550,Medium
+CUST-00357,NovaEnterprise Client 357 Corp,APAC,Manufacturing,Mid-Market,EMP-00175,Active,3164599,Low
+CUST-00358,NovaEnterprise Client 358 Corp,India,Telecommunications,Mid-Market,EMP-00209,Active,2637528,Low
+CUST-00359,NovaEnterprise Client 359 Corp,North America,Telecommunications,Strategic Accounts,EMP-00147,Active,1756216,Low
+CUST-00360,NovaEnterprise Client 360 Corp,North America,Healthcare,Government,EMP-00166,Active,1115384,Medium
+CUST-00361,NovaEnterprise Client 361 Corp,APAC,Aerospace,Mid-Market,EMP-00184,At-Risk,3236484,High
+CUST-00362,NovaEnterprise Client 362 Corp,APAC,Telecommunications,Enterprise,EMP-00160,Active,2816746,Medium
+CUST-00363,NovaEnterprise Client 363 Corp,Europe,Financial Services,Enterprise,EMP-00203,Under Review,1361839,High
+CUST-00364,NovaEnterprise Client 364 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00194,Active,2753949,Low
+CUST-00365,NovaEnterprise Client 365 Corp,India,Telecommunications,Mid-Market,EMP-00139,Active,635228,Low
+CUST-00366,NovaEnterprise Client 366 Corp,India,Aerospace,Strategic Accounts,EMP-00237,Under Review,3019152,High
+CUST-00367,NovaEnterprise Client 367 Corp,North America,Energy,Mid-Market,EMP-00234,Active,2928560,Low
+CUST-00368,NovaEnterprise Client 368 Corp,North America,Aerospace,Strategic Accounts,EMP-00115,Active,2441295,Low
+CUST-00369,NovaEnterprise Client 369 Corp,APAC,Energy,Mid-Market,EMP-00233,Active,765118,Low
+CUST-00370,NovaEnterprise Client 370 Corp,India,Aerospace,Enterprise,EMP-00123,Active,3081971,Low
+CUST-00371,NovaEnterprise Client 371 Corp,Europe,Telecommunications,Government,EMP-00231,Active,1976832,Low
+CUST-00372,NovaEnterprise Client 372 Corp,India,Aerospace,Government,EMP-00178,Active,2418765,Low
+CUST-00373,NovaEnterprise Client 373 Corp,North America,Manufacturing,Enterprise,EMP-00155,Under Review,1142270,High
+CUST-00374,NovaEnterprise Client 374 Corp,North America,Financial Services,Enterprise,EMP-00238,Active,1520058,High
+CUST-00375,NovaEnterprise Client 375 Corp,India,Financial Services,Government,EMP-00146,Active,1279145,Low
+CUST-00376,NovaEnterprise Client 376 Corp,India,Energy,Mid-Market,EMP-00214,At-Risk,1645602,High
+CUST-00377,NovaEnterprise Client 377 Corp,APAC,Aerospace,Enterprise,EMP-00130,Active,2816120,Low
+CUST-00378,NovaEnterprise Client 378 Corp,Europe,Healthcare,Government,EMP-00100,Active,3127858,Low
+CUST-00379,NovaEnterprise Client 379 Corp,India,Energy,Enterprise,EMP-00236,Active,2016979,Medium
+CUST-00380,NovaEnterprise Client 380 Corp,APAC,Aerospace,Mid-Market,EMP-00139,Active,2007002,Low
+CUST-00381,NovaEnterprise Client 381 Corp,India,E-Commerce,Mid-Market,EMP-00104,Active,210129,Low
+CUST-00382,NovaEnterprise Client 382 Corp,North America,Healthcare,Mid-Market,EMP-00214,Active,498191,Low
+CUST-00383,NovaEnterprise Client 383 Corp,North America,Telecommunications,Enterprise,EMP-00202,Active,3181054,Low
+CUST-00384,NovaEnterprise Client 384 Corp,North America,Aerospace,Mid-Market,EMP-00135,Active,3239122,Low
+CUST-00385,NovaEnterprise Client 385 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00247,Active,3496655,Low
+CUST-00386,NovaEnterprise Client 386 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00233,Active,1340691,Low
+CUST-00387,NovaEnterprise Client 387 Corp,North America,Healthcare,Government,EMP-00242,Active,1229079,Medium
+CUST-00388,NovaEnterprise Client 388 Corp,India,Telecommunications,Mid-Market,EMP-00112,At-Risk,2406406,High
+CUST-00389,NovaEnterprise Client 389 Corp,India,Manufacturing,Government,EMP-00204,Active,2995529,Medium
+CUST-00390,NovaEnterprise Client 390 Corp,India,Healthcare,Strategic Accounts,EMP-00161,Active,846244,High
+CUST-00391,NovaEnterprise Client 391 Corp,India,E-Commerce,Mid-Market,EMP-00206,Under Review,316692,High
+CUST-00392,NovaEnterprise Client 392 Corp,APAC,Telecommunications,Mid-Market,EMP-00152,At-Risk,1093622,High
+CUST-00393,NovaEnterprise Client 393 Corp,North America,Manufacturing,Enterprise,EMP-00237,Under Review,1631411,High
+CUST-00394,NovaEnterprise Client 394 Corp,India,Energy,Mid-Market,EMP-00110,Active,1201009,Low
+CUST-00395,NovaEnterprise Client 395 Corp,Europe,Energy,Enterprise,EMP-00222,Active,3449949,Low
+CUST-00396,NovaEnterprise Client 396 Corp,Europe,Healthcare,Strategic Accounts,EMP-00148,Active,139314,Medium
+CUST-00397,NovaEnterprise Client 397 Corp,Europe,Manufacturing,Enterprise,EMP-00201,Active,1092509,High
+CUST-00398,NovaEnterprise Client 398 Corp,India,Telecommunications,Strategic Accounts,EMP-00236,Active,1671611,Medium
+CUST-00399,NovaEnterprise Client 399 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00231,Active,1172068,Medium
+CUST-00400,NovaEnterprise Client 400 Corp,India,Aerospace,Government,EMP-00181,Active,3442256,Low
+CUST-00401,NovaEnterprise Client 401 Corp,North America,Healthcare,Strategic Accounts,EMP-00244,Active,1811148,Medium
+CUST-00402,NovaEnterprise Client 402 Corp,APAC,Energy,Mid-Market,EMP-00241,Active,143031,Low
+CUST-00403,NovaEnterprise Client 403 Corp,Europe,Telecommunications,Government,EMP-00184,Active,714259,Medium
+CUST-00404,NovaEnterprise Client 404 Corp,APAC,Healthcare,Government,EMP-00165,Active,2169222,Low
+CUST-00405,NovaEnterprise Client 405 Corp,Europe,Energy,Government,EMP-00190,Active,2007856,High
+CUST-00406,NovaEnterprise Client 406 Corp,North America,Healthcare,Government,EMP-00234,Active,2348886,Low
+CUST-00407,NovaEnterprise Client 407 Corp,North America,Financial Services,Enterprise,EMP-00205,Active,3280869,Low
+CUST-00408,NovaEnterprise Client 408 Corp,Europe,Healthcare,Mid-Market,EMP-00102,Active,3041084,Low
+CUST-00409,NovaEnterprise Client 409 Corp,India,Healthcare,Government,EMP-00224,Active,328546,Medium
+CUST-00410,NovaEnterprise Client 410 Corp,North America,Financial Services,Enterprise,EMP-00235,Under Review,124706,High
+CUST-00411,NovaEnterprise Client 411 Corp,India,E-Commerce,Strategic Accounts,EMP-00145,Active,2181446,Low
+CUST-00412,NovaEnterprise Client 412 Corp,Europe,Financial Services,Enterprise,EMP-00234,Active,1085696,Low
+CUST-00413,NovaEnterprise Client 413 Corp,India,E-Commerce,Strategic Accounts,EMP-00120,Active,3409204,Medium
+CUST-00414,NovaEnterprise Client 414 Corp,Europe,E-Commerce,Government,EMP-00157,At-Risk,2444790,High
+CUST-00415,NovaEnterprise Client 415 Corp,India,Manufacturing,Enterprise,EMP-00197,Active,467169,Low
+CUST-00416,NovaEnterprise Client 416 Corp,North America,Aerospace,Government,EMP-00143,Active,2745715,Low
+CUST-00417,NovaEnterprise Client 417 Corp,APAC,Financial Services,Government,EMP-00244,Active,2779937,High
+CUST-00418,NovaEnterprise Client 418 Corp,India,Telecommunications,Enterprise,EMP-00169,Active,961747,Low
+CUST-00419,NovaEnterprise Client 419 Corp,North America,Financial Services,Enterprise,EMP-00145,Active,2352635,Medium
+CUST-00420,NovaEnterprise Client 420 Corp,Europe,Energy,Strategic Accounts,EMP-00201,Active,943884,Low
+CUST-00421,NovaEnterprise Client 421 Corp,Europe,Financial Services,Strategic Accounts,EMP-00245,Active,2440412,Low
+CUST-00422,NovaEnterprise Client 422 Corp,Europe,Energy,Government,EMP-00120,Active,1684967,Medium
+CUST-00423,NovaEnterprise Client 423 Corp,India,Telecommunications,Strategic Accounts,EMP-00159,Active,484723,Low
+CUST-00424,NovaEnterprise Client 424 Corp,India,Energy,Enterprise,EMP-00183,Active,2613261,Medium
+CUST-00425,NovaEnterprise Client 425 Corp,Europe,Financial Services,Strategic Accounts,EMP-00191,Under Review,2132740,High
+CUST-00426,NovaEnterprise Client 426 Corp,India,Aerospace,Government,EMP-00121,Active,2925846,Low
+CUST-00427,NovaEnterprise Client 427 Corp,North America,Energy,Strategic Accounts,EMP-00121,Active,3065993,Low
+CUST-00428,NovaEnterprise Client 428 Corp,Europe,E-Commerce,Mid-Market,EMP-00199,At-Risk,3059990,High
+CUST-00429,NovaEnterprise Client 429 Corp,APAC,E-Commerce,Enterprise,EMP-00213,Active,96790,Low
+CUST-00430,NovaEnterprise Client 430 Corp,North America,E-Commerce,Strategic Accounts,EMP-00147,Active,630774,Low
+CUST-00431,NovaEnterprise Client 431 Corp,North America,Aerospace,Government,EMP-00122,At-Risk,508241,High
+CUST-00432,NovaEnterprise Client 432 Corp,North America,Telecommunications,Enterprise,EMP-00174,Active,1690804,Medium
+CUST-00433,NovaEnterprise Client 433 Corp,Europe,Aerospace,Government,EMP-00246,Active,3115215,Low
+CUST-00434,NovaEnterprise Client 434 Corp,Europe,Telecommunications,Mid-Market,EMP-00168,At-Risk,785941,High
+CUST-00435,NovaEnterprise Client 435 Corp,Europe,E-Commerce,Government,EMP-00211,Active,340361,Low
+CUST-00436,NovaEnterprise Client 436 Corp,North America,E-Commerce,Government,EMP-00192,Active,2106013,Medium
+CUST-00437,NovaEnterprise Client 437 Corp,Europe,E-Commerce,Mid-Market,EMP-00217,Active,2565604,High
+CUST-00438,NovaEnterprise Client 438 Corp,APAC,Healthcare,Strategic Accounts,EMP-00197,Active,1734652,Low
+CUST-00439,NovaEnterprise Client 439 Corp,India,Energy,Strategic Accounts,EMP-00134,At-Risk,1478985,High
+CUST-00440,NovaEnterprise Client 440 Corp,Europe,E-Commerce,Mid-Market,EMP-00201,At-Risk,1392780,High
+CUST-00441,NovaEnterprise Client 441 Corp,India,E-Commerce,Government,EMP-00171,Active,1441865,Low
+CUST-00442,NovaEnterprise Client 442 Corp,Europe,Energy,Government,EMP-00239,Active,552680,Medium
+CUST-00443,NovaEnterprise Client 443 Corp,Europe,Healthcare,Enterprise,EMP-00212,At-Risk,3046106,High
+CUST-00444,NovaEnterprise Client 444 Corp,India,Energy,Enterprise,EMP-00135,Under Review,2897672,High
+CUST-00445,NovaEnterprise Client 445 Corp,Europe,E-Commerce,Mid-Market,EMP-00208,Active,2837632,Medium
+CUST-00446,NovaEnterprise Client 446 Corp,India,Energy,Government,EMP-00249,Active,1958522,Low
+CUST-00447,NovaEnterprise Client 447 Corp,APAC,Aerospace,Government,EMP-00237,Active,3391523,Low
+CUST-00448,NovaEnterprise Client 448 Corp,Europe,Telecommunications,Enterprise,EMP-00190,Active,3300227,Low
+CUST-00449,NovaEnterprise Client 449 Corp,APAC,Healthcare,Enterprise,EMP-00210,Active,3231980,High
+CUST-00450,NovaEnterprise Client 450 Corp,Europe,Financial Services,Enterprise,EMP-00214,Active,1006140,Medium
+CUST-00451,NovaEnterprise Client 451 Corp,Europe,E-Commerce,Government,EMP-00188,Active,3314438,High
+CUST-00452,NovaEnterprise Client 452 Corp,North America,Aerospace,Enterprise,EMP-00129,Active,1819727,Medium
+CUST-00453,NovaEnterprise Client 453 Corp,APAC,Energy,Mid-Market,EMP-00216,Active,1383162,Medium
+CUST-00454,NovaEnterprise Client 454 Corp,India,Energy,Mid-Market,EMP-00124,At-Risk,1535877,High
+CUST-00455,NovaEnterprise Client 455 Corp,APAC,Manufacturing,Government,EMP-00111,Active,356749,Medium
+CUST-00456,NovaEnterprise Client 456 Corp,North America,Energy,Enterprise,EMP-00142,Active,1513973,Low
+CUST-00457,NovaEnterprise Client 457 Corp,Europe,Manufacturing,Mid-Market,EMP-00184,Active,2389879,Low
+CUST-00458,NovaEnterprise Client 458 Corp,India,Telecommunications,Government,EMP-00147,Active,1047472,High
+CUST-00459,NovaEnterprise Client 459 Corp,Europe,Manufacturing,Government,EMP-00215,Under Review,197441,High
+CUST-00460,NovaEnterprise Client 460 Corp,Europe,Aerospace,Government,EMP-00152,Active,3030875,Low
+CUST-00461,NovaEnterprise Client 461 Corp,Europe,E-Commerce,Enterprise,EMP-00193,Active,3428355,Low
+CUST-00462,NovaEnterprise Client 462 Corp,APAC,E-Commerce,Mid-Market,EMP-00225,Under Review,552961,High
+CUST-00463,NovaEnterprise Client 463 Corp,India,Manufacturing,Strategic Accounts,EMP-00250,Active,2639013,High
+CUST-00464,NovaEnterprise Client 464 Corp,Europe,E-Commerce,Strategic Accounts,EMP-00176,Under Review,2664406,High
+CUST-00465,NovaEnterprise Client 465 Corp,North America,Telecommunications,Enterprise,EMP-00161,Active,1388596,Low
+CUST-00466,NovaEnterprise Client 466 Corp,Europe,E-Commerce,Enterprise,EMP-00230,Active,1640759,Low
+CUST-00467,NovaEnterprise Client 467 Corp,India,Aerospace,Government,EMP-00208,Active,2485911,Low
+CUST-00468,NovaEnterprise Client 468 Corp,Europe,Healthcare,Government,EMP-00225,Active,2402472,Low
+CUST-00469,NovaEnterprise Client 469 Corp,India,E-Commerce,Mid-Market,EMP-00113,Active,1394444,Low
+CUST-00470,NovaEnterprise Client 470 Corp,Europe,Energy,Strategic Accounts,EMP-00149,Active,2107597,Low
+CUST-00471,NovaEnterprise Client 471 Corp,India,Energy,Government,EMP-00206,Under Review,1791033,High
+CUST-00472,NovaEnterprise Client 472 Corp,North America,Energy,Government,EMP-00244,Active,776511,High
+CUST-00473,NovaEnterprise Client 473 Corp,APAC,Energy,Mid-Market,EMP-00157,Active,212133,Medium
+CUST-00474,NovaEnterprise Client 474 Corp,India,Telecommunications,Strategic Accounts,EMP-00244,Active,3349661,Low
+CUST-00475,NovaEnterprise Client 475 Corp,North America,Manufacturing,Government,EMP-00168,Active,2477136,Low
+CUST-00476,NovaEnterprise Client 476 Corp,India,Energy,Strategic Accounts,EMP-00239,Active,3262688,Low
+CUST-00477,NovaEnterprise Client 477 Corp,Europe,Healthcare,Government,EMP-00176,Active,3161960,Low
+CUST-00478,NovaEnterprise Client 478 Corp,APAC,Energy,Enterprise,EMP-00122,At-Risk,1177326,High
+CUST-00479,NovaEnterprise Client 479 Corp,APAC,Energy,Enterprise,EMP-00209,Active,955292,Low
+CUST-00480,NovaEnterprise Client 480 Corp,Europe,Healthcare,Mid-Market,EMP-00115,Active,3487191,Low
+CUST-00481,NovaEnterprise Client 481 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00182,Active,2578402,Medium
+CUST-00482,NovaEnterprise Client 482 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00231,Active,2477227,Medium
+CUST-00483,NovaEnterprise Client 483 Corp,India,Manufacturing,Enterprise,EMP-00115,Active,3221122,Low
+CUST-00484,NovaEnterprise Client 484 Corp,Europe,E-Commerce,Mid-Market,EMP-00182,Active,1122222,Low
+CUST-00485,NovaEnterprise Client 485 Corp,Europe,Energy,Mid-Market,EMP-00247,Under Review,2127938,High
+CUST-00486,NovaEnterprise Client 486 Corp,North America,E-Commerce,Government,EMP-00123,At-Risk,1970790,High
+CUST-00487,NovaEnterprise Client 487 Corp,India,Telecommunications,Strategic Accounts,EMP-00183,Active,1982131,Medium
+CUST-00488,NovaEnterprise Client 488 Corp,India,Telecommunications,Enterprise,EMP-00191,Active,3140750,Low
+CUST-00489,NovaEnterprise Client 489 Corp,India,Energy,Enterprise,EMP-00154,At-Risk,988644,High
+CUST-00490,NovaEnterprise Client 490 Corp,Europe,E-Commerce,Strategic Accounts,EMP-00244,Active,1491647,Medium
+CUST-00491,NovaEnterprise Client 491 Corp,North America,Energy,Government,EMP-00111,Active,2937830,Medium
+CUST-00492,NovaEnterprise Client 492 Corp,Europe,Financial Services,Government,EMP-00212,Active,596088,Low
+CUST-00493,NovaEnterprise Client 493 Corp,Europe,Aerospace,Enterprise,EMP-00177,Active,923584,High
+CUST-00494,NovaEnterprise Client 494 Corp,APAC,Energy,Strategic Accounts,EMP-00164,Active,2820540,Low
+CUST-00495,NovaEnterprise Client 495 Corp,India,Financial Services,Strategic Accounts,EMP-00178,Active,292211,Low
+CUST-00496,NovaEnterprise Client 496 Corp,North America,Manufacturing,Mid-Market,EMP-00124,Active,2824304,High
+CUST-00497,NovaEnterprise Client 497 Corp,Europe,Healthcare,Government,EMP-00232,Active,631583,Low
+CUST-00498,NovaEnterprise Client 498 Corp,APAC,Manufacturing,Government,EMP-00130,Active,108816,Low
+CUST-00499,NovaEnterprise Client 499 Corp,North America,Energy,Government,EMP-00158,Active,2078620,Low
+CUST-00500,NovaEnterprise Client 500 Corp,APAC,Aerospace,Enterprise,EMP-00194,Active,507858,Low
+CUST-00501,NovaEnterprise Client 501 Corp,Europe,E-Commerce,Mid-Market,EMP-00136,Active,3319128,High
+CUST-00502,NovaEnterprise Client 502 Corp,APAC,Telecommunications,Enterprise,EMP-00154,Active,1920910,Low
+CUST-00503,NovaEnterprise Client 503 Corp,India,Manufacturing,Mid-Market,EMP-00155,Active,2659010,High
+CUST-00504,NovaEnterprise Client 504 Corp,India,Financial Services,Mid-Market,EMP-00189,Active,2547852,Low
+CUST-00505,NovaEnterprise Client 505 Corp,APAC,Aerospace,Strategic Accounts,EMP-00121,Active,1114291,Low
+CUST-00506,NovaEnterprise Client 506 Corp,APAC,Healthcare,Strategic Accounts,EMP-00152,Active,2836552,Low
+CUST-00507,NovaEnterprise Client 507 Corp,North America,Telecommunications,Mid-Market,EMP-00161,At-Risk,1314593,High
+CUST-00508,NovaEnterprise Client 508 Corp,North America,Aerospace,Enterprise,EMP-00235,Active,2170401,Low
+CUST-00509,NovaEnterprise Client 509 Corp,India,Financial Services,Strategic Accounts,EMP-00245,Active,628576,Medium
+CUST-00510,NovaEnterprise Client 510 Corp,India,Aerospace,Strategic Accounts,EMP-00118,Active,3274104,Low
+CUST-00511,NovaEnterprise Client 511 Corp,Europe,Financial Services,Enterprise,EMP-00110,Active,1174684,Low
+CUST-00512,NovaEnterprise Client 512 Corp,India,Financial Services,Government,EMP-00208,Active,2711416,Medium
+CUST-00513,NovaEnterprise Client 513 Corp,Europe,Manufacturing,Government,EMP-00171,Active,2761608,Low
+CUST-00514,NovaEnterprise Client 514 Corp,Europe,Financial Services,Strategic Accounts,EMP-00139,Active,2219567,Low
+CUST-00515,NovaEnterprise Client 515 Corp,North America,Telecommunications,Strategic Accounts,EMP-00179,Under Review,2534695,High
+CUST-00516,NovaEnterprise Client 516 Corp,North America,Aerospace,Mid-Market,EMP-00211,Active,1100422,Low
+CUST-00517,NovaEnterprise Client 517 Corp,Europe,Financial Services,Government,EMP-00130,Active,1372256,Low
+CUST-00518,NovaEnterprise Client 518 Corp,India,Financial Services,Mid-Market,EMP-00188,Active,762163,Low
+CUST-00519,NovaEnterprise Client 519 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00168,Active,1634733,Low
+CUST-00520,NovaEnterprise Client 520 Corp,India,Manufacturing,Enterprise,EMP-00169,Active,1480138,Low
+CUST-00521,NovaEnterprise Client 521 Corp,North America,Telecommunications,Enterprise,EMP-00227,Active,3062700,Medium
+CUST-00522,NovaEnterprise Client 522 Corp,Europe,Aerospace,Strategic Accounts,EMP-00194,Active,2170516,Low
+CUST-00523,NovaEnterprise Client 523 Corp,North America,Healthcare,Strategic Accounts,EMP-00158,Active,2482162,Low
+CUST-00524,NovaEnterprise Client 524 Corp,Europe,Manufacturing,Enterprise,EMP-00111,Active,126539,Low
+CUST-00525,NovaEnterprise Client 525 Corp,Europe,Aerospace,Strategic Accounts,EMP-00109,Under Review,704500,High
+CUST-00526,NovaEnterprise Client 526 Corp,Europe,Energy,Government,EMP-00206,Active,1424735,Low
+CUST-00527,NovaEnterprise Client 527 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00130,Active,401682,Medium
+CUST-00528,NovaEnterprise Client 528 Corp,North America,Telecommunications,Enterprise,EMP-00202,Active,1011105,Low
+CUST-00529,NovaEnterprise Client 529 Corp,APAC,Financial Services,Government,EMP-00183,Active,3319409,Medium
+CUST-00530,NovaEnterprise Client 530 Corp,Europe,Financial Services,Government,EMP-00174,Active,1622359,Low
+CUST-00531,NovaEnterprise Client 531 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00226,Active,2020849,Low
+CUST-00532,NovaEnterprise Client 532 Corp,North America,Energy,Mid-Market,EMP-00204,Active,706521,Low
+CUST-00533,NovaEnterprise Client 533 Corp,North America,Financial Services,Mid-Market,EMP-00185,Active,2742333,Medium
+CUST-00534,NovaEnterprise Client 534 Corp,Europe,Financial Services,Government,EMP-00235,Active,510993,Medium
+CUST-00535,NovaEnterprise Client 535 Corp,Europe,Healthcare,Government,EMP-00171,Active,326218,High
+CUST-00536,NovaEnterprise Client 536 Corp,APAC,Financial Services,Mid-Market,EMP-00217,Under Review,3014564,High
+CUST-00537,NovaEnterprise Client 537 Corp,India,Financial Services,Enterprise,EMP-00119,Active,2747676,Low
+CUST-00538,NovaEnterprise Client 538 Corp,Europe,Telecommunications,Enterprise,EMP-00160,At-Risk,2853491,High
+CUST-00539,NovaEnterprise Client 539 Corp,APAC,E-Commerce,Strategic Accounts,EMP-00181,At-Risk,3014056,High
+CUST-00540,NovaEnterprise Client 540 Corp,Europe,E-Commerce,Mid-Market,EMP-00249,Active,925238,Low
+CUST-00541,NovaEnterprise Client 541 Corp,India,Financial Services,Mid-Market,EMP-00219,Active,764438,Low
+CUST-00542,NovaEnterprise Client 542 Corp,APAC,E-Commerce,Government,EMP-00153,Active,2322830,Low
+CUST-00543,NovaEnterprise Client 543 Corp,North America,Aerospace,Strategic Accounts,EMP-00123,Active,1186523,High
+CUST-00544,NovaEnterprise Client 544 Corp,APAC,Energy,Strategic Accounts,EMP-00137,Active,976862,Low
+CUST-00545,NovaEnterprise Client 545 Corp,North America,Financial Services,Mid-Market,EMP-00176,Active,1736969,Medium
+CUST-00546,NovaEnterprise Client 546 Corp,India,E-Commerce,Mid-Market,EMP-00242,Active,1771143,Low
+CUST-00547,NovaEnterprise Client 547 Corp,North America,Manufacturing,Mid-Market,EMP-00135,Active,2012949,Low
+CUST-00548,NovaEnterprise Client 548 Corp,Europe,Financial Services,Enterprise,EMP-00133,Active,3350583,Low
+CUST-00549,NovaEnterprise Client 549 Corp,North America,Healthcare,Government,EMP-00249,Active,2953489,Medium
+CUST-00550,NovaEnterprise Client 550 Corp,North America,Telecommunications,Strategic Accounts,EMP-00150,Active,166436,Low
+CUST-00551,NovaEnterprise Client 551 Corp,APAC,Manufacturing,Government,EMP-00131,Active,460786,Low
+CUST-00552,NovaEnterprise Client 552 Corp,India,Financial Services,Government,EMP-00201,Active,779597,Low
+CUST-00553,NovaEnterprise Client 553 Corp,India,Aerospace,Enterprise,EMP-00144,At-Risk,2940602,High
+CUST-00554,NovaEnterprise Client 554 Corp,India,Healthcare,Mid-Market,EMP-00138,Active,1248795,Medium
+CUST-00555,NovaEnterprise Client 555 Corp,India,Financial Services,Mid-Market,EMP-00240,Active,2167503,Medium
+CUST-00556,NovaEnterprise Client 556 Corp,India,Aerospace,Enterprise,EMP-00135,Active,1248465,Low
+CUST-00557,NovaEnterprise Client 557 Corp,North America,Aerospace,Mid-Market,EMP-00197,Active,2720575,Low
+CUST-00558,NovaEnterprise Client 558 Corp,India,Energy,Strategic Accounts,EMP-00188,Under Review,2358873,High
+CUST-00559,NovaEnterprise Client 559 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00106,At-Risk,1209289,High
+CUST-00560,NovaEnterprise Client 560 Corp,APAC,Telecommunications,Mid-Market,EMP-00114,Active,3475277,Low
+CUST-00561,NovaEnterprise Client 561 Corp,Europe,Energy,Government,EMP-00140,Active,3291369,Medium
+CUST-00562,NovaEnterprise Client 562 Corp,North America,Financial Services,Mid-Market,EMP-00156,Active,1192895,Low
+CUST-00563,NovaEnterprise Client 563 Corp,Europe,Telecommunications,Government,EMP-00160,Active,803601,Medium
+CUST-00564,NovaEnterprise Client 564 Corp,North America,Telecommunications,Strategic Accounts,EMP-00190,Active,2556192,Medium
+CUST-00565,NovaEnterprise Client 565 Corp,India,Telecommunications,Mid-Market,EMP-00238,Active,3474068,Low
+CUST-00566,NovaEnterprise Client 566 Corp,North America,E-Commerce,Mid-Market,EMP-00114,Active,234231,High
+CUST-00567,NovaEnterprise Client 567 Corp,India,Telecommunications,Mid-Market,EMP-00100,Active,2283085,Low
+CUST-00568,NovaEnterprise Client 568 Corp,Europe,E-Commerce,Mid-Market,EMP-00182,Active,1504247,Low
+CUST-00569,NovaEnterprise Client 569 Corp,Europe,Financial Services,Enterprise,EMP-00128,Active,2535417,Low
+CUST-00570,NovaEnterprise Client 570 Corp,India,Energy,Strategic Accounts,EMP-00250,Active,1641953,Low
+CUST-00571,NovaEnterprise Client 571 Corp,Europe,Financial Services,Strategic Accounts,EMP-00140,Active,1428095,Medium
+CUST-00572,NovaEnterprise Client 572 Corp,APAC,Manufacturing,Government,EMP-00144,Under Review,2797859,High
+CUST-00573,NovaEnterprise Client 573 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00196,Active,2866442,Low
+CUST-00574,NovaEnterprise Client 574 Corp,North America,E-Commerce,Strategic Accounts,EMP-00246,Active,820362,Low
+CUST-00575,NovaEnterprise Client 575 Corp,APAC,Aerospace,Enterprise,EMP-00156,Active,2601601,Low
+CUST-00576,NovaEnterprise Client 576 Corp,APAC,Manufacturing,Enterprise,EMP-00119,Active,664901,High
+CUST-00577,NovaEnterprise Client 577 Corp,North America,E-Commerce,Strategic Accounts,EMP-00185,Active,2743360,Low
+CUST-00578,NovaEnterprise Client 578 Corp,Europe,Aerospace,Enterprise,EMP-00117,Active,954479,Medium
+CUST-00579,NovaEnterprise Client 579 Corp,North America,E-Commerce,Strategic Accounts,EMP-00112,Active,3096633,Low
+CUST-00580,NovaEnterprise Client 580 Corp,India,Aerospace,Government,EMP-00226,At-Risk,772673,High
+CUST-00581,NovaEnterprise Client 581 Corp,Europe,E-Commerce,Government,EMP-00141,Active,2086123,Low
+CUST-00582,NovaEnterprise Client 582 Corp,North America,Aerospace,Enterprise,EMP-00181,Active,1311936,Low
+CUST-00583,NovaEnterprise Client 583 Corp,Europe,E-Commerce,Enterprise,EMP-00196,Active,1508647,Low
+CUST-00584,NovaEnterprise Client 584 Corp,India,Healthcare,Enterprise,EMP-00107,Active,1492467,Low
+CUST-00585,NovaEnterprise Client 585 Corp,North America,Aerospace,Mid-Market,EMP-00125,At-Risk,733941,High
+CUST-00586,NovaEnterprise Client 586 Corp,APAC,Healthcare,Mid-Market,EMP-00172,At-Risk,2999254,High
+CUST-00587,NovaEnterprise Client 587 Corp,India,Healthcare,Enterprise,EMP-00139,Active,1722951,Low
+CUST-00588,NovaEnterprise Client 588 Corp,North America,Financial Services,Strategic Accounts,EMP-00175,Active,1868509,Low
+CUST-00589,NovaEnterprise Client 589 Corp,North America,Energy,Government,EMP-00152,Active,481792,Low
+CUST-00590,NovaEnterprise Client 590 Corp,North America,Healthcare,Strategic Accounts,EMP-00178,Active,2061299,Low
+CUST-00591,NovaEnterprise Client 591 Corp,APAC,Energy,Government,EMP-00123,Under Review,2126420,High
+CUST-00592,NovaEnterprise Client 592 Corp,India,Telecommunications,Government,EMP-00194,Active,1631172,Low
+CUST-00593,NovaEnterprise Client 593 Corp,India,Healthcare,Government,EMP-00219,Active,1179343,Low
+CUST-00594,NovaEnterprise Client 594 Corp,North America,E-Commerce,Mid-Market,EMP-00138,Active,2441621,Medium
+CUST-00595,NovaEnterprise Client 595 Corp,APAC,Energy,Enterprise,EMP-00238,Active,2877387,Low
+CUST-00596,NovaEnterprise Client 596 Corp,India,Aerospace,Mid-Market,EMP-00237,Active,1698640,Low
+CUST-00597,NovaEnterprise Client 597 Corp,APAC,Manufacturing,Government,EMP-00120,Active,2072588,Low
+CUST-00598,NovaEnterprise Client 598 Corp,India,Aerospace,Enterprise,EMP-00144,Active,579498,Low
+CUST-00599,NovaEnterprise Client 599 Corp,North America,Healthcare,Mid-Market,EMP-00208,Active,604262,Low
+CUST-00600,NovaEnterprise Client 600 Corp,Europe,Financial Services,Government,EMP-00166,Active,2705777,Low
+CUST-00601,NovaEnterprise Client 601 Corp,India,E-Commerce,Enterprise,EMP-00241,Active,1702805,Low
+CUST-00602,NovaEnterprise Client 602 Corp,India,E-Commerce,Strategic Accounts,EMP-00128,At-Risk,126857,High
+CUST-00603,NovaEnterprise Client 603 Corp,North America,Healthcare,Mid-Market,EMP-00173,Active,518064,Low
+CUST-00604,NovaEnterprise Client 604 Corp,India,Energy,Strategic Accounts,EMP-00224,Under Review,1182869,High
+CUST-00605,NovaEnterprise Client 605 Corp,APAC,Telecommunications,Government,EMP-00203,Active,797258,Low
+CUST-00606,NovaEnterprise Client 606 Corp,APAC,Healthcare,Government,EMP-00160,Active,1735075,Low
+CUST-00607,NovaEnterprise Client 607 Corp,North America,Financial Services,Government,EMP-00186,Active,1637129,Medium
+CUST-00608,NovaEnterprise Client 608 Corp,India,Energy,Strategic Accounts,EMP-00125,Active,1250859,Medium
+CUST-00609,NovaEnterprise Client 609 Corp,India,Energy,Mid-Market,EMP-00182,Active,1335306,Low
+CUST-00610,NovaEnterprise Client 610 Corp,India,E-Commerce,Government,EMP-00154,Active,863259,Low
+CUST-00611,NovaEnterprise Client 611 Corp,APAC,Energy,Government,EMP-00114,Under Review,3260545,High
+CUST-00612,NovaEnterprise Client 612 Corp,India,Energy,Mid-Market,EMP-00134,Active,1379944,Low
+CUST-00613,NovaEnterprise Client 613 Corp,Europe,Energy,Enterprise,EMP-00114,Active,883508,Low
+CUST-00614,NovaEnterprise Client 614 Corp,APAC,Healthcare,Enterprise,EMP-00150,At-Risk,287060,High
+CUST-00615,NovaEnterprise Client 615 Corp,North America,E-Commerce,Government,EMP-00107,Active,2740101,High
+CUST-00616,NovaEnterprise Client 616 Corp,India,E-Commerce,Government,EMP-00250,Under Review,819839,High
+CUST-00617,NovaEnterprise Client 617 Corp,North America,E-Commerce,Strategic Accounts,EMP-00172,Active,1159898,Low
+CUST-00618,NovaEnterprise Client 618 Corp,Europe,Financial Services,Government,EMP-00156,Active,758283,Low
+CUST-00619,NovaEnterprise Client 619 Corp,India,Manufacturing,Mid-Market,EMP-00231,Active,1203618,Low
+CUST-00620,NovaEnterprise Client 620 Corp,Europe,Financial Services,Enterprise,EMP-00102,Active,629965,High
+CUST-00621,NovaEnterprise Client 621 Corp,India,E-Commerce,Strategic Accounts,EMP-00189,Active,1852574,Medium
+CUST-00622,NovaEnterprise Client 622 Corp,APAC,Aerospace,Strategic Accounts,EMP-00233,Active,2032473,Low
+CUST-00623,NovaEnterprise Client 623 Corp,APAC,Energy,Government,EMP-00243,Active,105817,Low
+CUST-00624,NovaEnterprise Client 624 Corp,North America,Manufacturing,Strategic Accounts,EMP-00223,Active,2945636,Medium
+CUST-00625,NovaEnterprise Client 625 Corp,APAC,Financial Services,Strategic Accounts,EMP-00170,Active,2761849,Medium
+CUST-00626,NovaEnterprise Client 626 Corp,Europe,E-Commerce,Strategic Accounts,EMP-00114,Active,703849,Low
+CUST-00627,NovaEnterprise Client 627 Corp,Europe,Energy,Government,EMP-00106,Active,2930296,Medium
+CUST-00628,NovaEnterprise Client 628 Corp,India,Manufacturing,Government,EMP-00203,Active,1163112,Medium
+CUST-00629,NovaEnterprise Client 629 Corp,Europe,Aerospace,Enterprise,EMP-00236,Active,1514346,Low
+CUST-00630,NovaEnterprise Client 630 Corp,APAC,Manufacturing,Government,EMP-00143,Active,2202832,Medium
+CUST-00631,NovaEnterprise Client 631 Corp,India,Energy,Mid-Market,EMP-00132,Active,484376,Medium
+CUST-00632,NovaEnterprise Client 632 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00122,Active,2925920,Low
+CUST-00633,NovaEnterprise Client 633 Corp,APAC,Healthcare,Strategic Accounts,EMP-00207,Active,3196442,Low
+CUST-00634,NovaEnterprise Client 634 Corp,APAC,Energy,Strategic Accounts,EMP-00218,Active,1167864,Medium
+CUST-00635,NovaEnterprise Client 635 Corp,North America,Energy,Enterprise,EMP-00220,Active,300137,High
+CUST-00636,NovaEnterprise Client 636 Corp,APAC,Telecommunications,Enterprise,EMP-00205,Active,2297303,High
+CUST-00637,NovaEnterprise Client 637 Corp,APAC,Energy,Mid-Market,EMP-00204,Active,915104,Low
+CUST-00638,NovaEnterprise Client 638 Corp,Europe,Telecommunications,Government,EMP-00120,Active,1402008,Low
+CUST-00639,NovaEnterprise Client 639 Corp,North America,Aerospace,Strategic Accounts,EMP-00101,Active,1389553,Low
+CUST-00640,NovaEnterprise Client 640 Corp,Europe,Aerospace,Strategic Accounts,EMP-00247,Active,3267676,Low
+CUST-00641,NovaEnterprise Client 641 Corp,North America,Energy,Mid-Market,EMP-00133,Under Review,3368413,High
+CUST-00642,NovaEnterprise Client 642 Corp,India,Aerospace,Government,EMP-00198,Active,1874463,High
+CUST-00643,NovaEnterprise Client 643 Corp,APAC,Financial Services,Mid-Market,EMP-00235,Active,134043,Medium
+CUST-00644,NovaEnterprise Client 644 Corp,Europe,Healthcare,Enterprise,EMP-00157,Active,2703515,Low
+CUST-00645,NovaEnterprise Client 645 Corp,North America,Manufacturing,Strategic Accounts,EMP-00198,Active,615774,Medium
+CUST-00646,NovaEnterprise Client 646 Corp,North America,Telecommunications,Strategic Accounts,EMP-00176,Active,348833,Low
+CUST-00647,NovaEnterprise Client 647 Corp,Europe,E-Commerce,Government,EMP-00187,Active,1893923,Medium
+CUST-00648,NovaEnterprise Client 648 Corp,India,Aerospace,Strategic Accounts,EMP-00104,Active,766571,Low
+CUST-00649,NovaEnterprise Client 649 Corp,North America,Healthcare,Mid-Market,EMP-00250,Active,960796,Low
+CUST-00650,NovaEnterprise Client 650 Corp,North America,Telecommunications,Mid-Market,EMP-00196,Active,1612595,Low
+CUST-00651,NovaEnterprise Client 651 Corp,North America,Manufacturing,Strategic Accounts,EMP-00127,Active,2566098,Low
+CUST-00652,NovaEnterprise Client 652 Corp,North America,Manufacturing,Enterprise,EMP-00206,Active,2968020,Low
+CUST-00653,NovaEnterprise Client 653 Corp,APAC,Aerospace,Government,EMP-00221,Active,2370468,Low
+CUST-00654,NovaEnterprise Client 654 Corp,North America,Manufacturing,Mid-Market,EMP-00177,Active,2990846,Low
+CUST-00655,NovaEnterprise Client 655 Corp,Europe,Aerospace,Enterprise,EMP-00207,Active,2687203,Medium
+CUST-00656,NovaEnterprise Client 656 Corp,North America,Energy,Enterprise,EMP-00127,Active,1260758,Low
+CUST-00657,NovaEnterprise Client 657 Corp,APAC,Aerospace,Mid-Market,EMP-00233,Active,3337996,Low
+CUST-00658,NovaEnterprise Client 658 Corp,Europe,Healthcare,Strategic Accounts,EMP-00110,Under Review,1313792,High
+CUST-00659,NovaEnterprise Client 659 Corp,Europe,Aerospace,Mid-Market,EMP-00100,Active,1461652,High
+CUST-00660,NovaEnterprise Client 660 Corp,India,Manufacturing,Enterprise,EMP-00138,Active,2483171,Low
+CUST-00661,NovaEnterprise Client 661 Corp,Europe,Financial Services,Enterprise,EMP-00216,Active,1148289,Low
+CUST-00662,NovaEnterprise Client 662 Corp,North America,E-Commerce,Strategic Accounts,EMP-00144,Active,285051,High
+CUST-00663,NovaEnterprise Client 663 Corp,APAC,Energy,Strategic Accounts,EMP-00209,Active,3437137,Medium
+CUST-00664,NovaEnterprise Client 664 Corp,North America,Manufacturing,Enterprise,EMP-00102,Active,3255138,Low
+CUST-00665,NovaEnterprise Client 665 Corp,APAC,Energy,Mid-Market,EMP-00212,Active,1453503,Low
+CUST-00666,NovaEnterprise Client 666 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00146,Active,1637890,Low
+CUST-00667,NovaEnterprise Client 667 Corp,APAC,Financial Services,Government,EMP-00198,Under Review,1989862,High
+CUST-00668,NovaEnterprise Client 668 Corp,Europe,Energy,Government,EMP-00128,Active,2796459,High
+CUST-00669,NovaEnterprise Client 669 Corp,India,Manufacturing,Enterprise,EMP-00223,Active,510004,Low
+CUST-00670,NovaEnterprise Client 670 Corp,India,Energy,Government,EMP-00191,Active,2639075,Low
+CUST-00671,NovaEnterprise Client 671 Corp,India,Telecommunications,Enterprise,EMP-00128,Active,2101182,Low
+CUST-00672,NovaEnterprise Client 672 Corp,APAC,Aerospace,Government,EMP-00180,Active,340650,Low
+CUST-00673,NovaEnterprise Client 673 Corp,North America,Financial Services,Mid-Market,EMP-00210,Active,2252261,Medium
+CUST-00674,NovaEnterprise Client 674 Corp,India,Manufacturing,Mid-Market,EMP-00138,Under Review,1525178,High
+CUST-00675,NovaEnterprise Client 675 Corp,Europe,Telecommunications,Enterprise,EMP-00229,Active,2773609,Low
+CUST-00676,NovaEnterprise Client 676 Corp,North America,Energy,Government,EMP-00225,At-Risk,768754,High
+CUST-00677,NovaEnterprise Client 677 Corp,Europe,Healthcare,Strategic Accounts,EMP-00240,Active,286186,Medium
+CUST-00678,NovaEnterprise Client 678 Corp,North America,Manufacturing,Government,EMP-00217,At-Risk,1060661,High
+CUST-00679,NovaEnterprise Client 679 Corp,India,Energy,Government,EMP-00180,Active,2165676,Low
+CUST-00680,NovaEnterprise Client 680 Corp,India,Financial Services,Government,EMP-00205,Active,505517,Low
+CUST-00681,NovaEnterprise Client 681 Corp,APAC,Financial Services,Enterprise,EMP-00230,Active,3395979,Low
+CUST-00682,NovaEnterprise Client 682 Corp,APAC,Telecommunications,Mid-Market,EMP-00113,Active,1504646,High
+CUST-00683,NovaEnterprise Client 683 Corp,India,Energy,Government,EMP-00193,Active,2424442,Medium
+CUST-00684,NovaEnterprise Client 684 Corp,Europe,Manufacturing,Government,EMP-00100,Active,483680,Low
+CUST-00685,NovaEnterprise Client 685 Corp,APAC,E-Commerce,Strategic Accounts,EMP-00127,Active,2372180,Medium
+CUST-00686,NovaEnterprise Client 686 Corp,India,Financial Services,Mid-Market,EMP-00127,At-Risk,664086,High
+CUST-00687,NovaEnterprise Client 687 Corp,India,Telecommunications,Mid-Market,EMP-00155,Active,581444,Low
+CUST-00688,NovaEnterprise Client 688 Corp,India,Aerospace,Mid-Market,EMP-00111,Active,527002,Medium
+CUST-00689,NovaEnterprise Client 689 Corp,Europe,Manufacturing,Enterprise,EMP-00227,Active,1993423,High
+CUST-00690,NovaEnterprise Client 690 Corp,India,Telecommunications,Enterprise,EMP-00230,Active,2529174,High
+CUST-00691,NovaEnterprise Client 691 Corp,India,Manufacturing,Mid-Market,EMP-00182,Active,509336,Low
+CUST-00692,NovaEnterprise Client 692 Corp,Europe,Telecommunications,Government,EMP-00170,At-Risk,2629304,High
+CUST-00693,NovaEnterprise Client 693 Corp,Europe,E-Commerce,Strategic Accounts,EMP-00135,At-Risk,3450562,High
+CUST-00694,NovaEnterprise Client 694 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00151,Active,3060817,Medium
+CUST-00695,NovaEnterprise Client 695 Corp,Europe,Healthcare,Strategic Accounts,EMP-00145,Active,2895139,Medium
+CUST-00696,NovaEnterprise Client 696 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00243,Active,3265921,Low
+CUST-00697,NovaEnterprise Client 697 Corp,North America,Aerospace,Government,EMP-00233,Active,1846616,Medium
+CUST-00698,NovaEnterprise Client 698 Corp,North America,Financial Services,Enterprise,EMP-00114,Active,684544,High
+CUST-00699,NovaEnterprise Client 699 Corp,APAC,E-Commerce,Mid-Market,EMP-00137,Active,2941346,Medium
+CUST-00700,NovaEnterprise Client 700 Corp,North America,Energy,Enterprise,EMP-00191,Active,930641,Medium
+CUST-00701,NovaEnterprise Client 701 Corp,Europe,Energy,Government,EMP-00243,Active,2659147,Low
+CUST-00702,NovaEnterprise Client 702 Corp,North America,Aerospace,Mid-Market,EMP-00197,Active,2981384,Medium
+CUST-00703,NovaEnterprise Client 703 Corp,North America,Aerospace,Government,EMP-00103,Active,2390778,Medium
+CUST-00704,NovaEnterprise Client 704 Corp,India,Manufacturing,Strategic Accounts,EMP-00157,Active,2677824,Low
+CUST-00705,NovaEnterprise Client 705 Corp,Europe,Manufacturing,Strategic Accounts,EMP-00175,Active,3330395,Low
+CUST-00706,NovaEnterprise Client 706 Corp,Europe,Aerospace,Mid-Market,EMP-00231,Active,859236,Low
+CUST-00707,NovaEnterprise Client 707 Corp,APAC,Financial Services,Government,EMP-00242,Active,1872292,Low
+CUST-00708,NovaEnterprise Client 708 Corp,APAC,E-Commerce,Mid-Market,EMP-00101,Active,2524415,Low
+CUST-00709,NovaEnterprise Client 709 Corp,Europe,E-Commerce,Government,EMP-00182,Active,242522,Low
+CUST-00710,NovaEnterprise Client 710 Corp,APAC,Telecommunications,Enterprise,EMP-00118,Active,2132519,Medium
+CUST-00711,NovaEnterprise Client 711 Corp,North America,Energy,Strategic Accounts,EMP-00229,Active,846202,Low
+CUST-00712,NovaEnterprise Client 712 Corp,APAC,Healthcare,Government,EMP-00156,Active,460647,High
+CUST-00713,NovaEnterprise Client 713 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00155,Active,1588295,Medium
+CUST-00714,NovaEnterprise Client 714 Corp,APAC,Energy,Government,EMP-00214,Active,556178,Low
+CUST-00715,NovaEnterprise Client 715 Corp,APAC,Healthcare,Mid-Market,EMP-00197,Active,2937827,Low
+CUST-00716,NovaEnterprise Client 716 Corp,APAC,Energy,Enterprise,EMP-00106,Under Review,1151218,High
+CUST-00717,NovaEnterprise Client 717 Corp,North America,Energy,Strategic Accounts,EMP-00175,Under Review,2116806,High
+CUST-00718,NovaEnterprise Client 718 Corp,Europe,Healthcare,Strategic Accounts,EMP-00237,Active,477470,Low
+CUST-00719,NovaEnterprise Client 719 Corp,Europe,Telecommunications,Enterprise,EMP-00208,Active,959081,Low
+CUST-00720,NovaEnterprise Client 720 Corp,India,Energy,Enterprise,EMP-00118,Active,2330504,Low
+CUST-00721,NovaEnterprise Client 721 Corp,APAC,Manufacturing,Mid-Market,EMP-00109,Active,2001130,Low
+CUST-00722,NovaEnterprise Client 722 Corp,APAC,Financial Services,Enterprise,EMP-00242,Active,821553,Low
+CUST-00723,NovaEnterprise Client 723 Corp,India,Financial Services,Mid-Market,EMP-00215,Active,1784735,Medium
+CUST-00724,NovaEnterprise Client 724 Corp,North America,Manufacturing,Government,EMP-00199,Under Review,1402095,High
+CUST-00725,NovaEnterprise Client 725 Corp,North America,Financial Services,Enterprise,EMP-00118,Active,3245728,Low
+CUST-00726,NovaEnterprise Client 726 Corp,APAC,E-Commerce,Enterprise,EMP-00122,Active,3375463,Medium
+CUST-00727,NovaEnterprise Client 727 Corp,North America,E-Commerce,Government,EMP-00221,Active,1732225,High
+CUST-00728,NovaEnterprise Client 728 Corp,India,Telecommunications,Mid-Market,EMP-00239,Active,3207112,Low
+CUST-00729,NovaEnterprise Client 729 Corp,APAC,E-Commerce,Mid-Market,EMP-00102,Active,2915756,Medium
+CUST-00730,NovaEnterprise Client 730 Corp,North America,Telecommunications,Mid-Market,EMP-00246,Active,250209,Low
+CUST-00731,NovaEnterprise Client 731 Corp,Europe,Telecommunications,Government,EMP-00188,Active,1352967,Low
+CUST-00732,NovaEnterprise Client 732 Corp,Europe,Healthcare,Government,EMP-00156,Active,750091,Low
+CUST-00733,NovaEnterprise Client 733 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00245,Active,555761,Low
+CUST-00734,NovaEnterprise Client 734 Corp,North America,Energy,Enterprise,EMP-00174,Under Review,2778960,High
+CUST-00735,NovaEnterprise Client 735 Corp,India,Financial Services,Strategic Accounts,EMP-00184,Active,903029,Low
+CUST-00736,NovaEnterprise Client 736 Corp,APAC,E-Commerce,Mid-Market,EMP-00117,Active,494619,Low
+CUST-00737,NovaEnterprise Client 737 Corp,APAC,Healthcare,Strategic Accounts,EMP-00178,Under Review,1965146,High
+CUST-00738,NovaEnterprise Client 738 Corp,APAC,Telecommunications,Mid-Market,EMP-00209,Active,3462738,Medium
+CUST-00739,NovaEnterprise Client 739 Corp,Europe,Healthcare,Enterprise,EMP-00211,Active,1107533,Medium
+CUST-00740,NovaEnterprise Client 740 Corp,APAC,E-Commerce,Strategic Accounts,EMP-00222,Active,2925365,Low
+CUST-00741,NovaEnterprise Client 741 Corp,APAC,Aerospace,Government,EMP-00224,Active,3324608,Medium
+CUST-00742,NovaEnterprise Client 742 Corp,North America,Telecommunications,Enterprise,EMP-00171,Active,2782639,Low
+CUST-00743,NovaEnterprise Client 743 Corp,North America,Energy,Mid-Market,EMP-00119,Active,1179086,Low
+CUST-00744,NovaEnterprise Client 744 Corp,Europe,Financial Services,Enterprise,EMP-00109,Under Review,3301259,High
+CUST-00745,NovaEnterprise Client 745 Corp,India,E-Commerce,Government,EMP-00157,Active,1609354,Low
+CUST-00746,NovaEnterprise Client 746 Corp,North America,Energy,Strategic Accounts,EMP-00201,Active,2024097,Low
+CUST-00747,NovaEnterprise Client 747 Corp,Europe,E-Commerce,Enterprise,EMP-00231,Active,3457874,Low
+CUST-00748,NovaEnterprise Client 748 Corp,Europe,Healthcare,Government,EMP-00223,Active,826389,Low
+CUST-00749,NovaEnterprise Client 749 Corp,India,E-Commerce,Enterprise,EMP-00159,Active,3268846,Low
+CUST-00750,NovaEnterprise Client 750 Corp,North America,Financial Services,Strategic Accounts,EMP-00152,Active,1056545,Medium
+CUST-00751,NovaEnterprise Client 751 Corp,India,Telecommunications,Strategic Accounts,EMP-00111,Active,2044956,High
+CUST-00752,NovaEnterprise Client 752 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00167,Active,3026683,Low
+CUST-00753,NovaEnterprise Client 753 Corp,India,Telecommunications,Mid-Market,EMP-00193,Under Review,2816712,High
+CUST-00754,NovaEnterprise Client 754 Corp,Europe,Manufacturing,Enterprise,EMP-00232,Active,1653437,Medium
+CUST-00755,NovaEnterprise Client 755 Corp,India,Aerospace,Strategic Accounts,EMP-00101,Active,2117045,Medium
+CUST-00756,NovaEnterprise Client 756 Corp,Europe,Telecommunications,Mid-Market,EMP-00119,Under Review,769601,High
+CUST-00757,NovaEnterprise Client 757 Corp,Europe,Manufacturing,Strategic Accounts,EMP-00140,Active,705153,Low
+CUST-00758,NovaEnterprise Client 758 Corp,APAC,E-Commerce,Enterprise,EMP-00129,Active,1814015,Low
+CUST-00759,NovaEnterprise Client 759 Corp,Europe,Aerospace,Government,EMP-00205,Active,958756,High
+CUST-00760,NovaEnterprise Client 760 Corp,Europe,Healthcare,Enterprise,EMP-00134,Active,2480376,Low
+CUST-00761,NovaEnterprise Client 761 Corp,Europe,Manufacturing,Enterprise,EMP-00166,Active,309511,Low
+CUST-00762,NovaEnterprise Client 762 Corp,APAC,Healthcare,Government,EMP-00121,Active,3093000,Low
+CUST-00763,NovaEnterprise Client 763 Corp,Europe,Healthcare,Government,EMP-00156,At-Risk,2095263,High
+CUST-00764,NovaEnterprise Client 764 Corp,APAC,Telecommunications,Mid-Market,EMP-00142,Active,2688939,Low
+CUST-00765,NovaEnterprise Client 765 Corp,North America,Manufacturing,Strategic Accounts,EMP-00158,At-Risk,2577042,High
+CUST-00766,NovaEnterprise Client 766 Corp,Europe,Aerospace,Mid-Market,EMP-00233,Active,144468,Low
+CUST-00767,NovaEnterprise Client 767 Corp,North America,Energy,Government,EMP-00145,Active,2614697,Low
+CUST-00768,NovaEnterprise Client 768 Corp,India,Aerospace,Enterprise,EMP-00133,Active,465867,Low
+CUST-00769,NovaEnterprise Client 769 Corp,India,Telecommunications,Enterprise,EMP-00194,Active,2264612,High
+CUST-00770,NovaEnterprise Client 770 Corp,India,Manufacturing,Government,EMP-00197,Active,3440090,Low
+CUST-00771,NovaEnterprise Client 771 Corp,APAC,E-Commerce,Enterprise,EMP-00222,Active,636546,High
+CUST-00772,NovaEnterprise Client 772 Corp,India,Energy,Enterprise,EMP-00165,Active,2584419,Medium
+CUST-00773,NovaEnterprise Client 773 Corp,North America,Healthcare,Enterprise,EMP-00233,Active,2499253,Low
+CUST-00774,NovaEnterprise Client 774 Corp,APAC,Financial Services,Government,EMP-00204,Active,2959702,Low
+CUST-00775,NovaEnterprise Client 775 Corp,APAC,E-Commerce,Enterprise,EMP-00166,Active,1862073,Low
+CUST-00776,NovaEnterprise Client 776 Corp,APAC,Energy,Government,EMP-00201,Active,2641413,Medium
+CUST-00777,NovaEnterprise Client 777 Corp,India,Energy,Mid-Market,EMP-00145,At-Risk,2390695,High
+CUST-00778,NovaEnterprise Client 778 Corp,APAC,Telecommunications,Government,EMP-00201,Active,1361196,Medium
+CUST-00779,NovaEnterprise Client 779 Corp,Europe,Manufacturing,Mid-Market,EMP-00214,Active,3211560,Low
+CUST-00780,NovaEnterprise Client 780 Corp,India,Energy,Mid-Market,EMP-00186,Active,974502,Low
+CUST-00781,NovaEnterprise Client 781 Corp,North America,Energy,Enterprise,EMP-00123,Active,1707019,Low
+CUST-00782,NovaEnterprise Client 782 Corp,India,Energy,Mid-Market,EMP-00122,Active,2592611,High
+CUST-00783,NovaEnterprise Client 783 Corp,North America,E-Commerce,Mid-Market,EMP-00198,Active,410710,Medium
+CUST-00784,NovaEnterprise Client 784 Corp,Europe,Aerospace,Strategic Accounts,EMP-00226,Active,3319749,Low
+CUST-00785,NovaEnterprise Client 785 Corp,APAC,Aerospace,Enterprise,EMP-00149,Active,2830172,Low
+CUST-00786,NovaEnterprise Client 786 Corp,North America,Financial Services,Mid-Market,EMP-00192,Active,2902063,Low
+CUST-00787,NovaEnterprise Client 787 Corp,APAC,Healthcare,Enterprise,EMP-00202,Active,439245,Low
+CUST-00788,NovaEnterprise Client 788 Corp,Europe,E-Commerce,Government,EMP-00232,Active,2533198,High
+CUST-00789,NovaEnterprise Client 789 Corp,APAC,Manufacturing,Enterprise,EMP-00243,Active,2380158,Low
+CUST-00790,NovaEnterprise Client 790 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00157,Active,3495517,Medium
+CUST-00791,NovaEnterprise Client 791 Corp,North America,Telecommunications,Mid-Market,EMP-00166,Active,1769316,High
+CUST-00792,NovaEnterprise Client 792 Corp,APAC,Aerospace,Enterprise,EMP-00187,Active,2185444,Low
+CUST-00793,NovaEnterprise Client 793 Corp,India,Financial Services,Strategic Accounts,EMP-00196,Active,2986651,Medium
+CUST-00794,NovaEnterprise Client 794 Corp,APAC,Telecommunications,Government,EMP-00217,Active,3252073,Low
+CUST-00795,NovaEnterprise Client 795 Corp,North America,Manufacturing,Government,EMP-00166,Active,2096529,Low
+CUST-00796,NovaEnterprise Client 796 Corp,Europe,Financial Services,Government,EMP-00180,Active,2914178,Low
+CUST-00797,NovaEnterprise Client 797 Corp,APAC,Aerospace,Strategic Accounts,EMP-00163,Active,3014446,Low
+CUST-00798,NovaEnterprise Client 798 Corp,APAC,E-Commerce,Enterprise,EMP-00119,Under Review,2900693,High
+CUST-00799,NovaEnterprise Client 799 Corp,Europe,Healthcare,Government,EMP-00246,Active,1557845,Medium
+CUST-00800,NovaEnterprise Client 800 Corp,Europe,E-Commerce,Mid-Market,EMP-00160,Active,2167954,Low
+CUST-00801,NovaEnterprise Client 801 Corp,Europe,Manufacturing,Mid-Market,EMP-00151,Active,942292,Medium
+CUST-00802,NovaEnterprise Client 802 Corp,North America,Energy,Mid-Market,EMP-00130,Active,729292,Medium
+CUST-00803,NovaEnterprise Client 803 Corp,North America,Financial Services,Government,EMP-00223,Active,3280472,Low
+CUST-00804,NovaEnterprise Client 804 Corp,APAC,E-Commerce,Strategic Accounts,EMP-00225,Active,2484708,High
+CUST-00805,NovaEnterprise Client 805 Corp,Europe,Energy,Strategic Accounts,EMP-00113,Under Review,1006524,High
+CUST-00806,NovaEnterprise Client 806 Corp,North America,Energy,Government,EMP-00228,At-Risk,2343145,High
+CUST-00807,NovaEnterprise Client 807 Corp,India,Aerospace,Mid-Market,EMP-00180,Under Review,579860,High
+CUST-00808,NovaEnterprise Client 808 Corp,North America,Financial Services,Enterprise,EMP-00183,Active,1666436,Low
+CUST-00809,NovaEnterprise Client 809 Corp,APAC,E-Commerce,Strategic Accounts,EMP-00160,Active,2375841,Low
+CUST-00810,NovaEnterprise Client 810 Corp,Europe,E-Commerce,Government,EMP-00227,Active,1609797,Medium
+CUST-00811,NovaEnterprise Client 811 Corp,APAC,Aerospace,Mid-Market,EMP-00193,At-Risk,3014001,High
+CUST-00812,NovaEnterprise Client 812 Corp,Europe,E-Commerce,Government,EMP-00247,Active,2471666,Low
+CUST-00813,NovaEnterprise Client 813 Corp,APAC,Manufacturing,Mid-Market,EMP-00160,Active,3098319,Low
+CUST-00814,NovaEnterprise Client 814 Corp,Europe,Telecommunications,Government,EMP-00138,At-Risk,897348,High
+CUST-00815,NovaEnterprise Client 815 Corp,India,Energy,Enterprise,EMP-00134,Active,1842985,Low
+CUST-00816,NovaEnterprise Client 816 Corp,APAC,Energy,Strategic Accounts,EMP-00243,Under Review,1333434,High
+CUST-00817,NovaEnterprise Client 817 Corp,Europe,Financial Services,Government,EMP-00115,Active,2971348,Low
+CUST-00818,NovaEnterprise Client 818 Corp,North America,Healthcare,Strategic Accounts,EMP-00215,Under Review,2716833,High
+CUST-00819,NovaEnterprise Client 819 Corp,APAC,E-Commerce,Strategic Accounts,EMP-00188,Active,1586235,Medium
+CUST-00820,NovaEnterprise Client 820 Corp,Europe,Financial Services,Government,EMP-00247,Active,1547580,Low
+CUST-00821,NovaEnterprise Client 821 Corp,APAC,Telecommunications,Mid-Market,EMP-00230,Active,1564435,Medium
+CUST-00822,NovaEnterprise Client 822 Corp,APAC,Aerospace,Government,EMP-00218,Active,1673327,Low
+CUST-00823,NovaEnterprise Client 823 Corp,APAC,Manufacturing,Mid-Market,EMP-00207,Active,2761789,Low
+CUST-00824,NovaEnterprise Client 824 Corp,Europe,Manufacturing,Government,EMP-00187,Active,406819,Low
+CUST-00825,NovaEnterprise Client 825 Corp,APAC,Healthcare,Strategic Accounts,EMP-00168,Active,2813935,Medium
+CUST-00826,NovaEnterprise Client 826 Corp,APAC,Telecommunications,Government,EMP-00250,Active,1941039,Medium
+CUST-00827,NovaEnterprise Client 827 Corp,Europe,Telecommunications,Government,EMP-00105,Active,776783,High
+CUST-00828,NovaEnterprise Client 828 Corp,North America,Manufacturing,Mid-Market,EMP-00153,Active,3195039,Medium
+CUST-00829,NovaEnterprise Client 829 Corp,North America,Healthcare,Government,EMP-00221,Active,475781,Low
+CUST-00830,NovaEnterprise Client 830 Corp,India,Telecommunications,Enterprise,EMP-00234,Active,3308530,Low
+CUST-00831,NovaEnterprise Client 831 Corp,Europe,Energy,Enterprise,EMP-00121,Active,1175804,Low
+CUST-00832,NovaEnterprise Client 832 Corp,Europe,Manufacturing,Government,EMP-00172,Active,1036988,Medium
+CUST-00833,NovaEnterprise Client 833 Corp,Europe,Aerospace,Mid-Market,EMP-00107,Active,2284317,Low
+CUST-00834,NovaEnterprise Client 834 Corp,India,Financial Services,Strategic Accounts,EMP-00238,Active,2072137,Medium
+CUST-00835,NovaEnterprise Client 835 Corp,Europe,E-Commerce,Government,EMP-00216,Active,3001042,Low
+CUST-00836,NovaEnterprise Client 836 Corp,India,Manufacturing,Government,EMP-00238,Active,1531129,Medium
+CUST-00837,NovaEnterprise Client 837 Corp,APAC,Healthcare,Enterprise,EMP-00205,At-Risk,1366292,High
+CUST-00838,NovaEnterprise Client 838 Corp,Europe,Healthcare,Strategic Accounts,EMP-00188,Active,75387,Low
+CUST-00839,NovaEnterprise Client 839 Corp,India,E-Commerce,Government,EMP-00222,Active,2959716,Low
+CUST-00840,NovaEnterprise Client 840 Corp,APAC,E-Commerce,Enterprise,EMP-00159,Active,3421906,High
+CUST-00841,NovaEnterprise Client 841 Corp,India,Telecommunications,Strategic Accounts,EMP-00201,Active,1801945,Low
+CUST-00842,NovaEnterprise Client 842 Corp,Europe,Healthcare,Mid-Market,EMP-00167,Active,1661948,High
+CUST-00843,NovaEnterprise Client 843 Corp,APAC,Aerospace,Mid-Market,EMP-00205,Active,1269021,Medium
+CUST-00844,NovaEnterprise Client 844 Corp,APAC,Healthcare,Enterprise,EMP-00128,Active,648042,Low
+CUST-00845,NovaEnterprise Client 845 Corp,India,Manufacturing,Government,EMP-00148,At-Risk,1216413,High
+CUST-00846,NovaEnterprise Client 846 Corp,North America,Financial Services,Mid-Market,EMP-00147,Active,2318829,Low
+CUST-00847,NovaEnterprise Client 847 Corp,India,Financial Services,Strategic Accounts,EMP-00102,Active,599452,Medium
+CUST-00848,NovaEnterprise Client 848 Corp,India,Healthcare,Enterprise,EMP-00155,Active,136760,Low
+CUST-00849,NovaEnterprise Client 849 Corp,India,E-Commerce,Government,EMP-00195,Active,3370570,Medium
+CUST-00850,NovaEnterprise Client 850 Corp,Europe,Aerospace,Enterprise,EMP-00114,Active,411480,Medium
+CUST-00851,NovaEnterprise Client 851 Corp,India,E-Commerce,Government,EMP-00146,Active,2353312,Low
+CUST-00852,NovaEnterprise Client 852 Corp,North America,Healthcare,Strategic Accounts,EMP-00163,At-Risk,127913,High
+CUST-00853,NovaEnterprise Client 853 Corp,North America,Energy,Government,EMP-00150,Active,3168798,Low
+CUST-00854,NovaEnterprise Client 854 Corp,India,Aerospace,Enterprise,EMP-00179,Active,2058174,Low
+CUST-00855,NovaEnterprise Client 855 Corp,North America,E-Commerce,Mid-Market,EMP-00164,Active,3198601,Low
+CUST-00856,NovaEnterprise Client 856 Corp,North America,Aerospace,Strategic Accounts,EMP-00155,Active,1586738,Low
+CUST-00857,NovaEnterprise Client 857 Corp,North America,Financial Services,Mid-Market,EMP-00142,At-Risk,1436108,High
+CUST-00858,NovaEnterprise Client 858 Corp,Europe,Telecommunications,Enterprise,EMP-00102,Active,3384908,High
+CUST-00859,NovaEnterprise Client 859 Corp,North America,Telecommunications,Government,EMP-00163,Active,1632758,Low
+CUST-00860,NovaEnterprise Client 860 Corp,APAC,Healthcare,Government,EMP-00115,Active,2952060,Low
+CUST-00861,NovaEnterprise Client 861 Corp,North America,Financial Services,Strategic Accounts,EMP-00132,Active,3016583,Low
+CUST-00862,NovaEnterprise Client 862 Corp,APAC,Aerospace,Mid-Market,EMP-00212,Active,2416891,Medium
+CUST-00863,NovaEnterprise Client 863 Corp,India,Manufacturing,Mid-Market,EMP-00191,Active,2965923,Low
+CUST-00864,NovaEnterprise Client 864 Corp,India,Manufacturing,Mid-Market,EMP-00212,Active,240626,Medium
+CUST-00865,NovaEnterprise Client 865 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00239,At-Risk,870977,High
+CUST-00866,NovaEnterprise Client 866 Corp,Europe,E-Commerce,Government,EMP-00117,Active,2586045,Medium
+CUST-00867,NovaEnterprise Client 867 Corp,APAC,Telecommunications,Mid-Market,EMP-00238,At-Risk,1315141,High
+CUST-00868,NovaEnterprise Client 868 Corp,Europe,Aerospace,Enterprise,EMP-00104,Under Review,3152183,High
+CUST-00869,NovaEnterprise Client 869 Corp,North America,Energy,Strategic Accounts,EMP-00237,Active,1420088,Low
+CUST-00870,NovaEnterprise Client 870 Corp,India,Energy,Government,EMP-00241,Active,2273107,Low
+CUST-00871,NovaEnterprise Client 871 Corp,APAC,Healthcare,Strategic Accounts,EMP-00128,Active,1793844,Medium
+CUST-00872,NovaEnterprise Client 872 Corp,Europe,Financial Services,Enterprise,EMP-00108,Active,619312,Low
+CUST-00873,NovaEnterprise Client 873 Corp,North America,Healthcare,Enterprise,EMP-00108,Under Review,878698,High
+CUST-00874,NovaEnterprise Client 874 Corp,APAC,Manufacturing,Government,EMP-00112,At-Risk,2280454,High
+CUST-00875,NovaEnterprise Client 875 Corp,India,Healthcare,Enterprise,EMP-00120,Active,950511,Low
+CUST-00876,NovaEnterprise Client 876 Corp,India,Aerospace,Enterprise,EMP-00194,Active,2415505,Medium
+CUST-00877,NovaEnterprise Client 877 Corp,North America,Energy,Enterprise,EMP-00118,Active,2293874,Medium
+CUST-00878,NovaEnterprise Client 878 Corp,North America,Energy,Strategic Accounts,EMP-00125,Active,980550,Low
+CUST-00879,NovaEnterprise Client 879 Corp,Europe,Manufacturing,Mid-Market,EMP-00234,Under Review,869654,High
+CUST-00880,NovaEnterprise Client 880 Corp,North America,Healthcare,Mid-Market,EMP-00247,At-Risk,3204405,High
+CUST-00881,NovaEnterprise Client 881 Corp,Europe,Manufacturing,Government,EMP-00146,Under Review,511637,High
+CUST-00882,NovaEnterprise Client 882 Corp,India,Aerospace,Strategic Accounts,EMP-00190,Active,2314340,Low
+CUST-00883,NovaEnterprise Client 883 Corp,India,E-Commerce,Strategic Accounts,EMP-00182,Active,1804493,Medium
+CUST-00884,NovaEnterprise Client 884 Corp,APAC,Telecommunications,Mid-Market,EMP-00192,Active,1648128,Low
+CUST-00885,NovaEnterprise Client 885 Corp,North America,Aerospace,Government,EMP-00172,Under Review,75820,High
+CUST-00886,NovaEnterprise Client 886 Corp,APAC,Financial Services,Mid-Market,EMP-00156,Active,102551,Medium
+CUST-00887,NovaEnterprise Client 887 Corp,APAC,Healthcare,Strategic Accounts,EMP-00241,Active,3311002,Low
+CUST-00888,NovaEnterprise Client 888 Corp,India,Telecommunications,Mid-Market,EMP-00191,Active,233277,Low
+CUST-00889,NovaEnterprise Client 889 Corp,Europe,Healthcare,Mid-Market,EMP-00159,Active,1614657,Medium
+CUST-00890,NovaEnterprise Client 890 Corp,India,E-Commerce,Strategic Accounts,EMP-00245,Active,2467796,Low
+CUST-00891,NovaEnterprise Client 891 Corp,India,Healthcare,Enterprise,EMP-00144,Active,3400681,Medium
+CUST-00892,NovaEnterprise Client 892 Corp,India,Aerospace,Enterprise,EMP-00120,Active,231747,Medium
+CUST-00893,NovaEnterprise Client 893 Corp,India,Energy,Enterprise,EMP-00206,Active,1534325,Medium
+CUST-00894,NovaEnterprise Client 894 Corp,North America,Energy,Enterprise,EMP-00197,Active,3210991,Low
+CUST-00895,NovaEnterprise Client 895 Corp,Europe,Financial Services,Strategic Accounts,EMP-00183,Active,1414310,Low
+CUST-00896,NovaEnterprise Client 896 Corp,India,Telecommunications,Mid-Market,EMP-00214,Active,286895,Low
+CUST-00897,NovaEnterprise Client 897 Corp,APAC,Energy,Enterprise,EMP-00200,Active,1886669,Low
+CUST-00898,NovaEnterprise Client 898 Corp,India,Healthcare,Mid-Market,EMP-00246,Active,421219,Medium
+CUST-00899,NovaEnterprise Client 899 Corp,North America,Manufacturing,Enterprise,EMP-00202,Under Review,1176247,High
+CUST-00900,NovaEnterprise Client 900 Corp,Europe,Aerospace,Mid-Market,EMP-00224,Active,2092135,Low
+CUST-00901,NovaEnterprise Client 901 Corp,North America,Aerospace,Mid-Market,EMP-00168,Active,1091343,Low
+CUST-00902,NovaEnterprise Client 902 Corp,North America,Energy,Government,EMP-00128,Active,2946999,Medium
+CUST-00903,NovaEnterprise Client 903 Corp,APAC,Manufacturing,Government,EMP-00148,At-Risk,1607043,High
+CUST-00904,NovaEnterprise Client 904 Corp,APAC,E-Commerce,Enterprise,EMP-00213,Active,784908,Medium
+CUST-00905,NovaEnterprise Client 905 Corp,Europe,Telecommunications,Mid-Market,EMP-00151,Under Review,263230,High
+CUST-00906,NovaEnterprise Client 906 Corp,North America,E-Commerce,Mid-Market,EMP-00162,Active,546321,Low
+CUST-00907,NovaEnterprise Client 907 Corp,APAC,Telecommunications,Mid-Market,EMP-00128,Active,132601,Medium
+CUST-00908,NovaEnterprise Client 908 Corp,APAC,E-Commerce,Government,EMP-00153,Under Review,170412,High
+CUST-00909,NovaEnterprise Client 909 Corp,APAC,Telecommunications,Mid-Market,EMP-00240,Active,2366869,Low
+CUST-00910,NovaEnterprise Client 910 Corp,North America,Aerospace,Mid-Market,EMP-00165,Active,1654602,Low
+CUST-00911,NovaEnterprise Client 911 Corp,APAC,Healthcare,Enterprise,EMP-00113,Active,916780,Medium
+CUST-00912,NovaEnterprise Client 912 Corp,APAC,Aerospace,Enterprise,EMP-00192,Active,1705095,Low
+CUST-00913,NovaEnterprise Client 913 Corp,India,Energy,Enterprise,EMP-00159,Active,1301815,Low
+CUST-00914,NovaEnterprise Client 914 Corp,North America,Aerospace,Enterprise,EMP-00147,Active,2107820,Medium
+CUST-00915,NovaEnterprise Client 915 Corp,Europe,Healthcare,Government,EMP-00235,Active,241733,Low
+CUST-00916,NovaEnterprise Client 916 Corp,Europe,E-Commerce,Strategic Accounts,EMP-00104,At-Risk,1725038,High
+CUST-00917,NovaEnterprise Client 917 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00160,Active,2697408,Medium
+CUST-00918,NovaEnterprise Client 918 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00199,Active,2699763,Low
+CUST-00919,NovaEnterprise Client 919 Corp,Europe,Energy,Enterprise,EMP-00187,Active,1021162,Medium
+CUST-00920,NovaEnterprise Client 920 Corp,India,Aerospace,Mid-Market,EMP-00233,Active,3136379,Low
+CUST-00921,NovaEnterprise Client 921 Corp,Europe,Manufacturing,Mid-Market,EMP-00209,At-Risk,1083146,High
+CUST-00922,NovaEnterprise Client 922 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00152,Under Review,2349293,High
+CUST-00923,NovaEnterprise Client 923 Corp,Europe,Healthcare,Mid-Market,EMP-00210,Active,1371033,Low
+CUST-00924,NovaEnterprise Client 924 Corp,North America,Energy,Mid-Market,EMP-00242,Active,1406675,Low
+CUST-00925,NovaEnterprise Client 925 Corp,Europe,Telecommunications,Enterprise,EMP-00107,Active,1407100,Low
+CUST-00926,NovaEnterprise Client 926 Corp,APAC,Energy,Strategic Accounts,EMP-00213,Under Review,1799914,High
+CUST-00927,NovaEnterprise Client 927 Corp,Europe,Energy,Strategic Accounts,EMP-00127,Active,3342815,Low
+CUST-00928,NovaEnterprise Client 928 Corp,APAC,Healthcare,Mid-Market,EMP-00245,Active,3272936,Low
+CUST-00929,NovaEnterprise Client 929 Corp,North America,Telecommunications,Mid-Market,EMP-00191,Active,1043516,Low
+CUST-00930,NovaEnterprise Client 930 Corp,India,Financial Services,Government,EMP-00195,Active,2181902,Low
+CUST-00931,NovaEnterprise Client 931 Corp,Europe,Healthcare,Government,EMP-00141,Active,2062458,High
+CUST-00932,NovaEnterprise Client 932 Corp,North America,Healthcare,Enterprise,EMP-00169,At-Risk,3281708,High
+CUST-00933,NovaEnterprise Client 933 Corp,Europe,Healthcare,Mid-Market,EMP-00212,Active,352395,Low
+CUST-00934,NovaEnterprise Client 934 Corp,Europe,Energy,Government,EMP-00209,Active,1994082,Medium
+CUST-00935,NovaEnterprise Client 935 Corp,APAC,Aerospace,Enterprise,EMP-00200,Under Review,3095741,High
+CUST-00936,NovaEnterprise Client 936 Corp,India,Manufacturing,Enterprise,EMP-00110,Active,1969187,Low
+CUST-00937,NovaEnterprise Client 937 Corp,India,Healthcare,Government,EMP-00232,Active,2414167,Low
+CUST-00938,NovaEnterprise Client 938 Corp,India,Energy,Enterprise,EMP-00201,Active,1296294,Low
+CUST-00939,NovaEnterprise Client 939 Corp,India,E-Commerce,Strategic Accounts,EMP-00175,Under Review,773295,High
+CUST-00940,NovaEnterprise Client 940 Corp,India,Financial Services,Mid-Market,EMP-00123,Under Review,2784946,High
+CUST-00941,NovaEnterprise Client 941 Corp,Europe,Telecommunications,Enterprise,EMP-00200,Active,3341235,Low
+CUST-00942,NovaEnterprise Client 942 Corp,Europe,Aerospace,Strategic Accounts,EMP-00216,Under Review,179488,High
+CUST-00943,NovaEnterprise Client 943 Corp,APAC,Manufacturing,Mid-Market,EMP-00182,Under Review,453240,High
+CUST-00944,NovaEnterprise Client 944 Corp,North America,Manufacturing,Mid-Market,EMP-00215,Active,457483,Low
+CUST-00945,NovaEnterprise Client 945 Corp,India,Manufacturing,Strategic Accounts,EMP-00230,Active,2272049,Low
+CUST-00946,NovaEnterprise Client 946 Corp,India,Telecommunications,Mid-Market,EMP-00111,Active,2383317,High
+CUST-00947,NovaEnterprise Client 947 Corp,Europe,E-Commerce,Mid-Market,EMP-00113,Active,681527,Low
+CUST-00948,NovaEnterprise Client 948 Corp,India,Aerospace,Strategic Accounts,EMP-00173,Active,3137520,Medium
+CUST-00949,NovaEnterprise Client 949 Corp,Europe,Manufacturing,Mid-Market,EMP-00100,Active,626848,Low
+CUST-00950,NovaEnterprise Client 950 Corp,India,Telecommunications,Strategic Accounts,EMP-00227,Active,1998686,Low
+CUST-00951,NovaEnterprise Client 951 Corp,Europe,Telecommunications,Enterprise,EMP-00250,Under Review,1072734,High
+CUST-00952,NovaEnterprise Client 952 Corp,North America,Aerospace,Government,EMP-00101,Active,1928359,High
+CUST-00953,NovaEnterprise Client 953 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00137,Active,280180,Low
+CUST-00954,NovaEnterprise Client 954 Corp,North America,Financial Services,Strategic Accounts,EMP-00247,Active,684744,Low
+CUST-00955,NovaEnterprise Client 955 Corp,North America,Energy,Strategic Accounts,EMP-00127,Active,442851,Medium
+CUST-00956,NovaEnterprise Client 956 Corp,APAC,Aerospace,Mid-Market,EMP-00246,Active,2893951,Low
+CUST-00957,NovaEnterprise Client 957 Corp,APAC,Energy,Mid-Market,EMP-00109,Active,3217937,High
+CUST-00958,NovaEnterprise Client 958 Corp,India,Energy,Strategic Accounts,EMP-00117,Active,1620892,Medium
+CUST-00959,NovaEnterprise Client 959 Corp,India,Energy,Government,EMP-00134,Active,1303229,Low
+CUST-00960,NovaEnterprise Client 960 Corp,India,Financial Services,Strategic Accounts,EMP-00234,Active,2285619,Medium
+CUST-00961,NovaEnterprise Client 961 Corp,North America,Healthcare,Mid-Market,EMP-00223,Active,533446,Low
+CUST-00962,NovaEnterprise Client 962 Corp,APAC,Manufacturing,Strategic Accounts,EMP-00166,Under Review,2628679,High
+CUST-00963,NovaEnterprise Client 963 Corp,India,Telecommunications,Strategic Accounts,EMP-00233,Active,2651518,Low
+CUST-00964,NovaEnterprise Client 964 Corp,Europe,Manufacturing,Government,EMP-00159,Under Review,3463915,High
+CUST-00965,NovaEnterprise Client 965 Corp,North America,E-Commerce,Mid-Market,EMP-00219,Active,570796,Low
+CUST-00966,NovaEnterprise Client 966 Corp,India,Manufacturing,Enterprise,EMP-00205,Active,3428615,Low
+CUST-00967,NovaEnterprise Client 967 Corp,Europe,Financial Services,Strategic Accounts,EMP-00102,Active,2425552,Medium
+CUST-00968,NovaEnterprise Client 968 Corp,North America,Manufacturing,Mid-Market,EMP-00178,Active,1142104,Medium
+CUST-00969,NovaEnterprise Client 969 Corp,APAC,E-Commerce,Strategic Accounts,EMP-00187,Active,552465,Low
+CUST-00970,NovaEnterprise Client 970 Corp,APAC,Aerospace,Enterprise,EMP-00186,Active,888760,Low
+CUST-00971,NovaEnterprise Client 971 Corp,North America,Manufacturing,Government,EMP-00134,At-Risk,3418927,High
+CUST-00972,NovaEnterprise Client 972 Corp,India,Healthcare,Government,EMP-00114,Active,2014740,Medium
+CUST-00973,NovaEnterprise Client 973 Corp,North America,Energy,Strategic Accounts,EMP-00153,Active,2403581,Medium
+CUST-00974,NovaEnterprise Client 974 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00171,Active,352717,Medium
+CUST-00975,NovaEnterprise Client 975 Corp,Europe,Energy,Enterprise,EMP-00246,Active,1648873,Medium
+CUST-00976,NovaEnterprise Client 976 Corp,North America,Telecommunications,Government,EMP-00178,Active,2571415,Low
+CUST-00977,NovaEnterprise Client 977 Corp,India,Manufacturing,Strategic Accounts,EMP-00122,Active,1213742,Low
+CUST-00978,NovaEnterprise Client 978 Corp,APAC,Aerospace,Mid-Market,EMP-00155,Active,1970432,Medium
+CUST-00979,NovaEnterprise Client 979 Corp,APAC,Telecommunications,Strategic Accounts,EMP-00109,Active,545732,Low
+CUST-00980,NovaEnterprise Client 980 Corp,North America,Energy,Mid-Market,EMP-00223,Active,1936323,Low
+CUST-00981,NovaEnterprise Client 981 Corp,India,Telecommunications,Mid-Market,EMP-00234,Active,1501549,Low
+CUST-00982,NovaEnterprise Client 982 Corp,North America,E-Commerce,Strategic Accounts,EMP-00232,Active,3302438,Low
+CUST-00983,NovaEnterprise Client 983 Corp,North America,Manufacturing,Mid-Market,EMP-00217,Active,3114069,Low
+CUST-00984,NovaEnterprise Client 984 Corp,North America,Aerospace,Enterprise,EMP-00122,Active,1379350,Low
+CUST-00985,NovaEnterprise Client 985 Corp,APAC,E-Commerce,Government,EMP-00105,Active,507444,Low
+CUST-00986,NovaEnterprise Client 986 Corp,Europe,Telecommunications,Strategic Accounts,EMP-00149,Active,1420869,Low
+CUST-00987,NovaEnterprise Client 987 Corp,India,E-Commerce,Strategic Accounts,EMP-00130,Active,3316304,Medium
+CUST-00988,NovaEnterprise Client 988 Corp,North America,E-Commerce,Mid-Market,EMP-00103,Active,1222716,Low
+CUST-00989,NovaEnterprise Client 989 Corp,APAC,Telecommunications,Enterprise,EMP-00240,Active,2350530,Low
+CUST-00990,NovaEnterprise Client 990 Corp,APAC,E-Commerce,Strategic Accounts,EMP-00246,Active,3029273,Low
+CUST-00991,NovaEnterprise Client 991 Corp,APAC,Healthcare,Mid-Market,EMP-00238,Active,1381012,Low
+CUST-00992,NovaEnterprise Client 992 Corp,India,Aerospace,Enterprise,EMP-00112,Active,196604,Low
+CUST-00993,NovaEnterprise Client 993 Corp,India,Financial Services,Government,EMP-00200,Active,436211,Low
+CUST-00994,NovaEnterprise Client 994 Corp,APAC,Healthcare,Government,EMP-00150,Active,1385471,Medium
+CUST-00995,NovaEnterprise Client 995 Corp,Europe,Manufacturing,Enterprise,EMP-00123,Under Review,2456480,High
+CUST-00996,NovaEnterprise Client 996 Corp,India,Aerospace,Enterprise,EMP-00220,Active,1376877,High
+CUST-00997,NovaEnterprise Client 997 Corp,India,Healthcare,Mid-Market,EMP-00146,Active,1599417,Medium
+CUST-00998,NovaEnterprise Client 998 Corp,India,Manufacturing,Strategic Accounts,EMP-00107,Active,1976206,Medium
+CUST-00999,NovaEnterprise Client 999 Corp,India,Financial Services,Government,EMP-00218,Active,1549049,Low
+CUST-01000,NovaEnterprise Client 1000 Corp,APAC,Energy,Mid-Market,EMP-00247,Active,3295980,Medium

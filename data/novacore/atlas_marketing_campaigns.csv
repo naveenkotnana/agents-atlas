@@ -1,0 +1,81 @@
+campaign_id,campaign_name,product_id,target_region,allocated_budget_usd,leads_generated,cost_per_acquisition,status
+MKT-CMP-0001,Global Acceleration Campaign 1,PROD-00018,North America,826450,4386,115.66,Completed
+MKT-CMP-0002,Global Acceleration Campaign 2,PROD-00004,North America,1499818,4189,160.78,Completed
+MKT-CMP-0003,Global Acceleration Campaign 3,PROD-00016,APAC,443399,4104,258.24,Completed
+MKT-CMP-0004,Global Acceleration Campaign 4,PROD-00006,Europe,1231274,6264,338.57,Completed
+MKT-CMP-0005,Global Acceleration Campaign 5,PROD-00011,North America,625760,4446,191.88,Completed
+MKT-CMP-0006,Global Acceleration Campaign 6,PROD-00017,Europe,791319,3732,90.54,Completed
+MKT-CMP-0007,Global Acceleration Campaign 7,PROD-00002,India,467335,957,339.0,Completed
+MKT-CMP-0008,Global Acceleration Campaign 8,PROD-00021,India,560590,3771,314.82,Completed
+MKT-CMP-0009,Global Acceleration Campaign 9,PROD-00022,North America,1762941,3781,342.86,Completed
+MKT-CMP-0010,Global Acceleration Campaign 10,PROD-00025,India,1798149,3954,259.32,Completed
+MKT-CMP-0011,Global Acceleration Campaign 11,PROD-00012,North America,448089,3030,123.24,Completed
+MKT-CMP-0012,Global Acceleration Campaign 12,PROD-00022,North America,1247597,2867,150.22,Completed
+MKT-CMP-0013,Global Acceleration Campaign 13,PROD-00013,India,389702,5855,251.8,Completed
+MKT-CMP-0014,Global Acceleration Campaign 14,PROD-00028,APAC,441251,5596,85.93,Completed
+MKT-CMP-0015,Global Acceleration Campaign 15,PROD-00009,Europe,871439,1216,183.37,Completed
+MKT-CMP-0016,Global Acceleration Campaign 16,PROD-00020,North America,262931,5370,248.19,Completed
+MKT-CMP-0017,Global Acceleration Campaign 17,PROD-00006,North America,1779782,482,391.45,Completed
+MKT-CMP-0018,Global Acceleration Campaign 18,PROD-00029,India,359778,5537,382.7,Completed
+MKT-CMP-0019,Global Acceleration Campaign 19,PROD-00004,APAC,223707,2018,135.19,Completed
+MKT-CMP-0020,Global Acceleration Campaign 20,PROD-00035,India,1605389,6663,387.92,Completed
+MKT-CMP-0021,Global Acceleration Campaign 21,PROD-00012,APAC,328148,1622,219.81,Completed
+MKT-CMP-0022,Global Acceleration Campaign 22,PROD-00003,North America,1091935,5558,204.55,Completed
+MKT-CMP-0023,Global Acceleration Campaign 23,PROD-00012,Europe,1183436,1238,198.28,Completed
+MKT-CMP-0024,Global Acceleration Campaign 24,PROD-00018,APAC,440344,4709,123.39,Completed
+MKT-CMP-0025,Global Acceleration Campaign 25,PROD-00002,Europe,858798,3029,128.76,Completed
+MKT-CMP-0026,Global Acceleration Campaign 26,PROD-00030,APAC,349432,3260,329.09,Completed
+MKT-CMP-0027,Global Acceleration Campaign 27,PROD-00007,North America,1451139,4669,147.76,Completed
+MKT-CMP-0028,Global Acceleration Campaign 28,PROD-00026,North America,1531526,3449,219.01,Completed
+MKT-CMP-0029,Global Acceleration Campaign 29,PROD-00030,India,382889,4488,179.43,Completed
+MKT-CMP-0030,Global Acceleration Campaign 30,PROD-00032,North America,1163101,4338,120.82,Completed
+MKT-CMP-0031,Global Acceleration Campaign 31,PROD-00005,APAC,1283868,6245,295.89,Completed
+MKT-CMP-0032,Global Acceleration Campaign 32,PROD-00010,India,1155079,6799,222.14,Completed
+MKT-CMP-0033,Global Acceleration Campaign 33,PROD-00035,India,324342,3261,319.96,Completed
+MKT-CMP-0034,Global Acceleration Campaign 34,PROD-00017,India,1291873,6272,117.23,Completed
+MKT-CMP-0035,Global Acceleration Campaign 35,PROD-00001,Europe,967205,4859,222.72,Completed
+MKT-CMP-0036,Global Acceleration Campaign 36,PROD-00002,APAC,1345109,6217,246.07,Completed
+MKT-CMP-0037,Global Acceleration Campaign 37,PROD-00030,Europe,1725811,3716,237.42,Completed
+MKT-CMP-0038,Global Acceleration Campaign 38,PROD-00025,Europe,1692250,1485,149.67,Completed
+MKT-CMP-0039,Global Acceleration Campaign 39,PROD-00010,APAC,1714906,707,380.21,Completed
+MKT-CMP-0040,Global Acceleration Campaign 40,PROD-00019,North America,529380,5390,95.5,Completed
+MKT-CMP-0041,Global Acceleration Campaign 41,PROD-00016,India,962040,5593,296.81,Completed
+MKT-CMP-0042,Global Acceleration Campaign 42,PROD-00012,India,569689,1885,161.67,Completed
+MKT-CMP-0043,Global Acceleration Campaign 43,PROD-00028,Europe,776843,2548,382.08,Completed
+MKT-CMP-0044,Global Acceleration Campaign 44,PROD-00024,India,321909,1662,167.79,Completed
+MKT-CMP-0045,Global Acceleration Campaign 45,PROD-00010,North America,1264102,3826,225.57,Completed
+MKT-CMP-0046,Global Acceleration Campaign 46,PROD-00001,India,1377142,5036,324.06,Completed
+MKT-CMP-0047,Global Acceleration Campaign 47,PROD-00034,Europe,838230,6459,299.5,Completed
+MKT-CMP-0048,Global Acceleration Campaign 48,PROD-00023,North America,312266,6688,379.07,Completed
+MKT-CMP-0049,Global Acceleration Campaign 49,PROD-00011,North America,705045,2870,116.62,Completed
+MKT-CMP-0050,Global Acceleration Campaign 50,PROD-00017,North America,1116483,3352,101.69,Completed
+MKT-CMP-0051,Global Acceleration Campaign 51,PROD-00021,India,1029248,2473,107.41,Completed
+MKT-CMP-0052,Global Acceleration Campaign 52,PROD-00017,APAC,1158978,1678,171.27,Completed
+MKT-CMP-0053,Global Acceleration Campaign 53,PROD-00008,APAC,1446120,1343,335.4,Completed
+MKT-CMP-0054,Global Acceleration Campaign 54,PROD-00007,India,1242257,1983,343.03,Completed
+MKT-CMP-0055,Global Acceleration Campaign 55,PROD-00027,Europe,1761822,2125,227.77,Completed
+MKT-CMP-0056,Global Acceleration Campaign 56,PROD-00004,North America,1190584,2225,105.67,Completed
+MKT-CMP-0057,Global Acceleration Campaign 57,PROD-00018,APAC,1386634,3412,91.45,Completed
+MKT-CMP-0058,Global Acceleration Campaign 58,PROD-00005,APAC,345333,6385,329.99,Completed
+MKT-CMP-0059,Global Acceleration Campaign 59,PROD-00034,North America,1507807,6708,155.08,Completed
+MKT-CMP-0060,Global Acceleration Campaign 60,PROD-00011,North America,303966,1725,159.25,Active
+MKT-CMP-0061,Global Acceleration Campaign 61,PROD-00033,North America,776766,3374,90.24,Active
+MKT-CMP-0062,Global Acceleration Campaign 62,PROD-00015,APAC,1747622,5719,130.71,Active
+MKT-CMP-0063,Global Acceleration Campaign 63,PROD-00029,Europe,1572084,4437,233.14,Active
+MKT-CMP-0064,Global Acceleration Campaign 64,PROD-00032,APAC,180031,3408,251.66,Active
+MKT-CMP-0065,Global Acceleration Campaign 65,PROD-00032,North America,281886,1540,361.43,Active
+MKT-CMP-0066,Global Acceleration Campaign 66,PROD-00027,India,970333,2026,384.4,Active
+MKT-CMP-0067,Global Acceleration Campaign 67,PROD-00015,India,1340321,919,164.43,Active
+MKT-CMP-0068,Global Acceleration Campaign 68,PROD-00025,APAC,285129,5790,296.34,Active
+MKT-CMP-0069,Global Acceleration Campaign 69,PROD-00034,APAC,1448527,2590,317.07,Active
+MKT-CMP-0070,Global Acceleration Campaign 70,PROD-00013,North America,579473,1436,363.89,Active
+MKT-CMP-0071,Global Acceleration Campaign 71,PROD-00016,APAC,814065,6065,361.94,Active
+MKT-CMP-0072,Global Acceleration Campaign 72,PROD-00013,Europe,1027596,889,304.62,Active
+MKT-CMP-0073,Global Acceleration Campaign 73,PROD-00010,Europe,1199875,2099,154.85,Active
+MKT-CMP-0074,Global Acceleration Campaign 74,PROD-00008,Europe,1383128,5482,303.99,Active
+MKT-CMP-0075,Global Acceleration Campaign 75,PROD-00007,Europe,1081650,3412,309.78,Active
+MKT-CMP-0076,Global Acceleration Campaign 76,PROD-00007,North America,1764072,5325,309.97,Active
+MKT-CMP-0077,Global Acceleration Campaign 77,PROD-00012,APAC,568114,4924,414.82,Active
+MKT-CMP-0078,Global Acceleration Campaign 78,PROD-00026,APAC,1474964,2179,375.49,Active
+MKT-CMP-0079,Global Acceleration Campaign 79,PROD-00026,Europe,1234786,3447,411.26,Active
+MKT-CMP-0080,Global Acceleration Campaign 80,PROD-00023,APAC,1704619,4377,188.97,Active

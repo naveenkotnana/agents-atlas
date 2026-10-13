@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atlas — Enterprise AI Knowledge & Decision Intelligence Platform</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ============================================================
+       1. Top Enterprise Header & Navigation
+       ============================================================ -->
+  <header class="header">
+    <div class="logo-area">
+      <div class="logo-icon">A</div>
+      <div class="logo-text">
+        <h1>Atlas Enterprise</h1>
+        <p>Decision Intelligence Platform</p>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <nav class="tabs-nav">
+      <button class="tab-btn active" data-tab="decision-tab">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+        Decision Studio
+      </button>
+      <button class="tab-btn" data-tab="search-tab">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        Hybrid Search & Reranker
+      </button>
+      <button class="tab-btn" data-tab="knowledge-tab">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+        Knowledge Ingestion
+      </button>
+      <button class="tab-btn" data-tab="eval-tab">
+        <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        RAGAS Evaluation
+      </button>
+    </nav>
+
+    <!-- Header Telemetry & Status Badges -->
+    <div class="header-telemetry">
+      <div class="telemetry-pill">
+        <span style="color: var(--accent-cyan);">●</span>
+        <span>Ollama: llama3.2</span>
+      </div>
+      <div class="telemetry-pill">
+        <span style="color: var(--accent-indigo);">●</span>
+        <span>pgvector: 768-d</span>
+      </div>
+      <div class="status-badge" id="system-health-badge">
+        <div class="status-dot"></div>
+        <span id="system-health-text">Atlas Operational</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       2. Main Application Body
+       ============================================================ -->
+  <main class="container">
+
+    <!-- --------------------------------------------------------
+         TAB 1: DECISION STUDIO (LangGraph Multi-Agent Engine)
+         -------------------------------------------------------- -->
+    <section id="decision-tab" class="tab-content active">
+      
+      <!-- Interactive LangGraph Pipeline Tracker -->
+      <div class="pipeline-wrapper">
+        <div class="pipeline-header">
+          <div class="pipeline-title">
+            <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            LangGraph Multi-Agent Decision Pipeline (Self-Corrective State Machine)
+          </div>
+          <span style="font-size: 0.72rem; color: var(--text-muted); font-family: var(--font-mono);" id="pipeline-status-tag">Status: Ready</span>
+        </div>
+
+        <div class="pipeline-track">
+          <!-- Node 1 -->
+          <div class="pipeline-node" id="node-1">
+            <div class="node-top">
+              <span class="node-number">01</span>
+              <span class="node-badge" id="badge-1">Idle</span>
+            </div>
+            <span class="node-label">Query Analyzer</span>
+            <span class="node-desc">Intent classification & search decomposition</span>
+          </div>
+
+          <!-- Node 2 -->
+          <div class="pipeline-node" id="node-2">
+            <div class="node-top">
+              <span class="node-number">02</span>
+              <span class="node-badge" id="badge-2">Idle</span>
+            </div>
+            <span class="node-label">Hybrid Retrieve</span>
+            <span class="node-desc">Dense Vector + BM25 with Reciprocal Rank Fusion</span>
+          </div>
+
+          <!-- Node 3 -->
+          <div class="pipeline-node" id="node-3">
+            <div class="node-top">
+              <span class="node-number">03</span>
+              <span class="node-badge" id="badge-3">Idle</span>
+            </div>
+            <span class="node-label">Cross-Encoder</span>
+            <span class="node-desc">Deep attention interaction relevance reranking</span>
+          </div>
+
+          <!-- Node 4 -->
+          <div class="pipeline-node" id="node-4">
+            <div class="node-top">
+              <span class="node-number">04</span>
+              <span class="node-badge" id="badge-4">Idle</span>
+            </div>
+            <span class="node-label">Document Grader</span>
+            <span class="node-desc">Evidence quality check & self-correction loop</span>
+          </div>
+
+          <!-- Node 5 -->
+          <div class="pipeline-node" id="node-5">
+            <div class="node-top">
+              <span class="node-number">05</span>
+              <span class="node-badge" id="badge-5">Idle</span>
+            </div>
+            <span class="node-label">Ollama Synthesis</span>
+            <span class="node-desc">Executive decision & grounded reasoning generation</span>
+          </div>
+
+          <!-- Node 6 -->
+          <div class="pipeline-node" id="node-6">
+            <div class="node-top">
+              <span class="node-number">06</span>
+              <span class="node-badge" id="badge-6">Idle</span>
+            </div>
+            <span class="node-label">Hallucination Guard</span>
+            <span class="node-desc">Factuality audit & confidence scoring</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Studio Dual-Panel Grid -->
+      <div class="decision-grid">
+
+        <!-- Left Column: Input Directive -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+              Enterprise Directive
+            </div>
+            <span style="font-size: 0.72rem; padding: 0.2rem 0.6rem; border-radius: 9999px; background: rgba(99, 102, 241, 0.15); color: var(--accent-indigo); font-weight: 700;">
+              LangGraph StateMachine
+            </span>
+          </div>
+
+          <!-- Prompt Box -->
+          <div class="input-studio-box">
+            <textarea id="decision-query-input" class="prompt-textarea" placeholder="Enter an enterprise query, e.g.: Why did Q3 2026 revenue decline and what was the root cause of incident INC-78431?"></textarea>
+            <div class="prompt-footer">
+              <span class="key-hint">Press <kbd style="background: rgba(255,255,255,0.1); padding: 2px 5px; border-radius: 3px;">Ctrl</kbd> + <kbd style="background: rgba(255,255,255,0.1); padding: 2px 5px; border-radius: 3px;">Enter</kbd> to execute</span>
+              <label style="display: flex; align-items: center; gap: 0.45rem; font-size: 0.78rem; color: var(--text-secondary); cursor: pointer;">
+                <input type="checkbox" id="eval-toggle" checked> Auto-Evaluate with RAGAS
+              </label>
+            </div>
+          </div>
+
+          <!-- Primary Execution Button -->
+          <button id="btn-submit-decision" class="btn-execute">
+            <span id="decision-btn-text">Execute Multi-Agent Flow</span>
+            <div id="decision-spinner" class="spinner" style="display: none;"></div>
+          </button>
+
+          <!-- Quick Enterprise Prompts -->
+          <span class="prompt-chips-label">Quick Enterprise Directives:</span>
+          <div class="prompt-chips-grid">
+            <div class="prompt-chip" onclick="setDecisionQuery('Why did Q3 2026 revenue decline and what was the root cause of incident INC-78431?')">
+              <span>📉 Q3 2026 Revenue Drop & Root Cause of INC-78431</span>
+              <span class="chip-tag" style="color: var(--accent-rose);">Finance / Ops</span>
+            </div>
+            <div class="prompt-chip" onclick="setDecisionQuery('Which customer was affected by incident INC-78431 and what SLA penalties apply under contract CNT-2026-0089?')">
+              <span>💼 Customer Vertex Global (CUST-00124) Contract & SLA Dispute</span>
+              <span class="chip-tag" style="color: var(--accent-amber);">Contracts / SLA</span>
+            </div>
+            <div class="prompt-chip" onclick="setDecisionQuery('What are the latency SLAs and vector indexing parameters in Atlas architecture?')">
+              <span>⚡ Atlas Architecture P95 Latency & pgvector HNSW Indexing</span>
+              <span class="chip-tag" style="color: var(--accent-cyan);">Architecture</span>
+            </div>
+            <div class="prompt-chip" onclick="setDecisionQuery('What project was accelerated by the Board to remediate optical transponder delays?')">
+              <span>🚀 Board Directive on Project PRJ-00014 (Auto-Remediation)</span>
+              <span class="chip-tag" style="color: var(--accent-indigo);">Executive</span>
+            </div>
+            <div class="prompt-chip" onclick="setDecisionQuery('What cryptographic standards and RBAC controls are mandated under SOC2?')">
+              <span>🛡️ SOC2 Data Encryption Controls & Role-Based Access Policy</span>
+              <span class="chip-tag" style="color: var(--accent-emerald);">Security / GRC</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Synthesized Decision Intelligence -->
+        <div class="card">
+          <div class="output-card-header">
+            <div class="card-title">
+              <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+              Synthesized Decision Intelligence
+            </div>
+
+            <div class="meta-badges" id="output-meta-badges" style="display: none;">
+              <span class="latency-badge" id="output-latency">⚡ 1,240ms</span>
+              <span class="confidence-badge" id="output-confidence">
+                <svg width="12" height="12" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                Confidence: 94%
+              </span>
+            </div>
+          </div>
+
+          <!-- Empty State Placeholder -->
+          <div id="decision-placeholder" style="text-align: center; padding: 4rem 2rem; color: var(--text-muted);">
+            <div style="width: 52px; height: 52px; margin: 0 auto 1rem; border-radius: 50%; background: rgba(59, 130, 246, 0.08); display: flex; align-items: center; justify-content: center; color: var(--accent-blue);">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+            </div>
+            <h4 style="font-size: 1rem; font-weight: 700; color: #f1f5f9; margin-bottom: 0.35rem;">Awaiting Enterprise Directive</h4>
+            <p style="font-size: 0.85rem; max-width: 420px; margin: 0 auto; line-height: 1.5;">
+              Submit an enterprise inquiry to trigger LangGraph multi-agent routing, hybrid retrieval, Cross-Encoder reranking, and grounded Ollama synthesis.
+            </p>
+          </div>
+
+          <!-- Active Result Content -->
+          <div id="decision-result-container" style="display: none;">
+
+            <!-- Decision Box with Finding Callout -->
+            <div class="decision-content-box">
+              <div class="executive-finding-banner">
+                <h4>Executive Decision & Key Finding</h4>
+                <p id="finding-callout-text">Evidence confirms systemic operational headwind in APAC.</p>
+              </div>
+
+              <div class="decision-body" id="decision-text"></div>
+            </div>
+
+            <!-- Continuous RAGAS Quality Matrix -->
+            <div class="ragas-matrix-section" id="decision-ragas-box" style="display: none;">
+              <div class="ragas-matrix-header">
+                <h3>
+                  <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                  Continuous RAGAS Quality Audit
+                </h3>
+                <span id="ragas-verdict-badge" style="font-size: 0.72rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 9999px; background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald);">
+                  Production Ready
+                </span>
+              </div>
+
+              <div class="ragas-score-grid">
+                <div class="ragas-gauge-card">
+                  <div class="ragas-gauge-label">Faithfulness</div>
+                  <div class="ragas-gauge-val" id="score-faithfulness">0.96</div>
+                  <div class="ragas-gauge-bar"><div class="ragas-gauge-fill fill-emerald" id="bar-faithfulness" style="width: 96%;"></div></div>
+                </div>
+                <div class="ragas-gauge-card">
+                  <div class="ragas-gauge-label">Answer Relevance</div>
+                  <div class="ragas-gauge-val" id="score-relevance">0.92</div>
+                  <div class="ragas-gauge-bar"><div class="ragas-gauge-fill fill-blue" id="bar-relevance" style="width: 92%;"></div></div>
+                </div>
+                <div class="ragas-gauge-card">
+                  <div class="ragas-gauge-label">Context Precision</div>
+                  <div class="ragas-gauge-val" id="score-precision">0.89</div>
+                  <div class="ragas-gauge-bar"><div class="ragas-gauge-fill fill-indigo" id="bar-precision" style="width: 89%;"></div></div>
+                </div>
+                <div class="ragas-gauge-card">
+                  <div class="ragas-gauge-label">Context Recall</div>
+                  <div class="ragas-gauge-val" id="score-recall">0.91</div>
+                  <div class="ragas-gauge-bar"><div class="ragas-gauge-fill fill-cyan" id="bar-recall" style="width: 91%;"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Verifiable Citations Drawer -->
+            <div class="citations-section">
+              <div class="citations-header">
+                <h3>
+                  <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                  Verifiable Source Citations
+                </h3>
+                <span style="font-size: 0.72rem; color: var(--text-muted);" id="citations-count-tag">4 sources substantiated</span>
+              </div>
+              <div class="citations-grid" id="citations-container"></div>
+            </div>
+
+            <!-- Trace Execution Log Accordion -->
+            <details class="trace-accordion">
+              <summary class="trace-summary">
+                <span>View LangGraph State Machine Execution Trace</span>
+                <span style="font-size: 0.72rem; color: var(--accent-cyan);">Inspect Nodes ▾</span>
+              </summary>
+              <div class="trace-timeline" id="reasoning-trace-container"></div>
+            </details>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------
+         TAB 2: HYBRID SEARCH & RERANKER EXPLORER
+         -------------------------------------------------------- -->
+    <section id="search-tab" class="tab-content">
+      <div class="card" style="margin-bottom: 1.5rem;">
+        <div class="card-header">
+          <div class="card-title">Hybrid Retrieval (Dense + BM25 + RRF) & Cross-Encoder Inspector</div>
+          <span style="font-size: 0.75rem; color: var(--accent-cyan); font-family: var(--font-mono);">Rank-Fusion Explorer</span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr auto; gap: 1rem; margin-bottom: 1.25rem;">
+          <input type="text" id="search-query-input" class="input-text" placeholder="Enter keyword or semantic search query..." value="INC-78431 Vertex Global outage and SLA penalty">
+          <button id="btn-run-search" class="btn">Inspect Fusion Ranks</button>
+        </div>
+
+        <!-- Weight Tuning Controls -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr auto; gap: 1.5rem; background: rgba(13, 18, 28, 0.6); padding: 1rem 1.25rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+          <div>
+            <div style="display: flex; justify-content: space-between; font-size: 0.78rem; margin-bottom: 0.35rem;">
+              <span style="color: var(--text-secondary); font-weight: 600;">Dense Vector Weight (pgvector)</span>
+              <span style="font-family: var(--font-mono); color: var(--accent-blue);" id="val-dense-wt">0.60</span>
+            </div>
+            <input type="range" id="slider-dense-wt" min="0.0" max="1.0" step="0.05" value="0.6" style="width: 100%;">
+          </div>
+          <div>
+            <div style="display: flex; justify-content: space-between; font-size: 0.78rem; margin-bottom: 0.35rem;">
+              <span style="color: var(--text-secondary); font-weight: 600;">Sparse BM25 Weight (Lexical)</span>
+              <span style="font-family: var(--font-mono); color: var(--accent-indigo);" id="val-sparse-wt">0.40</span>
+            </div>
+            <input type="range" id="slider-sparse-wt" min="0.0" max="1.0" step="0.05" value="0.4" style="width: 100%;">
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.6rem;">
+            <input type="checkbox" id="check-rerank" checked style="cursor: pointer;">
+            <label for="check-rerank" style="font-size: 0.82rem; cursor: pointer; color: var(--text-primary); font-weight: 600;">Cross-Encoder Attention Rerank</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comparison Data Table -->
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">Retrieved Candidates & Fusion Matrix</div>
+          <span style="font-size: 0.75rem; color: var(--text-muted);" id="search-stats-tag">Top-K Results</span>
+        </div>
+        <div class="table-container">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th style="width: 220px;">Document Title</th>
+                <th>Content Snippet</th>
+                <th style="width: 110px;">Dense Rank</th>
+                <th style="width: 110px;">BM25 Rank</th>
+                <th style="width: 130px;">RRF Score</th>
+                <th style="width: 140px;">Cross-Encoder</th>
+              </tr>
+            </thead>
+            <tbody id="search-results-body">
+              <tr>
+                <td colspan="6" style="text-align: center; color: var(--text-muted); padding: 2.5rem;">Run an inquiry to inspect dense vs BM25 ranking fusion.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------
+         TAB 3: KNOWLEDGE BASE INGESTION
+         -------------------------------------------------------- -->
+    <section id="knowledge-tab" class="tab-content">
+      <div style="display: grid; grid-template-columns: 460px 1fr; gap: 1.75rem;">
+        
+        <!-- Form -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Ingest Enterprise Document</div>
+            <span style="font-size: 0.72rem; padding: 0.2rem 0.5rem; background: rgba(59, 130, 246, 0.1); color: var(--accent-blue); border-radius: 4px;">pgvector & BM25</span>
+          </div>
+
+          <div style="margin-bottom: 1rem;">
+            <label style="display: block; font-size: 0.78rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.35rem;">Document Title</label>
+            <input type="text" id="ingest-title" class="input-text" placeholder="e.g. Q3 Optical Network Architecture Specification">
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+            <div>
+              <label style="display: block; font-size: 0.78rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.35rem;">Format</label>
+              <select id="ingest-type" class="select">
+                <option value="markdown">Markdown (.md)</option>
+                <option value="text">Plain Text (.txt)</option>
+                <option value="pdf">PDF Specification</option>
+                <option value="json">Structured JSON</option>
+              </select>
+            </div>
+            <div>
+              <label style="display: block; font-size: 0.78rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.35rem;">Department</label>
+              <input type="text" id="ingest-dept" class="input-text" placeholder="e.g. Engineering">
+            </div>
+          </div>
+
+          <div style="margin-bottom: 1.25rem;">
+            <label style="display: block; font-size: 0.78rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.35rem;">Full Document Content</label>
+            <textarea id="ingest-content" class="textarea" rows="7" placeholder="Paste full markdown or document text. Recursive chunker creates 700-900 token chunks and generates 768-d embeddings..."></textarea>
+          </div>
+
+          <button id="btn-ingest" class="btn" style="width: 100%; justify-content: center;">
+            <span>Chunk, Vectorize & Index</span>
+            <div id="ingest-spinner" class="spinner" style="display: none;"></div>
+          </button>
+        </div>
+
+        <!-- Repository List -->
+        <div class="card">
+          <div class="card-header">
+            <div class="card-title">Indexed Knowledge Repository</div>
+            <button id="btn-refresh-docs" class="btn btn-secondary" style="font-size: 0.78rem; padding: 0.35rem 0.75rem;">Refresh</button>
+          </div>
+          <div class="table-container">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th style="width: 110px;">Format</th>
+                  <th style="width: 110px;">Chunks</th>
+                  <th style="width: 100px;">Actions</th>
+                </tr>
+              </thead>
+              <tbody id="docs-list-body">
+                <tr><td colspan="4" style="text-align: center; color: var(--text-muted); padding: 2rem;">Loading indexed enterprise corpus...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------
+         TAB 4: RAGAS QUALITY BENCHMARKING
+         -------------------------------------------------------- -->
+    <section id="eval-tab" class="tab-content">
+      <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; margin-bottom: 1.75rem;">
+        <div class="card" style="text-align: center;">
+          <span style="font-size: 0.75rem; color: var(--text-secondary); font-weight: 600;">Faithfulness (Groundedness)</span>
+          <div style="font-size: 2.2rem; font-weight: 800; color: var(--accent-emerald); font-family: var(--font-mono); margin: 0.4rem 0;">0.96</div>
+          <span style="font-size: 0.7rem; color: var(--text-muted);">Hallucination prevention threshold</span>
+        </div>
+        <div class="card" style="text-align: center;">
+          <span style="font-size: 0.75rem; color: var(--text-secondary); font-weight: 600;">Answer Relevance</span>
+          <div style="font-size: 2.2rem; font-weight: 800; color: var(--accent-blue); font-family: var(--font-mono); margin: 0.4rem 0;">0.92</div>
+          <span style="font-size: 0.7rem; color: var(--text-muted);">Query-to-decision alignment</span>
+        </div>
+        <div class="card" style="text-align: center;">
+          <span style="font-size: 0.75rem; color: var(--text-secondary); font-weight: 600;">Context Precision</span>
+          <div style="font-size: 2.2rem; font-weight: 800; color: var(--accent-indigo); font-family: var(--font-mono); margin: 0.4rem 0;">0.89</div>
+          <span style="font-size: 0.7rem; color: var(--text-muted);">Top-ranked candidate density</span>
+        </div>
+        <div class="card" style="text-align: center;">
+          <span style="font-size: 0.75rem; color: var(--text-secondary); font-weight: 600;">Context Recall</span>
+          <div style="font-size: 2.2rem; font-weight: 800; color: var(--accent-cyan); font-family: var(--font-mono); margin: 0.4rem 0;">0.91</div>
+          <span style="font-size: 0.7rem; color: var(--text-muted);">Coverage of ground-truth facts</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">Interactive RAGAS Test Harness</div>
+          <span style="font-size: 0.75rem; color: var(--text-muted);">Evaluate Model & Context Pair</span>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+          <div>
+            <label style="display: block; font-size: 0.78rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.35rem;">Question</label>
+            <input type="text" id="eval-query" class="input-text" value="Why did Q3 2026 revenue drop in APAC and what caused incident INC-78431?">
+          </div>
+          <div>
+            <label style="display: block; font-size: 0.78rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.35rem;">Ground Truth (Optional)</label>
+            <input type="text" id="eval-gt" class="input-text" value="APAC revenue declined 20.9% to $30.2M caused by hardware optical delays from VND-00042 and incident INC-78431.">
+          </div>
+        </div>
+
+        <div style="margin-bottom: 1rem;">
+          <label style="display: block; font-size: 0.78rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.35rem;">Synthesized Answer</label>
+          <textarea id="eval-answer" class="textarea" rows="2">In Q3 2026, NovaCore APAC revenue dropped 20.9% to $30.2M due to transponder bottlenecks from VND-00042 and P1 incident INC-78431 affecting customer CUST-00124.</textarea>
+        </div>
+
+        <div style="margin-bottom: 1.25rem;">
+          <label style="display: block; font-size: 0.78rem; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.35rem;">Retrieved Context Chunks</label>
+          <textarea id="eval-context" class="textarea" rows="3">APAC performance was severely impacted, posting total quarterly revenue of $30,200,000 versus $38,200,000 in Q2. Hardware supplier VND-00042 optical transponder delays halted cluster expansion and incident INC-78431 caused $637,500 in SLA credit penalties.</textarea>
+        </div>
+
+        <button id="btn-run-eval" class="btn">Execute Benchmark Audit</button>
+
+        <!-- Benchmark Results -->
+        <div id="eval-benchmark-result" style="margin-top: 1.5rem; display: none;">
+          <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+            <h4 style="font-size: 0.95rem; font-weight: 700; color: #f1f5f9;">Benchmark Result: <span id="eval-verdict-tag" style="color: var(--accent-emerald);"></span></h4>
+          </div>
+          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem;" id="eval-scores-row"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,501 @@
+employee_id,full_name,department,job_title,access_level,region,email,hire_date
+EMP-00001,Marcus Vance,Executive,Chief Executive Officer,admin,North America,marcus.vance@novacore.internal,2021-03-15
+EMP-00002,Elena Rostova,Executive,Chief Financial Officer,management,North America,elena.rostova@novacore.internal,2021-03-15
+EMP-00003,Dr. Chen Wei,Executive,Chief Technology Officer,management,APAC,dr..chen.wei@novacore.internal,2021-03-15
+EMP-00004,Sarah Jenkins,Executive,Chief Operating Officer,management,Europe,sarah.jenkins@novacore.internal,2021-03-15
+EMP-00005,Rajesh Sharma,Executive,Chief Revenue Officer,management,India,rajesh.sharma@novacore.internal,2021-03-15
+EMP-00006,David Sterling,Security,Chief Information Security Officer,restricted,North America,david.sterling@novacore.internal,2021-03-15
+EMP-00007,Morgan Garcia,Customer Success,VP Customer Success,management,India,morgan.garcia.7@novacore.internal,2025-11-03
+EMP-00008,Hiroshi Gupta,Risk & Compliance,Enterprise Risk Manager,manager,India,hiroshi.gupta.8@novacore.internal,2024-04-20
+EMP-00009,Hiroshi Patel,Human Resources,VP Talent Acquisition,management,India,hiroshi.patel.9@novacore.internal,2023-04-27
+EMP-00010,Yuki Gupta,Procurement,Lead Category Buyer,manager,India,yuki.gupta.10@novacore.internal,2023-09-23
+EMP-00011,Sophie Patel,Human Resources,VP Talent Acquisition,management,North America,sophie.patel.11@novacore.internal,2025-10-15
+EMP-00012,Chris O'Connor,Product,VP Product Management,management,India,chris.oconnor.12@novacore.internal,2024-02-20
+EMP-00013,Aarav Larsson,Sales,Sales Operations Lead,manager,India,aarav.larsson.13@novacore.internal,2021-02-07
+EMP-00014,Sam Nakamura,Executive,Chief Financial Officer,employee,North America,sam.nakamura.14@novacore.internal,2022-08-18
+EMP-00015,Pat Tanaka,Engineering,Senior DevOps Engineer,employee,India,pat.tanaka.15@novacore.internal,2023-05-19
+EMP-00016,Priya Patel,Risk & Compliance,Enterprise Risk Manager,manager,India,priya.patel.16@novacore.internal,2025-01-20
+EMP-00017,Riley Kim,Security,GRC Compliance Lead,manager,Europe,riley.kim.17@novacore.internal,2023-09-02
+EMP-00018,Morgan O'Connor,Finance,Treasury Manager,manager,APAC,morgan.oconnor.18@novacore.internal,2021-04-14
+EMP-00019,Aarav Zhao,Procurement,Lead Category Buyer,manager,India,aarav.zhao.19@novacore.internal,2024-07-13
+EMP-00020,Sophie Muller,Operations,Global Supply Chain Director,management,Europe,sophie.muller.20@novacore.internal,2022-09-13
+EMP-00021,Sam O'Connor,Executive,Chief Technology Officer,employee,India,sam.oconnor.21@novacore.internal,2022-03-01
+EMP-00022,Sophie Nakamura,Sales,VP Enterprise Sales,management,Europe,sophie.nakamura.22@novacore.internal,2024-03-03
+EMP-00023,Yuki Gupta,Customer Success,Technical Account Manager,manager,India,yuki.gupta.23@novacore.internal,2022-08-17
+EMP-00024,Priya Tanaka,Operations,Service Delivery Manager,manager,India,priya.tanaka.24@novacore.internal,2022-07-20
+EMP-00025,Devin Zhao,Finance,Treasury Manager,manager,India,devin.zhao.25@novacore.internal,2025-05-14
+EMP-00026,Jordan Gupta,Security,SOC Incident Manager,manager,North America,jordan.gupta.26@novacore.internal,2024-12-12
+EMP-00027,Taylor Muller,Sales,Sales Operations Lead,manager,India,taylor.muller.27@novacore.internal,2025-05-15
+EMP-00028,Devin Larsson,Security,Director Information Security,management,North America,devin.larsson.28@novacore.internal,2021-11-21
+EMP-00029,Aarav Kowalski,Security,SOC Incident Manager,manager,North America,aarav.kowalski.29@novacore.internal,2021-08-15
+EMP-00030,Yuki Garcia,Security,GRC Compliance Lead,manager,APAC,yuki.garcia.30@novacore.internal,2023-05-06
+EMP-00031,Casey Kim,Finance,Treasury Manager,manager,APAC,casey.kim.31@novacore.internal,2024-10-06
+EMP-00032,Alex O'Connor,IT,Director IT Operations,management,APAC,alex.oconnor.32@novacore.internal,2024-02-05
+EMP-00033,Casey Muller,Security,Director Information Security,management,APAC,casey.muller.33@novacore.internal,2025-05-09
+EMP-00034,Morgan Gupta,Executive,Chief Technology Officer,employee,North America,morgan.gupta.34@novacore.internal,2022-10-24
+EMP-00035,Chris O'Connor,Customer Success,Technical Account Manager,manager,APAC,chris.oconnor.35@novacore.internal,2022-08-06
+EMP-00036,Taylor Muller,Risk & Compliance,Chief Risk Officer,employee,APAC,taylor.muller.36@novacore.internal,2025-03-27
+EMP-00037,Devin Nakamura,Legal,Regulatory Affairs Director,management,India,devin.nakamura.37@novacore.internal,2024-12-21
+EMP-00038,Jordan Nakamura,Customer Success,Director Client Health,management,APAC,jordan.nakamura.38@novacore.internal,2023-02-02
+EMP-00039,Sophie O'Connor,Customer Success,Technical Account Manager,manager,India,sophie.oconnor.39@novacore.internal,2024-12-25
+EMP-00040,Hiroshi Larsson,Security,Lead Security Architect,manager,India,hiroshi.larsson.40@novacore.internal,2023-03-17
+EMP-00041,Riley Larsson,Executive,Chief Operating Officer,employee,North America,riley.larsson.41@novacore.internal,2024-11-11
+EMP-00042,Priya Dubois,Security,Director Information Security,management,North America,priya.dubois.42@novacore.internal,2025-11-28
+EMP-00043,Casey Patel,Engineering,Principal Architect,employee,APAC,casey.patel.43@novacore.internal,2023-11-19
+EMP-00044,Pat Kowalski,Operations,Service Delivery Manager,manager,Europe,pat.kowalski.44@novacore.internal,2023-11-23
+EMP-00045,Alex Patel,Customer Success,Customer Success Manager,manager,North America,alex.patel.45@novacore.internal,2021-07-04
+EMP-00046,Priya Tanaka,Security,Director Information Security,management,India,priya.tanaka.46@novacore.internal,2023-05-07
+EMP-00047,Jordan Gupta,Finance,Finance Director,management,North America,jordan.gupta.47@novacore.internal,2022-10-21
+EMP-00048,Sam Dubois,Sales,VP Enterprise Sales,management,North America,sam.dubois.48@novacore.internal,2025-03-04
+EMP-00049,Riley Larsson,Procurement,Director Strategic Procurement,management,APAC,riley.larsson.49@novacore.internal,2021-11-15
+EMP-00050,Casey Muller,Engineering,Senior DevOps Engineer,employee,APAC,casey.muller.50@novacore.internal,2021-05-25
+EMP-00051,Aarav Kim,Finance,Lead Controller,manager,India,aarav.kim.51@novacore.internal,2023-05-06
+EMP-00052,Pat Gupta,Legal,General Counsel,employee,India,pat.gupta.52@novacore.internal,2024-03-21
+EMP-00053,Yuki Tanaka,Legal,General Counsel,employee,Europe,yuki.tanaka.53@novacore.internal,2025-11-04
+EMP-00054,Jordan Patel,Legal,Contracts Compliance Lead,manager,North America,jordan.patel.54@novacore.internal,2021-10-24
+EMP-00055,Sophie Muller,Engineering,Senior DevOps Engineer,employee,North America,sophie.muller.55@novacore.internal,2021-01-22
+EMP-00056,Aarav Dubois,Operations,Infrastructure Operations Lead,manager,Europe,aarav.dubois.56@novacore.internal,2025-01-17
+EMP-00057,Yuki Dubois,Procurement,Vendor Relations Manager,manager,India,yuki.dubois.57@novacore.internal,2021-09-08
+EMP-00058,Morgan Gupta,Finance,Lead Controller,manager,India,morgan.gupta.58@novacore.internal,2025-06-11
+EMP-00059,Jordan Nakamura,Marketing,Growth Demand Lead,manager,India,jordan.nakamura.59@novacore.internal,2021-06-18
+EMP-00060,Lukas O'Connor,Executive,Chief Technology Officer,employee,North America,lukas.oconnor.60@novacore.internal,2022-03-18
+EMP-00061,Riley Zhao,Finance,Lead Controller,manager,Europe,riley.zhao.61@novacore.internal,2024-02-21
+EMP-00062,Taylor Nakamura,Procurement,Vendor Relations Manager,manager,India,taylor.nakamura.62@novacore.internal,2024-12-07
+EMP-00063,Alex Zhao,Customer Success,VP Customer Success,management,Europe,alex.zhao.63@novacore.internal,2025-04-16
+EMP-00064,Sophie Kowalski,Operations,VP Operations,management,APAC,sophie.kowalski.64@novacore.internal,2024-01-02
+EMP-00065,Jordan Dubois,Product,VP Product Management,management,APAC,jordan.dubois.65@novacore.internal,2021-04-26
+EMP-00066,Devin Patel,Marketing,Brand Communications Director,management,Europe,devin.patel.66@novacore.internal,2021-12-05
+EMP-00067,Jordan Tanaka,Legal,General Counsel,employee,India,jordan.tanaka.67@novacore.internal,2022-01-06
+EMP-00068,Morgan Larsson,Marketing,Chief Marketing Officer,employee,APAC,morgan.larsson.68@novacore.internal,2025-03-27
+EMP-00069,Morgan Larsson,IT,Director IT Operations,management,North America,morgan.larsson.69@novacore.internal,2025-10-08
+EMP-00070,Aarav Zhao,Sales,Regional Sales Director,management,India,aarav.zhao.70@novacore.internal,2024-06-04
+EMP-00071,Pat Kim,Marketing,VP Product Marketing,management,APAC,pat.kim.71@novacore.internal,2025-03-11
+EMP-00072,Sam Dubois,Sales,VP Enterprise Sales,management,APAC,sam.dubois.72@novacore.internal,2022-12-12
+EMP-00073,Devin Gupta,Security,Lead Security Architect,manager,India,devin.gupta.73@novacore.internal,2021-03-04
+EMP-00074,Alex Larsson,Risk & Compliance,SOC2 Compliance Auditor,employee,Europe,alex.larsson.74@novacore.internal,2021-01-01
+EMP-00075,Yuki Zhao,Customer Success,VP Customer Success,management,APAC,yuki.zhao.75@novacore.internal,2024-12-05
+EMP-00076,Lukas Dubois,Human Resources,VP Talent Acquisition,management,APAC,lukas.dubois.76@novacore.internal,2022-03-20
+EMP-00077,Sophie Gupta,Procurement,Director Strategic Procurement,management,Europe,sophie.gupta.77@novacore.internal,2021-11-27
+EMP-00078,Yuki Kim,Risk & Compliance,Enterprise Risk Manager,manager,APAC,yuki.kim.78@novacore.internal,2025-04-07
+EMP-00079,Priya Kowalski,Sales,Sales Operations Lead,manager,North America,priya.kowalski.79@novacore.internal,2025-04-15
+EMP-00080,Jordan Tanaka,Risk & Compliance,Internal Audit Director,management,APAC,jordan.tanaka.80@novacore.internal,2021-03-22
+EMP-00081,Chris Muller,Executive,Chief Operating Officer,employee,India,chris.muller.81@novacore.internal,2021-01-21
+EMP-00082,Yuki O'Connor,Product,Senior Product Manager,manager,Europe,yuki.oconnor.82@novacore.internal,2023-10-26
+EMP-00083,Morgan Zhao,Risk & Compliance,SOC2 Compliance Auditor,employee,North America,morgan.zhao.83@novacore.internal,2021-09-06
+EMP-00084,Morgan Patel,Customer Success,VP Customer Success,management,India,morgan.patel.84@novacore.internal,2022-12-15
+EMP-00085,Pat Zhao,IT,Database Administrator,employee,India,pat.zhao.85@novacore.internal,2023-04-25
+EMP-00086,Morgan Tanaka,Sales,Account Executive,employee,Europe,morgan.tanaka.86@novacore.internal,2024-04-13
+EMP-00087,Sophie Kim,Human Resources,Chief People Officer,employee,India,sophie.kim.87@novacore.internal,2024-03-07
+EMP-00088,Hiroshi Garcia,IT,Lead Systems Engineer,manager,Europe,hiroshi.garcia.88@novacore.internal,2022-08-24
+EMP-00089,Pat Garcia,Human Resources,Director Total Rewards,management,APAC,pat.garcia.89@novacore.internal,2022-01-23
+EMP-00090,Sam Patel,IT,Director IT Operations,management,APAC,sam.patel.90@novacore.internal,2024-08-14
+EMP-00091,Riley Gupta,Customer Success,Customer Success Manager,manager,Europe,riley.gupta.91@novacore.internal,2022-11-20
+EMP-00092,Yuki Kowalski,Customer Success,Director Client Health,management,North America,yuki.kowalski.92@novacore.internal,2024-04-19
+EMP-00093,Alex Zhao,Legal,Regulatory Affairs Director,management,APAC,alex.zhao.93@novacore.internal,2024-12-28
+EMP-00094,Yuki Gupta,Human Resources,VP Talent Acquisition,management,APAC,yuki.gupta.94@novacore.internal,2022-10-05
+EMP-00095,Jordan Kim,IT,Director IT Operations,management,India,jordan.kim.95@novacore.internal,2024-12-25
+EMP-00096,Hiroshi Larsson,Security,Director Information Security,management,India,hiroshi.larsson.96@novacore.internal,2021-08-16
+EMP-00097,Yuki Tanaka,Human Resources,Chief People Officer,employee,North America,yuki.tanaka.97@novacore.internal,2022-06-10
+EMP-00098,Sophie Nakamura,Human Resources,Chief People Officer,employee,North America,sophie.nakamura.98@novacore.internal,2023-03-23
+EMP-00099,Lukas Muller,Legal,General Counsel,employee,India,lukas.muller.99@novacore.internal,2024-03-26
+EMP-00100,Alex Nakamura,Executive,Chief Technology Officer,employee,India,alex.nakamura.100@novacore.internal,2021-07-23
+EMP-00101,Yuki O'Connor,Product,VP Product Management,management,APAC,yuki.oconnor.101@novacore.internal,2025-09-19
+EMP-00102,Aarav Zhao,Risk & Compliance,Internal Audit Director,management,North America,aarav.zhao.102@novacore.internal,2021-09-22
+EMP-00103,Hiroshi Garcia,Product,VP Product Management,management,North America,hiroshi.garcia.103@novacore.internal,2024-10-02
+EMP-00104,Taylor Kowalski,Product,Senior Product Manager,manager,Europe,taylor.kowalski.104@novacore.internal,2022-03-11
+EMP-00105,Pat Zhao,Human Resources,Chief People Officer,employee,India,pat.zhao.105@novacore.internal,2022-06-12
+EMP-00106,Casey Kim,Engineering,Site Reliability Engineer,employee,India,casey.kim.106@novacore.internal,2021-06-12
+EMP-00107,Sophie Zhao,Legal,Regulatory Affairs Director,management,North America,sophie.zhao.107@novacore.internal,2025-11-27
+EMP-00108,Priya Nakamura,Security,SOC Incident Manager,manager,India,priya.nakamura.108@novacore.internal,2021-04-15
+EMP-00109,Chris O'Connor,Sales,VP Enterprise Sales,management,India,chris.oconnor.109@novacore.internal,2021-02-06
+EMP-00110,Sophie Muller,Engineering,VP Engineering,management,Europe,sophie.muller.110@novacore.internal,2022-09-21
+EMP-00111,Sam Larsson,Finance,VP Financial Planning,management,India,sam.larsson.111@novacore.internal,2023-07-15
+EMP-00112,Riley Tanaka,Procurement,Lead Category Buyer,manager,North America,riley.tanaka.112@novacore.internal,2021-01-28
+EMP-00113,Yuki Gupta,Risk & Compliance,Internal Audit Director,management,APAC,yuki.gupta.113@novacore.internal,2023-11-21
+EMP-00114,Lukas Larsson,Risk & Compliance,Enterprise Risk Manager,manager,India,lukas.larsson.114@novacore.internal,2023-10-05
+EMP-00115,Casey Tanaka,Risk & Compliance,Enterprise Risk Manager,manager,Europe,casey.tanaka.115@novacore.internal,2024-06-10
+EMP-00116,Priya O'Connor,Risk & Compliance,Chief Risk Officer,employee,Europe,priya.oconnor.116@novacore.internal,2024-03-20
+EMP-00117,Chris Zhao,Customer Success,Customer Success Manager,manager,Europe,chris.zhao.117@novacore.internal,2022-03-08
+EMP-00118,Sam Larsson,Sales,VP Enterprise Sales,management,APAC,sam.larsson.118@novacore.internal,2023-06-06
+EMP-00119,Priya Muller,Human Resources,Chief People Officer,employee,APAC,priya.muller.119@novacore.internal,2023-08-18
+EMP-00120,Alex Dubois,Customer Success,Customer Success Manager,manager,North America,alex.dubois.120@novacore.internal,2024-03-15
+EMP-00121,Aarav Nakamura,Product,Director Platform PM,management,North America,aarav.nakamura.121@novacore.internal,2023-08-10
+EMP-00122,Aarav Zhao,Risk & Compliance,Internal Audit Director,management,India,aarav.zhao.122@novacore.internal,2021-12-16
+EMP-00123,Riley Kim,Finance,Senior Financial Analyst,employee,North America,riley.kim.123@novacore.internal,2024-10-27
+EMP-00124,Taylor Garcia,Human Resources,HR Business Partner,employee,APAC,taylor.garcia.124@novacore.internal,2021-10-21
+EMP-00125,Pat Kim,Human Resources,VP Talent Acquisition,management,APAC,pat.kim.125@novacore.internal,2021-09-28
+EMP-00126,Pat Larsson,Legal,General Counsel,employee,India,pat.larsson.126@novacore.internal,2023-10-20
+EMP-00127,Hiroshi Muller,Security,Director Information Security,management,APAC,hiroshi.muller.127@novacore.internal,2024-06-13
+EMP-00128,Priya Garcia,Product,VP Product Management,management,APAC,priya.garcia.128@novacore.internal,2023-08-28
+EMP-00129,Lukas Zhao,Security,Director Information Security,management,Europe,lukas.zhao.129@novacore.internal,2024-08-10
+EMP-00130,Sam Gupta,Customer Success,Technical Account Manager,manager,India,sam.gupta.130@novacore.internal,2025-02-05
+EMP-00131,Aarav Patel,Human Resources,Director Total Rewards,management,India,aarav.patel.131@novacore.internal,2025-07-03
+EMP-00132,Yuki Muller,Finance,Lead Controller,manager,APAC,yuki.muller.132@novacore.internal,2025-08-23
+EMP-00133,Chris Dubois,IT,Cloud Infrastructure Architect,employee,Europe,chris.dubois.133@novacore.internal,2023-09-16
+EMP-00134,Sophie Kowalski,Finance,VP Financial Planning,management,APAC,sophie.kowalski.134@novacore.internal,2024-04-01
+EMP-00135,Casey O'Connor,Risk & Compliance,Chief Risk Officer,employee,Europe,casey.oconnor.135@novacore.internal,2024-02-21
+EMP-00136,Chris Larsson,Marketing,Growth Demand Lead,manager,India,chris.larsson.136@novacore.internal,2022-01-04
+EMP-00137,Taylor Gupta,Risk & Compliance,Enterprise Risk Manager,manager,India,taylor.gupta.137@novacore.internal,2023-10-16
+EMP-00138,Sophie Zhao,IT,Lead Systems Engineer,manager,APAC,sophie.zhao.138@novacore.internal,2021-06-17
+EMP-00139,Casey Muller,Procurement,Lead Category Buyer,manager,North America,casey.muller.139@novacore.internal,2025-01-05
+EMP-00140,Priya Muller,Product,Technical Product Lead,manager,Europe,priya.muller.140@novacore.internal,2021-05-12
+EMP-00141,Riley O'Connor,Operations,Infrastructure Operations Lead,manager,North America,riley.oconnor.141@novacore.internal,2025-11-03
+EMP-00142,Morgan Gupta,Security,Lead Security Architect,manager,Europe,morgan.gupta.142@novacore.internal,2022-09-11
+EMP-00143,Casey Nakamura,Executive,Chief Technology Officer,employee,APAC,casey.nakamura.143@novacore.internal,2023-02-18
+EMP-00144,Alex Muller,IT,Database Administrator,employee,Europe,alex.muller.144@novacore.internal,2025-05-12
+EMP-00145,Aarav Muller,Risk & Compliance,SOC2 Compliance Auditor,employee,India,aarav.muller.145@novacore.internal,2021-04-05
+EMP-00146,Morgan Dubois,Security,Lead Security Architect,manager,Europe,morgan.dubois.146@novacore.internal,2024-02-04
+EMP-00147,Sophie Garcia,Executive,Chief Financial Officer,employee,North America,sophie.garcia.147@novacore.internal,2023-12-12
+EMP-00148,Chris Zhao,Customer Success,Technical Account Manager,manager,APAC,chris.zhao.148@novacore.internal,2023-01-24
+EMP-00149,Sam Zhao,Executive,Chief Executive Officer,employee,Europe,sam.zhao.149@novacore.internal,2022-12-08
+EMP-00150,Sam Patel,Engineering,Staff Distributed Systems Engineer,employee,Europe,sam.patel.150@novacore.internal,2024-12-25
+EMP-00151,Alex Larsson,Risk & Compliance,Chief Risk Officer,employee,North America,alex.larsson.151@novacore.internal,2024-01-07
+EMP-00152,Sophie Patel,Sales,VP Enterprise Sales,management,North America,sophie.patel.152@novacore.internal,2023-01-03
+EMP-00153,Morgan Gupta,Engineering,VP Engineering,management,North America,morgan.gupta.153@novacore.internal,2022-10-07
+EMP-00154,Taylor Muller,Customer Success,Customer Success Manager,manager,North America,taylor.muller.154@novacore.internal,2023-10-12
+EMP-00155,Taylor Patel,Product,Director Platform PM,management,Europe,taylor.patel.155@novacore.internal,2025-01-17
+EMP-00156,Chris Kowalski,Human Resources,VP Talent Acquisition,management,APAC,chris.kowalski.156@novacore.internal,2021-12-04
+EMP-00157,Chris Larsson,Human Resources,HR Business Partner,employee,APAC,chris.larsson.157@novacore.internal,2021-03-27
+EMP-00158,Pat Kowalski,Product,Technical Product Lead,manager,India,pat.kowalski.158@novacore.internal,2022-07-04
+EMP-00159,Lukas Patel,Risk & Compliance,Enterprise Risk Manager,manager,North America,lukas.patel.159@novacore.internal,2025-03-16
+EMP-00160,Jordan Patel,Risk & Compliance,Enterprise Risk Manager,manager,APAC,jordan.patel.160@novacore.internal,2023-08-04
+EMP-00161,Riley Nakamura,Operations,Infrastructure Operations Lead,manager,India,riley.nakamura.161@novacore.internal,2024-04-18
+EMP-00162,Pat Patel,Operations,Infrastructure Operations Lead,manager,India,pat.patel.162@novacore.internal,2024-11-12
+EMP-00163,Morgan Dubois,Customer Success,VP Customer Success,management,India,morgan.dubois.163@novacore.internal,2024-09-22
+EMP-00164,Sam Dubois,Marketing,Chief Marketing Officer,employee,North America,sam.dubois.164@novacore.internal,2024-12-19
+EMP-00165,Priya Tanaka,Sales,Regional Sales Director,management,North America,priya.tanaka.165@novacore.internal,2023-04-20
+EMP-00166,Devin Dubois,Executive,Chief Operating Officer,employee,North America,devin.dubois.166@novacore.internal,2024-05-25
+EMP-00167,Hiroshi Garcia,Procurement,Lead Category Buyer,manager,APAC,hiroshi.garcia.167@novacore.internal,2024-11-20
+EMP-00168,Sam Larsson,Operations,Service Delivery Manager,manager,APAC,sam.larsson.168@novacore.internal,2021-02-09
+EMP-00169,Sam Kim,Legal,Regulatory Affairs Director,management,Europe,sam.kim.169@novacore.internal,2021-12-02
+EMP-00170,Alex Muller,Executive,Chief Executive Officer,employee,India,alex.muller.170@novacore.internal,2024-10-22
+EMP-00171,Morgan Patel,Product,Director Platform PM,management,APAC,morgan.patel.171@novacore.internal,2025-08-26
+EMP-00172,Sophie Larsson,Legal,Senior Corporate Counsel,employee,APAC,sophie.larsson.172@novacore.internal,2025-05-18
+EMP-00173,Yuki Patel,Product,VP Product Management,management,North America,yuki.patel.173@novacore.internal,2024-08-11
+EMP-00174,Lukas Kim,Executive,Chief Operating Officer,employee,India,lukas.kim.174@novacore.internal,2021-03-18
+EMP-00175,Sophie Dubois,Marketing,Growth Demand Lead,manager,Europe,sophie.dubois.175@novacore.internal,2022-05-23
+EMP-00176,Sophie Nakamura,Operations,Service Delivery Manager,manager,North America,sophie.nakamura.176@novacore.internal,2025-11-18
+EMP-00177,Chris Kowalski,IT,Lead Systems Engineer,manager,India,chris.kowalski.177@novacore.internal,2021-07-09
+EMP-00178,Riley Garcia,Legal,Regulatory Affairs Director,management,APAC,riley.garcia.178@novacore.internal,2021-01-19
+EMP-00179,Priya Zhao,Finance,Senior Financial Analyst,employee,APAC,priya.zhao.179@novacore.internal,2025-01-25
+EMP-00180,Morgan Dubois,Marketing,Growth Demand Lead,manager,India,morgan.dubois.180@novacore.internal,2023-06-14
+EMP-00181,Devin Tanaka,Product,VP Product Management,management,Europe,devin.tanaka.181@novacore.internal,2023-10-03
+EMP-00182,Morgan Garcia,Procurement,Director Strategic Procurement,management,APAC,morgan.garcia.182@novacore.internal,2022-01-18
+EMP-00183,Yuki Gupta,Product,VP Product Management,management,India,yuki.gupta.183@novacore.internal,2025-07-09
+EMP-00184,Aarav Dubois,Finance,Lead Controller,manager,North America,aarav.dubois.184@novacore.internal,2025-07-11
+EMP-00185,Morgan Zhao,IT,Director IT Operations,management,India,morgan.zhao.185@novacore.internal,2022-06-16
+EMP-00186,Riley Garcia,Security,SOC Incident Manager,manager,Europe,riley.garcia.186@novacore.internal,2024-04-16
+EMP-00187,Riley O'Connor,Marketing,Chief Marketing Officer,employee,Europe,riley.oconnor.187@novacore.internal,2021-05-19
+EMP-00188,Morgan Gupta,Operations,Global Supply Chain Director,management,North America,morgan.gupta.188@novacore.internal,2023-05-03
+EMP-00189,Pat Garcia,IT,Lead Systems Engineer,manager,India,pat.garcia.189@novacore.internal,2021-11-27
+EMP-00190,Yuki Nakamura,Engineering,Site Reliability Engineer,employee,APAC,yuki.nakamura.190@novacore.internal,2025-06-07
+EMP-00191,Lukas Nakamura,Operations,Service Delivery Manager,manager,APAC,lukas.nakamura.191@novacore.internal,2025-03-01
+EMP-00192,Pat Nakamura,Marketing,VP Product Marketing,management,India,pat.nakamura.192@novacore.internal,2024-05-21
+EMP-00193,Pat Garcia,Security,GRC Compliance Lead,manager,North America,pat.garcia.193@novacore.internal,2024-03-08
+EMP-00194,Yuki Garcia,Customer Success,Customer Success Manager,manager,India,yuki.garcia.194@novacore.internal,2021-11-07
+EMP-00195,Riley Nakamura,Executive,Chief Operating Officer,employee,APAC,riley.nakamura.195@novacore.internal,2022-05-22
+EMP-00196,Devin Patel,IT,Cloud Infrastructure Architect,employee,India,devin.patel.196@novacore.internal,2022-04-01
+EMP-00197,Sophie Kowalski,Human Resources,Director Total Rewards,management,India,sophie.kowalski.197@novacore.internal,2024-07-21
+EMP-00198,Casey Muller,Finance,Senior Financial Analyst,employee,Europe,casey.muller.198@novacore.internal,2021-05-26
+EMP-00199,Jordan Zhao,Risk & Compliance,Enterprise Risk Manager,manager,Europe,jordan.zhao.199@novacore.internal,2024-01-02
+EMP-00200,Riley Patel,Executive,Chief Executive Officer,employee,APAC,riley.patel.200@novacore.internal,2024-06-22
+EMP-00201,Sam Tanaka,Marketing,Chief Marketing Officer,employee,India,sam.tanaka.201@novacore.internal,2021-10-24
+EMP-00202,Sophie Patel,Security,Director Information Security,management,APAC,sophie.patel.202@novacore.internal,2022-10-04
+EMP-00203,Hiroshi Zhao,Risk & Compliance,Enterprise Risk Manager,manager,APAC,hiroshi.zhao.203@novacore.internal,2022-07-07
+EMP-00204,Pat O'Connor,Customer Success,VP Customer Success,management,Europe,pat.oconnor.204@novacore.internal,2024-07-09
+EMP-00205,Sophie Kowalski,Executive,Chief Revenue Officer,employee,North America,sophie.kowalski.205@novacore.internal,2023-12-04
+EMP-00206,Devin O'Connor,Product,Technical Product Lead,manager,India,devin.oconnor.206@novacore.internal,2022-06-16
+EMP-00207,Alex Nakamura,Procurement,Vendor Relations Manager,manager,APAC,alex.nakamura.207@novacore.internal,2025-01-27
+EMP-00208,Devin O'Connor,Procurement,Lead Category Buyer,manager,North America,devin.oconnor.208@novacore.internal,2025-07-10
+EMP-00209,Devin Larsson,Marketing,Growth Demand Lead,manager,North America,devin.larsson.209@novacore.internal,2024-01-13
+EMP-00210,Devin O'Connor,Engineering,Principal Architect,employee,North America,devin.oconnor.210@novacore.internal,2022-03-15
+EMP-00211,Jordan O'Connor,Marketing,Growth Demand Lead,manager,India,jordan.oconnor.211@novacore.internal,2021-08-16
+EMP-00212,Yuki Patel,Procurement,Vendor Relations Manager,manager,APAC,yuki.patel.212@novacore.internal,2022-12-09
+EMP-00213,Yuki Gupta,Security,Director Information Security,management,APAC,yuki.gupta.213@novacore.internal,2025-12-11
+EMP-00214,Chris Nakamura,Legal,General Counsel,employee,North America,chris.nakamura.214@novacore.internal,2024-11-05
+EMP-00215,Riley Garcia,Finance,Lead Controller,manager,Europe,riley.garcia.215@novacore.internal,2025-02-04
+EMP-00216,Yuki Garcia,Customer Success,Director Client Health,management,Europe,yuki.garcia.216@novacore.internal,2024-08-28
+EMP-00217,Chris Nakamura,Procurement,Director Strategic Procurement,management,APAC,chris.nakamura.217@novacore.internal,2025-06-26
+EMP-00218,Yuki Garcia,Engineering,Staff Distributed Systems Engineer,employee,North America,yuki.garcia.218@novacore.internal,2022-07-13
+EMP-00219,Alex Kim,Executive,Chief Revenue Officer,employee,Europe,alex.kim.219@novacore.internal,2025-11-20
+EMP-00220,Lukas Tanaka,Marketing,VP Product Marketing,management,North America,lukas.tanaka.220@novacore.internal,2023-12-28
+EMP-00221,Yuki Gupta,Customer Success,VP Customer Success,management,India,yuki.gupta.221@novacore.internal,2023-03-03
+EMP-00222,Alex Zhao,Product,Director Platform PM,management,North America,alex.zhao.222@novacore.internal,2025-07-25
+EMP-00223,Devin Zhao,Legal,Regulatory Affairs Director,management,North America,devin.zhao.223@novacore.internal,2022-04-28
+EMP-00224,Sophie Dubois,Executive,Chief Technology Officer,employee,APAC,sophie.dubois.224@novacore.internal,2022-07-28
+EMP-00225,Pat Dubois,Human Resources,VP Talent Acquisition,management,APAC,pat.dubois.225@novacore.internal,2022-07-26
+EMP-00226,Casey Tanaka,Customer Success,VP Customer Success,management,APAC,casey.tanaka.226@novacore.internal,2025-08-08
+EMP-00227,Alex Larsson,Product,Technical Product Lead,manager,North America,alex.larsson.227@novacore.internal,2022-06-23
+EMP-00228,Yuki Zhao,Operations,Global Supply Chain Director,management,India,yuki.zhao.228@novacore.internal,2025-05-03
+EMP-00229,Jordan Garcia,Sales,Sales Operations Lead,manager,North America,jordan.garcia.229@novacore.internal,2022-08-12
+EMP-00230,Casey Kowalski,IT,Director IT Operations,management,North America,casey.kowalski.230@novacore.internal,2025-07-10
+EMP-00231,Jordan Gupta,Operations,Infrastructure Operations Lead,manager,Europe,jordan.gupta.231@novacore.internal,2022-05-06
+EMP-00232,Lukas Muller,Security,GRC Compliance Lead,manager,APAC,lukas.muller.232@novacore.internal,2021-06-23
+EMP-00233,Casey Patel,Security,GRC Compliance Lead,manager,Europe,casey.patel.233@novacore.internal,2023-01-05
+EMP-00234,Yuki O'Connor,Legal,Contracts Compliance Lead,manager,APAC,yuki.oconnor.234@novacore.internal,2023-10-27
+EMP-00235,Yuki Muller,Risk & Compliance,Enterprise Risk Manager,manager,APAC,yuki.muller.235@novacore.internal,2023-12-16
+EMP-00236,Jordan Tanaka,Risk & Compliance,Internal Audit Director,management,India,jordan.tanaka.236@novacore.internal,2022-01-08
+EMP-00237,Casey Muller,Customer Success,VP Customer Success,management,India,casey.muller.237@novacore.internal,2024-07-04
+EMP-00238,Priya Zhao,Legal,General Counsel,employee,India,priya.zhao.238@novacore.internal,2025-08-15
+EMP-00239,Morgan Garcia,Legal,General Counsel,employee,Europe,morgan.garcia.239@novacore.internal,2021-04-28
+EMP-00240,Casey Gupta,Engineering,Staff Distributed Systems Engineer,employee,Europe,casey.gupta.240@novacore.internal,2025-04-19
+EMP-00241,Yuki Patel,Finance,Treasury Manager,manager,Europe,yuki.patel.241@novacore.internal,2022-08-22
+EMP-00242,Riley Nakamura,Sales,Account Executive,employee,North America,riley.nakamura.242@novacore.internal,2021-07-12
+EMP-00243,Sam Kim,IT,Director IT Operations,management,APAC,sam.kim.243@novacore.internal,2021-08-27
+EMP-00244,Lukas Nakamura,Procurement,Lead Category Buyer,manager,India,lukas.nakamura.244@novacore.internal,2023-10-22
+EMP-00245,Lukas Garcia,Finance,VP Financial Planning,management,North America,lukas.garcia.245@novacore.internal,2025-03-07
+EMP-00246,Aarav Kim,Executive,Chief Executive Officer,employee,APAC,aarav.kim.246@novacore.internal,2021-09-20
+EMP-00247,Casey Muller,Operations,VP Operations,management,India,casey.muller.247@novacore.internal,2022-07-03
+EMP-00248,Hiroshi Dubois,Finance,Senior Financial Analyst,employee,Europe,hiroshi.dubois.248@novacore.internal,2023-11-25
+EMP-00249,Riley Larsson,Marketing,VP Product Marketing,management,North America,riley.larsson.249@novacore.internal,2024-12-26
+EMP-00250,Priya Nakamura,Engineering,Site Reliability Engineer,employee,Europe,priya.nakamura.250@novacore.internal,2021-06-17
+EMP-00251,Hiroshi Larsson,Human Resources,HR Business Partner,employee,India,hiroshi.larsson.251@novacore.internal,2023-10-20
+EMP-00252,Priya Gupta,Operations,VP Operations,management,India,priya.gupta.252@novacore.internal,2022-07-21
+EMP-00253,Aarav Larsson,Operations,VP Operations,management,North America,aarav.larsson.253@novacore.internal,2022-11-22
+EMP-00254,Taylor O'Connor,Procurement,Director Strategic Procurement,management,India,taylor.oconnor.254@novacore.internal,2024-07-03
+EMP-00255,Sam Muller,Risk & Compliance,SOC2 Compliance Auditor,employee,APAC,sam.muller.255@novacore.internal,2023-04-17
+EMP-00256,Taylor Kim,Operations,Infrastructure Operations Lead,manager,North America,taylor.kim.256@novacore.internal,2025-02-17
+EMP-00257,Lukas Nakamura,Operations,Service Delivery Manager,manager,North America,lukas.nakamura.257@novacore.internal,2025-05-12
+EMP-00258,Alex Patel,Engineering,Site Reliability Engineer,employee,North America,alex.patel.258@novacore.internal,2024-03-26
+EMP-00259,Taylor Dubois,Customer Success,Technical Account Manager,manager,North America,taylor.dubois.259@novacore.internal,2023-06-19
+EMP-00260,Casey Garcia,Procurement,Vendor Relations Manager,manager,India,casey.garcia.260@novacore.internal,2022-04-06
+EMP-00261,Morgan Dubois,Sales,Sales Operations Lead,manager,APAC,morgan.dubois.261@novacore.internal,2025-01-01
+EMP-00262,Chris Nakamura,Operations,VP Operations,management,North America,chris.nakamura.262@novacore.internal,2024-08-23
+EMP-00263,Priya Zhao,Operations,Service Delivery Manager,manager,APAC,priya.zhao.263@novacore.internal,2024-05-03
+EMP-00264,Pat Patel,Customer Success,Director Client Health,management,North America,pat.patel.264@novacore.internal,2021-12-07
+EMP-00265,Sophie Nakamura,Executive,Chief Executive Officer,employee,Europe,sophie.nakamura.265@novacore.internal,2022-11-08
+EMP-00266,Riley Larsson,Operations,Global Supply Chain Director,management,North America,riley.larsson.266@novacore.internal,2022-08-14
+EMP-00267,Sam Zhao,Finance,Finance Director,management,Europe,sam.zhao.267@novacore.internal,2024-08-16
+EMP-00268,Pat O'Connor,Finance,Lead Controller,manager,Europe,pat.oconnor.268@novacore.internal,2025-07-02
+EMP-00269,Yuki Dubois,Product,VP Product Management,management,North America,yuki.dubois.269@novacore.internal,2024-12-19
+EMP-00270,Sophie Dubois,IT,Database Administrator,employee,North America,sophie.dubois.270@novacore.internal,2024-09-19
+EMP-00271,Devin Zhao,Procurement,Lead Category Buyer,manager,India,devin.zhao.271@novacore.internal,2021-09-01
+EMP-00272,Casey Nakamura,Operations,Infrastructure Operations Lead,manager,North America,casey.nakamura.272@novacore.internal,2024-08-04
+EMP-00273,Yuki Kim,Legal,Contracts Compliance Lead,manager,India,yuki.kim.273@novacore.internal,2022-05-24
+EMP-00274,Lukas Tanaka,Human Resources,HR Business Partner,employee,APAC,lukas.tanaka.274@novacore.internal,2025-04-19
+EMP-00275,Sam O'Connor,Marketing,Growth Demand Lead,manager,India,sam.oconnor.275@novacore.internal,2024-07-27
+EMP-00276,Chris Gupta,Marketing,Growth Demand Lead,manager,India,chris.gupta.276@novacore.internal,2022-05-23
+EMP-00277,Sam Muller,Procurement,Director Strategic Procurement,management,India,sam.muller.277@novacore.internal,2022-03-20
+EMP-00278,Sophie O'Connor,Legal,General Counsel,employee,India,sophie.oconnor.278@novacore.internal,2022-04-18
+EMP-00279,Casey Garcia,Finance,Finance Director,management,APAC,casey.garcia.279@novacore.internal,2022-03-27
+EMP-00280,Taylor Garcia,Executive,Chief Revenue Officer,employee,North America,taylor.garcia.280@novacore.internal,2024-02-20
+EMP-00281,Sophie O'Connor,Human Resources,Chief People Officer,employee,Europe,sophie.oconnor.281@novacore.internal,2023-06-25
+EMP-00282,Sam Zhao,Finance,Treasury Manager,manager,APAC,sam.zhao.282@novacore.internal,2025-10-22
+EMP-00283,Lukas Patel,Sales,VP Enterprise Sales,management,India,lukas.patel.283@novacore.internal,2021-10-20
+EMP-00284,Morgan Muller,Risk & Compliance,Chief Risk Officer,employee,North America,morgan.muller.284@novacore.internal,2021-04-12
+EMP-00285,Sophie Zhao,Customer Success,Customer Success Manager,manager,India,sophie.zhao.285@novacore.internal,2021-03-21
+EMP-00286,Morgan Tanaka,Product,Senior Product Manager,manager,Europe,morgan.tanaka.286@novacore.internal,2024-07-25
+EMP-00287,Sophie Garcia,Risk & Compliance,Chief Risk Officer,employee,Europe,sophie.garcia.287@novacore.internal,2023-09-06
+EMP-00288,Yuki Garcia,Sales,Account Executive,employee,APAC,yuki.garcia.288@novacore.internal,2022-03-25
+EMP-00289,Sam Dubois,Risk & Compliance,SOC2 Compliance Auditor,employee,Europe,sam.dubois.289@novacore.internal,2024-07-15
+EMP-00290,Alex Larsson,Executive,Chief Revenue Officer,employee,APAC,alex.larsson.290@novacore.internal,2022-01-23
+EMP-00291,Aarav Garcia,Risk & Compliance,Chief Risk Officer,employee,North America,aarav.garcia.291@novacore.internal,2024-03-14
+EMP-00292,Sam Gupta,Finance,Lead Controller,manager,North America,sam.gupta.292@novacore.internal,2021-11-23
+EMP-00293,Hiroshi Nakamura,Risk & Compliance,Enterprise Risk Manager,manager,India,hiroshi.nakamura.293@novacore.internal,2025-05-24
+EMP-00294,Alex O'Connor,Procurement,Vendor Relations Manager,manager,APAC,alex.oconnor.294@novacore.internal,2025-10-05
+EMP-00295,Pat Kowalski,Procurement,Vendor Relations Manager,manager,India,pat.kowalski.295@novacore.internal,2025-10-21
+EMP-00296,Pat O'Connor,Legal,Contracts Compliance Lead,manager,India,pat.oconnor.296@novacore.internal,2021-01-18
+EMP-00297,Riley Tanaka,Product,Technical Product Lead,manager,Europe,riley.tanaka.297@novacore.internal,2021-09-18
+EMP-00298,Chris Kim,Engineering,Site Reliability Engineer,employee,APAC,chris.kim.298@novacore.internal,2021-09-19
+EMP-00299,Yuki Kowalski,Engineering,Staff Distributed Systems Engineer,employee,APAC,yuki.kowalski.299@novacore.internal,2021-12-02
+EMP-00300,Priya Patel,Executive,Chief Technology Officer,employee,APAC,priya.patel.300@novacore.internal,2021-11-04
+EMP-00301,Lukas Garcia,Legal,Contracts Compliance Lead,manager,North America,lukas.garcia.301@novacore.internal,2022-12-19
+EMP-00302,Riley O'Connor,IT,Cloud Infrastructure Architect,employee,APAC,riley.oconnor.302@novacore.internal,2025-11-05
+EMP-00303,Morgan Garcia,Procurement,Vendor Relations Manager,manager,Europe,morgan.garcia.303@novacore.internal,2025-10-07
+EMP-00304,Morgan Muller,Executive,Chief Technology Officer,employee,India,morgan.muller.304@novacore.internal,2024-07-03
+EMP-00305,Sam Larsson,Sales,VP Enterprise Sales,management,India,sam.larsson.305@novacore.internal,2022-08-03
+EMP-00306,Casey Gupta,Product,Technical Product Lead,manager,India,casey.gupta.306@novacore.internal,2024-11-14
+EMP-00307,Chris Muller,Legal,Regulatory Affairs Director,management,India,chris.muller.307@novacore.internal,2025-03-16
+EMP-00308,Morgan Zhao,Procurement,Vendor Relations Manager,manager,Europe,morgan.zhao.308@novacore.internal,2022-08-16
+EMP-00309,Morgan Gupta,Finance,Senior Financial Analyst,employee,APAC,morgan.gupta.309@novacore.internal,2024-02-04
+EMP-00310,Sam Patel,Product,Senior Product Manager,manager,North America,sam.patel.310@novacore.internal,2023-05-12
+EMP-00311,Alex Muller,Engineering,Principal Architect,employee,India,alex.muller.311@novacore.internal,2022-10-14
+EMP-00312,Pat Muller,Finance,VP Financial Planning,management,APAC,pat.muller.312@novacore.internal,2024-01-04
+EMP-00313,Jordan Dubois,Security,SOC Incident Manager,manager,North America,jordan.dubois.313@novacore.internal,2024-10-10
+EMP-00314,Hiroshi Larsson,IT,Lead Systems Engineer,manager,APAC,hiroshi.larsson.314@novacore.internal,2025-03-25
+EMP-00315,Lukas Muller,Customer Success,Technical Account Manager,manager,India,lukas.muller.315@novacore.internal,2023-02-26
+EMP-00316,Devin Dubois,IT,Lead Systems Engineer,manager,India,devin.dubois.316@novacore.internal,2023-09-02
+EMP-00317,Taylor Muller,Marketing,Brand Communications Director,management,APAC,taylor.muller.317@novacore.internal,2021-10-21
+EMP-00318,Taylor Tanaka,Risk & Compliance,Enterprise Risk Manager,manager,North America,taylor.tanaka.318@novacore.internal,2025-09-19
+EMP-00319,Sophie Kowalski,Risk & Compliance,Chief Risk Officer,employee,Europe,sophie.kowalski.319@novacore.internal,2021-02-22
+EMP-00320,Casey Tanaka,Security,Lead Security Architect,manager,North America,casey.tanaka.320@novacore.internal,2022-12-27
+EMP-00321,Aarav Dubois,IT,Lead Systems Engineer,manager,North America,aarav.dubois.321@novacore.internal,2025-01-16
+EMP-00322,Yuki Muller,Executive,Chief Executive Officer,employee,APAC,yuki.muller.322@novacore.internal,2024-01-28
+EMP-00323,Casey Patel,Security,SOC Incident Manager,manager,India,casey.patel.323@novacore.internal,2021-02-18
+EMP-00324,Chris O'Connor,Customer Success,Customer Success Manager,manager,Europe,chris.oconnor.324@novacore.internal,2021-03-10
+EMP-00325,Aarav Muller,Operations,Global Supply Chain Director,management,North America,aarav.muller.325@novacore.internal,2021-12-02
+EMP-00326,Aarav Muller,Engineering,Senior DevOps Engineer,employee,North America,aarav.muller.326@novacore.internal,2024-06-09
+EMP-00327,Pat Tanaka,Operations,VP Operations,management,North America,pat.tanaka.327@novacore.internal,2025-10-08
+EMP-00328,Casey Kim,Legal,Regulatory Affairs Director,management,North America,casey.kim.328@novacore.internal,2023-08-18
+EMP-00329,Alex Dubois,Operations,VP Operations,management,India,alex.dubois.329@novacore.internal,2022-01-09
+EMP-00330,Sam O'Connor,Security,Director Information Security,management,Europe,sam.oconnor.330@novacore.internal,2025-07-15
+EMP-00331,Sam Garcia,Sales,Sales Operations Lead,manager,Europe,sam.garcia.331@novacore.internal,2025-03-26
+EMP-00332,Jordan Kim,Human Resources,HR Business Partner,employee,India,jordan.kim.332@novacore.internal,2024-10-10
+EMP-00333,Jordan Larsson,Marketing,VP Product Marketing,management,North America,jordan.larsson.333@novacore.internal,2023-10-09
+EMP-00334,Priya Nakamura,Executive,Chief Information Security Officer,employee,India,priya.nakamura.334@novacore.internal,2022-10-27
+EMP-00335,Chris Zhao,Security,SOC Incident Manager,manager,North America,chris.zhao.335@novacore.internal,2025-10-03
+EMP-00336,Morgan Muller,Engineering,VP Engineering,management,India,morgan.muller.336@novacore.internal,2025-05-14
+EMP-00337,Casey Zhao,Human Resources,Director Total Rewards,management,APAC,casey.zhao.337@novacore.internal,2024-05-08
+EMP-00338,Pat Larsson,Marketing,Growth Demand Lead,manager,APAC,pat.larsson.338@novacore.internal,2025-06-01
+EMP-00339,Sophie Kim,Procurement,Director Strategic Procurement,management,North America,sophie.kim.339@novacore.internal,2021-11-06
+EMP-00340,Taylor Nakamura,Operations,Service Delivery Manager,manager,India,taylor.nakamura.340@novacore.internal,2021-09-01
+EMP-00341,Morgan Garcia,Executive,Chief Information Security Officer,employee,India,morgan.garcia.341@novacore.internal,2024-10-12
+EMP-00342,Morgan Larsson,Operations,Global Supply Chain Director,management,North America,morgan.larsson.342@novacore.internal,2023-04-15
+EMP-00343,Casey Nakamura,Finance,Senior Financial Analyst,employee,North America,casey.nakamura.343@novacore.internal,2023-04-03
+EMP-00344,Devin Tanaka,Executive,Chief Revenue Officer,employee,APAC,devin.tanaka.344@novacore.internal,2024-06-02
+EMP-00345,Alex Tanaka,Engineering,Senior DevOps Engineer,employee,Europe,alex.tanaka.345@novacore.internal,2024-02-28
+EMP-00346,Chris Kowalski,Engineering,Site Reliability Engineer,employee,India,chris.kowalski.346@novacore.internal,2022-11-24
+EMP-00347,Sam Zhao,IT,Cloud Infrastructure Architect,employee,North America,sam.zhao.347@novacore.internal,2021-03-09
+EMP-00348,Pat Nakamura,IT,Cloud Infrastructure Architect,employee,APAC,pat.nakamura.348@novacore.internal,2021-12-22
+EMP-00349,Alex Dubois,Security,SOC Incident Manager,manager,India,alex.dubois.349@novacore.internal,2021-06-14
+EMP-00350,Morgan Nakamura,Executive,Chief Operating Officer,employee,APAC,morgan.nakamura.350@novacore.internal,2025-08-16
+EMP-00351,Jordan O'Connor,Product,VP Product Management,management,Europe,jordan.oconnor.351@novacore.internal,2024-09-15
+EMP-00352,Pat Garcia,Product,VP Product Management,management,India,pat.garcia.352@novacore.internal,2021-10-26
+EMP-00353,Taylor Tanaka,Finance,Senior Financial Analyst,employee,India,taylor.tanaka.353@novacore.internal,2022-03-11
+EMP-00354,Alex Larsson,Engineering,VP Engineering,management,North America,alex.larsson.354@novacore.internal,2024-01-19
+EMP-00355,Devin Patel,Risk & Compliance,Enterprise Risk Manager,manager,APAC,devin.patel.355@novacore.internal,2024-04-11
+EMP-00356,Devin Patel,Executive,Chief Executive Officer,employee,APAC,devin.patel.356@novacore.internal,2025-10-15
+EMP-00357,Morgan Patel,Risk & Compliance,Chief Risk Officer,employee,India,morgan.patel.357@novacore.internal,2021-01-13
+EMP-00358,Jordan Larsson,Product,VP Product Management,management,Europe,jordan.larsson.358@novacore.internal,2021-05-20
+EMP-00359,Morgan Nakamura,Marketing,Brand Communications Director,management,North America,morgan.nakamura.359@novacore.internal,2021-09-02
+EMP-00360,Morgan Gupta,Engineering,Senior DevOps Engineer,employee,India,morgan.gupta.360@novacore.internal,2024-04-28
+EMP-00361,Hiroshi Larsson,IT,Director IT Operations,management,India,hiroshi.larsson.361@novacore.internal,2024-10-20
+EMP-00362,Lukas Kowalski,Sales,Account Executive,employee,North America,lukas.kowalski.362@novacore.internal,2023-10-07
+EMP-00363,Taylor Gupta,Sales,VP Enterprise Sales,management,North America,taylor.gupta.363@novacore.internal,2022-10-05
+EMP-00364,Yuki Larsson,Marketing,Growth Demand Lead,manager,APAC,yuki.larsson.364@novacore.internal,2025-08-06
+EMP-00365,Jordan Muller,Human Resources,VP Talent Acquisition,management,North America,jordan.muller.365@novacore.internal,2023-10-14
+EMP-00366,Sam Muller,Security,SOC Incident Manager,manager,APAC,sam.muller.366@novacore.internal,2024-05-20
+EMP-00367,Alex Kowalski,Product,Senior Product Manager,manager,APAC,alex.kowalski.367@novacore.internal,2025-11-22
+EMP-00368,Jordan Dubois,Customer Success,VP Customer Success,management,Europe,jordan.dubois.368@novacore.internal,2023-04-07
+EMP-00369,Aarav Tanaka,Marketing,VP Product Marketing,management,North America,aarav.tanaka.369@novacore.internal,2024-12-23
+EMP-00370,Riley Dubois,Legal,Contracts Compliance Lead,manager,APAC,riley.dubois.370@novacore.internal,2023-03-04
+EMP-00371,Devin Kim,Legal,General Counsel,employee,India,devin.kim.371@novacore.internal,2022-12-08
+EMP-00372,Sophie Zhao,Legal,Senior Corporate Counsel,employee,Europe,sophie.zhao.372@novacore.internal,2023-12-13
+EMP-00373,Alex Garcia,Human Resources,HR Business Partner,employee,Europe,alex.garcia.373@novacore.internal,2021-02-12
+EMP-00374,Sam O'Connor,Finance,Treasury Manager,manager,North America,sam.oconnor.374@novacore.internal,2024-04-21
+EMP-00375,Alex Tanaka,IT,Database Administrator,employee,North America,alex.tanaka.375@novacore.internal,2022-05-06
+EMP-00376,Aarav Kowalski,Human Resources,Director Total Rewards,management,Europe,aarav.kowalski.376@novacore.internal,2022-03-07
+EMP-00377,Morgan Kim,Finance,Senior Financial Analyst,employee,APAC,morgan.kim.377@novacore.internal,2022-07-21
+EMP-00378,Pat O'Connor,Risk & Compliance,Chief Risk Officer,employee,APAC,pat.oconnor.378@novacore.internal,2024-04-12
+EMP-00379,Yuki Zhao,Risk & Compliance,Enterprise Risk Manager,manager,Europe,yuki.zhao.379@novacore.internal,2021-02-05
+EMP-00380,Hiroshi Zhao,Customer Success,Director Client Health,management,Europe,hiroshi.zhao.380@novacore.internal,2023-06-20
+EMP-00381,Pat Kowalski,Operations,Global Supply Chain Director,management,North America,pat.kowalski.381@novacore.internal,2023-03-11
+EMP-00382,Sam Kowalski,Human Resources,Chief People Officer,employee,APAC,sam.kowalski.382@novacore.internal,2025-08-07
+EMP-00383,Taylor Muller,Procurement,Director Strategic Procurement,management,India,taylor.muller.383@novacore.internal,2025-07-25
+EMP-00384,Lukas Muller,Marketing,Growth Demand Lead,manager,India,lukas.muller.384@novacore.internal,2023-12-12
+EMP-00385,Sophie O'Connor,Security,GRC Compliance Lead,manager,India,sophie.oconnor.385@novacore.internal,2025-07-21
+EMP-00386,Devin Tanaka,Risk & Compliance,Chief Risk Officer,employee,Europe,devin.tanaka.386@novacore.internal,2024-04-13
+EMP-00387,Hiroshi Gupta,Human Resources,Director Total Rewards,management,India,hiroshi.gupta.387@novacore.internal,2022-06-09
+EMP-00388,Taylor O'Connor,Security,Director Information Security,management,Europe,taylor.oconnor.388@novacore.internal,2024-09-12
+EMP-00389,Aarav Dubois,Human Resources,Chief People Officer,employee,India,aarav.dubois.389@novacore.internal,2024-08-14
+EMP-00390,Aarav O'Connor,Operations,Infrastructure Operations Lead,manager,India,aarav.oconnor.390@novacore.internal,2024-01-06
+EMP-00391,Taylor Garcia,Legal,Senior Corporate Counsel,employee,APAC,taylor.garcia.391@novacore.internal,2021-05-27
+EMP-00392,Devin Patel,Security,Director Information Security,management,APAC,devin.patel.392@novacore.internal,2021-02-12
+EMP-00393,Aarav Tanaka,Finance,Treasury Manager,manager,Europe,aarav.tanaka.393@novacore.internal,2023-05-10
+EMP-00394,Pat Zhao,Procurement,Lead Category Buyer,manager,APAC,pat.zhao.394@novacore.internal,2025-03-28
+EMP-00395,Riley O'Connor,Risk & Compliance,Enterprise Risk Manager,manager,North America,riley.oconnor.395@novacore.internal,2023-07-13
+EMP-00396,Sophie Nakamura,Executive,Chief Revenue Officer,employee,North America,sophie.nakamura.396@novacore.internal,2025-03-28
+EMP-00397,Pat Larsson,Operations,Global Supply Chain Director,management,Europe,pat.larsson.397@novacore.internal,2022-09-19
+EMP-00398,Aarav Patel,Risk & Compliance,SOC2 Compliance Auditor,employee,India,aarav.patel.398@novacore.internal,2023-04-14
+EMP-00399,Lukas Larsson,Risk & Compliance,SOC2 Compliance Auditor,employee,Europe,lukas.larsson.399@novacore.internal,2025-01-12
+EMP-00400,Alex Larsson,Customer Success,Director Client Health,management,APAC,alex.larsson.400@novacore.internal,2023-06-08
+EMP-00401,Riley Garcia,Operations,Service Delivery Manager,manager,India,riley.garcia.401@novacore.internal,2025-01-19
+EMP-00402,Sam Garcia,Risk & Compliance,Chief Risk Officer,employee,Europe,sam.garcia.402@novacore.internal,2025-11-26
+EMP-00403,Pat Dubois,IT,Lead Systems Engineer,manager,India,pat.dubois.403@novacore.internal,2021-09-13
+EMP-00404,Aarav Gupta,Human Resources,HR Business Partner,employee,North America,aarav.gupta.404@novacore.internal,2024-11-10
+EMP-00405,Chris Kim,Sales,Regional Sales Director,management,North America,chris.kim.405@novacore.internal,2025-08-01
+EMP-00406,Hiroshi O'Connor,Customer Success,Director Client Health,management,North America,hiroshi.oconnor.406@novacore.internal,2022-04-10
+EMP-00407,Jordan Garcia,Marketing,Chief Marketing Officer,employee,India,jordan.garcia.407@novacore.internal,2025-01-06
+EMP-00408,Chris Patel,Product,Technical Product Lead,manager,India,chris.patel.408@novacore.internal,2022-09-14
+EMP-00409,Pat Muller,Legal,General Counsel,employee,India,pat.muller.409@novacore.internal,2022-05-14
+EMP-00410,Chris Gupta,Executive,Chief Information Security Officer,employee,India,chris.gupta.410@novacore.internal,2025-05-19
+EMP-00411,Pat Kim,Human Resources,HR Business Partner,employee,APAC,pat.kim.411@novacore.internal,2022-08-03
+EMP-00412,Aarav Gupta,Executive,Chief Operating Officer,employee,Europe,aarav.gupta.412@novacore.internal,2024-08-15
+EMP-00413,Riley Nakamura,IT,Director IT Operations,management,North America,riley.nakamura.413@novacore.internal,2024-06-23
+EMP-00414,Hiroshi Gupta,Executive,Chief Information Security Officer,employee,APAC,hiroshi.gupta.414@novacore.internal,2022-07-08
+EMP-00415,Hiroshi Nakamura,Customer Success,Technical Account Manager,manager,India,hiroshi.nakamura.415@novacore.internal,2022-12-19
+EMP-00416,Devin Muller,Sales,Solutions Architect,employee,North America,devin.muller.416@novacore.internal,2023-11-18
+EMP-00417,Sophie Dubois,Engineering,VP Engineering,management,Europe,sophie.dubois.417@novacore.internal,2025-02-12
+EMP-00418,Yuki Larsson,Sales,VP Enterprise Sales,management,APAC,yuki.larsson.418@novacore.internal,2022-05-07
+EMP-00419,Alex Patel,Security,Director Information Security,management,India,alex.patel.419@novacore.internal,2024-07-11
+EMP-00420,Hiroshi Kim,Procurement,Vendor Relations Manager,manager,Europe,hiroshi.kim.420@novacore.internal,2021-05-04
+EMP-00421,Lukas Larsson,Procurement,Director Strategic Procurement,management,APAC,lukas.larsson.421@novacore.internal,2024-02-03
+EMP-00422,Sam Larsson,Security,Lead Security Architect,manager,India,sam.larsson.422@novacore.internal,2023-03-06
+EMP-00423,Chris O'Connor,Executive,Chief Executive Officer,employee,North America,chris.oconnor.423@novacore.internal,2021-09-24
+EMP-00424,Alex Nakamura,Operations,Global Supply Chain Director,management,North America,alex.nakamura.424@novacore.internal,2023-03-15
+EMP-00425,Jordan Nakamura,Product,Director Platform PM,management,Europe,jordan.nakamura.425@novacore.internal,2025-04-15
+EMP-00426,Hiroshi Zhao,Procurement,Director Strategic Procurement,management,North America,hiroshi.zhao.426@novacore.internal,2023-08-02
+EMP-00427,Hiroshi Tanaka,IT,Director IT Operations,management,North America,hiroshi.tanaka.427@novacore.internal,2022-06-08
+EMP-00428,Yuki Kim,Human Resources,Chief People Officer,employee,North America,yuki.kim.428@novacore.internal,2021-06-27
+EMP-00429,Morgan Nakamura,Human Resources,Chief People Officer,employee,Europe,morgan.nakamura.429@novacore.internal,2022-12-06
+EMP-00430,Aarav Garcia,Finance,Lead Controller,manager,North America,aarav.garcia.430@novacore.internal,2025-11-07
+EMP-00431,Yuki Patel,IT,Cloud Infrastructure Architect,employee,India,yuki.patel.431@novacore.internal,2022-04-04
+EMP-00432,Alex Dubois,Product,Senior Product Manager,manager,Europe,alex.dubois.432@novacore.internal,2023-01-13
+EMP-00433,Taylor Nakamura,Human Resources,HR Business Partner,employee,Europe,taylor.nakamura.433@novacore.internal,2023-11-20
+EMP-00434,Pat Dubois,Product,VP Product Management,management,North America,pat.dubois.434@novacore.internal,2023-10-16
+EMP-00435,Casey Patel,Sales,Sales Operations Lead,manager,Europe,casey.patel.435@novacore.internal,2025-06-21
+EMP-00436,Aarav Muller,Procurement,Vendor Relations Manager,manager,Europe,aarav.muller.436@novacore.internal,2023-11-16
+EMP-00437,Lukas Dubois,Sales,Account Executive,employee,North America,lukas.dubois.437@novacore.internal,2025-11-24
+EMP-00438,Alex Gupta,Human Resources,Chief People Officer,employee,Europe,alex.gupta.438@novacore.internal,2021-05-08
+EMP-00439,Taylor Kim,Procurement,Vendor Relations Manager,manager,Europe,taylor.kim.439@novacore.internal,2022-06-16
+EMP-00440,Hiroshi Tanaka,Engineering,Staff Distributed Systems Engineer,employee,Europe,hiroshi.tanaka.440@novacore.internal,2021-04-24
+EMP-00441,Sam O'Connor,IT,Lead Systems Engineer,manager,APAC,sam.oconnor.441@novacore.internal,2023-11-26
+EMP-00442,Riley Kim,Risk & Compliance,Chief Risk Officer,employee,India,riley.kim.442@novacore.internal,2022-12-11
+EMP-00443,Jordan Nakamura,Product,Director Platform PM,management,Europe,jordan.nakamura.443@novacore.internal,2022-11-23
+EMP-00444,Aarav Muller,Procurement,Director Strategic Procurement,management,India,aarav.muller.444@novacore.internal,2024-11-01
+EMP-00445,Pat Kim,Sales,Solutions Architect,employee,North America,pat.kim.445@novacore.internal,2022-04-05
+EMP-00446,Devin Kowalski,Sales,Regional Sales Director,management,Europe,devin.kowalski.446@novacore.internal,2021-07-24
+EMP-00447,Pat Tanaka,Legal,Contracts Compliance Lead,manager,Europe,pat.tanaka.447@novacore.internal,2024-03-20
+EMP-00448,Lukas Nakamura,Human Resources,Director Total Rewards,management,APAC,lukas.nakamura.448@novacore.internal,2022-05-28
+EMP-00449,Priya Dubois,Risk & Compliance,SOC2 Compliance Auditor,employee,North America,priya.dubois.449@novacore.internal,2024-03-16
+EMP-00450,Sam Larsson,Legal,Regulatory Affairs Director,management,India,sam.larsson.450@novacore.internal,2021-07-14
+EMP-00451,Sam Kowalski,Executive,Chief Executive Officer,employee,APAC,sam.kowalski.451@novacore.internal,2022-05-13
+EMP-00452,Riley Dubois,Legal,Contracts Compliance Lead,manager,India,riley.dubois.452@novacore.internal,2025-10-16
+EMP-00453,Sophie Tanaka,Sales,Account Executive,employee,Europe,sophie.tanaka.453@novacore.internal,2022-04-01
+EMP-00454,Sophie Dubois,Finance,Treasury Manager,manager,APAC,sophie.dubois.454@novacore.internal,2024-07-24
+EMP-00455,Riley Nakamura,Product,Technical Product Lead,manager,India,riley.nakamura.455@novacore.internal,2025-02-14
+EMP-00456,Chris Tanaka,Finance,Finance Director,management,India,chris.tanaka.456@novacore.internal,2024-05-25
+EMP-00457,Priya Zhao,Risk & Compliance,Enterprise Risk Manager,manager,India,priya.zhao.457@novacore.internal,2021-11-13
+EMP-00458,Sophie Kim,Operations,Global Supply Chain Director,management,Europe,sophie.kim.458@novacore.internal,2023-11-23
+EMP-00459,Casey Gupta,Marketing,Chief Marketing Officer,employee,Europe,casey.gupta.459@novacore.internal,2024-11-05
+EMP-00460,Alex Patel,Engineering,Staff Distributed Systems Engineer,employee,Europe,alex.patel.460@novacore.internal,2021-11-23
+EMP-00461,Pat Dubois,Operations,Service Delivery Manager,manager,North America,pat.dubois.461@novacore.internal,2022-07-09
+EMP-00462,Riley Zhao,Procurement,Vendor Relations Manager,manager,India,riley.zhao.462@novacore.internal,2024-12-28
+EMP-00463,Sam O'Connor,Sales,VP Enterprise Sales,management,APAC,sam.oconnor.463@novacore.internal,2022-12-13
+EMP-00464,Chris Larsson,Procurement,Vendor Relations Manager,manager,North America,chris.larsson.464@novacore.internal,2021-02-03
+EMP-00465,Riley Zhao,Risk & Compliance,SOC2 Compliance Auditor,employee,India,riley.zhao.465@novacore.internal,2024-03-06
+EMP-00466,Pat Larsson,Product,Director Platform PM,management,Europe,pat.larsson.466@novacore.internal,2022-09-04
+EMP-00467,Pat Kim,Legal,Senior Corporate Counsel,employee,Europe,pat.kim.467@novacore.internal,2022-04-09
+EMP-00468,Morgan Nakamura,Executive,Chief Operating Officer,employee,India,morgan.nakamura.468@novacore.internal,2022-02-10
+EMP-00469,Casey Patel,Sales,Solutions Architect,employee,North America,casey.patel.469@novacore.internal,2023-01-19
+EMP-00470,Morgan Kim,Human Resources,HR Business Partner,employee,India,morgan.kim.470@novacore.internal,2021-05-25
+EMP-00471,Morgan Tanaka,Finance,Treasury Manager,manager,North America,morgan.tanaka.471@novacore.internal,2025-01-13
+EMP-00472,Sophie Garcia,IT,Database Administrator,employee,India,sophie.garcia.472@novacore.internal,2025-07-11
+EMP-00473,Devin Garcia,Product,Senior Product Manager,manager,APAC,devin.garcia.473@novacore.internal,2024-07-20
+EMP-00474,Morgan Kim,Finance,VP Financial Planning,management,APAC,morgan.kim.474@novacore.internal,2024-12-13
+EMP-00475,Morgan Kowalski,Procurement,Director Strategic Procurement,management,North America,morgan.kowalski.475@novacore.internal,2023-12-25
+EMP-00476,Lukas Gupta,Executive,Chief Financial Officer,employee,APAC,lukas.gupta.476@novacore.internal,2024-09-14
+EMP-00477,Aarav Kim,Marketing,VP Product Marketing,management,North America,aarav.kim.477@novacore.internal,2023-01-26
+EMP-00478,Devin Gupta,Procurement,Vendor Relations Manager,manager,India,devin.gupta.478@novacore.internal,2024-07-24
+EMP-00479,Yuki Larsson,IT,Director IT Operations,management,APAC,yuki.larsson.479@novacore.internal,2021-12-13
+EMP-00480,Sam Kowalski,Engineering,Site Reliability Engineer,employee,Europe,sam.kowalski.480@novacore.internal,2025-12-17
+EMP-00481,Taylor O'Connor,Finance,Senior Financial Analyst,employee,India,taylor.oconnor.481@novacore.internal,2025-08-06
+EMP-00482,Devin Tanaka,Legal,General Counsel,employee,India,devin.tanaka.482@novacore.internal,2022-03-25
+EMP-00483,Yuki Zhao,Marketing,Chief Marketing Officer,employee,North America,yuki.zhao.483@novacore.internal,2021-03-11
+EMP-00484,Casey Nakamura,Operations,Infrastructure Operations Lead,manager,Europe,casey.nakamura.484@novacore.internal,2024-11-04
+EMP-00485,Taylor Zhao,Marketing,VP Product Marketing,management,India,taylor.zhao.485@novacore.internal,2023-04-19
+EMP-00486,Hiroshi Zhao,Risk & Compliance,Chief Risk Officer,employee,APAC,hiroshi.zhao.486@novacore.internal,2024-11-21
+EMP-00487,Devin O'Connor,Risk & Compliance,SOC2 Compliance Auditor,employee,Europe,devin.oconnor.487@novacore.internal,2021-05-03
+EMP-00488,Pat Zhao,Sales,VP Enterprise Sales,management,APAC,pat.zhao.488@novacore.internal,2021-10-12
+EMP-00489,Alex O'Connor,Customer Success,Customer Success Manager,manager,India,alex.oconnor.489@novacore.internal,2021-10-18
+EMP-00490,Aarav Garcia,Human Resources,HR Business Partner,employee,India,aarav.garcia.490@novacore.internal,2022-09-22
+EMP-00491,Hiroshi Kim,IT,Cloud Infrastructure Architect,employee,North America,hiroshi.kim.491@novacore.internal,2025-08-11
+EMP-00492,Sophie Nakamura,Customer Success,Customer Success Manager,manager,Europe,sophie.nakamura.492@novacore.internal,2024-03-20
+EMP-00493,Aarav O'Connor,Engineering,Staff Distributed Systems Engineer,employee,North America,aarav.oconnor.493@novacore.internal,2025-12-04
+EMP-00494,Pat Larsson,Engineering,Site Reliability Engineer,employee,India,pat.larsson.494@novacore.internal,2023-12-13
+EMP-00495,Pat Zhao,Finance,VP Financial Planning,management,Europe,pat.zhao.495@novacore.internal,2022-12-24
+EMP-00496,Hiroshi O'Connor,Finance,Senior Financial Analyst,employee,India,hiroshi.oconnor.496@novacore.internal,2022-01-18
+EMP-00497,Sophie Garcia,Operations,Infrastructure Operations Lead,manager,India,sophie.garcia.497@novacore.internal,2024-07-03
+EMP-00498,Pat Zhao,Security,SOC Incident Manager,manager,APAC,pat.zhao.498@novacore.internal,2025-07-04
+EMP-00499,Riley Larsson,Customer Success,Customer Success Manager,manager,North America,riley.larsson.499@novacore.internal,2022-10-05
+EMP-00500,Sam Tanaka,Legal,Regulatory Affairs Director,management,APAC,sam.tanaka.500@novacore.internal,2022-12-07

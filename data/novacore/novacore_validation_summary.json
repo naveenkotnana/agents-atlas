@@ -1,0 +1,19 @@
+{
+  "company": "NovaCore Technologies",
+  "total_documents_batch1": 219,
+  "total_chunks_batch1": 878,
+  "total_customers": 1000,
+  "total_employees": 500,
+  "total_products": 35,
+  "total_projects": 120,
+  "total_vendors": 210,
+  "total_contracts": 320,
+  "total_incidents": 550,
+  "total_evaluation_questions": 500,
+  "answerable_questions": 437,
+  "unanswerable_questions": 63,
+  "unanswerable_ratio_pct": 12.6,
+  "foreign_key_violations": 0,
+  "missing_cross_document_facts": 0,
+  "validation_status": "PASSED"
+}

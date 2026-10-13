@@ -1,0 +1,43 @@
+year,department,allocated_budget_usd,approval_status,approved_by_employee_id
+2024,Finance,54750795,Approved,EMP-00002
+2024,Sales,19553260,Approved,EMP-00002
+2024,Customer Success,59839844,Approved,EMP-00002
+2024,Human Resources,65016831,Approved,EMP-00002
+2024,Engineering,54785202,Approved,EMP-00002
+2024,Product,24221557,Approved,EMP-00002
+2024,Operations,23763376,Approved,EMP-00002
+2024,Legal,59303335,Approved,EMP-00002
+2024,Security,16686557,Approved,EMP-00002
+2024,IT,20122946,Approved,EMP-00002
+2024,Marketing,43211540,Approved,EMP-00002
+2024,Procurement,49319676,Approved,EMP-00002
+2024,Risk & Compliance,42476677,Approved,EMP-00002
+2024,Executive,56003356,Approved,EMP-00002
+2025,Finance,46015205,Approved,EMP-00002
+2025,Sales,51289342,Approved,EMP-00002
+2025,Customer Success,39420677,Approved,EMP-00002
+2025,Human Resources,29968727,Approved,EMP-00002
+2025,Engineering,29193121,Approved,EMP-00002
+2025,Product,12509498,Approved,EMP-00002
+2025,Operations,15623423,Approved,EMP-00002
+2025,Legal,67767415,Approved,EMP-00002
+2025,Security,27204297,Approved,EMP-00002
+2025,IT,29384209,Approved,EMP-00002
+2025,Marketing,21653738,Approved,EMP-00002
+2025,Procurement,34028364,Approved,EMP-00002
+2025,Risk & Compliance,64519795,Approved,EMP-00002
+2025,Executive,30120058,Approved,EMP-00002
+2026,Finance,15034224,Approved,EMP-00002
+2026,Sales,56224729,Approved,EMP-00002
+2026,Customer Success,34039461,Approved,EMP-00002
+2026,Human Resources,20401894,Approved,EMP-00002
+2026,Engineering,42497837,Approved,EMP-00002
+2026,Product,47827980,Approved,EMP-00002
+2026,Operations,38357833,Approved,EMP-00002
+2026,Legal,31522439,Approved,EMP-00002
+2026,Security,67570075,Approved,EMP-00002
+2026,IT,59356050,Approved,EMP-00002
+2026,Marketing,42249813,Approved,EMP-00002
+2026,Procurement,51528926,Approved,EMP-00002
+2026,Risk & Compliance,48163837,Approved,EMP-00002
+2026,Executive,67581328,Approved,EMP-00002
