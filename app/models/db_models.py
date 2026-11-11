@@ -71,3 +71,18 @@ class RagasEvaluationLog(Base):
     evaluated_at = Column(DateTime, default=datetime.utcnow)
 
     trace = relationship("DecisionTrace", back_populates="evaluations")
+
+
+class RLHFFeedback(Base):
+    __tablename__ = "rlhf_feedback"
+
+    id = Column(String(36), primary_key=True, default=generate_uuid)
+    session_id = Column(String(64), nullable=False)
+    message_id = Column(String(64), nullable=False)
+    query_text = Column(Text, nullable=False)
+    response_text = Column(Text, nullable=False)
+    feedback_type = Column(String(20), nullable=True)  # "thumbs_up", "thumbs_down"
+    rating = Column(Integer, nullable=True)  # 1 to 5
+    tags = Column(JSON, default=list)  # ["accurate", "hallucination", ...]
+    comment = Column(Text, nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow)

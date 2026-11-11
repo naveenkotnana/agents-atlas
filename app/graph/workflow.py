@@ -79,6 +79,13 @@ class AtlasDecisionGraph:
         # Resilient direct state machine execution
         state = await node_analyze_query(state)
         
+        # If conversational greeting / inquiry, deliver conversational answer immediately
+        if state.get("intent") == "conversational":
+            state = await node_synthesize_decision(state)
+            state["confidence_score"] = 1.0
+            state["hallucination_guard_passed"] = True
+            return state
+
         while True:
             state = await node_hybrid_retrieve(state)
             state = await node_rerank_candidates(state)

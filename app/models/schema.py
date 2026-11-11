@@ -119,3 +119,48 @@ class RAGASScoreResponse(BaseModel):
     context_recall: float = Field(..., description="Metric: Coverage of ground truth context")
     overall_score: float = Field(..., description="Harmonic / weighted composite RAGAS score")
     verdict: str = Field(..., description="Quality assessment verdict")
+
+
+# -------------------------------------------------------------
+# Multimodal Chat & RLHF Schemas
+# -------------------------------------------------------------
+class MultimodalMediaAsset(BaseModel):
+    type: str = Field(..., description="image | audio | text")
+    title: str
+    url: str
+    description: Optional[str] = None
+    transcript: Optional[str] = None
+
+
+class MultimodalChatRequest(BaseModel):
+    message: str = Field(..., description="User query or follow-up prompt")
+    session_id: Optional[str] = Field(None, description="Conversation session ID")
+    history: List[Dict[str, str]] = Field(default_factory=list, description="Prior conversation turns")
+
+
+class MultimodalChatResponse(BaseModel):
+    message_id: str
+    session_id: str
+    response: str
+    citations: List[CitationItem] = Field(default_factory=list)
+    media_assets: List[MultimodalMediaAsset] = Field(default_factory=list)
+    confidence: float = 0.95
+
+
+class RLHFFeedbackRequest(BaseModel):
+    session_id: str
+    message_id: str
+    query_text: str
+    response_text: str
+    feedback_type: Optional[str] = None  # thumbs_up / thumbs_down
+    rating: Optional[int] = None  # 1 - 5 stars
+    tags: List[str] = Field(default_factory=list)
+    comment: Optional[str] = None
+
+
+class RLHFMetricsResponse(BaseModel):
+    total_feedback: int
+    thumbs_up_count: int
+    thumbs_down_count: int
+    positive_percentage: float
+    avg_rating: float

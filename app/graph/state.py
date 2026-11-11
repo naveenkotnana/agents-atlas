@@ -11,6 +11,7 @@ class AtlasGraphState(TypedDict):
     retrieved_documents: List[Dict[str, Any]]
     reranked_documents: List[Dict[str, Any]]
     documents_graded_relevant: bool
+    evidence_status: Optional[str]
     decision: str
     confidence_score: float
     hallucination_guard_passed: bool

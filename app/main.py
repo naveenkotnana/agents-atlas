@@ -3,7 +3,15 @@ Main FastAPI Application Entrypoint.
 """
 from contextlib import asynccontextmanager
 from pathlib import Path
+import sys
+
+# Ensure project root is on sys.path when invoked directly as `python app/main.py`
+PROJECT_ROOT = str(Path(__file__).resolve().parent.parent)
+if PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, PROJECT_ROOT)
+
 from fastapi import FastAPI
+from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from sqlalchemy import select, func
@@ -11,7 +19,14 @@ from sqlalchemy import select, func
 from app.config import settings
 from app.core.logging import setup_logging, logger
 from app.core.database import init_db, AsyncSessionLocal
-from app.models.db_models import Document
+from app.core.middleware import RequestCorrelationMiddleware
+from app.core.exceptions import (
+    AtlasBaseException,
+    atlas_exception_handler,
+    validation_exception_handler,
+    generic_exception_handler,
+)
+from app.models.db_models import Document, DocumentChunk, DecisionTrace, RagasEvaluationLog, RLHFFeedback
 from app.services.ingestion import ingestion_service
 from app.api.v1.router import api_router
 
@@ -141,6 +156,14 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Request Correlation Middleware (assigns X-Request-ID + timing)
+app.add_middleware(RequestCorrelationMiddleware)
+
+# Global Exception Handlers (standardized error responses)
+app.add_exception_handler(AtlasBaseException, atlas_exception_handler)
+app.add_exception_handler(RequestValidationError, validation_exception_handler)
+app.add_exception_handler(Exception, generic_exception_handler)
+
 # Mount API v1 routes
 app.include_router(api_router, prefix=settings.API_V1_STR)
 
@@ -152,4 +175,4 @@ if static_dir.exists():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("app.main:app", host=settings.HOST, port=settings.PORT, reload=settings.DEBUG)
+    uvicorn.run(app, host=settings.HOST, port=settings.PORT)

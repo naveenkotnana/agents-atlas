@@ -9,14 +9,14 @@ class Settings(BaseSettings):
     APP_NAME: str = "Atlas Enterprise Decision Intelligence"
     APP_ENV: Literal["development", "staging", "production"] = "development"
     DEBUG: bool = True
-    HOST: str = "0.0.0.0"
+    HOST: str = "127.0.0.1"
     PORT: int = 8000
     API_V1_STR: str = "/api/v1"
     SECRET_KEY: str = "atlas-secret-key-default-replace-in-production"
 
     # Ollama LLM & Embedding Settings
     OLLAMA_BASE_URL: str = "http://localhost:11434"
-    OLLAMA_LLM_MODEL: str = "llama3.2"
+    OLLAMA_LLM_MODEL: str = "qwen2.5:3b-instruct"
     OLLAMA_EMBED_MODEL: str = "nomic-embed-text"
     OLLAMA_TIMEOUT_SECONDS: int = 60
     EMBEDDING_DIMENSION: int = 768
